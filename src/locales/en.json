@@ -100,24 +100,24 @@
         "description": "Upgrade efficiently and avoid wasted refinement paths"
       },
       {
-        "icon": "MessageCircle",
+        "icon": "Coins",
         "title": "Zeny Farming",
-        "description": "Find repeatable currency routes and avoid low-value detours"
+        "description": "Track repeatable currency routes, chest sweeps, and boss drops"
       },
       {
-        "icon": "Star",
+        "icon": "ShieldCheck",
         "title": "F2P Guide",
-        "description": "Focus on value-first systems and safe early spending choices"
+        "description": "Build a safe start plan with class choice and shop priorities"
       },
       {
-        "icon": "AlertTriangle",
+        "icon": "Trophy",
         "title": "MVP Guide",
-        "description": "Learn boss timing, role split, and efficient hunt routes"
+        "description": "Plan boss hunts around reward layers, contribution, and limits"
       },
       {
-        "icon": "Building",
+        "icon": "Swords",
         "title": "WoE Guide",
-        "description": "Prepare offense, defense, and guild support for large fights"
+        "description": "Prepare guild roles, siege timing, and castle value"
       },
       {
         "icon": "Gift",
@@ -804,98 +804,285 @@
       ]
     },
     "universeMode": {
+      "eyebrow": "Economy",
       "title": "Ragnarok Origin Classic Zeny Farming",
-      "subtitle": "Repeatable currency routes that keep your account moving without random detours.",
-      "features": [
+      "subtitle": "Best Early and Midgame Currency Routes",
+      "intro": "Currency flow in Ragnarok Origin Classic is tied to efficient daily play rather than one single grind spot. The strongest pattern shown across current guides is to clear one-time treasure value first, then rotate into fast-kill farming, boss content, and disciplined selling so your account keeps growing without wasting combat time.",
+      "highlights": [
+        "Open map treasure chests across different areas before investing heavily into early upgrades.",
+        "Spend combat time on monsters you can clear quickly instead of forcing hard targets.",
+        "Keep selling unused loot, cards, potions, and food so inventory value keeps moving."
+      ],
+      "items": [
         {
-          "title": "Repeatable Zeny Sources",
-          "description": "Sell drops, farm high-volume mobs, and lean on daily loops for steady income."
+          "method": "Treasure chest route",
+          "category": "One-time burst income",
+          "how_to_do_it": "Open map treasure chests across different areas before investing heavily into early upgrades.",
+          "best_for": "All classes",
+          "why_it_works": "A current chest route guide highlights roughly 8 million Zeny available from free chest collection.",
+          "watch_out_for": "Do not treat chest income as your permanent economy plan after the first sweep."
         },
         {
-          "title": "Efficient Farm Loops",
-          "description": "Hunter and Wizard style clears usually scale well with routine mob farming."
+          "method": "Fast-kill monster farming",
+          "category": "Repeatable daily income",
+          "how_to_do_it": "Spend combat time on monsters you can clear quickly instead of forcing hard targets.",
+          "best_for": "Hunter, Wizard, other efficient ranged or AoE builds",
+          "why_it_works": "Current beginner coverage repeatedly recommends fast kills for better EXP and drop efficiency, which also improves sellable loot flow.",
+          "watch_out_for": "Grinding on slow or elite targets reduces both income and leveling pace."
         },
         {
-          "title": "Avoid Common Waste",
-          "description": "Skip early elite detours and low-value wandering that burn combat time."
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "Ragnarok Origin Classic F2P Guide",
-      "subtitle": "Value-first early decisions for players who want steady progress without heavy spending.",
-      "sections": [
-        {
-          "title": "Safe First Day",
-          "description": "Push quests first, unlock daily systems, and avoid impulse spending."
+          "method": "Sell unused loot and consumables",
+          "category": "Inventory conversion",
+          "how_to_do_it": "Regularly clean inventory and sell extra loot, cards, potions, and food you are not actively using.",
+          "best_for": "All classes",
+          "why_it_works": "Current Ragnarok Origin Classic beginner material explicitly points players toward selling unused items for steady income.",
+          "watch_out_for": "Do not dump progression materials you still need for refine, cards, or class growth."
         },
         {
-          "title": "Value Systems",
-          "description": "Focus on daily growth, core gear, and account-wide unlocks."
+          "method": "MVP and Mini boss hunting",
+          "category": "High-value drop route",
+          "how_to_do_it": "Join boss runs for rare materials, blueprints, and cards, especially when your class or party can secure stable contribution.",
+          "best_for": "Party players, Biochemist, burst DPS, coordinated guild groups",
+          "why_it_works": "Boss guides describe MVP content as a source of rare items, cards, and blueprints that are not part of normal field farming.",
+          "watch_out_for": "Do not chase every spawn blindly; prioritize bosses that match your build or current gear needs."
         },
         {
-          "title": "Spend Traps",
-          "description": "Skip cosmetic or low-impact purchases until your route is stable."
-        }
-      ]
-    },
-    "theIsland": {
-      "title": "Ragnarok Origin Classic MVP Guide",
-      "subtitle": "Boss timing, role split, and efficient hunt routes for progression players.",
-      "leaderLabel": "Focus",
-      "orders": [
-        {
-          "name": "MVP Basics",
-          "leader": "Target Priority",
-          "description": "Learn spawn timing, damage checks, and boss behavior before deeper hunts."
+          "method": "Gameplay-earned Gold Coins",
+          "category": "Core progression currency",
+          "how_to_do_it": "Build your daily loop around monster kills, dungeons, and farming activities that feed the Gold Coin economy.",
+          "best_for": "All players, especially F2P",
+          "why_it_works": "Recent Ragnarok Origin Classic coverage states Gold Coins are earned through gameplay activities rather than premium-only systems.",
+          "watch_out_for": "Avoid spending Gold Coins too early on low-value upgrades when core power systems still need priority."
         },
         {
-          "name": "Party Roles",
-          "leader": "Role Split",
-          "description": "Bring damage, support, and survivability together for stable boss runs."
-        },
-        {
-          "name": "MVP Routes",
-          "leader": "Map Route",
-          "description": "Track where your class can clear efficiently and safely."
+          "method": "Merchant-style economy play",
+          "category": "Class advantage",
+          "how_to_do_it": "Use Merchant class strengths for economy-focused play, crafting support, and smarter market-facing decisions.",
+          "best_for": "Merchant, Blacksmith, Alchemist paths",
+          "why_it_works": "Current beginner guidance and official class promotion material both frame Merchant paths as economy-oriented classes.",
+          "watch_out_for": "Merchant routes are strongest when paired with planning, not random spending."
         }
       ],
-      "prestige": [
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://www.youtube.com/watch?v=Qu2KSCvJ_Xc",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "View Full Zeny Farming Guide",
+        "href": "/ragnarok-origin-classic-zeny-farming"
+      }
+    },
+    "communityCreations": {
+      "eyebrow": "F2P",
+      "title": "Ragnarok Origin Classic F2P Guide",
+      "subtitle": "Safe Start Plan for Free and Low-Spend Players",
+      "intro": "Ragnarok Origin Classic is currently being positioned as a more F2P-friendly version of the broader Ragnarok Origin ecosystem, with gameplay-earned Gold Coins and fewer direct pay-to-win pressure points. The strongest F2P plan is not about rushing every system at once; it is about choosing a stable class, prioritizing efficient shops, and delaying wasteful upgrades until your account has real direction.",
+      "highlights": [
+        "Pick a stable starter class before spending resources.",
+        "Use the main story and Handbook to keep progression efficient.",
+        "Delay risky upgrades until your account has real direction."
+      ],
+      "items": [
         {
-          "tier": "S",
-          "ovrRange": "Boss burst"
+          "step": 1,
+          "label": "Pick a stable starter class",
+          "details": "For beginner comfort, current guides consistently recommend Archer or Mage for safer farming, while Acolyte remains a strong support route. For dedicated F2P value, one recent class guide places Blacksmith at the top of its F2P rankings because of versatility and resource efficiency."
         },
         {
-          "tier": "A",
-          "ovrRange": "Stable hunts"
+          "step": 2,
+          "label": "Push main quests before random grinding",
+          "details": "Use the main story as your early progression spine. It unlocks features, gives steady EXP and job EXP, and prevents wasted time on low-efficiency grinding before your account systems are open."
         },
         {
-          "tier": "B",
-          "ovrRange": "Learning route"
+          "step": 3,
+          "label": "Use the Handbook before you farm",
+          "details": "The Handbook is one of the most useful early tools because it shows upgrade materials, monster locations, and EXP information. This lets F2P players target the right monsters instead of burning time and combat stamina inefficiently."
         },
         {
-          "tier": "C",
-          "ovrRange": "Early setup"
+          "step": 4,
+          "label": "Prioritize shops that improve account efficiency",
+          "details": "Current shop guidance recommends Feather selection boxes first in the Gold Shop, Feathers then Gold then Blue Star Coin in the Social Shop, Tanuki Card as an early Card Shop priority, and Epic or Legendary pet fragments as long-term Pet Shop targets."
+        },
+        {
+          "step": 5,
+          "label": "Refine in controlled checkpoints",
+          "details": "A common efficient path is Weapon +6, then Accessories +6, then full set +6, later Weapon +10 and Accessories +10, and only then pushing further. This avoids the classic F2P trap of overcommitting to risky upgrades too early."
+        },
+        {
+          "step": 6,
+          "label": "Fill systems before overinvesting in them",
+          "details": "Feathers, cards, pets, and core gear all scale better when your account has baseline coverage first. Recent guides explicitly recommend filling feather slots early and avoiding heavy investment into weak early-tier pieces."
+        },
+        {
+          "step": 7,
+          "label": "Treat spending as acceleration, not access",
+          "details": "Current coverage describes the game as largely accessible through daily content and dungeons, with extra purchases acting mainly as progression speed-ups. One guide also notes that Monthly Pass access can be tied to in-game Gold, which is a major advantage for patient F2P planning."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.youtube.com/watch?v=I5EqSIYZTGs",
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "View Full F2P Guide",
+        "href": "/ragnarok-origin-classic-f2p-guide"
+      }
+    },
+    "theIsland": {
+      "eyebrow": "Bossing",
+      "title": "Ragnarok Origin Classic MVP Guide",
+      "subtitle": "How MVP Hunting Works and What To Prioritize",
+      "intro": "MVP content is one of the clearest progression breakpoints in Ragnarok Origin Classic because it connects class building, party play, and rare item targeting. The current public guides show that good MVP play is not only about dealing damage; contribution, role balance, daily reward limits, and target selection all affect how much value you get from each hunt.",
+      "highlights": [
+        "Contribution is broader than pure DPS.",
+        "Daily reward limits make planning important.",
+        "Party play beats brute force in the long run."
+      ],
+      "items": [
+        {
+          "title": "Use the MVP menu before the spawn",
+          "summary": "The MVP interface shows location and countdown, and the game announces spawns shortly before they appear.",
+          "highlights": [
+            "Check spawn time from the Event menu",
+            "A system announcement appears 5 minutes before spawn",
+            "The interface also shows the party that recently secured the MVP"
+          ]
+        },
+        {
+          "title": "Know the two reward layers",
+          "summary": "MVP rewards are split between party-based rewards and individual rewards, so even non-top damage players can still gain value.",
+          "highlights": [
+            "Team Rewards are tied to the MVP title winner inside the party",
+            "Team Rewards can include Diamonds, exchange vouchers, blueprint chances, and MVP card chances",
+            "Personal Rewards can include accessory blueprints, Elunium, and Headwear Crystal if you participate correctly"
+          ]
+        },
+        {
+          "title": "Contribution is broader than pure DPS",
+          "summary": "The scoring system rewards tanking, DPS, healing, and key timing moments instead of only burst damage.",
+          "highlights": [
+            "Damage taken contributes to score",
+            "DPS contributes the largest score share",
+            "Healing, first strike, final blow, and death penalty all affect results"
+          ]
+        },
+        {
+          "title": "Daily attempts matter",
+          "summary": "MVP hunting should be planned because team rewards have a daily limit.",
+          "highlights": [
+            "Current ROO guide material lists a daily limit of 5 MVP team rewards",
+            "During MVP Fever the limit rises to 7",
+            "Overcapped party members reduce overall score efficiency"
+          ]
+        },
+        {
+          "title": "Prioritize bosses that fit your build",
+          "summary": "The strongest route is to chase bosses that drop cards or equipment that directly improve your class.",
+          "highlights": [
+            "High Wizard example: target bosses tied to MATK and cooldown-friendly accessories",
+            "Lord Knight example: prioritize bosses linked to physical attack and STR-oriented rings",
+            "Do not waste attempts on random MVPs with no direct value to your build"
+          ]
+        },
+        {
+          "title": "Party play beats brute force",
+          "summary": "Current beginner material describes smaller bosses as sometimes soloable, but bigger MVPs are clearly better with coordinated teams.",
+          "highlights": [
+            "Bosses are a major source of rare items, cards, and blueprints",
+            "Larger MVPs are best handled in parties",
+            "Biochemist is currently drawing attention as a strong MVP-focused damage option in community videos"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.youtube.com/shorts/8eP4miwmrAw",
+        "https://www.youtube.com/watch?v=ekijaNVArbk",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://roo-global.gitbook.io/guide/game-wiki/mvp-boss-system",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html"
+      ],
+      "cta": {
+        "label": "View Full MVP Guide",
+        "href": "/ragnarok-origin-classic-mvp-guide"
+      }
     },
     "myfaction": {
+      "eyebrow": "Guild PvP",
       "title": "Ragnarok Origin Classic War of Emperium Guide",
-      "subtitle": "Offense, defense, and guild support for larger fights and castle pressure.",
-      "features": [
+      "subtitle": "War of Emperium Basics, Roles, and Rewards",
+      "intro": "War of Emperium is one of the most recognizable large-scale guild modes in the Ragnarok formula, and it remains a major reason players invest in guild progression. Current Ragnarok Origin guide material shows that success depends on preparation windows, class role fit, and understanding whether your guild is attacking, defending, or playing for long-term castle value rather than short-term kills.",
+      "highlights": [
+        "Preparation windows matter as much as the fight itself.",
+        "Castle ownership unlocks extra guild value.",
+        "Role fit matters more than solo hero play."
+      ],
+      "items": [
         {
-          "title": "Defense Setup",
-          "description": "Use front-line durability, buffs, and area control around choke points."
+          "section": "Mode Overview",
+          "content": [
+            "War of Emperium is a guild siege mode where guilds fight to capture and defend castles.",
+            "Attackers become defenders by breaking the Emperium inside the castle.",
+            "When the timer ends, the guild holding the castle becomes the new occupant."
+          ]
         },
         {
-          "title": "Offense Push",
-          "description": "Time push windows, pick targets quickly, and keep support close."
+          "section": "When It Happens and Who Can Join",
+          "content": [
+            "Current ROO guide material lists WoE on Sunday at 21:30.",
+            "Guild eligibility is checked on Sunday at 5:00, followed by a preparation window from 5:00 to 20:00.",
+            "Participation is limited to guilds above Level 3, characters at Base Level 80 or higher, and members who have been in the guild for at least 72 hours."
+          ]
         },
         {
-          "title": "Guild Prep",
-          "description": "Bring consumables, roles, and route awareness before serious fights."
+          "section": "Best Class Roles for Defense",
+          "content": [
+            "Priest and Wizard are currently highlighted as S-tier defense picks in one recent class guide.",
+            "Priest is valued for healing and sustain during choke-point defense.",
+            "Wizard is valued for AoE damage and crowd control at entrances and objective zones.",
+            "Blacksmith and Hunter are presented as strong A-tier alternatives for defensive lineups."
+          ]
+        },
+        {
+          "section": "Best Class Roles for Offense",
+          "content": [
+            "Assassin and Knight are currently highlighted as S-tier offensive picks in one recent guide.",
+            "Assassin brings burst pressure for fast eliminations and target disruption.",
+            "Knight offers durable front-line pressure and consistent offensive presence.",
+            "Wizard and Blacksmith remain useful attack-side support options."
+          ]
+        },
+        {
+          "section": "Preparation and Shop Value",
+          "content": [
+            "Eligible members can complete WoE preparation quests during the preparation window.",
+            "The mode includes a WoE item shop and a reward exchange shop tied to participation points.",
+            "Joining with preplanned roles matters more than entering as a loose group of individual duelists."
+          ]
+        },
+        {
+          "section": "Why Guilds Fight for Castles",
+          "content": [
+            "Castle-holding guilds gain access to special rights including a Treasure Chest in the lord's room.",
+            "Occupying guilds can also access a Guild Dungeon.",
+            "The Guild Dungeon can spawn Mini and MVP targets and offers chances at blueprints and cards."
+          ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=FSBPnayKUhc",
+        "https://roo-global.gitbook.io/guide/limited-time-event/gvg-war-of-emperium"
+      ],
+      "cta": {
+        "label": "View Full War of Emperium Guide",
+        "href": "/ragnarok-origin-classic-war-of-emperium-guide"
+      }
     },
     "lockerCodes": {
       "title": "Ragnarok Origin Classic Codes",

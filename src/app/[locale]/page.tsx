@@ -6,6 +6,7 @@ import {
   ArrowRight,
   ArrowUpRight,
   BadgeDollarSign,
+  BadgeInfo,
   Brain,
   BookMarked,
   BookOpen,
@@ -14,29 +15,43 @@ import {
   ClipboardCheck,
   Copy,
   Clock3,
+  Coins,
   Feather,
+  Gem,
   Gift,
+  HandCoins,
   FlaskConical,
   HeartHandshake,
   Layers3,
+  MapPinned,
+  Pickaxe,
   Orbit,
   Package,
   PawPrint,
   Sparkles,
   Shield,
+  ShieldCheck,
+  ShoppingBag,
+  ScrollText,
+  Sword,
   Swords,
   Store,
+  Castle,
   Target,
   Trophy,
+  Ticket,
   TrendingUp,
   Users,
+  Users2,
   Wrench,
+  CircleDollarSign,
 } from 'lucide-react'
-import { useMessages } from 'next-intl'
+import { useLocale, useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { NativeBannerAd, AdBanner, SidebarAd } from '@/components/ads'
 import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
+import enMessages from '@/locales/en.json'
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
@@ -51,7 +66,9 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 )
 
 export default function HomePage() {
-  const t = useMessages() as any
+  const locale = useLocale()
+  const translatedMessages = useMessages() as any
+  const t = locale === 'en' ? translatedMessages : (enMessages as any)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.ragnarokoriginclassic.wiki'
   const siteName = 'Ragnarok Origin Classic Wiki'
   const officialSite = 'https://roocasia.com/'
@@ -124,6 +141,7 @@ export default function HomePage() {
   // Copy state
   const [copiedPath, setCopiedPath] = useState<string | null>(null)
   const [expandedBuild, setExpandedBuild] = useState<string>('Sniper-ADL / Falcon Route')
+  const [expandedWoeSection, setExpandedWoeSection] = useState<string>('Mode Overview')
 
   const dailyRoutineIcons = [
     Gift,
@@ -169,6 +187,57 @@ export default function HomePage() {
     BadgeDollarSign,
     Store,
   ]
+
+  const zenyFarmingIcons = [
+    Coins,
+    Pickaxe,
+    ShoppingBag,
+    BadgeInfo,
+    CircleDollarSign,
+    HandCoins,
+  ]
+
+  const f2pGuideIcons = [
+    ShieldCheck,
+    MapPinned,
+    ScrollText,
+    Ticket,
+    Gem,
+    Users2,
+    Castle,
+  ]
+
+  const mvpGuideIcons = [
+    Trophy,
+    Sword,
+    Swords,
+    Target,
+    Clock3,
+    Ticket,
+  ]
+
+  const woeGuideIcons = [
+    Castle,
+    ShieldCheck,
+    Swords,
+    ScrollText,
+    Ticket,
+    MapPinned,
+  ]
+
+  const sourceLabel = (url: string) => {
+    try {
+      return new URL(url).hostname.replace(/^www\./, '')
+    } catch {
+      return url
+    }
+  }
+
+  const fallbackModules = (enMessages as any).modules
+  const zenyModule = Array.isArray(t.modules?.universeMode?.items) ? t.modules.universeMode : fallbackModules.universeMode
+  const f2pModule = Array.isArray(t.modules?.communityCreations?.items) ? t.modules.communityCreations : fallbackModules.communityCreations
+  const mvpModule = Array.isArray(t.modules?.theIsland?.items) ? t.modules.theIsland : fallbackModules.theIsland
+  const woeModule = Array.isArray(t.modules?.myfaction?.items) ? t.modules.myfaction : fallbackModules.myfaction
 
   const copyToClipboard = async (text: string) => {
     try {
@@ -885,34 +954,310 @@ export default function HomePage() {
       <section id="universe-mode" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.universeMode.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.universeMode.subtitle}</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {zenyModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {zenyModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {zenyModule.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.universeMode.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.9fr_1.1fr] gap-8 mb-10">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-gradient-to-br from-card to-muted/20 p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Coins className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Currency route blueprint</h3>
+                  <p className="text-sm text-muted-foreground">Ragnarok Origin Classic economy loop</p>
+                </div>
               </div>
-            ))}
+              <p className="text-muted-foreground leading-relaxed">
+                {zenyModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {zenyModule.highlights.map((highlight: string, index: number) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/60 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{highlight}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {zenyModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={zenyModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full bg-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[hsl(var(--nav-theme)/0.9)] hover:shadow-[0_10px_28px_hsl(var(--nav-theme)/0.28)]"
+                >
+                  {zenyModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="rounded-3xl border border-border bg-card shadow-[0_24px_80px_hsl(var(--nav-theme)/0.06)]">
+              <div className="max-h-[820px] overflow-auto">
+                <table className="hidden lg:table min-w-[1180px] w-full border-collapse">
+                  <thead className="sticky top-0 z-10 bg-background/95 backdrop-blur">
+                    <tr className="border-b border-border text-left text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                      <th className="px-5 py-4">Method</th>
+                      <th className="px-5 py-4">Category</th>
+                      <th className="px-5 py-4">How to do it</th>
+                      <th className="px-5 py-4">Best for</th>
+                      <th className="px-5 py-4">Why it works</th>
+                      <th className="px-5 py-4">Watch out for</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {zenyModule.items.map((item: any, i: number) => {
+                      const ZenyIcon = zenyFarmingIcons[i]
+
+                      return (
+                        <tr
+                          key={item.method}
+                          className="border-b border-border/70 transition-colors hover:bg-muted/40"
+                        >
+                          <td className="px-5 py-5 align-top">
+                            <div className="flex items-start gap-3">
+                              <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                                <ZenyIcon className="h-5 w-5" />
+                              </div>
+                              <div>
+                                <div className="text-base font-semibold text-foreground">{item.method}</div>
+                                <div className="mt-1 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                                  {item.best_for}
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td className="px-5 py-5 align-top">
+                            <span className="inline-flex rounded-full bg-[hsl(var(--gold)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                              {item.category}
+                            </span>
+                          </td>
+                          <td className="px-5 py-5 align-top text-sm leading-relaxed text-muted-foreground">
+                            {item.how_to_do_it}
+                          </td>
+                          <td className="px-5 py-5 align-top text-sm leading-relaxed text-foreground">
+                            {item.best_for}
+                          </td>
+                          <td className="px-5 py-5 align-top text-sm leading-relaxed text-muted-foreground">
+                            {item.why_it_works}
+                          </td>
+                          <td className="px-5 py-5 align-top text-sm leading-relaxed text-foreground">
+                            {item.watch_out_for}
+                          </td>
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
+
+                <div className="space-y-4 p-4 lg:hidden">
+                  {zenyModule.items.map((item: any, i: number) => {
+                    const ZenyIcon = zenyFarmingIcons[i]
+
+                    return (
+                      <article
+                        key={item.method}
+                        className="rounded-3xl border-2 border-border bg-card p-5 shadow-[0_14px_36px_hsl(var(--nav-theme)/0.08)]"
+                      >
+                        <div className="mb-4 flex items-start gap-3">
+                          <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                            <ZenyIcon className="h-5 w-5" />
+                          </div>
+                          <div>
+                            <h3 className="text-xl font-bebas text-foreground">{item.method}</h3>
+                            <span className="inline-flex rounded-full bg-[hsl(var(--gold)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                              {item.category}
+                            </span>
+                          </div>
+                        </div>
+                        <div className="grid gap-3">
+                          <div className="rounded-2xl bg-muted/50 p-4">
+                            <p className="mb-2 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                              How to do it
+                            </p>
+                            <p className="text-sm leading-relaxed text-foreground">{item.how_to_do_it}</p>
+                          </div>
+                          <div className="rounded-2xl bg-muted/50 p-4">
+                            <p className="mb-2 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                              Best for
+                            </p>
+                            <p className="text-sm leading-relaxed text-foreground">{item.best_for}</p>
+                          </div>
+                          <div className="rounded-2xl bg-muted/50 p-4">
+                            <p className="mb-2 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                              Why it works
+                            </p>
+                            <p className="text-sm leading-relaxed text-foreground">{item.why_it_works}</p>
+                          </div>
+                          <div className="rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                            <p className="mb-2 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                              Watch out for
+                            </p>
+                            <p className="text-sm leading-relaxed text-foreground">{item.watch_out_for}</p>
+                          </div>
+                        </div>
+                      </article>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Module 10: Community Creations */}
+      {/* Module 10: F2P Guide */}
       <section id="community-creations" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.communityCreations.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.communityCreations.subtitle}</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {f2pModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {f2pModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {f2pModule.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.communityCreations.sections.map((section: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{section.title}</h3>
-                <p className="text-sm text-muted-foreground">{section.description}</p>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.92fr_1.08fr] gap-8 mb-10">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <ShieldCheck className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Safe start plan</h3>
+                  <p className="text-sm text-muted-foreground">Free and low-spend route</p>
+                </div>
               </div>
-            ))}
+              <p className="text-muted-foreground leading-relaxed">
+                {f2pModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {f2pModule.highlights.map((highlight: string, index: number) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{highlight}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {f2pModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={f2pModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full border-2 border-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-[hsl(var(--nav-theme))] transition-all duration-300 hover:bg-[hsl(var(--nav-theme))] hover:text-white"
+                >
+                  {f2pModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {f2pModule.items.map((step: any, index: number) => {
+                  const StepIcon = f2pGuideIcons[index]
+
+                  return (
+                    <div
+                      key={step.label}
+                      className="rounded-3xl border border-border bg-card p-5 shadow-[0_14px_36px_hsl(var(--nav-theme)/0.06)]"
+                    >
+                      <div className="mb-4 flex items-center justify-between">
+                        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                          <StepIcon className="h-5 w-5" />
+                        </div>
+                        <div className="rounded-full border border-[hsl(var(--gold)/0.22)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                          Step {step.step}
+                        </div>
+                      </div>
+                      <h3 className="text-lg font-bebas text-foreground">{step.label}</h3>
+                      <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{step.details}</p>
+                    </div>
+                  )
+                })}
+              </div>
+
+              <div className="rounded-3xl border border-border bg-card p-6 shadow-[0_20px_60px_hsl(var(--nav-theme)/0.06)]">
+                <div className="mb-5 flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                    <Users2 className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bebas text-foreground">Efficient F2P checkpoints</h3>
+                    <p className="text-sm text-muted-foreground">Keep progress smooth without wasting materials</p>
+                  </div>
+                </div>
+                <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                  {f2pModule.highlights.map((highlight: string, index: number) => {
+                    const HighlightIcon = f2pGuideIcons[index + 3]
+
+                    return (
+                      <div
+                        key={highlight}
+                        className="rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4"
+                      >
+                        <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-[hsl(var(--gold)/0.12)] text-[hsl(var(--gold))]">
+                          <HighlightIcon className="h-5 w-5" />
+                        </div>
+                        <p className="text-sm leading-relaxed text-foreground">{highlight}</p>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -924,29 +1269,134 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 11: The Island */}
+      {/* Module 11: MVP Guide */}
       <section id="the-island" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.theIsland.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.theIsland.subtitle}</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {mvpModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {mvpModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {mvpModule.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            {t.modules.theIsland.orders.map((order: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme))]">{order.name}</h3>
-                <p className="text-sm text-muted-foreground mb-3">{t.modules.theIsland.leaderLabel}: {order.leader}</p>
-                <p className="text-sm">{order.description}</p>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.92fr_1.08fr] gap-8 mb-10">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-gradient-to-br from-card to-muted/20 p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Trophy className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Boss hunt priorities</h3>
+                  <p className="text-sm text-muted-foreground">What matters before you enter a run</p>
+                </div>
               </div>
-            ))}
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.theIsland.prestige.map((tier: any, i: number) => (
-              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
-                <div className="font-bold text-[hsl(var(--nav-theme))] mb-1">{tier.tier}</div>
-                <div className="text-xs text-muted-foreground">{tier.ovrRange}</div>
+              <p className="text-muted-foreground leading-relaxed">
+                {mvpModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {mvpModule.highlights.map((highlight: string, index: number) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/60 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{highlight}</p>
+                  </div>
+                ))}
               </div>
-            ))}
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {mvpModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={mvpModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full bg-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[hsl(var(--nav-theme)/0.9)]"
+                >
+                  {mvpModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {mvpModule.highlights.map((highlight: string, index: number) => {
+                  const HighlightIcon = mvpGuideIcons[index + 3]
+
+                  return (
+                    <div
+                      key={highlight}
+                      className="rounded-3xl border border-border bg-card p-5 shadow-[0_14px_36px_hsl(var(--nav-theme)/0.06)]"
+                    >
+                      <div className="mb-4 flex items-center justify-between">
+                        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                          <HighlightIcon className="h-5 w-5" />
+                        </div>
+                        <div className="rounded-full border border-[hsl(var(--gold)/0.22)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                          Note {index + 1}
+                        </div>
+                      </div>
+                      <p className="text-sm leading-relaxed text-foreground">{highlight}</p>
+                    </div>
+                  )
+                })}
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {mvpModule.items.map((item: any, i: number) => {
+                  const BossIcon = mvpGuideIcons[i]
+
+                  return (
+                    <article
+                      key={item.title}
+                      className="group rounded-3xl border-2 border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                    >
+                      <div className="mb-4 flex items-start gap-4">
+                        <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                          <BossIcon className="h-6 w-6" />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <h3 className="text-xl font-bebas text-foreground">{item.title}</h3>
+                          <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{item.summary}</p>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        {item.highlights.map((highlight: string, highlightIndex: number) => (
+                          <div
+                            key={highlightIndex}
+                            className="flex items-start gap-3 rounded-2xl bg-muted/40 p-3"
+                          >
+                            <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                            <p className="text-sm leading-relaxed text-foreground">{highlight}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </article>
+                  )
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -955,16 +1405,127 @@ export default function HomePage() {
       <section id="myfaction" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myfaction.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myfaction.subtitle}</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {woeModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {woeModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {woeModule.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.myfaction.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.92fr_1.08fr] gap-8">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Castle className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Guild siege prep</h3>
+                  <p className="text-sm text-muted-foreground">Roles, timing, and castle value</p>
+                </div>
               </div>
-            ))}
+              <p className="text-muted-foreground leading-relaxed">
+                {woeModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {woeModule.highlights.map((highlight: string, index: number) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/60 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{highlight}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {woeModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={woeModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full border-2 border-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-[hsl(var(--nav-theme))] transition-all duration-300 hover:bg-[hsl(var(--nav-theme))] hover:text-white"
+                >
+                  {woeModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="rounded-3xl border border-border bg-card p-4 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.06)]">
+              <div className="space-y-4">
+                {woeModule.items.map((section: any, i: number) => {
+                  const WoeIcon = woeGuideIcons[i]
+                  const isOpen = expandedWoeSection === section.section
+
+                  return (
+                    <div
+                      key={section.section}
+                      className="overflow-hidden rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/70 transition-all duration-300"
+                    >
+                      <button
+                        type="button"
+                        onClick={() => setExpandedWoeSection(isOpen ? '' : section.section)}
+                        className="flex w-full items-center gap-4 p-5 text-left transition-colors hover:bg-muted/50"
+                        aria-expanded={isOpen}
+                      >
+                        <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                          <WoeIcon className="h-6 w-6" />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <h3 className="text-xl font-bebas text-foreground">{section.section}</h3>
+                          <p className="text-sm text-muted-foreground">{section.content[0]}</p>
+                        </div>
+                        <ChevronDown
+                          className={`h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform duration-300 ${
+                            isOpen ? 'rotate-180' : ''
+                          }`}
+                        />
+                      </button>
+
+                      <div
+                        className={`grid transition-all duration-300 ease-in-out ${
+                          isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
+                        }`}
+                      >
+                        <div className="overflow-hidden">
+                          <div className="space-y-3 border-t border-[hsl(var(--nav-theme)/0.12)] bg-muted/30 p-5">
+                            {section.content.map((line: string, lineIndex: number) => (
+                              <div
+                                key={lineIndex}
+                                className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-background/70 p-4"
+                              >
+                                <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                                <p className="text-sm leading-relaxed text-foreground">{line}</p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </section>
