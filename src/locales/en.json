@@ -120,24 +120,24 @@
         "description": "Prepare guild roles, siege timing, and castle value"
       },
       {
-        "icon": "Gift",
-        "title": "Codes",
-        "description": "Copy the current launch code and official reward sources"
-      },
-      {
-        "icon": "Home",
-        "title": "Guild Guide",
-        "description": "Join the right guild and keep your weekly value high"
-      },
-      {
         "icon": "Gamepad2",
         "title": "PvP Guide",
-        "description": "Sharpen burst, control, and survivability for arena play"
+        "description": "Sharpen burst, control, and team pressure for arena play"
       },
       {
-        "icon": "Globe",
+        "icon": "Building",
+        "title": "Guild Guide",
+        "description": "Plan guild quests, events, and long-term contribution value"
+      },
+      {
+        "icon": "Gift",
+        "title": "Codes",
+        "description": "Copy active redeem codes and follow the in-game claim path"
+      },
+      {
+        "icon": "Layers",
         "title": "Pets Guide",
-        "description": "Choose pets that support leveling, farming, and long-term growth"
+        "description": "Choose pets that support farming, stat growth, and utility"
       }
     ]
   },
@@ -1084,154 +1084,380 @@
         "href": "/ragnarok-origin-classic-war-of-emperium-guide"
       }
     },
-    "lockerCodes": {
-      "title": "Ragnarok Origin Classic Codes",
-      "subtitle": "Use the current launch code and keep official channels handy.",
-      "codes": [
+    "pvpGuide": {
+      "eyebrow": "Competitive",
+      "title": "Ragnarok Origin Classic PvP Guide",
+      "subtitle": "PvP Classes for 3v3 Arena and Guild Battles",
+      "intro": "Ragnarok Origin Classic rewards different class strengths depending on the mode. In 3v3 Arena, speed, crowd control, and fast kill pressure matter most, while Guild vs Guild puts more value on healing, area control, initiation, and coordinated team play.",
+      "items": [
         {
-          "code": "ROOC888",
-          "expires": "Active launch code",
-          "rewards": [
-            "One working Ragnarok Origin Classic code",
-            "Redeem it once per account",
-            "Check the current claim window"
+          "tier": "S",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "Assassin",
+              "role": "Burst eliminator",
+              "strengths": [
+                "Very high burst damage",
+                "Fast target access",
+                "Strong kill pressure in short fights"
+              ],
+              "notes": "Assassins are extremely deadly in small-scale fights because they can quickly remove key targets before the enemy team stabilizes."
+            },
+            {
+              "class": "Knight",
+              "role": "Frontline control",
+              "strengths": [
+                "High HP",
+                "Crowd control",
+                "Solid mobility"
+              ],
+              "notes": "Knights perform well in arena thanks to their durability and ability to disrupt enemy movement while staying active in the center of the fight."
+            }
           ]
         },
         {
-          "code": "Official Discord",
-          "expires": "Code drops and alerts",
-          "rewards": [
-            "Watch for future Ragnarok Origin Classic codes",
-            "Join class and guild discussion",
-            "Follow patch notices"
+          "tier": "A",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "Hunter",
+              "role": "Ranged DPS",
+              "strengths": [
+                "Strong ranged damage",
+                "Consistent pressure",
+                "Good pick potential"
+              ],
+              "notes": "Hunters can pressure from range, but they become much easier to punish once enemies close the gap."
+            },
+            {
+              "class": "Priest",
+              "role": "Sustain support",
+              "strengths": [
+                "Healing",
+                "Support utility",
+                "Fight stabilization"
+              ],
+              "notes": "Priests often swing arena outcomes by keeping teammates alive long enough for burst classes to finish trades."
+            },
+            {
+              "class": "Wizard",
+              "role": "Area control caster",
+              "strengths": [
+                "AoE control",
+                "Zone denial",
+                "Teamfight pressure"
+              ],
+              "notes": "Wizards are dangerous when positioned well, but they need protection and careful spacing to avoid getting collapsed on."
+            }
           ]
         },
         {
-          "code": "Official Site",
-          "expires": "Event updates",
-          "rewards": [
-            "Check pre-registration rewards",
-            "Track launch announcements",
-            "Open official campaign pages"
+          "tier": "B",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "Blacksmith",
+              "role": "Bruiser support",
+              "strengths": [
+                "Useful support tools",
+                "Respectable frontline value"
+              ],
+              "notes": "Blacksmiths can contribute, but in faster arena matches they may struggle to keep up with more agile or explosive classes."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "Priest",
+              "role": "Core team support",
+              "strengths": [
+                "Healing",
+                "Buffs",
+                "Revival utility"
+              ],
+              "notes": "Priests are central to large-scale battles because they keep pushes alive and help teams recover from burst windows."
+            },
+            {
+              "class": "Wizard",
+              "role": "AoE battle controller",
+              "strengths": [
+                "Large-area damage",
+                "Grouped-enemy punishment",
+                "Strong objective pressure"
+              ],
+              "notes": "Wizards thrive in packed guild fights where layered AoE can break clustered enemy formations."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "Assassin",
+              "role": "Backline diver",
+              "strengths": [
+                "Key-target pressure",
+                "Fast picks on fragile enemies"
+              ],
+              "notes": "Assassins are effective at diving healers and damage dealers, especially when their team already has frontline cover."
+            },
+            {
+              "class": "Blacksmith",
+              "role": "Support bruiser",
+              "strengths": [
+                "Durability",
+                "Team support"
+              ],
+              "notes": "Blacksmiths add steady value and help reinforce team structure in drawn-out fights."
+            },
+            {
+              "class": "Knight",
+              "role": "Initiator",
+              "strengths": [
+                "Reliable engage",
+                "Line disruption",
+                "Frontline presence"
+              ],
+              "notes": "Knights are strong starters for guild engagements and help open space for Priests and Wizards to work safely."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "Hunter",
+              "role": "Backline damage",
+              "strengths": [
+                "Consistent ranged DPS"
+              ],
+              "notes": "Hunters can still contribute damage, but they bring less large-scale utility than the top guild-war picks."
+            }
           ]
         }
       ],
-      "howToRedeem": [
-        "Open Ragnarok Origin Classic on your account.",
-        "Find the redeem or gift menu.",
-        "Enter the code exactly as shown.",
-        "Claim rewards from your mailbox or reward tab."
-      ]
-    },
-    "pcRequirements": {
-      "title": "Ragnarok Origin Classic Guild Guide",
-      "subtitle": "Join early, pick a role, and keep your weekly guild value high.",
-      "minimumTitle": "Guild Basics",
-      "recommendedTitle": "Guild Value",
-      "minimum": {
-        "os": "Join a guild as soon as the main systems open",
-        "processor": "Fill one clear role",
-        "memory": "Show up for daily tasks and donation loops",
-        "graphics": "Prepare for WoE and party coordination",
-        "storage": "Keep time for guild chat and support"
-      },
-      "recommended": {
-        "os": "Join a guild that matches your play schedule",
-        "processor": "Bring a defined PvE or PvP role",
-        "memory": "Stack weekly rewards and guild shop value",
-        "graphics": "Bring consumables and positioning discipline",
-        "storage": "Stay active for War of Emperium nights"
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=9j-qf02Zl3A"
+      ],
+      "cta": {
+        "label": "View Full PvP Guide",
+        "href": "/pvp-guide"
       }
     },
-    "arenas": {
-      "title": "Ragnarok Origin Classic PvP Guide",
-      "subtitle": "Burst, control, sustain, and pick pressure for arena play.",
-      "categories": [
+    "guildGuide": {
+      "eyebrow": "Social Progression",
+      "title": "Ragnarok Origin Classic Guild Guide",
+      "subtitle": "Why Joining a Guild Early Matters",
+      "intro": "In Ragnarok Origin Classic, guilds are not just social groups. They connect directly to weekly quests, timed events, contribution rewards, shop access, extra stats, and shared reward systems that feed back into daily progression.",
+      "items": [
         {
-          "name": "Burst",
-          "arenas": [
-            "Assassin",
-            "Archer",
-            "Mage",
-            "Thief"
+          "card_title": "Guild Quests",
+          "tag": "Weekly Progress",
+          "description": "Guild Quests let players complete 30 quests each week for guild points.",
+          "highlights": [
+            "Includes guild recruitment tasks",
+            "Includes NPC interaction tasks",
+            "Includes monster hunting",
+            "Includes elite monster hunting"
           ]
         },
         {
-          "name": "Control",
-          "arenas": [
-            "Wizard",
-            "Priest",
-            "Knight",
-            "Acolyte"
+          "card_title": "Contribution Rewards",
+          "tag": "Milestones",
+          "description": "Personal contribution is tracked and converted into milestone rewards, giving active members a steady reason to participate every week.",
+          "highlights": [
+            "Contribution is individually tracked",
+            "Milestone rewards can be claimed from activity progress"
           ]
         },
         {
-          "name": "Sustain",
-          "arenas": [
-            "Priest",
-            "Knight",
-            "Blacksmith",
-            "Merchant"
+          "card_title": "Guild Auction",
+          "tag": "Shared Loot",
+          "description": "After guild events, items can appear in the guild auction. Nyan Berries spent there are converted into diamonds and distributed equally among guild members.",
+          "highlights": [
+            "Guild event loot enters auction",
+            "Members can buy needed items",
+            "Auction value is shared back across members"
           ]
         },
         {
-          "name": "Pick Pressure",
-          "arenas": [
-            "Assassin",
-            "Hunter",
-            "Wizard",
-            "Thief"
+          "card_title": "Guild Expedition",
+          "tag": "Timed Event",
+          "description": "Guild Expedition opens on Tuesday, Thursday, Saturday, and Sunday from 20:00 to 20:20. Members enter special maps to fight real MVPs and clone MVPs for better guild rewards.",
+          "highlights": [
+            "Scheduled four days each week",
+            "Damage dealt affects reward quality",
+            "Best done with coordinated guild groups"
           ]
-        }
-      ]
-    },
-    "dlcUnlockables": {
-      "title": "Ragnarok Origin Classic Pets Guide",
-      "subtitle": "Choose pets that support leveling, farming, and long-term account value.",
-      "seasons": [
-        {
-          "season": "S",
-          "release": "Best early pet synergy"
         },
         {
-          "season": "A",
-          "release": "Strong all-round value"
+          "card_title": "Space-Time Anomaly",
+          "tag": "Timed Event",
+          "description": "This guild event runs on Tuesday, Thursday, Saturday, and Sunday from 19:30 to 19:43 and rewards players based on both personal ranking and guild ranking.",
+          "highlights": [
+            "Short timed activity window",
+            "Uses pets during the challenge",
+            "Both individual and guild performance matter"
+          ]
         },
         {
-          "season": "B",
-          "release": "Good budget option"
-        },
-        {
-          "season": "C",
-          "release": "Situational picks"
-        },
-        {
-          "season": "F2P",
-          "release": "Low-cost convenience"
-        },
-        {
-          "season": "Late",
-          "release": "Long-term synergy"
+          "card_title": "Guild Benefits",
+          "tag": "Power Growth",
+          "description": "Guild systems provide several long-term account benefits beyond basic rewards.",
+          "highlights": [
+            "Emperium Buff grants additional stats",
+            "Guild Vending Machine exchanges contribution for items",
+            "Guild Skills add extra stats",
+            "Guild Bonus can grant Diamonds, Nyanberries, and Zenies"
+          ]
         }
       ],
-      "editionPacks": [
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=uWwc3kKyPyE",
+        "https://www.gravity.co.kr/en/game/ROOC",
+        "https://roo-global.gitbook.io/guide/game-wiki/guild"
+      ],
+      "cta": {
+        "label": "Explore Guild Systems",
+        "href": "/guild-guide"
+      }
+    },
+    "codes": {
+      "eyebrow": "Rewards",
+      "title": "Ragnarok Origin Classic Codes",
+      "subtitle": "Active Redeem Codes and How to Use Them",
+      "intro": "Ragnarok Origin Classic currently has a small active code pool, making a clean scan-first layout more useful than a long article. The most important things to show are the live codes, the redeem route, and the last checked date.",
+      "items": [
         {
-          "name": "Beginner Pet Picks",
-          "includes": [
-            "Pick one reliable starter pet first",
-            "Favor simple damage or sustain bonuses",
-            "Avoid niche picks until your core is stable"
+          "code": "ROOCREADY2GO",
+          "status": "active",
+          "reward": "Rewards",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC888",
+          "status": "active",
+          "reward": "Rewards",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC2026",
+          "status": "active",
+          "reward": "Rewards",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC666",
+          "status": "active",
+          "reward": "Rewards",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC777",
+          "status": "active",
+          "reward": "Rewards",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "Expired Codes",
+          "status": "none listed",
+          "reward": "No expired codes were listed on the March 26, 2026 update",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "Redeem Path",
+          "status": "guide",
+          "reward": "Open the game -> tap Rewards -> open Redeem -> enter code -> tap Confirm",
+          "last_checked": "2026-03-26"
+        }
+      ],
+      "source_urls": [
+        "https://progameguides.com/ragnarok-origin/ragnarok-origin-codes/",
+        "https://www.reddit.com/r/RagnarokOrigin/comments/12s9dkr/redeem_codes/",
+        "https://www.reddit.com/r/RagnarokMClassic/comments/1n7di9v/romc_global_new_serverexclusive_bonuses_redeem/",
+        "https://levelgeeks.net/ragnarok-origin-classic-codes/"
+      ],
+      "cta": {
+        "label": "Open Codes Page",
+        "href": "/codes"
+      }
+    },
+    "petsGuide": {
+      "eyebrow": "Companions",
+      "title": "Ragnarok Origin Classic Pets Guide",
+      "subtitle": "Pet Basics, Progression Milestones, and Rarity Tiers",
+      "intro": "The pet system in Ragnarok Origin directly feeds into combat support and account growth. The core beginner questions are when pets unlock, how many can be active, when Assist slots open, and how pet rarity works before players invest too many resources.",
+      "items": [
+        {
+          "card_title": "When Pets Unlock",
+          "tag": "Milestone",
+          "description": "The Pet System unlocks at Base Level 22.",
+          "highlights": [
+            "Pets support farming",
+            "Pets support dungeon runs",
+            "Pets support PvP battles"
           ]
         },
         {
-          "name": "Long-Term Pet Growth",
-          "includes": [
-            "Match pet effects to your class",
-            "Invest after weapon and armor are stable",
-            "Use pets to smooth farming and utility"
+          "card_title": "Active Pet Limit",
+          "tag": "Core Rule",
+          "description": "As character level increases, more pet activation options open up. A maximum of four pets can be active at the same time.",
+          "highlights": [
+            "Up to four active pets simultaneously",
+            "Built for ongoing account support rather than one single summon slot"
+          ]
+        },
+        {
+          "card_title": "Assist Slot",
+          "tag": "Level 55",
+          "description": "At Base Level 55, players can assign pets to the Assist slot. Assist pets are not summoned into battle, but they still provide attributes and increase overall power.",
+          "highlights": [
+            "Unlocks at Base Level 55",
+            "Adds passive attributes",
+            "Useful for long-term stat stacking"
+          ]
+        },
+        {
+          "card_title": "S Level Pets",
+          "tag": "Highest Rarity",
+          "description": "S Level Pets are listed as the highest rarity tier and are described as having very strong characteristics.",
+          "highlights": [
+            "Examples listed: Ghost Samurai",
+            "Examples listed: Antasha Model",
+            "Examples listed: Earth Lord",
+            "Examples listed: Dunell"
+          ]
+        },
+        {
+          "card_title": "A and B Level Pets",
+          "tag": "Practical Growth",
+          "description": "A Level pets can act as substitutes for S Level pets when developed well, while B Level pets are easier to obtain through Normal and Legendary Pet Summoning.",
+          "highlights": [
+            "A Level pets are more accessible than S Level pets",
+            "B Level pets are easier to find and develop",
+            "Early players can make meaningful progress without waiting for top rarity only"
           ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=jBlEVqvqCFM",
+        "https://www.youtube.com/watch?v=dRgGDUjhZ9o",
+        "https://roo-global.gitbook.io/guide/game-wiki/pet-system"
+      ],
+      "cta": {
+        "label": "See Pet Guide",
+        "href": "/pets-guide"
+      }
     }
   },
   "faq": {

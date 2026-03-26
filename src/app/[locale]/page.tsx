@@ -142,6 +142,7 @@ export default function HomePage() {
   const [copiedPath, setCopiedPath] = useState<string | null>(null)
   const [expandedBuild, setExpandedBuild] = useState<string>('Sniper-ADL / Falcon Route')
   const [expandedWoeSection, setExpandedWoeSection] = useState<string>('Mode Overview')
+  const [expandedPvpTier, setExpandedPvpTier] = useState<string>('S-3v3 Arena')
 
   const dailyRoutineIcons = [
     Gift,
@@ -225,6 +226,42 @@ export default function HomePage() {
     MapPinned,
   ]
 
+  const pvpGuideIcons = [
+    Swords,
+    Shield,
+    Target,
+    Trophy,
+    Clock3,
+    Ticket,
+  ]
+
+  const guildGuideIcons = [
+    BookMarked,
+    ClipboardCheck,
+    ShoppingBag,
+    Clock3,
+    Sparkles,
+    Castle,
+  ]
+
+  const codeGuideIcons = [
+    Gift,
+    Coins,
+    BadgeDollarSign,
+    CircleDollarSign,
+    HandCoins,
+    ScrollText,
+    Ticket,
+  ]
+
+  const petGuideIcons = [
+    PawPrint,
+    Shield,
+    Users2,
+    Gem,
+    Layers3,
+  ]
+
   const sourceLabel = (url: string) => {
     try {
       return new URL(url).hostname.replace(/^www\./, '')
@@ -237,7 +274,17 @@ export default function HomePage() {
   const zenyModule = Array.isArray(t.modules?.universeMode?.items) ? t.modules.universeMode : fallbackModules.universeMode
   const f2pModule = Array.isArray(t.modules?.communityCreations?.items) ? t.modules.communityCreations : fallbackModules.communityCreations
   const mvpModule = Array.isArray(t.modules?.theIsland?.items) ? t.modules.theIsland : fallbackModules.theIsland
+  const pvpModule = Array.isArray(t.modules?.pvpGuide?.items) ? t.modules.pvpGuide : fallbackModules.pvpGuide
+  const guildModule = Array.isArray(t.modules?.guildGuide?.items) ? t.modules.guildGuide : fallbackModules.guildGuide
+  const codesModule = Array.isArray(t.modules?.codes?.items) ? t.modules.codes : fallbackModules.codes
+  const petsModule = Array.isArray(t.modules?.petsGuide?.items) ? t.modules.petsGuide : fallbackModules.petsGuide
   const woeModule = Array.isArray(t.modules?.myfaction?.items) ? t.modules.myfaction : fallbackModules.myfaction
+  const codeRedeemSteps = [
+    'Open the game',
+    'Tap Rewards',
+    'Open Redeem',
+    'Enter the code and confirm',
+  ]
 
   const copyToClipboard = async (text: string) => {
     try {
@@ -332,7 +379,7 @@ export default function HomePage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <button
-                onClick={() => scrollToSection('locker-codes')}
+                onClick={() => scrollToSection('codes')}
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-lg
@@ -411,7 +458,7 @@ export default function HomePage() {
                 'release-editions', 'roster', 'ratings', 'controls',
                 'daily-routine', 'skill-builds', 'class-builds', 'gear-progression',
                 'universe-mode', 'community-creations', 'the-island', 'myfaction',
-                'locker-codes', 'pc-requirements', 'arenas', 'dlc-unlockables'
+                'pvp-guide', 'guild-guide', 'codes', 'pets-guide'
               ]
               const sectionId = sectionIds[index]
 
@@ -1530,149 +1577,575 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 13: Codes */}
-      <section id="locker-codes" className="scroll-mt-24 px-4 py-20 scroll-reveal">
-        <div className="container mx-auto max-w-5xl">
+      {/* Module 13: PvP Guide */}
+      <section id="pvp-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+        <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {pvpModule.eyebrow}
+            </p>
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
-              {t.modules.lockerCodes.title}
+              {pvpModule.title}
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.lockerCodes.subtitle}</p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {pvpModule.subtitle}
+            </p>
           </div>
-          <div className="space-y-4">
-            {t.modules.lockerCodes.codes.map((codeItem: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.5)] hover:border-[hsl(var(--gold))] transition-all duration-300 glow-gold">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="font-mono text-2xl font-bebas text-gold-gradient">{codeItem.code}</div>
-                  <button
-                    onClick={() => navigator.clipboard.writeText(codeItem.code)}
-                    className="group px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme))] text-white hover:bg-[hsl(var(--nav-theme)/0.9)] transition-all duration-300 flex items-center gap-2 hover:shadow-[0_4px_16px_hsl(var(--nav-theme)/0.4)]"
-                  >
-                    <Copy className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                    Copy
-                  </button>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.9fr_1.1fr] gap-8 mb-10">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-gradient-to-br from-card to-muted/20 p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Swords className="h-6 w-6" />
                 </div>
-                <div className="text-sm text-muted-foreground mb-2">Expires: {codeItem.expires}</div>
-                <ul className="space-y-1">
-                  {codeItem.rewards.map((reward: string, j: number) => (
-                    <li key={j} className="text-sm flex items-center gap-2">
-                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))]" />
-                      {reward}
-                    </li>
-                  ))}
-                </ul>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Arena matchup snapshot</h3>
+                  <p className="text-sm text-muted-foreground">Burst, control, and coordinated pressure</p>
+                </div>
               </div>
-            ))}
-          </div>
-          <div className="mt-8 p-6 rounded-xl bg-muted/50 border-2 border-border">
-            <h4 className="font-bebas text-xl mb-4">How to Redeem</h4>
-            <ol className="space-y-2">
-              {t.modules.lockerCodes.howToRedeem.map((step: string, i: number) => (
-                <li key={i} className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white flex items-center justify-center text-sm font-bebas flex-shrink-0">{i + 1}</div>
-                  <span className="text-sm">{step}</span>
-                </li>
-              ))}
-            </ol>
+              <p className="text-muted-foreground leading-relaxed">
+                {pvpModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {[
+                  '3v3 Arena rewards quick target swaps and short burst windows.',
+                  'Guild battles reward healing, frontline control, and safe spacing.',
+                  'Team utility matters as much as raw damage when the fight slows down.',
+                ].map((summary, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/60 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{summary}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {pvpModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={pvpModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full bg-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[hsl(var(--nav-theme)/0.9)] hover:shadow-[0_10px_28px_hsl(var(--nav-theme)/0.28)]"
+                >
+                  {pvpModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="space-y-4">
+              {pvpModule.items.map((tier: any, i: number) => {
+                const TierIcon = pvpGuideIcons[i]
+                const tierKey = `${tier.tier}-${tier.mode}`
+                const isOpen = expandedPvpTier === tierKey
+
+                return (
+                  <article
+                    key={tierKey}
+                    className="group overflow-hidden rounded-3xl border-2 border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                  >
+                    <button
+                      type="button"
+                      onClick={() => setExpandedPvpTier(isOpen ? '' : tierKey)}
+                      className="flex w-full items-start gap-4 p-6 text-left md:pointer-events-none"
+                      aria-expanded={isOpen}
+                    >
+                      <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                        <TierIcon className="h-6 w-6" />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <div className="mb-2 flex flex-wrap items-center gap-3">
+                          <span className="rounded-full bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                            Tier {tier.tier}
+                          </span>
+                          <span className="rounded-full border border-[hsl(var(--gold)/0.22)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                            {tier.mode}
+                          </span>
+                        </div>
+                        <h3 className="text-2xl font-bebas text-foreground">{tier.mode}</h3>
+                        <p className="text-sm text-muted-foreground">Class matchup notes for {tier.tier} tier picks</p>
+                      </div>
+                      <ChevronDown
+                        className={`mt-1 h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform duration-300 md:hidden ${
+                          isOpen ? 'rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+
+                    <div
+                      className={`grid gap-4 border-t border-[hsl(var(--nav-theme)/0.12)] p-5 md:grid-cols-2 ${
+                        isOpen ? 'grid' : 'hidden md:grid'
+                      }`}
+                    >
+                      {tier.entries.map((entry: any, entryIndex: number) => (
+                        <div
+                          key={`${entry.class}-${entryIndex}`}
+                          className="rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/30 p-4"
+                        >
+                          <div className="mb-3 flex items-start justify-between gap-3">
+                            <div>
+                              <h4 className="text-lg font-semibold text-foreground">{entry.class}</h4>
+                              <p className="text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                                {entry.role}
+                              </p>
+                            </div>
+                            <span className="rounded-full bg-[hsl(var(--gold)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                              Row {entryIndex + 1}
+                            </span>
+                          </div>
+                          <ul className="space-y-2">
+                            {entry.strengths.map((strength: string, strengthIndex: number) => (
+                              <li key={strengthIndex} className="flex items-start gap-2 text-sm text-foreground">
+                                <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                                <span>{strength}</span>
+                              </li>
+                            ))}
+                          </ul>
+                          <div className="mt-4 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-background/80 p-3">
+                            <p className="mb-1 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                              Matchup note
+                            </p>
+                            <p className="text-sm leading-relaxed text-muted-foreground">{entry.notes}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </article>
+                )
+              })}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* 广告位 8: 方形广告 300×250 - Codes 下方 */}
+      {/* 广告位 8: 方形广告 300×250 - Module 13 下方 */}
       <AdBanner
         type="banner-300x250"
         adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
         className="my-8"
       />
 
-      {/* Module 14: PC Requirements */}
-      <section id="pc-requirements" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
-        <div className="container mx-auto max-w-5xl">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
-              {t.modules.pcRequirements.title}
-              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.pcRequirements.subtitle}</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-xl font-bebas mb-4 text-[hsl(var(--nav-theme))]">{t.modules.pcRequirements.minimumTitle}</h3>
-              <dl className="space-y-3">
-                <div><dt className="text-sm text-muted-foreground">Join Timing</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.os}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Core Roles</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.processor}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Guild Tasks</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.memory}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">WoE Prep</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.graphics}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Daily Value</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.storage}</dd></div>
-              </dl>
-            </div>
-            <div className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.5)] hover:border-[hsl(var(--gold))] transition-all duration-300 glow-gold relative overflow-hidden">
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-[hsl(var(--gold))] to-[hsl(var(--gold-dark))] text-white text-xs font-bebas">BEST VALUE</div>
-              <h3 className="text-xl font-bebas mb-4 text-gold-gradient">{t.modules.pcRequirements.recommendedTitle}</h3>
-              <dl className="space-y-3">
-                <div><dt className="text-sm text-muted-foreground">Join Timing</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.os}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Core Roles</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.processor}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Guild Tasks</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.memory}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">WoE Prep</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.graphics}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Daily Value</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.storage}</dd></div>
-              </dl>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Module 15: Arenas */}
-      <section id="arenas" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      {/* Module 14: Guild Guide */}
+      <section id="guild-guide" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.arenas.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.arenas.subtitle}</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {guildModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {guildModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {guildModule.subtitle}
+            </p>
           </div>
-          <div className="space-y-8">
-            {t.modules.arenas.categories.map((category: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-4 text-[hsl(var(--nav-theme))]">{category.name}</h3>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.92fr_1.08fr] gap-8 mb-10">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Castle className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Guild value snapshot</h3>
+                  <p className="text-sm text-muted-foreground">Weekly progress, timed events, and long-term bonuses</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                {guildModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {[
+                  'Weekly quests keep contribution moving every reset.',
+                  'Timed events turn guild play into a scheduled reward loop.',
+                  'Guild benefits compound across stats, shop access, and event value.',
+                ].map((summary, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{summary}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
                 <div className="flex flex-wrap gap-2">
-                  {category.arenas.map((arena: string, j: number) => (
-                    <span key={j} className="px-3 py-1 rounded-full bg-muted text-sm">{arena}</span>
+                  {guildModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
                   ))}
                 </div>
               </div>
-            ))}
+              <div className="mt-6">
+                <Link
+                  href={guildModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full border-2 border-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-[hsl(var(--nav-theme))] transition-all duration-300 hover:bg-[hsl(var(--nav-theme))] hover:text-white"
+                >
+                  {guildModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+              {guildModule.items.map((item: any, i: number) => {
+                const GuildIcon = guildGuideIcons[i]
+
+                return (
+                  <article
+                    key={item.card_title}
+                    className="group rounded-3xl border-2 border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                  >
+                    <div className="mb-4 flex items-start gap-4">
+                      <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                        <GuildIcon className="h-6 w-6" />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <div className="mb-2 flex flex-wrap items-center gap-3">
+                          <span className="rounded-full bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                            {item.tag}
+                          </span>
+                        </div>
+                        <h3 className="text-xl font-bebas text-foreground">{item.card_title}</h3>
+                      </div>
+                    </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p>
+                    <div className="mt-5 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4">
+                      <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                        Key points
+                      </p>
+                      <ul className="space-y-2">
+                        {item.highlights.map((highlight: string, highlightIndex: number) => (
+                          <li key={highlightIndex} className="flex items-start gap-2 text-sm text-foreground">
+                            <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                            <span>{highlight}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </article>
+                )
+              })}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Module 16: DLC & Unlockables */}
-      <section id="dlc-unlockables" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      {/* Module 15: Codes */}
+      <section id="codes" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.dlcUnlockables.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.dlcUnlockables.subtitle}</p>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {codesModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {codesModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {codesModule.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
-            {t.modules.dlcUnlockables.seasons.map((season: any, i: number) => (
-              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
-                <div className="font-bold text-[hsl(var(--nav-theme))] mb-1">{season.season}</div>
-                <div className="text-xs text-muted-foreground">{season.release}</div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.9fr_1.1fr] gap-8 mb-10">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-gradient-to-br from-card to-muted/20 p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Gift className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Fast redeem checklist</h3>
+                  <p className="text-sm text-muted-foreground">Copy a code, redeem it, and confirm the claim</p>
+                </div>
               </div>
-            ))}
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.dlcUnlockables.editionPacks.map((pack: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-3 text-[hsl(var(--nav-theme))]">{pack.name}</h3>
-                <ul className="space-y-2">
-                  {pack.includes.map((item: string, j: number) => (
-                    <li key={j} className="text-sm flex items-center gap-2">
-                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))]" />
-                      {item}
+              <p className="text-muted-foreground leading-relaxed">
+                {codesModule.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {codeRedeemSteps.map((step, index) => (
+                  <div
+                    key={step}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/60 p-4"
+                  >
+                    <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] text-xs font-semibold text-white">
+                      {index + 1}
+                    </div>
+                    <p className="text-sm text-foreground">{step}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {codesModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={codesModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full bg-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-[hsl(var(--nav-theme)/0.9)] hover:shadow-[0_10px_28px_hsl(var(--nav-theme)/0.28)]"
+                >
+                  {codesModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                {codesModule.items.map((codeItem: any, i: number) => {
+                  const CodeIcon = codeGuideIcons[i]
+                  const isActive = codeItem.status === 'active'
+                  const copied = copiedPath === codeItem.code
+                  const statusLabel =
+                    codeItem.status === 'active'
+                      ? 'Active'
+                      : codeItem.status === 'guide'
+                        ? 'Redeem Path'
+                        : 'None listed'
+
+                  return (
+                    <article
+                      key={`${codeItem.code}-${i}`}
+                      className="group rounded-3xl border-2 border-border bg-card p-5 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--gold)/0.6)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                    >
+                      <div className="mb-4 flex items-start gap-4">
+                        <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                          <CodeIcon className="h-6 w-6" />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <div className="mb-2 flex flex-wrap items-center gap-2">
+                            <h3 className="font-mono text-lg font-semibold text-foreground">{codeItem.code}</h3>
+                            <span
+                              className={`rounded-full px-3 py-1 text-xs font-semibold ${
+                                codeItem.status === 'active'
+                                  ? 'bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]'
+                                  : codeItem.status === 'guide'
+                                    ? 'bg-[hsl(var(--gold)/0.12)] text-[hsl(var(--gold))]'
+                                    : 'bg-muted text-muted-foreground'
+                              }`}
+                            >
+                              {statusLabel}
+                            </span>
+                          </div>
+                          <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                            Last checked {codeItem.last_checked}
+                          </p>
+                        </div>
+                      </div>
+
+                      <p className="text-sm leading-relaxed text-muted-foreground">{codeItem.reward}</p>
+
+                      {isActive ? (
+                        <button
+                          type="button"
+                          onClick={() => copyToClipboard(codeItem.code)}
+                          className="mt-4 inline-flex items-center gap-2 rounded-full bg-[hsl(var(--nav-theme))] px-4 py-2 text-sm font-semibold text-white transition-all duration-300 hover:bg-[hsl(var(--nav-theme)/0.9)] hover:shadow-[0_8px_20px_hsl(var(--nav-theme)/0.24)]"
+                        >
+                          <Copy className="h-4 w-4" />
+                          {copied ? 'Copied' : 'Copy code'}
+                        </button>
+                      ) : codeItem.status === 'guide' ? (
+                        <div className="mt-4 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                          <p className="mb-2 text-xs uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                            Redeem path
+                          </p>
+                          <p className="text-sm leading-relaxed text-foreground">{codeItem.reward}</p>
+                        </div>
+                      ) : (
+                        <div className="mt-4 rounded-2xl border border-border bg-muted/40 p-4">
+                          <p className="text-sm text-muted-foreground">{codeItem.reward}</p>
+                        </div>
+                      )}
+                    </article>
+                  )
+                })}
+              </div>
+
+              <div className="rounded-3xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-6">
+                <div className="mb-5 flex items-center gap-3">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                    <Ticket className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Redeem steps</h3>
+                    <p className="text-sm text-muted-foreground">Use the in-game path after you copy a code</p>
+                  </div>
+                </div>
+                <ol className="grid gap-3 md:grid-cols-2">
+                  {codeRedeemSteps.map((step, index) => (
+                    <li key={step} className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-background/70 p-4">
+                      <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] text-xs font-semibold text-white">
+                        {index + 1}
+                      </div>
+                      <span className="text-sm leading-relaxed text-foreground">{step}</span>
                     </li>
                   ))}
-                </ul>
+                </ol>
               </div>
-            ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Pets Guide */}
+      <section id="pets-guide" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+        <div className="container mx-auto max-w-7xl">
+          <div className="text-center mb-12">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[hsl(var(--nav-theme-light))]">
+              {petsModule.eyebrow}
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {petsModule.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {petsModule.subtitle}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[0.92fr_1.08fr] gap-8">
+            <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <PawPrint className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Pet growth snapshot</h3>
+                  <p className="text-sm text-muted-foreground">Unlocks, assist slots, and rarity planning</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed">
+                {petsModule.intro}
+              </p>
+              <div className="mt-6 grid gap-3 sm:grid-cols-3 xl:grid-cols-1">
+                {[
+                  'Unlocks at Base Level 22',
+                  'Up to four active pets',
+                  'Assist slot opens at Base Level 55',
+                ].map((point, index) => (
+                  <div
+                    key={point}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4"
+                  >
+                    <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] text-xs font-semibold text-white">
+                      {index + 1}
+                    </div>
+                    <p className="text-sm text-foreground">{point}</p>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 rounded-2xl border border-[hsl(var(--gold)/0.2)] bg-[hsl(var(--gold)/0.06)] p-4">
+                <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                  Source links
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {petsModule.source_urls.map((url: string) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-[hsl(var(--nav-theme)/0.16)] bg-background/80 px-3 py-1 text-xs text-[hsl(var(--nav-theme-light))] transition-colors hover:border-[hsl(var(--nav-theme)/0.4)] hover:text-foreground"
+                    >
+                      {sourceLabel(url)}
+                    </a>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href={petsModule.cta.href}
+                  className="inline-flex items-center gap-2 rounded-full border-2 border-[hsl(var(--nav-theme))] px-5 py-3 text-sm font-semibold text-[hsl(var(--nav-theme))] transition-all duration-300 hover:bg-[hsl(var(--nav-theme))] hover:text-white"
+                >
+                  {petsModule.cta.label}
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </aside>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {petsModule.items.map((item: any, i: number) => {
+                const PetIcon = petGuideIcons[i]
+
+                return (
+                  <article
+                    key={item.card_title}
+                    className="group rounded-3xl border-2 border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                  >
+                    <div className="mb-4 flex items-start gap-4">
+                      <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                        <PetIcon className="h-6 w-6" />
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <div className="mb-2 flex flex-wrap items-center gap-3">
+                          <span className="rounded-full bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                            {item.tag}
+                          </span>
+                        </div>
+                        <h3 className="text-xl font-bebas text-foreground">{item.card_title}</h3>
+                      </div>
+                    </div>
+                    <p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p>
+                    <div className="mt-5 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4">
+                      <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                        Key points
+                      </p>
+                      <ul className="space-y-2">
+                        {item.highlights.map((highlight: string, highlightIndex: number) => (
+                          <li key={highlightIndex} className="flex items-start gap-2 text-sm text-foreground">
+                            <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                            <span>{highlight}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </article>
+                )
+              })}
+            </div>
           </div>
         </div>
       </section>
