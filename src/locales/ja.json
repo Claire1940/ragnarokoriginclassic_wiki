@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
-      "description": "WWE 2K26 Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
-      "keywords": "WWE 2K26, WWE 2K26 ロースター, WWE 2K26 レーティング, WWE 2K26 ロッカーコード, WWE 2K26 MyGM",
-      "ogTitle": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
-      "ogDescription": "WWE 2K26 Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
-      "twitterTitle": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
-      "twitterDescription": "WWE 2K26 Wikiでは、ロースター、レーティング、ロッカーコード、試合形式、ゲームモードのガイドを網羅しています。"
+      "title": "Ragnarok Origin Classic Wiki - ロースター、レーティング、モード、ガイド",
+      "description": "Ragnarok Origin Classic Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
+      "keywords": "Ragnarok Origin Classic, Ragnarok Origin Classic ロースター, Ragnarok Origin Classic レーティング, Ragnarok Origin Classic ロッカーコード, Ragnarok Origin Classic MyGM",
+      "ogTitle": "Ragnarok Origin Classic Wiki - ロースター、レーティング、モード、ガイド",
+      "ogDescription": "Ragnarok Origin Classic Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - ロースター、レーティング、モード、ガイド",
+      "twitterDescription": "Ragnarok Origin Classic Wikiでは、ロースター、レーティング、ロッカーコード、試合形式、ゲームモードのガイドを網羅しています。"
     }
   },
   "nav": {},
@@ -27,10 +27,10 @@
   },
   "hero": {
     "badge": "400人以上のスーパースターを収録した公式レスリングシミュレーター",
-    "title": "WWE 2K26 Wiki",
-    "description": "CM Punk ShowcaseからThe Island、MyGM、MyRISE、Universeまで、WWE 2K26の全ロースター、評価、試合形式、エディション、モードガイドを網羅。",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "CM Punk ShowcaseからThe Island、MyGM、MyRISE、Universeまで、Ragnarok Origin Classicの全ロースター、評価、試合形式、エディション、モードガイドを網羅。",
     "getFreeCodesCTA": "無料コードを入手",
-    "playOnRobloxCTA": "WWE 2K26を購入",
+    "playOnRobloxCTA": "Ragnarok Origin Classicを購入",
     "stats": {
       "stat1": {
         "value": "2026-03-13",
@@ -51,11 +51,11 @@
     }
   },
   "gameFeature": {
-    "title": "WWE 2K26 ゲームプレイ",
+    "title": "Ragnarok Origin Classic ゲームプレイ",
     "description": "400人以上のスーパースターと新しいマッチタイプで、最もリアルなレスリングシミュレーションを体験しよう！"
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Ragnarok Origin Classic",
     "titleHighlight": "クイックナビゲーション",
     "subtitle": "以下のセクションへ移動",
     "cards": [
@@ -143,7 +143,7 @@
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
+      "title": "Ragnarok Origin Classic Release Date & Editions",
       "subtitle": "Choose the edition that fits your play style",
       "quickFacts": [
         {
@@ -175,7 +175,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game"
+            "Ragnarok Origin Classic base game"
           ]
         },
         {
@@ -189,7 +189,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Ragnarok Origin Classic base game",
             "King of Kings Edition Pack",
             "Ringside Pass Premium Season 1",
             "7-Day Early Access",
@@ -207,7 +207,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Ragnarok Origin Classic base game",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
             "Ringside Pass Premium Season 1-4",
@@ -227,7 +227,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Ragnarok Origin Classic base game",
             "Monday Night War Edition Pack",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
@@ -247,7 +247,7 @@
       ]
     },
     "roster": {
-      "title": "WWE 2K26 ロースター",
+      "title": "Ragnarok Origin Classic ロースター",
       "subtitle": "400人以上のプレイ可能なスーパースターとレジェンドをチェック",
       "stats": [
         {
@@ -307,7 +307,7 @@
       ]
     },
     "ratings": {
-      "title": "WWE 2K26 レーティング",
+      "title": "Ragnarok Origin Classic レーティング",
       "subtitle": "最高評価のスーパースターランキング",
       "menTopRated": [
         {
@@ -400,7 +400,7 @@
       ]
     },
     "controls": {
-      "title": "WWE 2K26 操作方法",
+      "title": "Ragnarok Origin Classic 操作方法",
       "subtitle": "PS5、Xbox、PCの基本操作をマスターしよう",
       "platforms": [
         {
@@ -526,7 +526,7 @@
       ]
     },
     "matchTypes": {
-      "title": "WWE 2K26 新しい試合形式",
+      "title": "Ragnarok Origin Classic 新しい試合形式",
       "subtitle": "4つの新しい試合形式と拡張されたゲームプレイを体験しよう",
       "quickFacts": [
         {
@@ -574,7 +574,7 @@
       ]
     },
     "showcase": {
-      "title": "WWE 2K26 ショーケース",
+      "title": "Ragnarok Origin Classic ショーケース",
       "subtitle": "CM Punkの最高のライバル関係を追体験しよう",
       "quickFacts": [
         {
@@ -614,7 +614,7 @@
       }
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
+      "title": "Ragnarok Origin Classic MyGM",
       "subtitle": "より深化したマッチメイクと戦略で、ブランドを運営しよう",
       "quickFacts": [
         {
@@ -672,7 +672,7 @@
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
+      "title": "Ragnarok Origin Classic MyRISE",
       "subtitle": "The Comeback で再起をかけて戦い抜け",
       "quickFacts": [
         {
@@ -739,7 +739,7 @@
       ]
     },
     "universeMode": {
-      "title": "WWE 2K26 ユニバースモード",
+      "title": "Ragnarok Origin Classic ユニバースモード",
       "subtitle": "より詳細なコントロールで、理想のWWEカレンダーを構築",
       "quickFacts": [
         {
@@ -783,7 +783,7 @@
       ]
     },
     "communityCreations": {
-      "title": "WWE 2K26 コミュニティ・クリエイション",
+      "title": "Ragnarok Origin Classic コミュニティ・クリエイション",
       "subtitle": "より大きく、より詳細なカスタムコンテンツを作成",
       "quickFacts": [
         {
@@ -831,7 +831,7 @@
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 ジ・アイランド",
+      "title": "Ragnarok Origin Classic ジ・アイランド",
       "subtitle": "オーダーを選び、支配権を懸けて戦え",
       "quickFacts": [
         {
@@ -894,7 +894,7 @@
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
+      "title": "Ragnarok Origin Classic MyFACTION",
       "subtitle": "ケミストリーとQuick Swapでより強力なラインナップを構築",
       "quickFacts": [
         {
@@ -938,7 +938,7 @@
       ]
     },
     "lockerCodes": {
-      "title": "WWE 2K26 ロッカーコード",
+      "title": "Ragnarok Origin Classic ロッカーコード",
       "subtitle": "MyFACTION の報酬と引き換えられる有効なコード",
       "quickFacts": [
         {
@@ -965,15 +965,15 @@
         }
       ],
       "howToRedeem": [
-        "メインメニューから WWE 2K26 を開く",
+        "メインメニューから Ragnarok Origin Classic を開く",
         "ロッカーコードを選択する",
         "表示されている通りにコードを入力する",
         "コードを引き換え、MyFACTION でパックを開封する"
       ]
     },
     "pcRequirements": {
-      "title": "WWE 2K26 PC システム要件",
-      "subtitle": "お使いの PC で WWE 2K26 が動作するか確認してください",
+      "title": "Ragnarok Origin Classic PC システム要件",
+      "subtitle": "お使いの PC で Ragnarok Origin Classic が動作するか確認してください",
       "quickFacts": [
         {
           "label": "OS",
@@ -1012,7 +1012,7 @@
       }
     },
     "arenas": {
-      "title": "WWE 2K26 アリーナ",
+      "title": "Ragnarok Origin Classic アリーナ",
       "subtitle": "モダン、クラシック、オリジナルの会場にわたる40以上のアリーナを探索しよう",
       "quickFacts": [
         {
@@ -1088,7 +1088,7 @@
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLCとアンロック要素",
+      "title": "Ragnarok Origin Classic DLCとアンロック要素",
       "subtitle": "発売後の主要な報酬パスをすべて確認",
       "quickFacts": [
         {
@@ -1212,56 +1212,56 @@
   "faq": {
     "title": "よくある",
     "titleHighlight": "質問",
-    "subtitle": "WWE 2K26について知っておくべきすべてのこと",
+    "subtitle": "Ragnarok Origin Classicについて知っておくべきすべてのこと",
     "questions": [
       {
-        "question": "WWE 2K26の発売日はいつですか？",
-        "answer": "WWE 2K26の通常版は2026年3月13日に発売されます。デラックスエディションは2026年3月6日から早期アクセスが可能です。"
+        "question": "Ragnarok Origin Classicの発売日はいつですか？",
+        "answer": "Ragnarok Origin Classicの通常版は2026年3月13日に発売されます。デラックスエディションは2026年3月6日から早期アクセスが可能です。"
       },
       {
-        "question": "WWE 2K26には何人のスーパースターが収録されていますか？",
-        "answer": "WWE 2K26には、レジェンド、現役ロースター、DLCキャラクターを含む400人以上のプレイ可能なスーパースターが収録されています。"
+        "question": "Ragnarok Origin Classicには何人のスーパースターが収録されていますか？",
+        "answer": "Ragnarok Origin Classicには、レジェンド、現役ロースター、DLCキャラクターを含む400人以上のプレイ可能なスーパースターが収録されています。"
       },
       {
-        "question": "WWE 2K26はどのプラットフォームで利用できますか？",
-        "answer": "WWE 2K26は、PS5、Xbox Series X|S、Steam（PC）、Nintendo Switch 2で利用できます。"
+        "question": "Ragnarok Origin Classicはどのプラットフォームで利用できますか？",
+        "answer": "Ragnarok Origin Classicは、PS5、Xbox Series X|S、Steam（PC）、Nintendo Switch 2で利用できます。"
       },
       {
-        "question": "WWE 2K26のロッカーコードを引き換えるにはどうすればよいですか？",
+        "question": "Ragnarok Origin Classicのロッカーコードを引き換えるにはどうすればよいですか？",
         "answer": "MyFACTIONモードに移動し、ロッカーコードメニューを選択してコードを入力してください。最新の有効なコードについては、コードページをご確認ください。"
       },
       {
-        "question": "WWE 2K26の新しい試合形式は何ですか？",
-        "answer": "WWE 2K26では、Inferno Match、Dumpster Match、Three Stages of Hell、I Quit Matchを含む4つの新しい試合形式が導入されています。"
+        "question": "Ragnarok Origin Classicの新しい試合形式は何ですか？",
+        "answer": "Ragnarok Origin Classicでは、Inferno Match、Dumpster Match、Three Stages of Hell、I Quit Matchを含む4つの新しい試合形式が導入されています。"
       },
       {
-        "question": "WWE 2K26にはどのようなゲームモードがありますか？",
-        "answer": "WWE 2K26には、MyGM、MyRISE、ユニバースモード、ショーケース（CM Punk）、The Island、MyFACTION、クリエイションスイートが含まれています。"
+        "question": "Ragnarok Origin Classicにはどのようなゲームモードがありますか？",
+        "answer": "Ragnarok Origin Classicには、MyGM、MyRISE、ユニバースモード、ショーケース（CM Punk）、The Island、MyFACTION、クリエイションスイートが含まれています。"
       }
     ]
   },
   "cta": {
     "title": "リングに上がる準備はできていますか？",
-    "description": "DiscordのWWE 2K26コミュニティに参加して、最新情報、ロスター公開、ゲームプレイの議論をチェックしましょう！",
+    "description": "DiscordのRagnarok Origin Classicコミュニティに参加して、最新情報、ロスター公開、ゲームプレイの議論をチェックしましょう！",
     "joinCommunity": "Discordに参加する",
-    "joinGame": "WWE 2K26を購入"
+    "joinGame": "Ragnarok Origin Classicを購入"
   },
   "footer": {
-    "title": "WWE 2K26 ウィキ",
-    "description": "WWE 2K26のロースター、評価、ロッカーコード、試合形式、ゲームモードガイドを網羅した完全なリソースハブです。",
+    "title": "Ragnarok Origin Classic ウィキ",
+    "description": "Ragnarok Origin Classicのロースター、評価、ロッカーコード、試合形式、ゲームモードガイドを網羅した完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Instagram",
+    "instagram": "Official Site",
     "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 WWE 2K26 Wiki. 2K Sports、Visual Concepts、またはWWEとは提携していません。",
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki. 2K Sports、Visual Concepts、またはWWEとは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   }
 }

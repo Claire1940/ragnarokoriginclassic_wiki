@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki WWE 2K26 - Roster, Notes, Modes et Guides",
-      "description": "Le Wiki WWE 2K26 couvre le roster, les notes, les codes de vestiaire, les types de matchs, MyGM, MyRISE, Universe et les guides pour The Island sur PS5, Xbox, Steam et Switch 2.",
-      "keywords": "WWE 2K26, roster WWE 2K26, notes WWE 2K26, codes de vestiaire WWE 2K26, MyGM WWE 2K26",
-      "ogTitle": "Wiki WWE 2K26 - Roster, Notes, Modes et Guides",
-      "ogDescription": "Le Wiki WWE 2K26 couvre le roster, les notes, les codes de vestiaire, les types de matchs, MyGM, MyRISE, Universe et les guides pour The Island sur PS5, Xbox, Steam et Switch 2.",
-      "twitterTitle": "Wiki WWE 2K26 - Roster, Notes, Modes et Guides",
-      "twitterDescription": "Le Wiki WWE 2K26 couvre le roster, les notes, les codes de vestiaire, les types de matchs et les guides des modes de jeu."
+      "title": "Wiki Ragnarok Origin Classic - Roster, Notes, Modes et Guides",
+      "description": "Le Wiki Ragnarok Origin Classic couvre le roster, les notes, les codes de vestiaire, les types de matchs, MyGM, MyRISE, Universe et les guides pour The Island sur PS5, Xbox, Steam et Switch 2.",
+      "keywords": "Ragnarok Origin Classic, roster Ragnarok Origin Classic, notes Ragnarok Origin Classic, codes de vestiaire Ragnarok Origin Classic, MyGM Ragnarok Origin Classic",
+      "ogTitle": "Wiki Ragnarok Origin Classic - Roster, Notes, Modes et Guides",
+      "ogDescription": "Le Wiki Ragnarok Origin Classic couvre le roster, les notes, les codes de vestiaire, les types de matchs, MyGM, MyRISE, Universe et les guides pour The Island sur PS5, Xbox, Steam et Switch 2.",
+      "twitterTitle": "Wiki Ragnarok Origin Classic - Roster, Notes, Modes et Guides",
+      "twitterDescription": "Le Wiki Ragnarok Origin Classic couvre le roster, les notes, les codes de vestiaire, les types de matchs et les guides des modes de jeu."
     }
   },
   "nav": {},
@@ -27,10 +27,10 @@
   },
   "hero": {
     "badge": "Simulation de catch officielle avec plus de 400 Superstars",
-    "title": "Wiki WWE 2K26",
-    "description": "Suivez le roster complet, les notes, les types de match, les éditions et les guides de mode pour WWE 2K26, du CM Punk Showcase à The Island, MyGM, MyRISE et Universe.",
+    "title": "Wiki Ragnarok Origin Classic",
+    "description": "Suivez le roster complet, les notes, les types de match, les éditions et les guides de mode pour Ragnarok Origin Classic, du CM Punk Showcase à The Island, MyGM, MyRISE et Universe.",
     "getFreeCodesCTA": "Obtenir des codes gratuits",
-    "playOnRobloxCTA": "Acheter WWE 2K26",
+    "playOnRobloxCTA": "Acheter Ragnarok Origin Classic",
     "stats": {
       "stat1": {
         "value": "2026-03-13",
@@ -51,11 +51,11 @@
     }
   },
   "gameFeature": {
-    "title": "Gameplay de WWE 2K26",
+    "title": "Gameplay de Ragnarok Origin Classic",
     "description": "Découvrez la simulation de catch la plus authentique avec plus de 400 superstars et de nouveaux types de matchs !"
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Ragnarok Origin Classic",
     "titleHighlight": "Navigation rapide",
     "subtitle": "Accédez à n'importe quelle section ci-dessous",
     "cards": [
@@ -143,7 +143,7 @@
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
+      "title": "Ragnarok Origin Classic Release Date & Editions",
       "subtitle": "Choose the edition that fits your play style",
       "quickFacts": [
         {
@@ -175,7 +175,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game"
+            "Ragnarok Origin Classic base game"
           ]
         },
         {
@@ -189,7 +189,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Ragnarok Origin Classic base game",
             "King of Kings Edition Pack",
             "Ringside Pass Premium Season 1",
             "7-Day Early Access",
@@ -207,7 +207,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Ragnarok Origin Classic base game",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
             "Ringside Pass Premium Season 1-4",
@@ -227,7 +227,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Ragnarok Origin Classic base game",
             "Monday Night War Edition Pack",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
@@ -247,7 +247,7 @@
       ]
     },
     "roster": {
-      "title": "Roster WWE 2K26",
+      "title": "Roster Ragnarok Origin Classic",
       "subtitle": "Parcourez plus de 400 Superstars et Légendes jouables",
       "stats": [
         {
@@ -307,7 +307,7 @@
       ]
     },
     "ratings": {
-      "title": "Notes de WWE 2K26",
+      "title": "Notes de Ragnarok Origin Classic",
       "subtitle": "Classement des Superstars les mieux notées",
       "menTopRated": [
         {
@@ -400,7 +400,7 @@
       ]
     },
     "controls": {
-      "title": "Commandes de WWE 2K26",
+      "title": "Commandes de Ragnarok Origin Classic",
       "subtitle": "Maîtrisez les commandes de base pour PS5, Xbox et PC",
       "platforms": [
         {
@@ -526,7 +526,7 @@
       ]
     },
     "matchTypes": {
-      "title": "Nouveaux types de match WWE 2K26",
+      "title": "Nouveaux types de match Ragnarok Origin Classic",
       "subtitle": "Découvrez 4 nouveaux types de match et un gameplay enrichi",
       "quickFacts": [
         {
@@ -574,7 +574,7 @@
       ]
     },
     "showcase": {
-      "title": "Showcase WWE 2K26",
+      "title": "Showcase Ragnarok Origin Classic",
       "subtitle": "Revivez les plus grandes rivalités de CM Punk",
       "quickFacts": [
         {
@@ -614,7 +614,7 @@
       }
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
+      "title": "Ragnarok Origin Classic MyGM",
       "subtitle": "Gérez votre division avec une programmation et une stratégie plus approfondies",
       "quickFacts": [
         {
@@ -672,7 +672,7 @@
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
+      "title": "Ragnarok Origin Classic MyRISE",
       "subtitle": "Battez-vous pour revenir dans The Comeback",
       "quickFacts": [
         {
@@ -739,7 +739,7 @@
       ]
     },
     "universeMode": {
-      "title": "Mode Universe WWE 2K26",
+      "title": "Mode Universe Ragnarok Origin Classic",
       "subtitle": "Créez votre calendrier WWE de rêve avec un contrôle plus approfondi",
       "quickFacts": [
         {
@@ -783,7 +783,7 @@
       ]
     },
     "communityCreations": {
-      "title": "WWE 2K26 Créations de la communauté",
+      "title": "Ragnarok Origin Classic Créations de la communauté",
       "subtitle": "Créez du contenu personnalisé plus vaste et plus détaillé",
       "quickFacts": [
         {
@@ -831,7 +831,7 @@
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 The Island",
+      "title": "Ragnarok Origin Classic The Island",
       "subtitle": "Choose an Order and fight for control",
       "quickFacts": [
         {
@@ -894,7 +894,7 @@
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
+      "title": "Ragnarok Origin Classic MyFACTION",
       "subtitle": "Créez des effectifs plus puissants grâce à la chimie et au Quick Swap",
       "quickFacts": [
         {
@@ -938,7 +938,7 @@
       ]
     },
     "lockerCodes": {
-      "title": "Codes de vestiaire WWE 2K26",
+      "title": "Codes de vestiaire Ragnarok Origin Classic",
       "subtitle": "Utilisez les codes actifs pour des récompenses MyFACTION",
       "quickFacts": [
         {
@@ -965,15 +965,15 @@
         }
       ],
       "howToRedeem": [
-        "Ouvrez WWE 2K26 depuis le menu principal",
+        "Ouvrez Ragnarok Origin Classic depuis le menu principal",
         "Sélectionnez Codes de vestiaire",
         "Saisissez le code exactement comme il apparaît",
         "Utilisez le code et ouvrez vos packs dans MyFACTION"
       ]
     },
     "pcRequirements": {
-      "title": "Configuration PC pour WWE 2K26",
-      "subtitle": "Vérifiez si votre PC peut faire tourner WWE 2K26",
+      "title": "Configuration PC pour Ragnarok Origin Classic",
+      "subtitle": "Vérifiez si votre PC peut faire tourner Ragnarok Origin Classic",
       "quickFacts": [
         {
           "label": "Système d'exploitation",
@@ -1012,7 +1012,7 @@
       }
     },
     "arenas": {
-      "title": "Arènes WWE 2K26",
+      "title": "Arènes Ragnarok Origin Classic",
       "subtitle": "Explorez plus de 40 arènes à travers des lieux modernes, classiques et originaux",
       "quickFacts": [
         {
@@ -1088,7 +1088,7 @@
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLC et objets déblocables",
+      "title": "Ragnarok Origin Classic DLC et objets déblocables",
       "subtitle": "Suivez chaque parcours de récompense majeur après le lancement",
       "quickFacts": [
         {
@@ -1212,56 +1212,56 @@
   "faq": {
     "title": "Foire aux",
     "titleHighlight": "Questions",
-    "subtitle": "Tout ce que vous devez savoir sur WWE 2K26",
+    "subtitle": "Tout ce que vous devez savoir sur Ragnarok Origin Classic",
     "questions": [
       {
-        "question": "Quand sort WWE 2K26 ?",
-        "answer": "L'édition standard de WWE 2K26 sort le 13 mars 2026. Les éditions Deluxe bénéficient d'un accès anticipé à partir du 6 mars 2026."
+        "question": "Quand sort Ragnarok Origin Classic ?",
+        "answer": "L'édition standard de Ragnarok Origin Classic sort le 13 mars 2026. Les éditions Deluxe bénéficient d'un accès anticipé à partir du 6 mars 2026."
       },
       {
-        "question": "Combien de superstars y a-t-il dans WWE 2K26 ?",
-        "answer": "WWE 2K26 propose plus de 400 superstars jouables, incluant des légendes, le roster actuel et des personnages DLC."
+        "question": "Combien de superstars y a-t-il dans Ragnarok Origin Classic ?",
+        "answer": "Ragnarok Origin Classic propose plus de 400 superstars jouables, incluant des légendes, le roster actuel et des personnages DLC."
       },
       {
-        "question": "Sur quelles plateformes WWE 2K26 est-il disponible ?",
-        "answer": "WWE 2K26 est disponible sur PS5, Xbox Series X|S, Steam (PC) et Nintendo Switch 2."
+        "question": "Sur quelles plateformes Ragnarok Origin Classic est-il disponible ?",
+        "answer": "Ragnarok Origin Classic est disponible sur PS5, Xbox Series X|S, Steam (PC) et Nintendo Switch 2."
       },
       {
-        "question": "Comment utiliser les codes de vestiaire WWE 2K26 ?",
+        "question": "Comment utiliser les codes de vestiaire Ragnarok Origin Classic ?",
         "answer": "Allez dans le mode MyFACTION, sélectionnez le menu Code de vestiaire et saisissez le code. Consultez notre page de codes pour les derniers codes actifs."
       },
       {
-        "question": "Quels sont les nouveaux types de matchs dans WWE 2K26 ?",
-        "answer": "WWE 2K26 introduit 4 nouveaux types de matchs, dont l'Inferno Match, le Dumpster Match, le Three Stages of Hell et le I Quit Match."
+        "question": "Quels sont les nouveaux types de matchs dans Ragnarok Origin Classic ?",
+        "answer": "Ragnarok Origin Classic introduit 4 nouveaux types de matchs, dont l'Inferno Match, le Dumpster Match, le Three Stages of Hell et le I Quit Match."
       },
       {
-        "question": "Quels modes de jeu sont présents dans WWE 2K26 ?",
-        "answer": "WWE 2K26 inclut MyGM, MyRISE, le Mode Univers, Showcase (CM Punk), The Island, MyFACTION et la Creation Suite."
+        "question": "Quels modes de jeu sont présents dans Ragnarok Origin Classic ?",
+        "answer": "Ragnarok Origin Classic inclut MyGM, MyRISE, le Mode Univers, Showcase (CM Punk), The Island, MyFACTION et la Creation Suite."
       }
     ]
   },
   "cta": {
     "title": "Prêt à monter sur le ring ?",
-    "description": "Rejoignez la communauté WWE 2K26 sur Discord pour les mises à jour, les révélations du roster et les discussions sur le gameplay !",
+    "description": "Rejoignez la communauté Ragnarok Origin Classic sur Discord pour les mises à jour, les révélations du roster et les discussions sur le gameplay !",
     "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Acheter WWE 2K26"
+    "joinGame": "Acheter Ragnarok Origin Classic"
   },
   "footer": {
-    "title": "Wiki WWE 2K26",
-    "description": "Votre centre de ressources complet pour le roster, les notes, les codes de vestiaire, les types de match et les guides des modes de jeu de WWE 2K26.",
+    "title": "Wiki Ragnarok Origin Classic",
+    "description": "Votre centre de ressources complet pour le roster, les notes, les codes de vestiaire, les types de match et les guides des modes de jeu de Ragnarok Origin Classic.",
     "resources": "Ressources",
     "community": "Communauté",
     "legal": "Mentions légales",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Instagram",
+    "instagram": "Official Site",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 WWE 2K26 Wiki. Non affilié à 2K Sports, Visual Concepts ou WWE.",
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki. Non affilié à 2K Sports, Visual Concepts ou WWE.",
     "disclaimer": "Site de ressources non officiel créé par des fans."
   }
 }

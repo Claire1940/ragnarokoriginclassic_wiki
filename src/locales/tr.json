@@ -12,7 +12,7 @@
   },
   "nav": {},
   "common": {
-    "home": "Ana Sayfa",
+    "home": "Home",
     "more": "Daha Fazla",
     "playNow": "Demo İndir",
     "switchLanguage": "Dil Değiştir",
@@ -60,82 +60,82 @@
     "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
     "cards": [
       {
-        "icon": "İndir",
+        "icon": "Download",
         "title": "Demo İndirme",
         "description": "Ücretsiz Steam demosunu edinin"
       },
       {
-        "icon": "KitapAçık",
+        "icon": "BookOpen",
         "title": "Başlangıç Rehberi",
         "description": "Temel döngü ve yaygın tuzaklar"
       },
       {
-        "icon": "Kullanıcılar",
+        "icon": "Users",
         "title": "İşbirliği Rehberi",
         "description": "6 oyunculu roller ve kurtarma taktikleri"
       },
       {
-        "icon": "PanoKontrol",
+        "icon": "ClipboardCheck",
         "title": "Görevler & Amaçlar",
         "description": "Yüksek Cüce'nin sizden istedikleri"
       },
       {
-        "icon": "Klavye",
+        "icon": "Keyboard",
         "title": "Kontroller & Tuş Atamaları",
         "description": "Varsayılan tuşlar ve nasıl değiştirileceği"
       },
       {
-        "icon": "Kalkan",
+        "icon": "Shield",
         "title": "İçerik Ayarları",
         "description": "Yetişkinlere yönelik içerik ve geçiş seçenekleri"
       },
       {
-        "icon": "Çekiç",
+        "icon": "Hammer",
         "title": "Üretim & Ekipman",
         "description": "Çalınan malzemelerle donanın"
       },
       {
-        "icon": "Paket",
+        "icon": "Package",
         "title": "Ganimet & Eşyalar",
         "description": "Ne çalınır ve taşıma ipuçları"
       },
       {
-        "icon": "UyarıÜçgeni",
+        "icon": "AlertTriangle",
         "title": "Düşmanlar & Tehlikeler",
         "description": "Tehditler ve onlarla nasıl başa çıkılır"
       },
       {
-        "icon": "Göz",
+        "icon": "Eye",
         "title": "Gizlilik & Kaçış",
         "description": "Gizli kalın ve güvenli bir şekilde çıkış yapın"
       },
       {
-        "icon": "Ana Sayfa",
+        "icon": "Home",
         "title": "Ev Geliştirmeleri",
         "description": "Yüzen ada üssünüzü geliştirin"
       },
       {
-        "icon": "MesajDairesi",
+        "icon": "MessageCircle",
         "title": "Topluluk & Discord",
         "description": "Resmi bağlantılar ve grup bulma"
       },
       {
-        "icon": "Ayarlar",
+        "icon": "Settings",
         "title": "Modlar & BepInEx",
         "description": "Çerçeve ve mod kurulumunu yapın"
       },
       {
-        "icon": "Yıldız",
+        "icon": "Star",
         "title": "Popüler Modlar",
         "description": "En iyi topluluk seçimleri ve özellikleri"
       },
       {
-        "icon": "OyunKonsolu2",
+        "icon": "Gamepad2",
         "title": "Kontrol Cihazı Desteği",
         "description": "UI imleci ile tam gamepad oyunu"
       },
       {
-        "icon": "YükselişTrendi",
+        "icon": "TrendingUp",
         "title": "Oyuncu Sayısı & Trendi",
         "description": "Canlı istatistikler ve zirve takibi"
       }
@@ -205,17 +205,17 @@
         {
           "title": "Yakalanmak",
           "description": "Ev sahibi sizi kovalayacaktır. Saklanın, dikkat dağıtıcı unsurları kullanın ve kaçmak için görüş hattını kırın.",
-          "icon": "UyarıÜçgeni"
+          "icon": "AlertTriangle"
         },
         {
           "title": "Sürenin Bitmesi",
           "description": "Tornado zamanlayıcısı katıdır. Aşırı yağmalamak yerine erken bir şekilde çıkışa doğru ilerlemeye başlayın.",
-          "icon": "Saat"
+          "icon": "Clock"
         },
         {
           "title": "Takım Arkadaşlarını Görmezden Gelmek",
           "description": "Buzdolabı/fırın tuzaklarına yakalanan müttefikleri hızlıca kurtarın—kurtarmalar için hemen bağırın.",
-          "icon": "Kullanıcılar"
+          "icon": "Users"
         }
       ]
     },
@@ -227,22 +227,22 @@
         {
           "name": "Gözcü",
           "description": "Tehditleri kontrol edin, güvenli yolları işaretleyin ve takım hareketine rehberlik edin",
-          "icon": "Göz"
+          "icon": "Eye"
         },
         {
           "name": "Taşıyıcı",
           "description": "Sırt çantası geliştirmeleriyle ağır eşyalara odaklanın ve görev ilerlemesini güvence altına alın",
-          "icon": "Paket"
+          "icon": "Package"
         },
         {
           "name": "Dikkat Dağıtıcı",
           "description": "Güvenli pencereler oluşturmak için ev sahibini/evcil hayvanları takımdan uzağa çekin",
-          "icon": "Kullanıcılar"
+          "icon": "Users"
         },
         {
           "name": "Kurtarıcı",
           "description": "Tuzaktan kurtarma",
-          "icon": "Kalkan"
+          "icon": "Shield"
         }
       ],
       "threats": [
@@ -823,7 +823,7 @@
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Facebook",
     "steamCommunity": "Steam Topluluğu",
     "steamStore": "Steam Mağazası",
     "about": "Hakkında",

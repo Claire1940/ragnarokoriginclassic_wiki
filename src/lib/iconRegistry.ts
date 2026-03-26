@@ -28,7 +28,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
-  // WWE 2K26 模块图标
+  // 首页模块图标
   Calendar: LucideIcons.Calendar,
   Film: LucideIcons.Film,
   Briefcase: LucideIcons.Briefcase,
