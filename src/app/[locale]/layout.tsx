@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -22,18 +22,25 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
-
-	// 将 keywords 字符串分割为数组
-	const keywordsString = t('keywords')
-	const keywords = keywordsString.split(',').map(k => k.trim())
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.ragnarokoriginclassic.wiki'
+	const siteName = 'Ragnarok Origin Classic Wiki'
+	const title = 'Ragnarok Origin Classic Wiki - Codes, Classes & Builds'
+	const description = 'Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, beginner progression, platform info, and daily launch updates for PC, Android, and iOS.'
+	const keywords = [
+		'Ragnarok Origin Classic',
+		'ROOC',
+		'codes',
+		'classes',
+		'builds',
+		'guide',
+		'PC',
+		'Android',
+		'iOS',
+	]
 
 	return {
-		title: t('title'),
-		description: t('description'),
+		title,
+		description,
 		keywords: keywords,
 		robots: {
 			index: true,
@@ -50,24 +57,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'WWE 2K26 Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			siteName,
+			title,
+			description,
 			images: [
 				{
-					url: `${siteUrl}/og-image.jpg`,
+					url: `${siteUrl}/images/hero.webp`,
 					width: 1200,
 					height: 630,
-					alt: 'WWE 2K26 - Wrestling Simulation Game',
+					alt: 'Ragnarok Origin Classic Wiki hero image',
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/og-image.jpg`],
-			creator: '@WWEgames',
+			title,
+			description,
+			images: [`${siteUrl}/images/hero.webp`],
 		},
 		icons: {
 			icon: [

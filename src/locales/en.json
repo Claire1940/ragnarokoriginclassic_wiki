@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-      "description": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, MyGM, MyRISE, Universe, and The Island guides for PS5, Xbox, Steam, and Switch 2.",
-      "keywords": "WWE 2K26, WWE 2K26 roster, WWE 2K26 ratings, WWE 2K26 locker codes, WWE 2K26 MyGM",
-      "ogTitle": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-      "ogDescription": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, MyGM, MyRISE, Universe, and The Island guides for PS5, Xbox, Steam, and Switch 2.",
-      "twitterTitle": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-      "twitterDescription": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, and game mode guides."
+      "title": "Ragnarok Origin Classic Wiki - Codes, Classes & Builds",
+      "description": "Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, beginner progression, platform info, and daily launch updates for PC, Android, and iOS.",
+      "keywords": "Ragnarok Origin Classic, ROOC, codes, classes, builds, guide, PC, Android, iOS",
+      "ogTitle": "Ragnarok Origin Classic Wiki - Codes, Classes & Builds",
+      "ogDescription": "Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, beginner progression, platform info, and daily launch updates for PC, Android, and iOS.",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - Codes, Classes & Builds",
+      "twitterDescription": "Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, and platform guides."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Buy Now",
+    "playNow": "Visit Official Site",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -26,33 +26,33 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Official Wrestling Sim with 400+ Superstars",
-    "title": "WWE 2K26 Wiki",
-    "description": "Track the full roster, ratings, match types, editions, and mode guides for WWE 2K26, from CM Punk Showcase to The Island, MyGM, MyRISE, and Universe.",
-    "getFreeCodesCTA": "Get Free Codes",
-    "playOnRobloxCTA": "Buy WWE 2K26",
+    "badge": "Classic Cross-Platform Fantasy MMORPG",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "A classic-focused Ragnarok MMORPG with cross-platform play on PC and mobile, 14 transcendent 2nd jobs, 27 builds, Asia-wide servers, and a lighter monthly-pass progression model.",
+    "getFreeCodesCTA": "Check Gift Codes",
+    "playOnRobloxCTA": "Play on PC & Mobile",
     "stats": {
       "stat1": {
-        "value": "2026-03-13",
-        "label": "Standard Release"
+        "value": "Mar 26 2026",
+        "label": "Official Launch"
       },
       "stat2": {
-        "value": "400+",
-        "label": "Playable Superstars"
+        "value": "Android iOS Windows",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "40+",
-        "label": "Arenas"
+        "value": "14 Jobs 27 Builds",
+        "label": "Classes & Builds"
       },
       "stat4": {
-        "value": "4",
-        "label": "New Match Types"
+        "value": "203",
+        "label": "Costumes"
       }
     }
   },
   "gameFeature": {
-    "title": "WWE 2K26 Gameplay",
-    "description": "Experience the most authentic wrestling simulation with 400+ superstars and new match types!"
+    "title": "Ragnarok Origin Classic Overview",
+    "description": "Explore a classic Ragnarok MMORPG with cross-platform play, 14 jobs, 27 builds, and a lighter progression loop."
   },
   "tools": {
     "title": "WWE 2K26",
@@ -783,27 +783,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Step Into the Ring?",
-    "description": "Join the WWE 2K26 community on Discord for updates, roster reveals, and gameplay discussions!",
+    "title": "Ready to Explore ROOC?",
+    "description": "Join the Ragnarok Origin Classic Discord for updates, launch news, class discussions, and build sharing.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Buy WWE 2K26"
+    "joinGame": "Visit Official Site"
   },
   "footer": {
-    "title": "WWE 2K26 Wiki",
-    "description": "Your complete resource hub for WWE 2K26 roster, ratings, locker codes, match types, and game mode guides.",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "Your complete resource hub for Ragnarok Origin Classic codes, classes, builds, guides, and launch updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Instagram",
+    "instagram": "Official Site",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 WWE 2K26 Wiki. Not affiliated with 2K Sports, Visual Concepts, or WWE.",
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki. Not affiliated with Gravity or any official game partner.",
     "disclaimer": "Unofficial fan-made resource website."
   }
 }
