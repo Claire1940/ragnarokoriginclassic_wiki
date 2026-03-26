@@ -2,12 +2,12 @@
   "seo": {
     "home": {
       "title": "Ragnarok Origin Classic Wiki - Beginner Guides, Builds & Codes",
-      "description": "Ragnarok Origin Classic wiki for beginner routes, class picks, builds, guild play, codes, pets, and launch progression on PC, Android, iOS, and Windows.",
-      "keywords": "Ragnarok Origin Classic, ROOC, beginner guide, class guide, builds, codes, guild, PvP, pets, leveling",
+      "description": "Ragnarok Origin Classic wiki for beginner routes, daily routine, skill builds, class builds, guild play, codes, pets, and launch progression on PC, Android, iOS, and Windows.",
+      "keywords": "Ragnarok Origin Classic, ROOC, beginner guide, daily routine, skill builds, class builds, codes, guild, PvP, pets, leveling",
       "ogTitle": "Ragnarok Origin Classic Wiki - Beginner Guides, Builds & Codes",
-      "ogDescription": "Ragnarok Origin Classic wiki for beginner routes, class picks, builds, guild play, codes, pets, and launch progression on PC, Android, iOS, and Windows.",
+      "ogDescription": "Ragnarok Origin Classic wiki for beginner routes, daily routine, skill builds, class builds, guild play, codes, pets, and launch progression on PC, Android, iOS, and Windows.",
       "twitterTitle": "Ragnarok Origin Classic Wiki - Beginner Guides, Builds & Codes",
-      "twitterDescription": "Ragnarok Origin Classic wiki for beginner routes, class picks, builds, guild play, codes, and pets."
+      "twitterDescription": "Ragnarok Origin Classic wiki for beginner routes, daily routine, skill builds, class builds, guild play, codes, and pets."
     }
   },
   "nav": {},
@@ -28,7 +28,7 @@
   "hero": {
     "badge": "Classic Cross-Platform Fantasy MMORPG",
     "title": "Ragnarok Origin Classic Wiki",
-    "description": "A practical ROOC content hub for beginner routes, class picks, builds, guild play, codes, pets, and launch progression.",
+    "description": "A practical ROOC content hub for beginner routes, daily routine, skill builds, class builds, guild play, codes, pets, and launch progression.",
     "getFreeCodesCTA": "View Codes",
     "playOnRobloxCTA": "Visit Official Site",
     "stats": {
@@ -52,7 +52,7 @@
   },
   "gameFeature": {
     "title": "Ragnarok Origin Classic Overview",
-    "description": "Explore launch routes, class picks, builds, codes, guild play, and progression paths for Ragnarok Origin Classic."
+    "description": "Explore launch routes, daily routine, skill builds, class builds, codes, guild play, and progression paths for Ragnarok Origin Classic."
   },
   "tools": {
     "title": "Ragnarok Origin Classic",
@@ -398,90 +398,409 @@
         }
       ]
     },
-    "matchTypes": {
+    "dailyRoutine": {
       "title": "Ragnarok Origin Classic Daily Routine",
-      "subtitle": "Turn daily rewards, farming, and guild tasks into a simple repeatable loop.",
-      "matches": [
+      "subtitle": "A clean daily loop helps players keep leveling, farming, and unlocking systems without wasting limited combat time.",
+      "intro": "In Ragnarok Origin Classic, the fastest progress comes from doing the right things in the right order instead of grinding randomly. A good daily route usually starts with free rewards and story progress, then shifts into daily commissions, combat-time farming, bosses, and guild content.",
+      "items": [
         {
-          "name": "Main Quest",
-          "description": "Push story steps before random grinding so your account unlocks stay ahead."
+          "name": "Claim daily rewards first",
+          "priority": "Highest",
+          "frequency": "Daily login",
+          "details": "Collect daily rewards, event rewards, and battle pass freebies before starting long sessions.",
+          "why_it_matters": "This is the easiest source of early tickets, consumables, and progression materials.",
+          "icon": "Gift"
         },
         {
-          "name": "Daily Commissions",
-          "description": "Use the daily loop every day for steady EXP, job growth, and materials."
+          "name": "Push the main story until level-gated",
+          "priority": "Highest",
+          "frequency": "Daily until blocked",
+          "details": "Main quests remain the main source of early EXP, Job EXP, feature unlocks, and basic gear progression.",
+          "why_it_matters": "Story progression unlocks systems faster than random field grinding.",
+          "icon": "BookMarked"
         },
         {
-          "name": "Daily Rewards",
-          "description": "Claim login, event, and pass rewards before longer sessions begin."
+          "name": "Finish daily commissions",
+          "priority": "Highest",
+          "frequency": "Daily",
+          "details": "Daily commissions are quick repeatable quests that usually ask players to defeat monsters or complete small objectives.",
+          "why_it_matters": "They provide steady EXP, Zeny, and useful materials while fitting naturally into the daily loop.",
+          "icon": "ClipboardCheck"
         },
         {
-          "name": "Combat Time Farming",
-          "description": "Spend combat time on efficient mob loops instead of wandering."
+          "name": "Spend combat time efficiently",
+          "priority": "Highest",
+          "frequency": "Daily",
+          "details": "Use combat time on monsters you can kill quickly, ideally targets near your level or mobs tied to needed drops.",
+          "why_it_matters": "Combat time is one of the core efficiency systems for leveling, farming, and drop generation.",
+          "icon": "Clock3"
         },
         {
-          "name": "Guild Tasks",
-          "description": "Add guild rewards and long-term account value into the daily cycle."
+          "name": "Do daily activities and rotating event tasks",
+          "priority": "High",
+          "frequency": "Daily",
+          "details": "Regular daily activities and limited events add extra growth materials, bonus rewards, and seasonal progression.",
+          "why_it_matters": "These activities stack account value over time and are often the easiest way to keep up as F2P.",
+          "icon": "Sparkles"
         },
         {
-          "name": "Storage and Teleport",
-          "description": "Use convenience systems to cut travel waste and keep momentum high."
+          "name": "Hunt Mini and MVP bosses when possible",
+          "priority": "High",
+          "frequency": "Daily / opportunistic",
+          "details": "Mini and MVP boss content is tied to valuable drops such as rare materials, cards, and blueprints.",
+          "why_it_matters": "Boss content is one of the main ways to convert routine play into long-term gear progression.",
+          "icon": "Trophy"
+        },
+        {
+          "name": "Join guild activities",
+          "priority": "High",
+          "frequency": "Daily",
+          "details": "Guild quests and guild events add contribution rewards and extra account growth on top of solo play.",
+          "why_it_matters": "Guild participation is a repeatable source of progression that many new players skip too often.",
+          "icon": "Users"
+        },
+        {
+          "name": "Use the Handbook before free farming",
+          "priority": "Medium",
+          "frequency": "When stuck",
+          "details": "The Handbook helps players check upgrade materials, monster locations, and better farming targets.",
+          "why_it_matters": "It prevents wasted time when players hit story walls and need to pivot into efficient farming.",
+          "icon": "BookOpen"
         }
+      ],
+      "highlights": [
+        "Daily Commissions, combat time, and rewards should stay at the top of the loop.",
+        "Guild tasks and boss hunts add value that compounds over time.",
+        "The Handbook is the fastest way to recover when story progress slows down."
       ]
     },
-    "showcase": {
+    "skillBuilds": {
       "title": "Ragnarok Origin Classic Skill Builds",
-      "subtitle": "Skill point routes that keep farming fast and PvP pressure clean.",
-      "moments": [
+      "subtitle": "Skill-build traffic is highly practical because players usually search after choosing a class and wanting a clear direction.",
+      "intro": "Ragnarok Origin Classic build discussions online are already converging around recognizable skill packages rather than one universal point-spread for every player. The most stable homepage format is to show each advanced class with its main skill route, what the route is for, and the core tradeoff between farming, bossing, PvP, and budget friendliness.",
+      "items": [
         {
-          "title": "Farming Skill Builds",
-          "description": "Use safe AoE or ranged setups that keep clear speed high."
+          "job": "Sniper",
+          "build_name": "ADL / Falcon Route",
+          "core_skills": [
+            "Falcon-based trigger package",
+            "Auto-attack focused damage",
+            "High ASPD support skills"
+          ],
+          "best_for": "Early to midgame farming, steady ranged DPS, general PvE",
+          "notes": "Online build coverage for Sniper consistently highlights ADL and Falcon-oriented setups as one of the most common ranged DPS routes.",
+          "icon": "Feather"
         },
         {
-          "title": "PvP Skill Builds",
-          "description": "Prioritize burst, control, and escape tools for arena play."
+          "job": "Sniper",
+          "build_name": "Trapper Route",
+          "core_skills": [
+            "Trap-focused control skills",
+            "Area denial tools",
+            "Setup-oriented burst"
+          ],
+          "best_for": "Situational PvE and utility-heavy play",
+          "notes": "Trapper is commonly presented as the alternative to ADL for players who prefer setup damage instead of constant auto attacks.",
+          "icon": "Target"
+        },
+        {
+          "job": "Lord Knight",
+          "build_name": "Pierce / Clashing Spiral Route",
+          "core_skills": [
+            "Pierce",
+            "Clashing Spiral",
+            "Single-target melee burst tools"
+          ],
+          "best_for": "Bossing, elite targets, front-line DPS",
+          "notes": "Current build coverage repeatedly separates Lord Knight between Pierce, Clashing Spiral, Bash, and Crit-based directions.",
+          "icon": "Swords"
+        },
+        {
+          "job": "High Wizard",
+          "build_name": "Meteor Storm / Gravitational Field Route",
+          "core_skills": [
+            "Meteor Storm",
+            "Gravitational Field",
+            "AoE spell damage package"
+          ],
+          "best_for": "AoE grinding, party damage, screen-wide control",
+          "notes": "High Wizard discussions consistently frame the class around choosing between its main AoE spell identities.",
+          "icon": "Orbit"
+        },
+        {
+          "job": "Paladin",
+          "build_name": "Holy Cross / Sacrifice / Shield Route",
+          "core_skills": [
+            "Holy Cross",
+            "Sacrifice",
+            "Shield-based skill package"
+          ],
+          "best_for": "Tanky frontline play with flexible PvE and PvP options",
+          "notes": "Paladin is one of the clearest examples of a class with multiple viable skill identities instead of a single default path.",
+          "icon": "Shield"
+        },
+        {
+          "job": "Professor",
+          "build_name": "Autocast / Psychic Wave / SP Route",
+          "core_skills": [
+            "Psychic Wave",
+            "Autocast interaction package",
+            "SP-scaling skill route"
+          ],
+          "best_for": "Magic DPS players who want either consistent casting or more experimental proc-based gameplay",
+          "notes": "Professor build coverage currently focuses on three recognizable routes: Autocast, Psychic Wave, and SP-focused variants.",
+          "icon": "Brain"
+        },
+        {
+          "job": "Biochemist",
+          "build_name": "Acid Demonstration / Hellplant Route",
+          "core_skills": [
+            "Acid Demonstration",
+            "Hellplant",
+            "Ranged utility and damage tools"
+          ],
+          "best_for": "Players who want a Merchant branch with strong offensive identity",
+          "notes": "Biochemist build videos consistently compare Acid Demonstration and Hellplant as the two headline directions.",
+          "icon": "FlaskConical"
+        },
+        {
+          "job": "High Priest",
+          "build_name": "Full Support / Exorcist Route",
+          "core_skills": [
+            "Support buff package",
+            "Healing toolkit",
+            "PvE holy-damage option"
+          ],
+          "best_for": "Party support, safer leveling, utility-heavy progression",
+          "notes": "High Priest coverage commonly splits between traditional full-support play and more damage-oriented PvE variants.",
+          "icon": "HeartHandshake"
         }
+      ],
+      "highlights": [
+        "Ragnarok Origin Classic build coverage is strongest when each class route gets a clear role label.",
+        "Sniper, Lord Knight, Wizard, and Priest are especially easy for players to compare at a glance.",
+        "Showing the skill route, role, and tradeoff together makes the section more useful than a simple list."
       ]
     },
-    "mygm": {
+    "classBuilds": {
       "title": "Ragnarok Origin Classic Class Builds",
-      "subtitle": "Build paths that pair with farming, bossing, and competitive pressure.",
-      "features": [
+      "subtitle": "Players do not only search for skill trees. They also want a full build direction that combines role, farming comfort, power curve, and stat emphasis.",
+      "intro": "The most useful homepage version of class builds is not an overlong theorycraft wall. It is a fast overview that tells players what each class archetype actually feels like, what kind of content it suits, and why someone would pick it over a competing job path. For Ragnarok Origin Classic, the strongest publicly documented archetypes already revolve around ranged farming, front-line melee burst, magic AoE, hybrid tank builds, and specialized late-job branches.",
+      "items": [
         {
-          "title": "Farming Build",
-          "description": "Lean into clear speed and stable stat spreads for routine grinding."
+          "class_name": "Sniper",
+          "archetype": "ADL / Falcon",
+          "role": "Ranged sustained DPS",
+          "focus": "Attack speed, auto-attack uptime, Falcon synergy",
+          "best_for": [
+            "Farming",
+            "Open-world grinding",
+            "General PvE"
+          ],
+          "strengths": [
+            "Safe ranged play",
+            "Strong early usability",
+            "Popular beginner-friendly damage route"
+          ],
+          "icon": "Feather"
         },
         {
-          "title": "Boss Build",
-          "description": "Use burst, sustain, and role utility for MVP fights."
+          "class_name": "Sniper",
+          "archetype": "Trapper",
+          "role": "Control-oriented ranged DPS",
+          "focus": "Trap setup, positional play, area denial",
+          "best_for": [
+            "Situational PvE",
+            "Utility-based encounters"
+          ],
+          "strengths": [
+            "Different pacing from ADL",
+            "Can punish grouped enemies",
+            "Useful for players who prefer setup gameplay"
+          ],
+          "icon": "Target"
         },
         {
-          "title": "PvP Build",
-          "description": "Prioritize pressure, control, and survivability for arena play."
+          "class_name": "Lord Knight",
+          "archetype": "Pierce / Clashing Spiral",
+          "role": "Front-line melee DPS",
+          "focus": "Single-target burst, weapon scaling, aggressive boss pressure",
+          "best_for": [
+            "Bossing",
+            "Elite enemies",
+            "Party front-line damage"
+          ],
+          "strengths": [
+            "Strong burst identity",
+            "Reliable melee progression path",
+            "Clear high-damage specialization"
+          ],
+          "icon": "Swords"
+        },
+        {
+          "class_name": "High Wizard",
+          "archetype": "Meteor Storm / Gravitational Field",
+          "role": "AoE caster DPS",
+          "focus": "Spell burst, area coverage, magic scaling",
+          "best_for": [
+            "AoE farming",
+            "Party content",
+            "Wave clearing"
+          ],
+          "strengths": [
+            "Strong screen control",
+            "Fast multi-target clearing",
+            "Classic mage power fantasy"
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "class_name": "Paladin",
+          "archetype": "Holy Cross / Shield / Sacrifice",
+          "role": "Tank-bruiser hybrid",
+          "focus": "Durability plus flexible offensive options",
+          "best_for": [
+            "Front-line party play",
+            "PvP experiments",
+            "Safer progression"
+          ],
+          "strengths": [
+            "Can play tanky without feeling passive",
+            "Multiple viable directions",
+            "Good for players who like survivability"
+          ],
+          "icon": "Shield"
+        },
+        {
+          "class_name": "Professor",
+          "archetype": "Psychic Wave / Autocast / SP",
+          "role": "Technical magic DPS",
+          "focus": "Magic scaling, proc interactions, specialized resource-based damage",
+          "best_for": [
+            "Players who want flexible mage builds",
+            "Experimentation",
+            "Mid-to-late game optimization"
+          ],
+          "strengths": [
+            "Several distinct late-job routes",
+            "Can pivot between styles",
+            "High build identity"
+          ],
+          "icon": "Brain"
+        },
+        {
+          "class_name": "Biochemist",
+          "archetype": "Acid Demonstration / Hellplant",
+          "role": "Merchant-branch offensive specialist",
+          "focus": "Skill-driven ranged damage with class-specific utility",
+          "best_for": [
+            "Players who want Merchant progression with real damage presence",
+            "Specialized PvE"
+          ],
+          "strengths": [
+            "Unique class identity",
+            "Multiple offensive routes",
+            "Good branch for players tired of basic support expectations"
+          ],
+          "icon": "FlaskConical"
+        },
+        {
+          "class_name": "High Priest",
+          "archetype": "Full Support / PvE Exorcist",
+          "role": "Healer-support or holy-damage support",
+          "focus": "Buffs, healing, sustain, optional PvE damage direction",
+          "best_for": [
+            "Parties",
+            "Support mains",
+            "Safe account progression"
+          ],
+          "strengths": [
+            "Always useful in group play",
+            "Low-risk progression choice",
+            "Flexible enough to branch into more active PvE setups"
+          ],
+          "icon": "HeartHandshake"
         }
+      ],
+      "highlights": [
+        "A clean class-build section should tell players the role, the feel, and the payoff quickly.",
+        "The strongest ROOC archetypes are already easy to group by farming, bossing, PvP, and support value.",
+        "This section stays useful even when players are only comparing two or three favorite jobs."
       ]
     },
-    "myrise": {
+    "gearProgression": {
       "title": "Ragnarok Origin Classic Gear Progression",
-      "subtitle": "Spend resources where they improve survival and farming speed the most.",
-      "divisions": [
+      "subtitle": "Players often get stuck once raw leveling slows down and they are no longer sure what to refine, buy, or farm next.",
+      "intro": "Ragnarok Origin Classic character power is built through several linked systems rather than a single equipment screen. Public beginner and progression guides already point to a consistent growth order: refine core gear efficiently, fill feather slots early, use pets to improve combat output, add cards for damage and utility, and spend shop currencies on long-term value instead of random upgrades.",
+      "items": [
         {
-          "name": "Early Gear Path",
-          "goal": "Craft the first class weapon, then stabilize armor and accessories before luxury upgrades.",
-          "opponents": [
-            "Weapon first",
-            "Armor next",
-            "Accessories after"
-          ]
+          "stage": "Refine Start",
+          "focus": "Weapon +6, then accessories +6",
+          "details": "Current progression guidance recommends starting with the weapon and core accessories before spreading resources too thin.",
+          "why_now": "This is the most efficient early power jump.",
+          "icon": "Wrench"
         },
         {
-          "name": "Refinement Priorities",
-          "goal": "Avoid overrefining early and keep materials focused on core pieces.",
-          "opponents": [
-            "Do not overrefine",
-            "Save upgrade materials",
-            "Track your main damage piece"
-          ]
+          "stage": "Full Set Baseline",
+          "focus": "Bring the full set to +6",
+          "details": "After the first weapon and accessory upgrades, round out the rest of the equipment so the character is not overinvested in only one slot.",
+          "why_now": "Balanced refine value improves overall consistency.",
+          "icon": "Package"
+        },
+        {
+          "stage": "Midgame Refine Push",
+          "focus": "Weapon +10, then accessories +10",
+          "details": "Once a stable +6 baseline is set, weapon and accessories become the main refine targets again.",
+          "why_now": "The next meaningful damage spike usually comes from higher refine thresholds.",
+          "icon": "ArrowUpRight"
+        },
+        {
+          "stage": "Long-Term Refine Goal",
+          "focus": "Gradually push weapon toward +15",
+          "details": "Advanced refine effects and stronger scaling become more relevant at higher thresholds.",
+          "why_now": "This is one of the clearest long-term investment tracks for account strength.",
+          "icon": "TrendingUp"
+        },
+        {
+          "stage": "Feather Setup",
+          "focus": "Fill all 5 feather slots early",
+          "details": "Feathers provide major stat layers such as Attack, Defense, Damage Boost, and Damage Reduction.",
+          "why_now": "A complete feather setup matters more early than over-upgrading one weak feather.",
+          "icon": "Feather"
+        },
+        {
+          "stage": "Feather Rule",
+          "focus": "Do not overinvest in low-tier feathers",
+          "details": "Set effects are determined by the lowest-rarity feather equipped, so early efficiency comes from coverage first, deep investment later.",
+          "why_now": "This avoids wasting resources on temporary pieces.",
+          "icon": "Layers3"
+        },
+        {
+          "stage": "Pet Progression",
+          "focus": "Upgrade pet level and tier",
+          "details": "Pet growth in Classic is simplified around level and tier, and pets are positioned as a major help for early and midgame farming.",
+          "why_now": "Pets add practical combat value without requiring a fully finished gear setup first.",
+          "icon": "PawPrint"
+        },
+        {
+          "stage": "Card Progression",
+          "focus": "Prioritize damage and utility cards first",
+          "details": "Cards are sourced from systems such as Monster Annihilation and shop exchange, and are commonly treated as an efficiency layer for farming and combat performance.",
+          "why_now": "Cards improve build identity and help speed up routine content.",
+          "icon": "BadgeDollarSign"
+        },
+        {
+          "stage": "Shop Priority",
+          "focus": "Spend shops on long-term value",
+          "details": "Gold Shop priority starts with feather selection boxes and refine materials; Social Shop prioritizes feathers, then gold, then Blue Star Coin; Pet Shop prioritizes Epic and Legendary fragments; Card Shop specifically highlights Tanuki Card as an early priority.",
+          "why_now": "Correct shop spending keeps progression clean for F2P and light spenders.",
+          "icon": "Store"
         }
+      ],
+      "highlights": [
+        "Ragnarok Origin Classic gear growth works best when refine, feathers, pets, cards, and shops all move together.",
+        "Early efficiency comes from complete coverage, not from overinvesting in a single slot too soon.",
+        "Long-term value decisions matter more than chasing small short-term upgrades."
       ]
     },
     "universeMode": {

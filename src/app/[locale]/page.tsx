@@ -4,10 +4,33 @@ import { useEffect, useState, Suspense, lazy } from 'react'
 import Link from 'next/link'
 import {
   ArrowRight,
+  ArrowUpRight,
+  BadgeDollarSign,
+  Brain,
+  BookMarked,
+  BookOpen,
   Check,
+  ChevronDown,
+  ClipboardCheck,
   Copy,
+  Clock3,
+  Feather,
   Gift,
+  FlaskConical,
+  HeartHandshake,
+  Layers3,
+  Orbit,
+  Package,
+  PawPrint,
   Sparkles,
+  Shield,
+  Swords,
+  Store,
+  Target,
+  Trophy,
+  TrendingUp,
+  Users,
+  Wrench,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -42,7 +65,7 @@ export default function HomePage() {
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
         name: siteName,
-        description: 'ROOC wiki hub covering beginner routes, class picks, builds, guild play, codes, pets, and launch progression.',
+        description: 'ROOC wiki hub covering beginner routes, daily routine, skill builds, class builds, guild play, codes, and pets.',
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
@@ -62,7 +85,7 @@ export default function HomePage() {
         name: siteName,
         alternateName: 'ROOC Wiki',
         url: siteUrl,
-        description: 'ROOC wiki resource hub for beginner guides, class picks, build paths, guild play, codes, and pets.',
+        description: 'ROOC wiki resource hub for beginner guides, daily routine, skill builds, class builds, guild play, codes, and pets.',
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -100,6 +123,52 @@ export default function HomePage() {
 
   // Copy state
   const [copiedPath, setCopiedPath] = useState<string | null>(null)
+  const [expandedBuild, setExpandedBuild] = useState<string>('Sniper-ADL / Falcon Route')
+
+  const dailyRoutineIcons = [
+    Gift,
+    BookMarked,
+    ClipboardCheck,
+    Clock3,
+    Sparkles,
+    Trophy,
+    Users,
+    BookOpen,
+  ]
+
+  const skillBuildIcons = [
+    Feather,
+    Target,
+    Swords,
+    Orbit,
+    Shield,
+    Brain,
+    FlaskConical,
+    HeartHandshake,
+  ]
+
+  const classBuildIcons = [
+    Feather,
+    Target,
+    Swords,
+    Sparkles,
+    Shield,
+    Brain,
+    FlaskConical,
+    HeartHandshake,
+  ]
+
+  const gearProgressIcons = [
+    Wrench,
+    Package,
+    ArrowUpRight,
+    TrendingUp,
+    Feather,
+    Layers3,
+    PawPrint,
+    BadgeDollarSign,
+    Store,
+  ]
 
   const copyToClipboard = async (text: string) => {
     try {
@@ -271,7 +340,7 @@ export default function HomePage() {
               // 映射卡片索引到 section ID
               const sectionIds = [
                 'release-editions', 'roster', 'ratings', 'controls',
-                'match-types', 'showcase', 'mygm', 'myrise',
+                'daily-routine', 'skill-builds', 'class-builds', 'gear-progression',
                 'universe-mode', 'community-creations', 'the-island', 'myfaction',
                 'locker-codes', 'pc-requirements', 'arenas', 'dlc-unlockables'
               ]
@@ -475,56 +544,276 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 5: Match Types */}
-      <section id="match-types" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      {/* Module 5: Daily Routine */}
+      <section id="daily-routine" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.matchTypes.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.matchTypes.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.dailyRoutine.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {t.modules.dailyRoutine.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.matchTypes.matches.map((match: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{match.name}</h3>
-                <p className="text-sm text-muted-foreground">{match.description}</p>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[1.05fr_0.95fr] gap-8 mb-10">
+            <div className="rounded-3xl border border-[hsl(var(--nav-theme)/0.18)] bg-gradient-to-br from-card to-muted/20 p-8 shadow-[0_24px_80px_hsl(var(--nav-theme)/0.08)]">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                  <Clock3 className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">Priority flow</h3>
+                  <p className="text-sm text-muted-foreground">Ragnarok Origin Classic daily rhythm</p>
+                </div>
               </div>
-            ))}
+              <p className="text-muted-foreground leading-relaxed">
+                {t.modules.dailyRoutine.intro}
+              </p>
+              <div className="mt-6 space-y-3">
+                {t.modules.dailyRoutine.highlights.map((highlight: string, index: number) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 rounded-2xl border border-[hsl(var(--nav-theme)/0.14)] bg-background/60 p-4"
+                  >
+                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                    <p className="text-sm text-foreground">{highlight}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-[hsl(var(--gold)/0.35)] bg-gradient-to-br from-[hsl(var(--gold)/0.08)] to-card p-8 shadow-[0_24px_80px_rgba(251,191,36,0.12)]">
+              <h3 className="text-2xl font-bebas text-gold-gradient mb-5">First four priorities</h3>
+              <div className="space-y-4">
+                {t.modules.dailyRoutine.items.slice(0, 4).map((item: any, index: number) => (
+                  <div
+                    key={item.name}
+                    className="flex items-center gap-4 rounded-2xl bg-background/70 p-4"
+                  >
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] text-sm font-bebas text-white">
+                      {index + 1}
+                    </div>
+                    <div>
+                      <div className="font-semibold">{item.name}</div>
+                      <div className="text-xs text-muted-foreground">{item.frequency}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.dailyRoutine.items.map((item: any, i: number) => {
+              const DailyIcon = dailyRoutineIcons[i]
+
+              return (
+                <div
+                  key={item.name}
+                  className="group rounded-3xl border-2 border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                >
+                  <div className="mb-4 flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                      <DailyIcon className="h-6 w-6" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="mb-2 flex flex-wrap gap-2">
+                        <span className="rounded-full bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                          {item.priority}
+                        </span>
+                        <span className="rounded-full border border-[hsl(var(--gold)/0.35)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                          {item.frequency}
+                        </span>
+                      </div>
+                      <h3 className="text-xl font-bebas text-foreground">{item.name}</h3>
+                    </div>
+                  </div>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{item.details}</p>
+                  <div className="mt-5 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4">
+                    <p className="mb-2 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                      Why it matters
+                    </p>
+                    <p className="text-sm leading-relaxed">{item.why_it_matters}</p>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
 
-      {/* Module 6: Showcase */}
-      <section id="showcase" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      {/* Module 6: Skill Builds */}
+      <section id="skill-builds" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.showcase.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.showcase.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.skillBuilds.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {t.modules.skillBuilds.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.showcase.moments.map((moment: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{moment.title}</h3>
-                <p className="text-sm text-muted-foreground">{moment.description}</p>
-              </div>
-            ))}
+
+          <div className="mx-auto mb-8 max-w-5xl rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card/90 p-8 shadow-[0_20px_60px_hsl(var(--nav-theme)/0.08)]">
+            <p className="text-muted-foreground leading-relaxed">
+              {t.modules.skillBuilds.intro}
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            {t.modules.skillBuilds.items.map((build: any, i: number) => {
+              const BuildIcon = skillBuildIcons[i]
+              const buildKey = `${build.job}-${build.build_name}`
+              const isOpen = expandedBuild === buildKey
+
+              return (
+                <button
+                  key={buildKey}
+                  type="button"
+                  onClick={() => setExpandedBuild(isOpen ? '' : buildKey)}
+                  className="group w-full rounded-3xl border-2 border-border bg-card p-6 text-left transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                  aria-expanded={isOpen}
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                      <BuildIcon className="h-6 w-6" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="mb-2 flex flex-wrap items-center gap-3">
+                        <h3 className="text-2xl font-bebas text-foreground">{build.job}</h3>
+                        <span className="rounded-full bg-[hsl(var(--gold)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                          {build.build_name}
+                        </span>
+                      </div>
+                      <p className="text-sm leading-relaxed text-muted-foreground">{build.best_for}</p>
+                    </div>
+                    <ChevronDown
+                      className={`mt-1 h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform duration-300 ${
+                        isOpen ? 'rotate-180' : ''
+                      }`}
+                    />
+                  </div>
+
+                  <div
+                    className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                      isOpen ? 'mt-6 max-h-[420px] opacity-100' : 'max-h-0 opacity-0'
+                    }`}
+                  >
+                    <div className="grid gap-4 md:grid-cols-2">
+                      <div className="rounded-2xl bg-muted/50 p-5">
+                        <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                          Core skills
+                        </p>
+                        <ul className="space-y-2">
+                          {build.core_skills.map((skill: string, skillIndex: number) => (
+                            <li key={skillIndex} className="flex items-start gap-2 text-sm text-foreground">
+                              <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                              <span>{skill}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div className="rounded-2xl bg-muted/50 p-5">
+                        <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                          Build note
+                        </p>
+                        <p className="text-sm leading-relaxed text-muted-foreground">{build.notes}</p>
+                      </div>
+                    </div>
+                  </div>
+                </button>
+              )
+            })}
           </div>
         </div>
       </section>
 
       {/* Module 7: Class Builds */}
-      <section id="mygm" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+      <section id="class-builds" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.mygm.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.mygm.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.classBuilds.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {t.modules.classBuilds.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.mygm.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
-              </div>
-            ))}
+
+          <div className="mx-auto mb-10 max-w-5xl rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card/90 p-8 shadow-[0_20px_60px_hsl(var(--nav-theme)/0.08)]">
+            <p className="text-muted-foreground leading-relaxed">
+              {t.modules.classBuilds.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.classBuilds.items.map((build: any, i: number) => {
+              const ClassIcon = classBuildIcons[i]
+
+              return (
+                <div
+                  key={`${build.class_name}-${build.archetype}`}
+                  className="group rounded-3xl border-2 border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                >
+                  <div className="mb-5 flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                      <ClassIcon className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bebas text-foreground">{build.class_name}</h3>
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))]">{build.archetype}</p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-4">
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                        Role
+                      </p>
+                      <p className="text-sm text-foreground">{build.role}</p>
+                    </div>
+                    <div>
+                      <p className="mb-2 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                        Focus
+                      </p>
+                      <p className="text-sm leading-relaxed text-muted-foreground">{build.focus}</p>
+                    </div>
+                    <div className="rounded-2xl bg-muted/50 p-4">
+                      <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                        Best for
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {build.best_for.map((tag: string, tagIndex: number) => (
+                          <span
+                            key={tagIndex}
+                            className="rounded-full border border-[hsl(var(--nav-theme)/0.14)] bg-background/70 px-3 py-1 text-xs text-foreground"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] p-4">
+                      <p className="mb-3 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                        Strengths
+                      </p>
+                      <ul className="space-y-2">
+                        {build.strengths.map((strength: string, strengthIndex: number) => (
+                          <li key={strengthIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme))]" />
+                            <span>{strength}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -537,24 +826,57 @@ export default function HomePage() {
       />
 
       {/* Module 8: Gear Progression */}
-      <section id="myrise" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+      <section id="gear-progression" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myrise.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myrise.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.gearProgression.title}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">
+              {t.modules.gearProgression.subtitle}
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.myrise.divisions.map((division: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{division.name}</h3>
-                <p className="text-sm text-muted-foreground mb-4">{division.goal}</p>
-                <div className="flex flex-wrap gap-2">
-                  {division.opponents.map((opponent: string, j: number) => (
-                    <span key={j} className="px-3 py-1 rounded-full bg-muted text-xs">{opponent}</span>
-                  ))}
+
+          <div className="mx-auto mb-10 max-w-5xl rounded-3xl border border-[hsl(var(--nav-theme)/0.14)] bg-card/90 p-8 shadow-[0_20px_60px_hsl(var(--nav-theme)/0.08)]">
+            <p className="text-muted-foreground leading-relaxed">
+              {t.modules.gearProgression.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+            {t.modules.gearProgression.items.map((stage: any, i: number) => {
+              const GearIcon = gearProgressIcons[i]
+
+              return (
+                <div
+                  key={stage.stage}
+                  className="group rounded-3xl border-2 border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-[0_16px_36px_hsl(var(--nav-theme)/0.12)]"
+                >
+                  <div className="mb-4 flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-transform duration-300 group-hover:scale-105">
+                      <GearIcon className="h-6 w-6" />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="mb-2 flex flex-wrap items-center gap-3">
+                        <span className="rounded-full bg-[hsl(var(--gold)/0.12)] px-3 py-1 text-xs font-semibold text-[hsl(var(--gold))]">
+                          Step {i + 1}
+                        </span>
+                        <h3 className="text-xl font-bebas text-foreground">{stage.stage}</h3>
+                      </div>
+                      <p className="text-sm leading-relaxed text-[hsl(var(--nav-theme-light))]">{stage.focus}</p>
+                    </div>
+                  </div>
+                  <p className="text-sm leading-relaxed text-muted-foreground">{stage.details}</p>
+                  <div className="mt-5 rounded-2xl border border-[hsl(var(--nav-theme)/0.12)] bg-muted/40 p-4">
+                    <p className="mb-2 text-xs uppercase tracking-[0.22em] text-[hsl(var(--nav-theme-light))]">
+                      Why now
+                    </p>
+                    <p className="text-sm leading-relaxed text-foreground">{stage.why_now}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
