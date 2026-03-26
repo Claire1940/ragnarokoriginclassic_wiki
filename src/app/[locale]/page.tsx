@@ -3,28 +3,11 @@
 import { useEffect, useState, Suspense, lazy } from 'react'
 import Link from 'next/link'
 import {
-  AlertTriangle,
   ArrowRight,
   Check,
-  ChevronDown,
-  ClipboardCheck,
-  Clock,
   Copy,
-  Download,
-  ExternalLink,
-  Gamepad2,
   Gift,
-  Hammer,
-  Home,
-  Keyboard,
-  MessageCircle,
-  Package,
-  Shield,
   Sparkles,
-  Star,
-  TrendingUp,
-  Users,
-  X
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -59,7 +42,7 @@ export default function HomePage() {
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
         name: siteName,
-        description: 'Complete Ragnarok Origin Classic resource hub with codes, classes, builds, beginner guides, and launch updates.',
+        description: 'ROOC wiki hub covering beginner routes, class picks, builds, guild play, codes, pets, and launch progression.',
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
@@ -79,7 +62,7 @@ export default function HomePage() {
         name: siteName,
         alternateName: 'ROOC Wiki',
         url: siteUrl,
-        description: 'Complete Ragnarok Origin Classic Wiki resource hub for codes, classes, builds, and guides',
+        description: 'ROOC wiki resource hub for beginner guides, class picks, build paths, guild play, codes, and pets.',
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -107,7 +90,7 @@ export default function HomePage() {
         alternateName: 'ROOC',
         url: officialSite,
         image: `${siteUrl}/images/hero.webp`,
-        description: 'Classic Ragnarok MMORPG with cross-platform play on PC and mobile.',
+        description: 'Classic Ragnarok MMORPG with cross-platform play on Android, iOS, and Windows.',
         gamePlatform: ['Android', 'iOS', 'Windows'],
         applicationCategory: 'Game',
         genre: ['MMORPG', 'Fantasy', 'RPG'],
@@ -254,10 +237,10 @@ export default function HomePage() {
         <div className="scroll-reveal container mx-auto">
           <div className="relative rounded-2xl overflow-hidden">
               <VideoFeature
-              videoId="ltKiwPIe4TI"
-              title="Ragnarok Origin Classic丨Game Preview丨03/26 Official Launch"
-              posterImage="/images/hero.webp"
-            />
+                videoId="ltKiwPIe4TI"
+                title="Ragnarok Origin Classic丨Official Launch Trailer丨03/26"
+                posterImage="/images/hero.webp"
+              />
           </div>
         </div>
       </section>
@@ -429,7 +412,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Men&apos;s Top 10</h3>
+              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">{t.modules.ratings.leftTitle}</h3>
               <div className="space-y-3">
                 {t.modules.ratings.menTopRated.map((superstar: any, i: number) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
@@ -443,7 +426,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Women&apos;s Top 10</h3>
+              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">{t.modules.ratings.rightTitle}</h3>
               <div className="space-y-3">
                 {t.modules.ratings.womenTopRated.map((superstar: any, i: number) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
@@ -528,7 +511,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 7: MyGM */}
+      {/* Module 7: Class Builds */}
       <section id="mygm" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -553,7 +536,7 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 8: MyRISE */}
+      {/* Module 8: Gear Progression */}
       <section id="myrise" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -576,7 +559,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 9: Universe Mode */}
+      {/* Module 9: Zeny Farming */}
       <section id="universe-mode" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -630,7 +613,7 @@ export default function HomePage() {
             {t.modules.theIsland.orders.map((order: any, i: number) => (
               <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
                 <h3 className="text-xl font-bold mb-2 text-[hsl(var(--nav-theme))]">{order.name}</h3>
-                <p className="text-sm text-muted-foreground mb-3">Leader: {order.leader}</p>
+                <p className="text-sm text-muted-foreground mb-3">{t.modules.theIsland.leaderLabel}: {order.leader}</p>
                 <p className="text-sm">{order.description}</p>
               </div>
             ))}
@@ -646,7 +629,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 12: MyFACTION */}
+      {/* Module 12: War of Emperium Guide */}
       <section id="myfaction" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
@@ -664,7 +647,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 13: Locker Codes */}
+      {/* Module 13: Codes */}
       <section id="locker-codes" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12">
@@ -713,7 +696,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 广告位 8: 方形广告 300×250 - Locker Codes 下方 */}
+      {/* 广告位 8: 方形广告 300×250 - Codes 下方 */}
       <AdBanner
         type="banner-300x250"
         adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
@@ -732,24 +715,24 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-xl font-bebas mb-4 text-[hsl(var(--nav-theme))]">Minimum</h3>
+              <h3 className="text-xl font-bebas mb-4 text-[hsl(var(--nav-theme))]">{t.modules.pcRequirements.minimumTitle}</h3>
               <dl className="space-y-3">
-                <div><dt className="text-sm text-muted-foreground">OS</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.os}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Processor</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.processor}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Memory</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.memory}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Graphics</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.graphics}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Storage</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.storage}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Join Timing</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.os}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Core Roles</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.processor}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Guild Tasks</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.memory}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">WoE Prep</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.graphics}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Daily Value</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.storage}</dd></div>
               </dl>
             </div>
             <div className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.5)] hover:border-[hsl(var(--gold))] transition-all duration-300 glow-gold relative overflow-hidden">
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-[hsl(var(--gold))] to-[hsl(var(--gold-dark))] text-white text-xs font-bebas">RECOMMENDED</div>
-              <h3 className="text-xl font-bebas mb-4 text-gold-gradient">Recommended</h3>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-[hsl(var(--gold))] to-[hsl(var(--gold-dark))] text-white text-xs font-bebas">BEST VALUE</div>
+              <h3 className="text-xl font-bebas mb-4 text-gold-gradient">{t.modules.pcRequirements.recommendedTitle}</h3>
               <dl className="space-y-3">
-                <div><dt className="text-sm text-muted-foreground">OS</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.os}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Processor</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.processor}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Memory</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.memory}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Graphics</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.graphics}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Storage</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.storage}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Join Timing</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.os}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Core Roles</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.processor}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Guild Tasks</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.memory}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">WoE Prep</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.graphics}</dd></div>
+                <div><dt className="text-sm text-muted-foreground">Daily Value</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.storage}</dd></div>
               </dl>
             </div>
           </div>

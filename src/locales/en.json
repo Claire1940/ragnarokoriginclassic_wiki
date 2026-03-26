@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Ragnarok Origin Classic Wiki - Codes, Classes & Builds",
-      "description": "Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, beginner progression, platform info, and daily launch updates for PC, Android, and iOS.",
-      "keywords": "Ragnarok Origin Classic, ROOC, codes, classes, builds, guide, PC, Android, iOS",
-      "ogTitle": "Ragnarok Origin Classic Wiki - Codes, Classes & Builds",
-      "ogDescription": "Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, beginner progression, platform info, and daily launch updates for PC, Android, and iOS.",
-      "twitterTitle": "Ragnarok Origin Classic Wiki - Codes, Classes & Builds",
-      "twitterDescription": "Ragnarok Origin Classic wiki for codes, classes, builds, redeem steps, and platform guides."
+      "title": "Ragnarok Origin Classic Wiki - Beginner Guides, Builds & Codes",
+      "description": "Ragnarok Origin Classic wiki for beginner routes, class picks, builds, guild play, codes, pets, and launch progression on PC, Android, iOS, and Windows.",
+      "keywords": "Ragnarok Origin Classic, ROOC, beginner guide, class guide, builds, codes, guild, PvP, pets, leveling",
+      "ogTitle": "Ragnarok Origin Classic Wiki - Beginner Guides, Builds & Codes",
+      "ogDescription": "Ragnarok Origin Classic wiki for beginner routes, class picks, builds, guild play, codes, pets, and launch progression on PC, Android, iOS, and Windows.",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - Beginner Guides, Builds & Codes",
+      "twitterDescription": "Ragnarok Origin Classic wiki for beginner routes, class picks, builds, guild play, codes, and pets."
     }
   },
   "nav": {},
@@ -28,9 +28,9 @@
   "hero": {
     "badge": "Classic Cross-Platform Fantasy MMORPG",
     "title": "Ragnarok Origin Classic Wiki",
-    "description": "A classic-focused Ragnarok MMORPG with cross-platform play on PC and mobile, 14 transcendent 2nd jobs, 27 builds, Asia-wide servers, and a lighter monthly-pass progression model.",
-    "getFreeCodesCTA": "Check Gift Codes",
-    "playOnRobloxCTA": "Play on PC & Mobile",
+    "description": "A practical ROOC content hub for beginner routes, class picks, builds, guild play, codes, pets, and launch progression.",
+    "getFreeCodesCTA": "View Codes",
+    "playOnRobloxCTA": "Visit Official Site",
     "stats": {
       "stat1": {
         "value": "Mar 26 2026",
@@ -52,7 +52,7 @@
   },
   "gameFeature": {
     "title": "Ragnarok Origin Classic Overview",
-    "description": "Explore a classic Ragnarok MMORPG with cross-platform play, 14 jobs, 27 builds, and a lighter progression loop."
+    "description": "Explore launch routes, class picks, builds, codes, guild play, and progression paths for Ragnarok Origin Classic."
   },
   "tools": {
     "title": "Ragnarok Origin Classic",
@@ -60,1151 +60,670 @@
     "subtitle": "Jump to any section below",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "Release & Editions",
-        "description": "Compare all 4 editions and release dates"
+        "icon": "BookOpen",
+        "title": "Beginner Guide",
+        "description": "Start strong with the quest-first route and early milestones"
       },
       {
         "icon": "Users",
-        "title": "Roster",
-        "description": "Browse 400+ playable Superstars"
+        "title": "Best Class",
+        "description": "Compare beginner-friendly jobs, farming speed, and support value"
       },
       {
         "icon": "TrendingUp",
-        "title": "Ratings",
-        "description": "Top-rated Superstars rankings"
+        "title": "Tier List",
+        "description": "See mode-based rankings for PvE, PvP, and guild play"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Controls",
-        "description": "PS5, Xbox, and PC controls"
+        "icon": "Clock",
+        "title": "Leveling Guide",
+        "description": "Follow the fastest early EXP route and unlock path"
       },
       {
-        "icon": "Flame",
-        "title": "New Match Types",
-        "description": "4 new match types debut"
+        "icon": "ClipboardCheck",
+        "title": "Daily Routine",
+        "description": "Turn dailies, rewards, and commissions into a clean loop"
       },
       {
-        "icon": "Film",
-        "title": "Showcase",
-        "description": "CM Punk's legendary career"
-      },
-      {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Manage your WWE brand"
-      },
-      {
-        "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Create your Superstar story"
-      },
-      {
-        "icon": "Globe",
-        "title": "Universe Mode",
-        "description": "Control the WWE Universe"
-      },
-      {
-        "icon": "Palette",
-        "title": "Community Creations",
-        "description": "Download and share creations"
-      },
-      {
-        "icon": "Map",
-        "title": "The Island",
-        "description": "Faction-based battle mode"
-      },
-      {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Build your dream faction"
-      },
-      {
-        "icon": "Gift",
-        "title": "Locker Codes",
-        "description": "Active codes for rewards"
-      },
-      {
-        "icon": "Monitor",
-        "title": "PC Requirements",
-        "description": "Minimum and recommended specs"
-      },
-      {
-        "icon": "Building",
-        "title": "Arenas",
-        "description": "40+ iconic venues"
+        "icon": "Hammer",
+        "title": "Skill Builds",
+        "description": "Plan point allocation for farming, bossing, and PvP"
       },
       {
         "icon": "Package",
-        "title": "DLC & Unlockables",
-        "description": "Season Pass and content roadmap"
+        "title": "Class Builds",
+        "description": "Compare stat spreads, gear direction, and class archetypes"
+      },
+      {
+        "icon": "Shield",
+        "title": "Gear Progression",
+        "description": "Upgrade efficiently and avoid wasted refinement paths"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Zeny Farming",
+        "description": "Find repeatable currency routes and avoid low-value detours"
+      },
+      {
+        "icon": "Star",
+        "title": "F2P Guide",
+        "description": "Focus on value-first systems and safe early spending choices"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "MVP Guide",
+        "description": "Learn boss timing, role split, and efficient hunt routes"
+      },
+      {
+        "icon": "Building",
+        "title": "WoE Guide",
+        "description": "Prepare offense, defense, and guild support for large fights"
+      },
+      {
+        "icon": "Gift",
+        "title": "Codes",
+        "description": "Copy the current launch code and official reward sources"
+      },
+      {
+        "icon": "Home",
+        "title": "Guild Guide",
+        "description": "Join the right guild and keep your weekly value high"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "PvP Guide",
+        "description": "Sharpen burst, control, and survivability for arena play"
+      },
+      {
+        "icon": "Globe",
+        "title": "Pets Guide",
+        "description": "Choose pets that support leveling, farming, and long-term growth"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "Ragnarok Origin Classic Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
+      "title": "Ragnarok Origin Classic Beginner Guide",
+      "subtitle": "Quest-first routing, first job timing, and early systems that unlock on day one.",
       "quickFacts": [
         {
-          "label": "Standard Release",
-          "value": "March 13, 2026"
+          "label": "Main Route",
+          "value": "Quest First"
         },
         {
-          "label": "Premium Early Access",
-          "value": "March 6, 2026"
+          "label": "First Job",
+          "value": "Level 10"
         },
         {
-          "label": "Platforms",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "label": "Weapon Spike",
+          "value": "Level 15"
         },
         {
-          "label": "Genre",
-          "value": "Sports, Professional Wrestling"
+          "label": "Daily Loop",
+          "value": "Level 16"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
+          "name": "Tutorial & Setup",
+          "price": "Step 1",
+          "releaseDate": "Create your character and finish the intro",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game"
+            "Set your nickname and basic preferences",
+            "Learn combat, inventory, and quest flow",
+            "Unlock the main quest tracker"
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Main Quest Route",
+          "price": "Step 2",
+          "releaseDate": "Push story before random grinding",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
+            "Use the main quest for EXP and unlocks",
+            "Avoid early detours into elite monsters",
+            "Keep progression moving in a clean line"
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Job & Weapon Milestones",
+          "price": "Step 3",
+          "releaseDate": "Reach level 10 to 15",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
+            "Pick your first job at level 10",
+            "Preview class comfort before locking in",
+            "Craft your first class weapon at level 15"
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Daily Loop",
+          "price": "Step 4",
+          "releaseDate": "Start at level 16 and onward",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
+            "Start Daily Commissions at level 16",
+            "Use guild and account systems as they unlock",
+            "Turn routine rewards into steady progress"
           ]
         }
       ],
       "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
+        "Quest-first play is the fastest early route in Ragnarok Origin Classic",
+        "Daily Commissions and guild systems drive steady account growth",
+        "Archer, Mage, and Acolyte are common comfort picks for new players"
       ]
     },
     "roster": {
-      "title": "Ragnarok Origin Classic Roster",
-      "subtitle": "Browse 400+ playable Superstars and Legends",
+      "title": "Ragnarok Origin Classic Best Class",
+      "subtitle": "Fast answers for players who want a main class without wasting early resources.",
       "stats": [
         {
-          "label": "Total Superstars",
-          "value": "400+"
+          "label": "Best Beginner Start",
+          "value": "Archer"
         },
         {
-          "label": "New Additions",
-          "value": "50+"
+          "label": "Best Farming Start",
+          "value": "Mage"
         },
         {
-          "label": "Roster Scope",
-          "value": "Largest in franchise history"
+          "label": "Best Support Start",
+          "value": "Acolyte"
         }
       ],
       "categories": [
         {
-          "name": "Current Stars",
+          "name": "Beginner Friendly",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "Archer",
+            "Mage",
+            "Acolyte"
           ]
         },
         {
-          "name": "Legends",
+          "name": "Safe Solo Play",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "Merchant",
+            "Swordsman",
+            "Hunter"
           ]
         },
         {
-          "name": "New Era Highlights",
+          "name": "Group Utility",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "Acolyte",
+            "Priest",
+            "Blacksmith"
           ]
         },
         {
-          "name": "Season 1 Spotlight",
+          "name": "Burst and PvP",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "Thief",
+            "Assassin",
+            "Knight"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "Ragnarok Origin Classic Ratings",
-      "subtitle": "Top-rated Superstars rankings",
+      "title": "Ragnarok Origin Classic Tier List",
+      "subtitle": "Mode-based rankings for PvE, PvP, and guild play instead of one universal list.",
+      "leftTitle": "Best PvE Jobs",
+      "rightTitle": "Best PvP Jobs",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
-          "rating": 97
+          "name": "Hunter",
+          "rating": "S"
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "John Cena",
-          "rating": 97
+          "name": "Priest",
+          "rating": "A"
         },
         {
-          "name": "John Cena '12",
-          "rating": 96
+          "name": "Blacksmith",
+          "rating": "A"
         },
         {
-          "name": "The Rock '01",
-          "rating": 96
+          "name": "Knight",
+          "rating": "B"
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
-        },
-        {
-          "name": "Stone Cold Steve Austin '00",
-          "rating": 95
-        },
-        {
-          "name": "The Rock",
-          "rating": 95
-        },
-        {
-          "name": "Cody Rhodes",
-          "rating": 95
-        },
-        {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "Assassin",
+          "rating": "B"
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
-          "rating": 96
+          "name": "Priest",
+          "rating": "S"
         },
         {
-          "name": "Becky Lynch",
-          "rating": 94
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "Bianca Belair",
-          "rating": 94
+          "name": "Assassin",
+          "rating": "A"
         },
         {
-          "name": "Charlotte Flair",
-          "rating": 93
+          "name": "Knight",
+          "rating": "A"
         },
         {
-          "name": "Iyo Sky",
-          "rating": 93
+          "name": "Hunter",
+          "rating": "B"
         },
         {
-          "name": "Naomi",
-          "rating": 92
-        },
-        {
-          "name": "Stephanie Vaquer",
-          "rating": 92
-        },
-        {
-          "name": "Liv Morgan",
-          "rating": 92
-        },
-        {
-          "name": "AJ Lee '15",
-          "rating": 92
-        },
-        {
-          "name": "Tiffany Stratton",
-          "rating": 91
+          "name": "Blacksmith",
+          "rating": "B"
         }
-      ],
-      "highlights": [
-        "Men's top rating: 97",
-        "Women's top rating: 96",
-        "Ratings blend current stars, legends, and alternate-era personas"
       ]
     },
     "controls": {
-      "title": "Ragnarok Origin Classic Controls",
-      "subtitle": "Master the core controls for PS5, Xbox, and PC",
+      "title": "Ragnarok Origin Classic Leveling Guide",
+      "subtitle": "A practical launch route built around quest priority, daily systems, and efficient farming.",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "Main Quest",
           "controls": [
             {
-              "action": "Run",
-              "input": "Hold L2 + Left Stick"
+              "action": "Follow story flow",
+              "input": "Primary EXP and unlocks"
             },
             {
-              "action": "Grab (Grapple)",
-              "input": "O"
+              "action": "Reach level 10",
+              "input": "Choose your first job"
             },
             {
-              "action": "Light Strike / Light Grapple",
-              "input": "Square"
-            },
-            {
-              "action": "Heavy Strike / Heavy Grapple",
-              "input": "X"
-            },
-            {
-              "action": "Irish Whip",
-              "input": "O (inside Grab)"
-            },
-            {
-              "action": "Signature",
-              "input": "R2 + Square"
-            },
-            {
-              "action": "Finisher",
-              "input": "R2 + X"
-            },
-            {
-              "action": "Submission",
-              "input": "R2 + O"
-            },
-            {
-              "action": "Payback",
-              "input": "R2 + Triangle"
-            },
-            {
-              "action": "Reversal / Dodge",
-              "input": "Triangle"
-            },
-            {
-              "action": "Block",
-              "input": "Hold Triangle"
-            },
-            {
-              "action": "Pin Opponent",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "Pick Up Weapon",
-              "input": "L1"
+              "action": "Reach level 15",
+              "input": "Craft your class weapon"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "Daily Commissions",
           "controls": [
             {
-              "action": "Run",
-              "input": "Hold LT + Left Stick"
+              "action": "Unlock daily loop",
+              "input": "Starts at level 16"
             },
             {
-              "action": "Grab (Grapple)",
-              "input": "B"
+              "action": "Claim daily rewards",
+              "input": "Free EXP and materials"
             },
             {
-              "action": "Light Strike / Light Grapple",
-              "input": "X"
+              "action": "Stack event value",
+              "input": "Keep growth steady"
+            }
+          ]
+        },
+        {
+          "name": "Combat Time",
+          "controls": [
+            {
+              "action": "Farm efficient mobs",
+              "input": "Best use of grind time"
             },
             {
-              "action": "Heavy Strike / Heavy Grapple",
-              "input": "A"
+              "action": "Skip early elite detours",
+              "input": "Avoid wasted time"
             },
             {
-              "action": "Irish Whip",
-              "input": "B (inside Grab)"
-            },
-            {
-              "action": "Signature",
-              "input": "RT + X"
-            },
-            {
-              "action": "Finisher",
-              "input": "RT + A"
-            },
-            {
-              "action": "Submission",
-              "input": "RT + B"
-            },
-            {
-              "action": "Payback",
-              "input": "RT + Y"
-            },
-            {
-              "action": "Reversal / Dodge",
-              "input": "Y"
-            },
-            {
-              "action": "Block",
-              "input": "Hold Y"
-            },
-            {
-              "action": "Pin Opponent",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "Pick Up Weapon",
-              "input": "LB"
+              "action": "Join guild content",
+              "input": "Extra progress and rewards"
             }
           ]
         }
-      ],
-      "tips": [
-        "Combos chain Light and Heavy Strikes together",
-        "Breakers use the same button your opponent presses",
-        "Timed kick-out minigame uses Right Stick Up",
-        "Special Referee actions include count, rope break, warnings, and ejections"
       ]
     },
     "matchTypes": {
-      "title": "Ragnarok Origin Classic New Match Types",
-      "subtitle": "Experience 4 new match types and expanded gameplay",
-      "quickFacts": [
-        {
-          "label": "New Match Types",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "label": "New Brawl Space",
-          "value": "Scrapyard Brawl"
-        },
-        {
-          "label": "Mode Addition",
-          "value": "Quick Swap in MyFACTION"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Daily Routine",
+      "subtitle": "Turn daily rewards, farming, and guild tasks into a simple repeatable loop.",
       "matches": [
         {
-          "name": "I Quit",
-          "description": "Force your opponent to say 'I Quit' to win this brutal showdown"
+          "name": "Main Quest",
+          "description": "Push story steps before random grinding so your account unlocks stay ahead."
         },
         {
-          "name": "Inferno",
-          "description": "Light your opponent on fire to secure victory in this scorched-earth match"
+          "name": "Daily Commissions",
+          "description": "Use the daily loop every day for steady EXP, job growth, and materials."
         },
         {
-          "name": "Dumpster",
-          "description": "Beat down your opponent and throw them into the dumpster to win"
+          "name": "Daily Rewards",
+          "description": "Claim login, event, and pass rewards before longer sessions begin."
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "Best-of-three challenge where each fall uses a different match type"
+          "name": "Combat Time Farming",
+          "description": "Spend combat time on efficient mob loops instead of wandering."
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "New brawl environment set in The Island's wasteland of wreckage"
+          "name": "Guild Tasks",
+          "description": "Add guild rewards and long-term account value into the daily cycle."
+        },
+        {
+          "name": "Storage and Teleport",
+          "description": "Use convenience systems to cut travel waste and keep momentum high."
         }
-      ],
-      "newSystems": [
-        "Expanded Crowd Combat",
-        "Stackable Tables",
-        "Thumbtacks",
-        "Surprise Attackers",
-        "Barricade Combat",
-        "Quick Swap team knockout action"
       ]
     },
     "showcase": {
-      "title": "Ragnarok Origin Classic Showcase",
-      "subtitle": "Relive CM Punk's greatest rivalries",
-      "quickFacts": [
-        {
-          "label": "Cover Star",
-          "value": "CM Punk"
-        },
-        {
-          "label": "Timeline",
-          "value": "25+ years of WWE history"
-        },
-        {
-          "label": "Match Types",
-          "value": "Historical, Fantasy, What If"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Skill Builds",
+      "subtitle": "Skill point routes that keep farming fast and PvP pressure clean.",
       "moments": [
         {
-          "title": "Opening Match",
-          "description": "WrestleMania 41 Triple Threat: CM Punk vs Seth Rollins vs Roman Reigns"
+          "title": "Farming Skill Builds",
+          "description": "Use safe AoE or ranged setups that keep clear speed high."
         },
         {
-          "title": "Historical Matches",
-          "description": "Faithful recreations with authentic arenas and match objectives"
-        },
-        {
-          "title": "Fantasy Warfare",
-          "description": "Dream matchups against legends who influenced Punk's journey"
-        },
-        {
-          "title": "What If Matches",
-          "description": "Alternate timeline scenarios exploring different career paths"
+          "title": "PvP Skill Builds",
+          "description": "Prioritize burst, control, and escape tools for arena play."
         }
-      ],
-      "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "Face 20 consecutive opponents as CM Punk or AJ Lee to unlock all Showcase rewards at once"
-      }
+      ]
     },
     "mygm": {
-      "title": "Ragnarok Origin Classic MyGM",
-      "subtitle": "Run your brand with deeper booking and strategy",
-      "quickFacts": [
-        {
-          "label": "Season Length",
-          "value": "50 weeks"
-        },
-        {
-          "label": "Starting Budgets",
-          "value": "$3M - $7M"
-        },
-        {
-          "label": "Avg Roster Size",
-          "value": "20-35 Superstars"
-        },
-        {
-          "label": "New Difficulty",
-          "value": "Immortal"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Class Builds",
+      "subtitle": "Build paths that pair with farming, bossing, and competitive pressure.",
       "features": [
         {
-          "title": "Extended Seasons",
-          "description": "Default season length now 50 weeks with flexible budget options"
+          "title": "Farming Build",
+          "description": "Lean into clear speed and stable stat spreads for routine grinding."
         },
         {
-          "title": "Expanded Match Types",
-          "description": "Book 5-way, 6-way, 8-way, triple threat tag, fatal four way tag, and handicap matches"
+          "title": "Boss Build",
+          "description": "Use burst, sustain, and role utility for MVP fights."
         },
         {
-          "title": "New Match Rules",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "title": "Power Card Trading",
-          "description": "Trade Power Cards during trade weeks with option to disable Power Card Store"
-        },
-        {
-          "title": "Intergender Matches",
-          "description": "Book intergender matches with added booking cost"
+          "title": "PvP Build",
+          "description": "Prioritize pressure, control, and survivability for arena play."
         }
-      ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
       ]
     },
     "myrise": {
-      "title": "Ragnarok Origin Classic MyRISE",
-      "subtitle": "Fight your way back in The Comeback",
-      "quickFacts": [
-        {
-          "label": "Story Name",
-          "value": "The Comeback"
-        },
-        {
-          "label": "Main Character",
-          "value": "The Archetype"
-        },
-        {
-          "label": "Theme",
-          "value": "Return after 2-year absence"
-        }
-      ],
-      "paths": [
-        {
-          "name": "Traditional Route",
-          "description": "Earn opportunities the right way and work back into the title picture"
-        },
-        {
-          "name": "Ruthless Route",
-          "description": "Cut corners and fast-track the comeback through aggressive tactics"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Gear Progression",
+      "subtitle": "Spend resources where they improve survival and farming speed the most.",
       "divisions": [
         {
-          "name": "Men's Division",
-          "goal": "Earn another shot at WWE Champion Bron Breakker",
+          "name": "Early Gear Path",
+          "goal": "Craft the first class weapon, then stabilize armor and accessories before luxury upgrades.",
           "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
+            "Weapon first",
+            "Armor next",
+            "Accessories after"
           ]
         },
         {
-          "name": "Women's Division",
-          "goal": "Chase another showdown with WWE Women's Champion Jordynne Grace",
+          "name": "Refinement Priorities",
+          "goal": "Avoid overrefining early and keep materials focused on core pieces.",
           "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
+            "Do not overrefine",
+            "Save upgrade materials",
+            "Track your main damage piece"
           ]
         }
-      ],
-      "features": [
-        "Branching dialogue shapes story progression",
-        "WWE press conferences with player choice responses",
-        "Major final decision affects championship reign"
-      ],
-      "rewards": [
-        "Arenas",
-        "Championships",
-        "CAS Parts",
-        "Playable characters",
-        "Weapons",
-        "Paybacks",
-        "MyFACTION content"
       ]
     },
     "universeMode": {
-      "title": "Ragnarok Origin Classic Universe Mode",
-      "subtitle": "Build your dream WWE calendar with deeper control",
-      "quickFacts": [
-        {
-          "label": "Setup Tool",
-          "value": "Universe Wizard"
-        },
-        {
-          "label": "Max Draft Events",
-          "value": "8"
-        },
-        {
-          "label": "Titles Per Show",
-          "value": "Up to 8"
-        },
-        {
-          "label": "MITB Slots",
-          "value": "2 per show"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Zeny Farming",
+      "subtitle": "Repeatable currency routes that keep your account moving without random detours.",
       "features": [
         {
-          "title": "Universe Wizard",
-          "description": "Start saves faster by choosing shows, PLEs, champions, and rosters upfront"
+          "title": "Repeatable Zeny Sources",
+          "description": "Sell drops, farm high-volume mobs, and lean on daily loops for steady income."
         },
         {
-          "title": "WWE Draft",
-          "description": "Create and schedule Draft events where shows trade Superstars"
+          "title": "Efficient Farm Loops",
+          "description": "Hunter and Wizard style clears usually scale well with routine mob farming."
         },
         {
-          "title": "MITB Cash-Ins",
-          "description": "Briefcases can be cashed in on any eligible title on a show"
-        },
-        {
-          "title": "Enhanced Promos",
-          "description": "Self-Promos, Call-Outs, Interrupts, Open Challenges, Post-Match Interviews"
-        },
-        {
-          "title": "Matchmaking Sliders",
-          "description": "Tune match card sorting with bonuses for titles, rivalries, and match types"
+          "title": "Avoid Common Waste",
+          "description": "Skip early elite detours and low-value wandering that burn combat time."
         }
       ]
     },
     "communityCreations": {
-      "title": "Ragnarok Origin Classic Community Creations",
-      "subtitle": "Create bigger and more detailed custom content",
-      "quickFacts": [
-        {
-          "label": "CAS Slots",
-          "value": "200"
-        },
-        {
-          "label": "Image Slots",
-          "value": "2,000"
-        },
-        {
-          "label": "Body Templates",
-          "value": "40+"
-        },
-        {
-          "label": "Layer Split",
-          "value": "60 attire + 40 head/body"
-        }
-      ],
+      "title": "Ragnarok Origin Classic F2P Guide",
+      "subtitle": "Value-first early decisions for players who want steady progress without heavy spending.",
       "sections": [
         {
-          "title": "Create-a-Superstar",
-          "description": "Body morphing and improved face morphing with 40+ body templates"
+          "title": "Safe First Day",
+          "description": "Push quests first, unlock daily systems, and avoid impulse spending."
         },
         {
-          "title": "Hair and Body Paint",
-          "description": "Two-tone hair color blending and Joy-Con 2 mouse controls for body paint"
+          "title": "Value Systems",
+          "description": "Focus on daily growth, core gear, and account-wide unlocks."
         },
         {
-          "title": "Create-an-Arena",
-          "description": "LED barricades, new announcer tables, expanded ring mat and apron options"
-        },
-        {
-          "title": "Create-an-Image",
-          "description": "Image uploader limit doubled from 1,000 to 2,000 slots"
-        },
-        {
-          "title": "Create-a-Championship",
-          "description": "Expanded parts and refreshed building interface"
-        },
-        {
-          "title": "Create-an-Entrance",
-          "description": "Advanced timeline editing for champion, MITB, and stable entrances (Quad/Quint)"
+          "title": "Spend Traps",
+          "description": "Skip cosmetic or low-impact purchases until your route is stable."
         }
       ]
     },
     "theIsland": {
-      "title": "Ragnarok Origin Classic The Island",
-      "subtitle": "Choose an Order and fight for control",
-      "quickFacts": [
-        {
-          "label": "Factions",
-          "value": "3 Orders"
-        },
-        {
-          "label": "Story Chapters",
-          "value": "3"
-        },
-        {
-          "label": "Prestige Tiers",
-          "value": "4"
-        },
-        {
-          "label": "New PvP",
-          "value": "2v2 PvP"
-        }
-      ],
+      "title": "Ragnarok Origin Classic MVP Guide",
+      "subtitle": "Boss timing, role split, and efficient hunt routes for progression players.",
+      "leaderLabel": "Focus",
       "orders": [
         {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "Built around ring heritage, spectacle, and old-school values"
+          "name": "MVP Basics",
+          "leader": "Target Priority",
+          "description": "Learn spawn timing, damage checks, and boss behavior before deeper hunts."
         },
         {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "Embraces the strange, theatrical, and power of intimidation"
+          "name": "Party Roles",
+          "leader": "Role Split",
+          "description": "Bring damage, support, and survivability together for stable boss runs."
         },
         {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "Rejects the status quo and pushes The Island in bold new directions"
+          "name": "MVP Routes",
+          "leader": "Map Route",
+          "description": "Track where your class can clear efficiently and safely."
         }
       ],
       "prestige": [
         {
-          "tier": "Recruit",
-          "ovrRange": "70-85"
+          "tier": "S",
+          "ovrRange": "Boss burst"
         },
         {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
+          "tier": "A",
+          "ovrRange": "Stable hunts"
         },
         {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
+          "tier": "B",
+          "ovrRange": "Learning route"
         },
         {
-          "tier": "Legendary",
-          "ovrRange": "85-100"
+          "tier": "C",
+          "ovrRange": "Early setup"
         }
-      ],
-      "highlights": [
-        "Scrapyard: central brawl zone with hazards and climbable structures",
-        "Towers: repeatable PvE with random paths and boss fights",
-        "Weekly quests reward XP, cosmetics, and Island rewards",
-        "Seasonal Ranked Play with leaderboards for 1v1, 2v2, and Championships"
       ]
     },
     "myfaction": {
-      "title": "Ragnarok Origin Classic MyFACTION",
-      "subtitle": "Build stronger lineups with chemistry and Quick Swap",
-      "quickFacts": [
-        {
-          "label": "Lineup Size",
-          "value": "4 Superstars"
-        },
-        {
-          "label": "Chemistry Traits",
-          "value": "60 across 10 categories"
-        },
-        {
-          "label": "New Match Type",
-          "value": "Quick Swap"
-        },
-        {
-          "label": "Launch Card Sets",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
-        }
-      ],
+      "title": "Ragnarok Origin Classic War of Emperium Guide",
+      "subtitle": "Offense, defense, and guild support for larger fights and castle pressure.",
       "features": [
         {
-          "title": "Team Chemistry",
-          "description": "Positive and negative reactions affect Chemistry Score; Managers reduce negatives"
+          "title": "Defense Setup",
+          "description": "Use front-line durability, buffs, and area control around choke points."
         },
         {
-          "title": "Intergender Support",
-          "description": "Build mixed-gender four-person lineups"
+          "title": "Offense Push",
+          "description": "Time push windows, pick targets quickly, and keep support close."
         },
         {
-          "title": "Quick Swap",
-          "description": "Swap teammates mid-match, share Signature/Finisher slots, win by knockout"
-        },
-        {
-          "title": "Faction Wars",
-          "description": "Deck-based progression starting with Crowd's Deck"
-        },
-        {
-          "title": "World Tour",
-          "description": "Rewards include Personas, MFP, Arc Cards, and packs across global locations"
+          "title": "Guild Prep",
+          "description": "Bring consumables, roles, and route awareness before serious fights."
         }
       ]
     },
     "lockerCodes": {
-      "title": "Ragnarok Origin Classic Locker Codes",
-      "subtitle": "Redeem active codes for MyFACTION rewards",
-      "quickFacts": [
-        {
-          "label": "Mode",
-          "value": "MyFACTION"
-        },
-        {
-          "label": "Active Code",
-          "value": "BSTINTWRLD26"
-        },
-        {
-          "label": "Expires",
-          "value": "March 13, 2026"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Codes",
+      "subtitle": "Use the current launch code and keep official channels handy.",
       "codes": [
         {
-          "code": "BSTINTWRLD26",
+          "code": "ROOC888",
+          "expires": "Active launch code",
           "rewards": [
-            "1x Aftershock Series I Basic Pack",
-            "1x Momentum Series I Basic Pack"
-          ],
-          "expires": "March 13, 2026"
+            "One working Ragnarok Origin Classic code",
+            "Redeem it once per account",
+            "Check the current claim window"
+          ]
+        },
+        {
+          "code": "Official Discord",
+          "expires": "Code drops and alerts",
+          "rewards": [
+            "Watch for future Ragnarok Origin Classic codes",
+            "Join class and guild discussion",
+            "Follow patch notices"
+          ]
+        },
+        {
+          "code": "Official Site",
+          "expires": "Event updates",
+          "rewards": [
+            "Check pre-registration rewards",
+            "Track launch announcements",
+            "Open official campaign pages"
+          ]
         }
       ],
       "howToRedeem": [
-        "Open Ragnarok Origin Classic from the main menu",
-        "Select Locker Codes",
-        "Enter the code exactly as shown",
-        "Redeem and open your packs in MyFACTION"
+        "Open Ragnarok Origin Classic on your account.",
+        "Find the redeem or gift menu.",
+        "Enter the code exactly as shown.",
+        "Claim rewards from your mailbox or reward tab."
       ]
     },
     "pcRequirements": {
-      "title": "Ragnarok Origin Classic PC Requirements",
-      "subtitle": "Check if your PC can run Ragnarok Origin Classic",
-      "quickFacts": [
-        {
-          "label": "OS",
-          "value": "Windows 10 64-bit"
-        },
-        {
-          "label": "RAM",
-          "value": "16 GB"
-        },
-        {
-          "label": "Storage",
-          "value": "120 GB"
-        },
-        {
-          "label": "CPU Note",
-          "value": "AVX2 and F16C support required"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Guild Guide",
+      "subtitle": "Join early, pick a role, and keep your weekly guild value high.",
+      "minimumTitle": "Guild Basics",
+      "recommendedTitle": "Guild Value",
       "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 or AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 or AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "GPU must have at least 6 GB VRAM; CPU must support AVX2 and F16C"
+        "os": "Join a guild as soon as the main systems open",
+        "processor": "Fill one clear role",
+        "memory": "Show up for daily tasks and donation loops",
+        "graphics": "Prepare for WoE and party coordination",
+        "storage": "Keep time for guild chat and support"
       },
       "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 or AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 or AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "At least 12 GB VRAM; CPU must support AVX2 and F16C"
+        "os": "Join a guild that matches your play schedule",
+        "processor": "Bring a defined PvE or PvP role",
+        "memory": "Stack weekly rewards and guild shop value",
+        "graphics": "Bring consumables and positioning discipline",
+        "storage": "Stay active for War of Emperium nights"
       }
     },
     "arenas": {
-      "title": "Ragnarok Origin Classic Arenas",
-      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
-      "quickFacts": [
-        {
-          "label": "Arena Count",
-          "value": "40+"
-        },
-        {
-          "label": "New Venues",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
-        },
-        {
-          "label": "Classic Highlights",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
-        }
-      ],
+      "title": "Ragnarok Origin Classic PvP Guide",
+      "subtitle": "Burst, control, sustain, and pick pressure for arena play.",
       "categories": [
         {
-          "name": "Current Weekly Shows",
+          "name": "Burst",
           "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
+            "Assassin",
+            "Archer",
+            "Mage",
+            "Thief"
           ]
         },
         {
-          "name": "Premium Live Events",
+          "name": "Control",
           "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
+            "Wizard",
+            "Priest",
+            "Knight",
+            "Acolyte"
           ]
         },
         {
-          "name": "Classic Arenas",
+          "name": "Sustain",
           "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
+            "Priest",
+            "Knight",
+            "Blacksmith",
+            "Merchant"
           ]
         },
         {
-          "name": "Original and Brawl Spaces",
+          "name": "Pick Pressure",
           "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
+            "Assassin",
+            "Hunter",
+            "Wizard",
+            "Thief"
           ]
         }
       ]
     },
     "dlcUnlockables": {
-      "title": "Ragnarok Origin Classic DLC & Unlockables",
-      "subtitle": "Track every major post-launch reward path",
-      "quickFacts": [
-        {
-          "label": "Ringside Pass Seasons",
-          "value": "6"
-        },
-        {
-          "label": "Tiers Per Season",
-          "value": "40"
-        },
-        {
-          "label": "Free Track Rewards",
-          "value": "60"
-        },
-        {
-          "label": "Total Rewards",
-          "value": "120"
-        }
-      ],
+      "title": "Ragnarok Origin Classic Pets Guide",
+      "subtitle": "Choose pets that support leveling, farming, and long-term account value.",
       "seasons": [
         {
-          "season": "Season 1",
-          "release": "March 6, 2026"
+          "season": "S",
+          "release": "Best early pet synergy"
         },
         {
-          "season": "Season 2",
-          "release": "April 2026"
+          "season": "A",
+          "release": "Strong all-round value"
         },
         {
-          "season": "Season 3",
-          "release": "June 2026"
+          "season": "B",
+          "release": "Good budget option"
         },
         {
-          "season": "Season 4",
-          "release": "July 2026"
+          "season": "C",
+          "release": "Situational picks"
         },
         {
-          "season": "Season 5",
-          "release": "September 2026"
+          "season": "F2P",
+          "release": "Low-cost convenience"
         },
         {
-          "season": "Season 6",
-          "release": "October 2026"
+          "season": "Late",
+          "release": "Long-term synergy"
         }
       ],
       "editionPacks": [
         {
-          "name": "King of Kings Edition Pack",
+          "name": "Beginner Pet Picks",
           "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Triple H Signature Taunt"
+            "Pick one reliable starter pet first",
+            "Favor simple damage or sustain bonuses",
+            "Avoid niche picks until your core is stable"
           ]
         },
         {
-          "name": "Attitude Era Edition Pack",
+          "name": "Long-Term Pet Growth",
           "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Stone Cold Steve Austin EVO Card",
-            "The Rock EVO Card",
-            "Raw Is War '98 arena"
+            "Match pet effects to your class",
+            "Invest after weapon and armor are stable",
+            "Use pets to smooth farming and utility"
           ]
-        },
-        {
-          "name": "Monday Night War Edition Pack",
-          "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "WCW Thunder '98 arena"
-          ]
-        },
-        {
-          "name": "WrestleMania 42 Pack",
-          "includes": [
-            "WrestleMania 42 arena",
-            "WM42 Persona #1",
-            "WM42 Persona #2",
-            "WM42 Persona #3"
-          ]
-        }
-      ],
-      "unlockExamples": [
-        {
-          "name": "AJ Lee",
-          "source": "Showcase: What If Match #7"
-        },
-        {
-          "name": "Alundra Blayze '94",
-          "source": "Ringside Pass #1 Free Track Tier 5"
-        },
-        {
-          "name": "Andre The Giant",
-          "source": "Ringside Pass #1 Free Track Tier 4"
-        },
-        {
-          "name": "El Hijo del Vikingo",
-          "source": "Ringside Pass #1 Premium Track Tier 1"
-        },
-        {
-          "name": "Flammer",
-          "source": "Ringside Pass #1 Premium Track Tier 7"
-        },
-        {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: Historical Match #7"
         }
       ]
     }
@@ -1215,40 +734,40 @@
     "subtitle": "Everything you need to know about Ragnarok Origin Classic",
     "questions": [
       {
-        "question": "When is Ragnarok Origin Classic released?",
-        "answer": "Ragnarok Origin Classic standard edition releases on March 13, 2026. Deluxe editions get early access starting March 6, 2026."
+        "question": "What should I do first in Ragnarok Origin Classic?",
+        "answer": "In Ragnarok Origin Classic, push the main quest first, take your first job at level 10, craft your class weapon at level 15, and start Daily Commissions at level 16."
       },
       {
-        "question": "How many superstars are in Ragnarok Origin Classic?",
-        "answer": "Ragnarok Origin Classic features over 400 playable superstars, including legends, current roster, and DLC characters."
+        "question": "Which class is easiest in Ragnarok Origin Classic?",
+        "answer": "Ragnarok Origin Classic is easiest for most players on Archer or Mage if they want safe ranged farming, while Acolyte is the smoothest support path."
       },
       {
-        "question": "What platforms is Ragnarok Origin Classic available on?",
-        "answer": "Ragnarok Origin Classic is available on PS5, Xbox Series X|S, Steam (PC), and Nintendo Switch 2."
+        "question": "How do I level fast in Ragnarok Origin Classic?",
+        "answer": "Ragnarok Origin Classic leveling is fastest when you stay quest-first, finish Daily Commissions, use combat time on efficient mobs, and avoid early elite detours."
       },
       {
-        "question": "How do I redeem Ragnarok Origin Classic locker codes?",
-        "answer": "Go to MyFACTION mode, select the Locker Code menu, and enter the code. Check our codes page for the latest active codes."
+        "question": "Where do I find Ragnarok Origin Classic codes?",
+        "answer": "Ragnarok Origin Classic codes are usually shared through official launch pages, Discord, and community posts. Keep the Codes module open and copy the current active entry."
       },
       {
-        "question": "What are the new match types in Ragnarok Origin Classic?",
-        "answer": "Ragnarok Origin Classic introduces 4 new match types including Inferno Match, Dumpster Match, Three Stages of Hell, and I Quit Match."
+        "question": "Is Ragnarok Origin Classic good for free-to-play players?",
+        "answer": "Yes. Ragnarok Origin Classic supports a steady F2P route if you focus on daily rewards, efficient gear upgrades, and value-first systems instead of cosmetic spending."
       },
       {
-        "question": "What game modes are in Ragnarok Origin Classic?",
-        "answer": "Ragnarok Origin Classic includes MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION, and Creation Suite."
+        "question": "What should I join first in Ragnarok Origin Classic: guild or PvP?",
+        "answer": "In Ragnarok Origin Classic, join a guild early, then branch into PvP, MVP hunting, and War of Emperium once your basic build is stable."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Explore ROOC?",
-    "description": "Join the Ragnarok Origin Classic Discord for updates, launch news, class discussions, and build sharing.",
+    "title": "Ready to explore Ragnarok Origin Classic?",
+    "description": "Join the Ragnarok Origin Classic Discord for updates, class discussion, build sharing, and launch news.",
     "joinCommunity": "Join Discord",
     "joinGame": "Visit Official Site"
   },
   "footer": {
     "title": "Ragnarok Origin Classic Wiki",
-    "description": "Your complete resource hub for Ragnarok Origin Classic codes, classes, builds, guides, and launch updates.",
+    "description": "Your complete resource hub for Ragnarok Origin Classic beginner routes, class picks, builds, guild play, codes, and pets.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
