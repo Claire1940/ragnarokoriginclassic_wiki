@@ -59,11 +59,11 @@ export default function Navigation() {
 						href="/"
 						className="flex items-center space-x-2 hover:opacity-80 transition"
 					>
-						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
-							W
+						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl text-white">
+							R
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">WWE 2K26</span>
-						<span className="font-bold text-lg sm:hidden">WWE</span>
+						<span className="font-bold text-lg hidden sm:inline">Ragnarok Origin Classic</span>
+						<span className="font-bold text-lg sm:hidden">ROOC</span>
 					</Link>
 
 					{/* Desktop Navigation */}
@@ -129,7 +129,7 @@ export default function Navigation() {
 
 						{/* Play Button */}
 						<a
-							href="https://wwe.2k.com/2k26/"
+							href="https://roocasia.com/"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white hidden sm:flex px-4 py-2 rounded-md font-medium text-sm transition-colors"
@@ -169,7 +169,7 @@ export default function Navigation() {
 								<ThemeToggle />
 							</div>
 							<a
-								href="https://wwe.2k.com/2k26/"
+								href="https://roocasia.com/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white w-full px-4 py-2 rounded-md font-medium text-sm transition-colors text-center"
@@ -183,4 +183,3 @@ export default function Navigation() {
 		</nav>
 	)
 }
-

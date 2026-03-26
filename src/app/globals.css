@@ -13,8 +13,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     /* 导航页主题色 - 亮色主题 */
-    --nav-theme: 0 82% 48%;  /* WWE red */
-    --nav-theme-light: 0 88% 60%;  /* brighter red */
+    --nav-theme: 210 78% 52%;  /* sky-blue */
+    --nav-theme-light: 210 82% 62%;  /* lighter blue */
 
     --primary: var(--nav-theme);
     --primary-foreground: 0 0% 98%;
@@ -64,8 +64,8 @@
     --popover: 220 25% 8%;
     --popover-foreground: 0 0% 98%;
     /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 0 82% 48%;  /* WWE red */
-    --nav-theme-light: 0 88% 60%;  /* brighter red */
+    --nav-theme: 210 78% 52%;  /* sky-blue */
+    --nav-theme-light: 210 82% 62%;  /* lighter blue */
 
     --primary: var(--nav-theme);
     --primary-foreground: 0 0% 98%;

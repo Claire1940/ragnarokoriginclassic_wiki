@@ -1,12 +1,18 @@
 {
-  "name": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-  "short_name": "WWE 2K26 Wiki",
-  "description": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, MyGM, MyRISE, Universe, and The Island guides for PS5, Xbox, Steam, and Switch 2.",
+  "name": "Ragnarok Origin Classic Wiki",
+  "short_name": "ROOC Wiki",
+  "description": "Ragnarok Origin Classic wiki for codes, classes, builds, beginner guides, PvP, and progression tips.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone"],
   "orientation": "any",
-  "theme_color": "#d32f2f",
-  "background_color": "#0a0a0a",
+  "theme_color": "#2f87d1",
+  "background_color": "#ffffff",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
