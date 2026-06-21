@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ragnarokoriginclassic-wiki",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    { "pattern": "www.ragnarokoriginclassic.wiki/*", "zone_name": "ragnarokoriginclassic.wiki" }
+  ]
+}
