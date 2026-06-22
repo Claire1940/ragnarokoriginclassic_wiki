@@ -1,90 +1,58 @@
 {
   "seo": {
     "home": {
-      "title": "ويكي Ragnarok Origin Classic - القائمة، التقييمات، الأطوار والأدلة",
-      "description": "يغطي ويكي Ragnarok Origin Classic القائمة، التقييمات، أكواد الخزنة، أنواع المباريات، وأدلة MyGM و MyRISE و Universe و The Island لأجهزة PS5 و Xbox و Steam و Switch 2.",
-      "keywords": "Ragnarok Origin Classic, قائمة Ragnarok Origin Classic, تقييمات Ragnarok Origin Classic, أكواد خزنة Ragnarok Origin Classic, Ragnarok Origin Classic MyGM",
-      "ogTitle": "ويكي Ragnarok Origin Classic - القائمة، التقييمات، الأطوار والأدلة",
-      "ogDescription": "يغطي ويكي Ragnarok Origin Classic القائمة، التقييمات، أكواد الخزنة، أنواع المباريات، وأدلة MyGM و MyRISE و Universe و The Island لأجهزة PS5 و Xbox و Steam و Switch 2.",
-      "twitterTitle": "ويكي Ragnarok Origin Classic - القائمة، التقييمات، الأطوار والأدلة",
-      "twitterDescription": "يغطي ويكي Ragnarok Origin Classic القائمة، التقييمات، أكواد الخزنة، أنواع المباريات، وأدلة أطوار اللعبة."
+      "title": "Ragnarok Origin Classic Wiki - أدلة المبتدئين، والإنشاءات والأكواد",
+      "description": "Ragnarok Origin Classic ويكي لمسارات المبتدئين، والروتين اليومي، وبناء المهارات، وبناء الفصول الدراسية، ولعب النقابات، والأكواد، والحيوانات الأليفة، وإطلاق التقدم على PC، Android، iOS، و Windows.",
+      "keywords": "Ragnarok Origin Classic، ROOC، دليل المبتدئين، يوميًا الروتين، بناء المهارات، بناء الفصل، الرموز، النقابة، PvP، الحيوانات الأليفة، التسوية",
+      "ogTitle": "Ragnarok Origin Classic Wiki - أدلة المبتدئين، والإنشاءات والأكواد",
+      "ogDescription": "Ragnarok Origin Classic ويكي لمسارات المبتدئين، والروتين اليومي، وبناء المهارات، وبناء الفصول الدراسية، ولعب النقابات، والأكواد، والحيوانات الأليفة، وإطلاق التقدم على PC، Android، iOS، و Windows.",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - أدلة المبتدئين، والإنشاءات والأكواد",
+      "twitterDescription": "Ragnarok Origin Classic ويكي للمسارات المبتدئة، الروتين اليومي، بناء المهارات، بناء الفصل، لعب النقابة، الرموز، والحيوانات الأليفة."
     }
   },
-  "nav": {
-    "game_title": "Ragnarok Origin Classic",
-    "platforms": "PS5, Xbox, Steam, PC",
-    "modes": {
-      "mygm": "MyGM",
-      "myrise": "MyRISE",
-      "myfaction": "MyFACTION",
-      "showcase": "نمط Showcase",
-      "universe": "نمط Universe",
-      "the_island": "The Island"
-    },
-    "features": {
-      "showcase_description": "أعد كتابة تاريخ المصارعة واسترجع أعظم منافسات CM Punk في رحلة شخصية يرويها بنفسه.",
-      "universe_description": "يصل نظام WWE Draft أخيراً إلى نمط Universe، مما يمنحك تحكماً كاملاً في العروض الأسبوعية والمنافسات.",
-      "mygm_description": "ارتقِ باستراتيجيتك مع MyGM التي تدعم الآن المباريات المختلطة ومباريات لـ 5 و6 و8 أشخاص.",
-      "the_island_description": "قاتل من أجل السيطرة على The Island، وهو عالم WWE تفاعلي يضم مهاماً وقصصاً وصراعات بين الفصائل.",
-      "ringside_pass_description": "نظام Ringside Pass الجديد يقدم 120 مكافأة عبر مستويات مجانية ومميزة طوال الموسم."
-    },
-    "match_types": {
-      "i_quit": "مباراة أنا أنسحب (I Quit)",
-      "inferno": "مباراة الجحيم (Inferno)",
-      "dumpster": "مباراة حاوية النفايات (Dumpster)",
-      "three_stages_of_hell": "مباراة 3 مراحل من الجحيم",
-      "ambulance": "مباراة سيارة الإسعاف",
-      "casket": "مباراة التابوت",
-      "special_guest_referee": "حكم ضيف خاص"
-    },
-    "roster": {
-      "total_superstars": "أكثر من 400 نجم ونجمة من الأساطير والحاضر",
-      "cover_star": "CM Punk",
-      "preorder_bonus": "حزمة Joe Hendry"
-    }
-  },
+  "nav": {},
   "common": {
-    "home": "الرئيسية",
+    "home": "الصفحة الرئيسية",
     "more": "المزيد",
-    "playNow": "اشترِ الآن",
-    "switchLanguage": "تغيير اللغة",
-    "switchTheme": "تغيير المظهر",
+    "playNow": "زيارة الموقع الرسمي",
+    "switchLanguage": "تبديل اللغة",
+    "switchTheme": "تبديل المظهر",
     "lightMode": "الوضع الفاتح",
     "darkMode": "الوضع الداكن",
-    "notFound": "الصفحة غير موجودة",
+    "notFound": "لم يتم العثور على الصفحة",
     "notFoundDescription": "الصفحة التي تبحث عنها غير موجودة.",
-    "backToHome": "العودة إلى الرئيسية",
+    "backToHome": "العودة إلى الصفحة الرئيسية",
     "relatedArticles": "مقالات ذات صلة",
-    "readMore": "اقرأ المزيد"
+    "readMore": "قراءة المزيد"
   },
   "hero": {
-    "badge": "محاكاة المصارعة الرسمية مع أكثر من 400 نجم",
-    "title": "Ragnarok Origin Classic ويكي",
-    "description": "تتبع القائمة الكاملة، والتقييمات، وأنواع المباريات، والإصدارات، وأدلة الأطوار لـ Ragnarok Origin Classic، من CM Punk Showcase إلى The Island، و MyGM، و MyRISE، و Universe.",
-    "getFreeCodesCTA": "احصل على أكواد مجانية",
-    "playOnRobloxCTA": "شراء Ragnarok Origin Classic",
+    "badge": "Classic Cross-Platform Fantasy MMORPG",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "A مركز محتوى عملي ROOC لطرق المبتدئين، والروتين اليومي، وبناء المهارات، وبناء الفصول الدراسية، ولعب النقابة، والرموز، والحيوانات الأليفة، وإطلاق التقدم.",
+    "getFreeCodesCTA": "عرض الرموز",
+    "playOnRobloxCTA": "زيارة الموقع الرسمي",
     "stats": {
       "stat1": {
-        "value": "2026-03-13",
-        "label": "الإصدار القياسي"
+        "value": "26 مارس 2026",
+        "label": "الإطلاق الرسمي"
       },
       "stat2": {
-        "value": "400+",
-        "label": "نجوم قابلون للعب"
+        "value": "Android iOS Windows",
+        "label": "المنصات"
       },
       "stat3": {
-        "value": "40+",
-        "label": "الحلبات"
+        "value": "14 الوظائف 27 تصميمًا",
+        "label": "الفئات والبنيات"
       },
       "stat4": {
-        "value": "4",
-        "label": "أنواع مباريات جديدة"
+        "value": "203",
+        "label": "الأزياء"
       }
     }
   },
   "gameFeature": {
-    "title": "أسلوب لعب Ragnarok Origin Classic",
-    "description": "عِش تجربة محاكاة المصارعة الأكثر واقعية مع أكثر من 400 نجم وأنواع مباريات جديدة!"
+    "title": "Ragnarok Origin Classic نظرة عامة",
+    "description": "استكشف مسارات الإطلاق والروتين اليومي وبناء المهارات وبناءات الفصل والأكواد ولعب النقابة ومسارات التقدم لـ Ragnarok Origin Classic."
   },
   "tools": {
     "title": "Ragnarok Origin Classic",
@@ -92,1208 +60,1459 @@
     "subtitle": "انتقل إلى أي قسم أدناه",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "الإصدارات والمواعيد",
-        "description": "قارن بين جميع الإصدارات الأربعة ومواعيد الإصدار"
+        "icon": "BookOpen",
+        "title": "دليل المبتدئين",
+        "description": "ابدأ بقوة بمسار المهمة أولاً والمعالم المبكرة"
       },
       {
-        "icon": "Users",
-        "title": "قائمة المصارعين",
-        "description": "تصفح أكثر من 400 نجم قابل للعب"
+        "icon": "المستخدمون",
+        "title": "أفضل فئة",
+        "description": "قارن بين الوظائف الملائمة للمبتدئين وسرعة الزراعة وقيمة الدعم"
       },
       {
         "icon": "TrendingUp",
-        "title": "التقييمات",
-        "description": "تصنيفات النجوم الأعلى تقييماً"
+        "title": "قائمة المستويات",
+        "description": "راجع التصنيفات المستندة إلى الوضع لـ PvE وPvP ولعب النقابة"
       },
       {
-        "icon": "Gamepad2",
-        "title": "أدوات التحكم",
-        "description": "أدوات التحكم الخاصة بـ PS5 و Xbox و PC"
+        "icon": "الساعة",
+        "title": "دليل التسوية",
+        "description": "اتبع أسرع مسار EXP المبكر وافتح المسار"
       },
       {
-        "icon": "Flame",
-        "title": "أنواع مباريات جديدة",
-        "description": "ظهور 4 أنواع مباريات جديدة لأول مرة"
+        "icon": "ClipboardCheck",
+        "title": "الروتين اليومي",
+        "description": "حوّل اليوميات والمكافآت والعمولات إلى حلقة نظيفة"
       },
       {
-        "icon": "Film",
-        "title": "Showcase",
-        "description": "مسيرة CM Punk الأسطورية"
-      },
-      {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "إدارة علامة WWE التجارية الخاصة بك"
-      },
-      {
-        "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "أنشئ قصة النجم الخاصة بك"
-      },
-      {
-        "icon": "Globe",
-        "title": "Universe Mode",
-        "description": "التحكم في WWE Universe"
-      },
-      {
-        "icon": "Palette",
-        "title": "إبداعات المجتمع",
-        "description": "تنزيل ومشاركة الإبداعات"
-      },
-      {
-        "icon": "Map",
-        "title": "The Island",
-        "description": "طور معركة يعتمد على الفرق"
-      },
-      {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "ابنِ فريق أحلامك"
-      },
-      {
-        "icon": "Gift",
-        "title": "Locker Codes",
-        "description": "أكواد نشطة للحصول على مكافآت"
-      },
-      {
-        "icon": "Monitor",
-        "title": "متطلبات PC",
-        "description": "المواصفات الأدنى والموصى بها"
-      },
-      {
-        "icon": "Building",
-        "title": "الحلبات",
-        "description": "أكثر من 40 قاعة عرض شهيرة"
+        "icon": "Hammer",
+        "title": "مهارات البناء",
+        "description": "تخصيص نقاط الخطة للزراعة، والإدارة، وPvP"
       },
       {
         "icon": "Package",
-        "title": "DLC والمحتويات القابلة للفتح",
-        "description": "Season Pass وخارطة طريق المحتوى"
+        "title": "Class Builds",
+        "description": "مقارنة فروق الإحصائيات، واتجاه الترس، ونماذج الفئة"
+      },
+      {
+        "icon": "Shield",
+        "title": "تقدم العتاد",
+        "description": "قم بالترقية بكفاءة وتجنب مسارات التحسين المهدرة"
+      },
+      {
+        "icon": "العملات المعدنية",
+        "title": "Zeny الزراعة",
+        "description": "تتبع مسارات العملات المتكررة وعمليات مسح الصدر وإسقاط الزعيم"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "F2P الدليل",
+        "description": "قم ببناء خطة بداية آمنة مع اختيار الفصل وأولويات المتجر"
+      },
+      {
+        "icon": "Trophy",
+        "title": "MVP الدليل",
+        "description": "يخطط الزعماء لمطاردة طبقات المكافأة والمساهمة والحدود"
+      },
+      {
+        "icon": "السيوف",
+        "title": "WoE الدليل",
+        "description": "إعداد أدوار النقابة وتوقيت الحصار وقيمة القلعة"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "PvP الدليل",
+        "description": "شحذ الاندفاع والتحكم وضغط الفريق للعب في الساحة"
+      },
+      {
+        "icon": "Building",
+        "title": "دليل النقابة",
+        "description": "تخطيط مهام النقابة والأحداث وقيمة المساهمة طويلة المدى"
+      },
+      {
+        "icon": "Gift",
+        "title": "Codes",
+        "description": "انسخ رموز الاسترداد النشطة واتبع مسار المطالبة داخل اللعبة"
+      },
+      {
+        "icon": "Layers",
+        "title": "دليل الحيوانات الأليفة",
+        "description": "اختر الحيوانات الأليفة التي تدعم الزراعة ونمو الإحصائيات والمرافق"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "تاريخ إصدار Ragnarok Origin Classic والإصدارات",
-      "subtitle": "اختر الإصدار الذي يناسب أسلوب لعبك",
+      "title": "Ragnarok Origin Classic دليل المبتدئين",
+      "subtitle": "توجيه المهمة أولاً، وتوقيت المهمة الأولى، والأنظمة المبكرة التي يتم فتحها في اليوم الأول.",
       "quickFacts": [
         {
-          "label": "الإصدار القياسي",
-          "value": "March 13, 2026"
+          "label": "الطريق الرئيسي",
+          "value": "المهمة أولاً"
         },
         {
-          "label": "الوصول المبكر المتميز",
-          "value": "March 6, 2026"
+          "label": "الوظيفة الأولى",
+          "value": "المستوى 10"
         },
         {
-          "label": "المنصات",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "label": "مسمار السلاح",
+          "value": "المستوى 15"
         },
         {
-          "label": "النوع",
-          "value": "رياضة، مصارعة محترفة"
+          "label": "الحلقة اليومية",
+          "value": "المستوى 16"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
+          "name": " البرنامج التعليمي والإعداد",
+          "price": "الخطوة 1",
+          "releaseDate": " أنشئ شخصيتك وأنهي المقدمة",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "لعبة Ragnarok Origin Classic الأساسية"
+            "تعيين لقبك وتفضيلاتك الأساسية",
+            "تعرف على القتال والمخزون وتدفق المهام",
+            "فتح أداة تعقب المهمة الرئيسية"
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
+          "name": "طريق المهمة الرئيسي",
+          "price": "الخطوة 2",
+          "releaseDate": "دفع القصة قبل الطحن العشوائي",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "لعبة Ragnarok Origin Classic الأساسية",
-            "حزمة King of Kings Edition",
-            "تذكرة Ringside Pass Premium الموسم 1",
-            "وصول مبكر لمدة 7 أيام",
-            "حزمة Joe Hendry"
+            "استخدم المهمة الرئيسية للحصول على EXP وفتحها",
+            "تجنب الانعطافات المبكرة إلى وحوش النخبة",
+            "حافظ على تقدم التقدم في خط نظيف"
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
+          "name": "مراحل الوظيفة والأسلحة",
+          "price": "الخطوة 3",
+          "releaseDate": "الوصول إلى المستوى 10 إلى 15",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "لعبة Ragnarok Origin Classic الأساسية",
-            "حزمة King of Kings Edition",
-            "حزمة Attitude Era Edition",
-            "تذكرة Ringside Pass Premium الموسم 1-4",
-            "وصول مبكر لمدة 7 أيام",
-            "Superstar Mega-Boost",
-            "حزمة Joe Hendry"
+            "اختر وظيفتك الأولى في المستوى 10",
+            "قم بمعاينة مستوى الراحة في الفصل قبل التثبيت",
+            "اصنع سلاحك من الدرجة الأولى عند المستوى 15"
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
+          "name": "الحلقة اليومية",
+          "price": "الخطوة 4",
+          "releaseDate": "ابدأ عند المستوى 16 وما بعده",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "لعبة Ragnarok Origin Classic الأساسية",
-            "حزمة Monday Night War Edition",
-            "حزمة King of Kings Edition",
-            "حزمة Attitude Era Edition",
-            "حزمة WrestleMania 42",
-            "تذكرة Ringside Pass Premium الموسم 1-6",
-            "وصول مبكر لمدة 7 أيام",
-            "Superstar Mega-Boost",
-            "حزمة Joe Hendry",
-            "32,500 VC"
+            "ابدأ العمولات اليومية عند المستوى 16",
+            "استخدم أنظمة النقابات والحسابات أثناء فتحها",
+            "حوّل المكافآت الروتينية إلى تقدم ثابت"
           ]
         }
       ],
       "highlights": [
-        "الإصدارات المتميزة تفتح اللعبة قبل 7 أيام",
-        "إصدار Monday Night War يتضمن جميع حزم المحتوى المتميز الثلاث",
-        "تتوسع تذكرة Ringside Pass عبر ستة مواسم في الإصدارات المتميزة"
+        "اللعب بالمهمة أولاً هو أسرع طريق مبكر في Ragnarok Origin Classic",
+        "تؤدي العمولات اليومية وأنظمة النقابات إلى نمو ثابت للحساب",
+        "يعد Archer وMage وAcolyte اختيارات مريحة شائعة للاعبين الجدد"
       ]
     },
     "roster": {
-      "title": "قائمة Ragnarok Origin Classic",
-      "subtitle": "تصفح أكثر من 400 نجم وأسطورة قابلين للعب",
+      "title": "Ragnarok Origin Classic أفضل فئة",
+      "subtitle": "إجابات سريعة للاعبين الذين يريدون فئة رئيسية دون إضاعة الموارد المبكرة.",
       "stats": [
         {
-          "label": "إجمالي النجوم",
-          "value": "400+"
+          "label": "أفضل بداية للمبتدئين",
+          "value": "Archer"
         },
         {
-          "label": "إضافات جديدة",
-          "value": "50+"
+          "label": "أفضل بداية زراعية",
+          "value": "Mage"
         },
         {
-          "label": "نطاق القائمة",
-          "value": "الأكبر في تاريخ السلسلة"
+          "label": "أفضل بداية دعم",
+          "value": "Acolyte"
         }
       ],
       "categories": [
         {
-          "name": "نجوم حاليون",
+          "name": "صديق للمبتدئين",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "Archer",
+            "Mage",
+            "Acolyte"
           ]
         },
         {
-          "name": "أساطير",
+          "name": "اللعب الفردي الآمن",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "التاجر",
+            "المبارز",
+            "الصياد"
           ]
         },
         {
-          "name": "أبرز نجوم العصر الجديد",
+          "name": "أداة المجموعة",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "Acolyte",
+            "الكاهن",
+            "حداد"
           ]
         },
         {
-          "name": "تسليط الضوء على الموسم 1",
+          "name": "انفجر و PvP",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "لص",
+            "قاتل",
+            "فارس"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "تقييمات Ragnarok Origin Classic",
-      "subtitle": "تصنيفات النجوم الأعلى تقييماً",
+      "title": "Ragnarok Origin Classic قائمة المستوى",
+      "subtitle": "تصنيفات تعتمد على الوضع لـ PvE وPvP ولعب النقابة بدلاً من قائمة عالمية واحدة.",
+      "leftTitle": "Best PvE Jobs",
+      "rightTitle": "Best PvP Jobs",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
-          "rating": 97
+          "name": "الصياد",
+          "rating": "S"
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
+          "name": "المعالج",
+          "rating": "S"
         },
         {
-          "name": "John Cena",
-          "rating": 97
+          "name": "الكاهن",
+          "rating": "A"
         },
         {
-          "name": "John Cena '12",
-          "rating": 96
+          "name": "حداد",
+          "rating": "A"
         },
         {
-          "name": "The Rock '01",
-          "rating": 96
+          "name": "فارس",
+          "rating": "B"
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
-        },
-        {
-          "name": "Stone Cold Steve Austin '00",
-          "rating": 95
-        },
-        {
-          "name": "The Rock",
-          "rating": 95
-        },
-        {
-          "name": "Cody Rhodes",
-          "rating": 95
-        },
-        {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "قاتل",
+          "rating": "B"
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
-          "rating": 96
+          "name": "الكاهن",
+          "rating": "S"
         },
         {
-          "name": "Becky Lynch",
-          "rating": 94
+          "name": "المعالج",
+          "rating": "S"
         },
         {
-          "name": "Bianca Belair",
-          "rating": 94
+          "name": "قاتل",
+          "rating": "A"
         },
         {
-          "name": "Charlotte Flair",
-          "rating": 93
+          "name": "فارس",
+          "rating": "A"
         },
         {
-          "name": "Iyo Sky",
-          "rating": 93
+          "name": "الصياد",
+          "rating": "B"
         },
         {
-          "name": "Naomi",
-          "rating": 92
-        },
-        {
-          "name": "Stephanie Vaquer",
-          "rating": 92
-        },
-        {
-          "name": "Liv Morgan",
-          "rating": 92
-        },
-        {
-          "name": "AJ Lee '15",
-          "rating": 92
-        },
-        {
-          "name": "Tiffany Stratton",
-          "rating": 91
+          "name": "حداد",
+          "rating": "B"
         }
-      ],
-      "highlights": [
-        "أعلى تقييم للرجال: 97",
-        "أعلى تقييم للنساء: 96",
-        "تمزج التقييمات بين النجوم الحاليين، والأساطير، وشخصيات من عصور بديلة"
       ]
     },
     "controls": {
-      "title": "عناصر التحكم في Ragnarok Origin Classic",
-      "subtitle": "أتقن عناصر التحكم الأساسية لأجهزة PS5 و Xbox و PC",
+      "title": "Ragnarok Origin Classic دليل التسوية",
+      "subtitle": "طريق إطلاق عملي مبني على أولوية المهمة والأنظمة اليومية والزراعة الفعالة.",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "المهمة الرئيسية",
           "controls": [
             {
-              "action": "ركض",
-              "input": "استمرار الضغط على L2 + العصا اليسرى"
+              "action": "تابع تدفق القصة",
+              "input": "الخبرة الأساسية والفتح"
             },
             {
-              "action": "إمساك (اشتباك)",
-              "input": "O"
+              "action": "الوصول إلى المستوى 10",
+              "input": "اختر وظيفتك الأولى"
             },
             {
-              "action": "ضربة خفيفة / اشتباك خفيف",
-              "input": "مربع"
-            },
-            {
-              "action": "ضربة ثقيلة / اشتباك ثقيل",
-              "input": "X"
-            },
-            {
-              "action": "Irish Whip",
-              "input": "O (أثناء الإمساك)"
-            },
-            {
-              "action": "Signature",
-              "input": "R2 + مربع"
-            },
-            {
-              "action": "Finisher",
-              "input": "R2 + X"
-            },
-            {
-              "action": "إخضاع",
-              "input": "R2 + O"
-            },
-            {
-              "action": "Payback",
-              "input": "R2 + مثلث"
-            },
-            {
-              "action": "عكس الحركة / تفادي",
-              "input": "مثلث"
-            },
-            {
-              "action": "صد",
-              "input": "استمرار الضغط على مثلث"
-            },
-            {
-              "action": "تثبيت الخصم",
-              "input": "العصا اليمنى لأسفل"
-            },
-            {
-              "action": "التقاط سلاح",
-              "input": "L1"
+              "action": "الوصول إلى المستوى 15",
+              "input": "اصنع سلاح صفك"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "العمولات اليومية",
           "controls": [
             {
-              "action": "ركض",
-              "input": "استمرار الضغط على LT + العصا اليسرى"
+              "action": "فتح الحلقة اليومية",
+              "input": "يبدأ عند المستوى 16"
             },
             {
-              "action": "إمساك (اشتباك)",
-              "input": "B"
+              "action": "احصل على المكافآت اليومية",
+              "input": "خبرة ومواد مجانية"
             },
             {
-              "action": "ضربة خفيفة / اشتباك خفيف",
-              "input": "X"
+              "action": "قيمة حدث المكدس",
+              "input": "حافظ على ثبات النمو"
+            }
+          ]
+        },
+        {
+          "name": "وقت القتال",
+          "controls": [
+            {
+              "action": "الغوغاء ذوي الكفاءة في المزرعة",
+              "input": "أفضل استخدام لوقت الطحن"
             },
             {
-              "action": "ضربة ثقيلة / اشتباك ثقيل",
-              "input": "A"
+              "action": "تخطي الانعطافات المبكرة للنخبة",
+              "input": "تجنب الوقت الضائع"
             },
             {
-              "action": "Irish Whip",
-              "input": "B (أثناء الإمساك)"
-            },
-            {
-              "action": "Signature",
-              "input": "RT + X"
-            },
-            {
-              "action": "Finisher",
-              "input": "RT + A"
-            },
-            {
-              "action": "إخضاع",
-              "input": "RT + B"
-            },
-            {
-              "action": "Payback",
-              "input": "RT + Y"
-            },
-            {
-              "action": "عكس الحركة / تفادي",
-              "input": "Y"
-            },
-            {
-              "action": "صد",
-              "input": "استمرار الضغط على Y"
-            },
-            {
-              "action": "تثبيت الخصم",
-              "input": "العصا اليمنى لأسفل"
-            },
-            {
-              "action": "التقاط سلاح",
-              "input": "LB"
+              "action": "الانضمام إلى محتوى النقابة",
+              "input": "تقدم إضافي ومكافآت"
             }
           ]
         }
-      ],
-      "tips": [
-        "تربط الـ Combos بين الضربات الخفيفة والثقيلة معاً",
-        "تستخدم الـ Breakers نفس الزر الذي يضغط عليه خصمك",
-        "تستخدم لعبة الـ kick-out الموقوتة العصا اليمنى لأعلى",
-        "تشمل إجراءات الحكم الخاص العد، وكسر الحبال، والتحذيرات، والطرد"
       ]
     },
-    "matchTypes": {
-      "title": "Ragnarok Origin Classic أنواع مباريات جديدة",
-      "subtitle": "خض تجربة 4 أنواع مباريات جديدة وأسلوب لعب مطور",
-      "quickFacts": [
+    "dailyRoutine": {
+      "title": "Ragnarok Origin Classic روتين يومي",
+      "subtitle": " تساعد الحلقة اليومية النظيفة اللاعبين على الاستمرار في تسوية الأنظمة وزراعتها وفتحها دون إضاعة وقت قتال محدود.",
+      "intro": "في Ragnarok Origin Classic، يأتي التقدم الأسرع من القيام بالأشياء الصحيحة بالترتيب الصحيح بدلاً من الطحن بشكل عشوائي. يبدأ المسار اليومي الجيد عادةً بمكافآت مجانية وتقدم في القصة، ثم ينتقل إلى العمولات اليومية والزراعة في وقت القتال والزعماء ومحتوى النقابة.",
+      "items": [
         {
-          "label": "أنواع مباريات جديدة",
-          "value": "I Quit، Inferno، Dumpster، 3 Stages of Hell"
+          "name": "احصل على المكافآت اليومية أولاً",
+          "priority": "الأعلى",
+          "frequency": "تسجيل الدخول اليومي",
+          "details": "اجمع المكافآت اليومية ومكافآت الأحداث وهدايا مجانية لتذكرة المعركة قبل بدء الجلسات الطويلة.",
+          "why_it_matters": "هذا هو المصدر الأسهل للتذاكر المبكرة والمواد الاستهلاكية ومواد التقدم.",
+          "icon": "Gift"
         },
         {
-          "label": "مساحة عراك جديدة",
-          "value": "عراك ساحة الخردة"
+          "name": "ادفع القصة الرئيسية حتى يتم الوصول إلى المستوى.",
+          "priority": "الأعلى",
+          "frequency": "يوميًا حتى يتم الحظر",
+          "details": " تظل المهام الرئيسية هي المصدر الرئيسي للخبرة المبكرة وخبرة المهمة وفتح الميزات وتقدم العتاد الأساسي.",
+          "why_it_matters": "يفتح تقدم القصة الأنظمة بشكل أسرع من الطحن الميداني العشوائي.",
+          "icon": "BookMarked"
         },
         {
-          "label": "إضافة للنمط",
-          "value": "التبديل السريع في MyFACTION"
-        }
-      ],
-      "matches": [
-        {
-          "name": "I Quit",
-          "description": "أجبر خصمك على قول 'I Quit' للفوز في هذه المواجهة العنيفة"
+          "name": "إنهاء العمولات اليومية",
+          "priority": "الأعلى",
+          "frequency": "Daily",
+          "details": " العمولات اليومية هي مهام سريعة قابلة للتكرار تطلب عادةً من اللاعبين هزيمة الوحوش أو إكمال أهداف صغيرة.",
+          "why_it_matters": "وهي توفر خبرة ثابتة، Zeny، ومواد مفيدة بينما تتلاءم بشكل طبيعي مع الحلقة اليومية.",
+          "icon": "ClipboardCheck"
         },
         {
-          "name": "Inferno",
-          "description": "أشعل النار في خصمك لتحقيق الفوز في هذه المباراة الحارقة"
+          "name": "قضاء وقت القتال بكفاءة",
+          "priority": "الأعلى",
+          "frequency": "Daily",
+          "details": "استخدم وقت القتال على الوحوش التي يمكنك قتلها بسرعة، ويفضل أن تكون أهدافًا قريبة من مستواك أو الغوغاء المرتبطين بالقطرات المطلوبة.",
+          "why_it_matters": "يعد وقت القتال أحد أنظمة الكفاءة الأساسية للتسوية والزراعة وإنشاء الإسقاط.",
+          "icon": "Clock3"
         },
         {
-          "name": "Dumpster",
-          "description": "أبرح خصمك ضرباً ثم ألقه في حاوية النفايات للفوز"
+          "name": "قم بالأنشطة اليومية ومهام الأحداث الدورية",
+          "priority": "High",
+          "frequency": "Daily",
+          "details": "تضيف الأنشطة اليومية المنتظمة والأحداث المحدودة مواد نمو إضافية ومكافآت إضافية وتقدم موسمي.",
+          "why_it_matters": "تعمل هذه الأنشطة على تجميع قيمة الحساب بمرور الوقت وغالبًا ما تكون أسهل طريقة لمواكبة محتوى F2P.",
+          "icon": "Sparkles"
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "تحدي الأفضل من ثلاثة حيث تستخدم كل جولة نوع مباراة مختلف"
+          "name": "Hunt Mini وMVP الرؤساء عندما يكون ذلك ممكنًا",
+          "priority": "High",
+          "frequency": "Daily / الانتهازي",
+          "details": "Mini ومحتوى الزعيم MVP مرتبط بقطرات قيمة مثل المواد النادرة والبطاقات والمخططات.",
+          "why_it_matters": "يعد محتوى الزعيم إحدى الطرق الرئيسية لتحويل اللعب الروتيني إلى تقدم طويل الأمد في العتاد.",
+          "icon": "Trophy"
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "بيئة عراك جديدة تقع في أرض الجزيرة القاحلة المليئة بالحطام"
-        }
-      ],
-      "newSystems": [
-        "قتال موسع بين الجماهير",
-        "طاولات قابلة للتكديس",
-        "دبابيس",
-        "مهاجمون مفاجئون",
-        "القتال عند الحواجز",
-        "حركة إقصاء الفريق بالتبديل السريع"
-      ]
-    },
-    "showcase": {
-      "title": "Ragnarok Origin Classic Showcase",
-      "subtitle": "استرجع أعظم عداوات CM Punk",
-      "quickFacts": [
-        {
-          "label": "نجم الغلاف",
-          "value": "CM Punk"
+          "name": "الانضمام إلى أنشطة النقابة",
+          "priority": "High",
+          "frequency": "Daily",
+          "details": "تضيف مهام النقابة وأحداث النقابة مكافآت المساهمة ونمو إضافي للحساب بالإضافة إلى اللعب الفردي.",
+          "why_it_matters": "تعد المشاركة في النقابة مصدرًا متكررًا للتقدم يتخطاه العديد من اللاعبين الجدد كثيرًا.",
+          "icon": "المستخدمون"
         },
         {
-          "label": "الجدول الزمني",
-          "value": "أكثر من 25 عاماً من تاريخ WWE"
-        },
-        {
-          "label": "أنواع النزالات",
-          "value": "تاريخية، خيالية، ماذا لو"
-        }
-      ],
-      "moments": [
-        {
-          "title": "مباراة الافتتاح",
-          "description": "WrestleMania 41 تهديد ثلاثي: CM Punk ضد Seth Rollins ضد Roman Reigns"
-        },
-        {
-          "title": "نزالات تاريخية",
-          "description": "إعادة بناء دقيقة مع حلبات أصلية وأهداف للمباريات"
-        },
-        {
-          "title": "حرب الخيال",
-          "description": "مواجهات الأحلام ضد أساطير أثروا في مسيرة Punk"
-        },
-        {
-          "title": "نزالات ماذا لو",
-          "description": "سيناريوهات لجدول زمني بديل تستكشف مسارات مهنية مختلفة"
-        }
-      ],
-      "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "واجه 20 خصماً متتالياً بشخصية CM Punk أو AJ Lee لفتح جميع مكافآت Showcase دفعة واحدة"
-      }
-    },
-    "mygm": {
-      "title": "Ragnarok Origin Classic MyGM",
-      "subtitle": "أدر علامتك التجارية مع حجز واستراتيجية أعمق",
-      "quickFacts": [
-        {
-          "label": "طول الموسم",
-          "value": "50 أسبوعاً"
-        },
-        {
-          "label": "ميزانيات البداية",
-          "value": "$3M - $7M"
-        },
-        {
-          "label": "متوسط حجم القائمة",
-          "value": "20-35 Superstars"
-        },
-        {
-          "label": "صعوبة جديدة",
-          "value": "Immortal"
-        }
-      ],
-      "features": [
-        {
-          "title": "مواسم ممتدة",
-          "description": "طول الموسم الافتراضي الآن 50 أسبوعاً مع خيارات ميزانية مرنة"
-        },
-        {
-          "title": "أنواع مباريات موسعة",
-          "description": "احجز مباريات خماسية، سداسية، ثمانية، تاغ ثلاثية، تاغ رباعية قاتلة، ومباريات هانديكاب"
-        },
-        {
-          "title": "قواعد مباريات جديدة",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "title": "تبادل بطاقات القوة",
-          "description": "تبادل بطاقات القوة خلال أسابيع التبادل مع خيار لتعطيل متجر بطاقات القوة"
-        },
-        {
-          "title": "مباريات مختلطة بين الجنسين",
-          "description": "احجز مباريات مختلطة بين الجنسين مع تكلفة حجز إضافية"
-        }
-      ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
-      ]
-    },
-    "myrise": {
-      "title": "Ragnarok Origin Classic MyRISE",
-      "subtitle": "قاتل في طريق عودتك في The Comeback",
-      "quickFacts": [
-        {
-          "label": "اسم القصة",
-          "value": "The Comeback"
-        },
-        {
-          "label": "الشخصية الرئيسية",
-          "value": "The Archetype"
-        },
-        {
-          "label": "السمة",
-          "value": "العودة بعد غياب دام عامين"
-        }
-      ],
-      "paths": [
-        {
-          "name": "المسار التقليدي",
-          "description": "احصل على الفرص بالطريقة الصحيحة وشق طريقك للعودة إلى المنافسة على اللقب"
-        },
-        {
-          "name": "المسار الشرس",
-          "description": "اختصر الطرق وسرّع عملية العودة من خلال تكتيكات عدوانية"
-        }
-      ],
-      "divisions": [
-        {
-          "name": "قسم الرجال",
-          "goal": "احصل على فرصة أخرى لمواجهة بطل WWE Bron Breakker",
-          "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
-          ]
-        },
-        {
-          "name": "قسم النساء",
-          "goal": "اسعَ لمواجهة أخرى مع بطلة WWE للنساء Jordynne Grace",
-          "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
-          ]
-        }
-      ],
-      "features": [
-        "حوارات متفرعة تشكل تقدم القصة",
-        "مؤتمرات WWE الصحفية مع ردود تعتمد على خيارات اللاعب",
-        "قرار نهائي كبير يؤثر على فترة الاحتفاظ باللقب"
-      ],
-      "rewards": [
-        "حلبات",
-        "بطولات",
-        "أجزاء CAS",
-        "شخصيات قابلة للعب",
-        "أسلحة",
-        "Paybacks",
-        "محتوى MyFACTION"
-      ]
-    },
-    "universeMode": {
-      "title": "نمط Universe في Ragnarok Origin Classic",
-      "subtitle": "ابنِ تقويم WWE الذي تحلم به بتحكم أعمق",
-      "quickFacts": [
-        {
-          "label": "أداة الإعداد",
-          "value": "Universe Wizard"
-        },
-        {
-          "label": "أقصى عدد لفعاليات Draft",
-          "value": "8"
-        },
-        {
-          "label": "الألقاب لكل عرض",
-          "value": "حتى 8"
-        },
-        {
-          "label": "خانات MITB",
-          "value": "2 لكل عرض"
-        }
-      ],
-      "features": [
-        {
-          "title": "Universe Wizard",
-          "description": "ابدأ ملفات الحفظ بشكل أسرع عبر اختيار العروض، وPLEs، والأبطال، والقوائم مسبقاً"
-        },
-        {
-          "title": "WWE Draft",
-          "description": "أنشئ وجدول فعاليات Draft حيث تتبادل العروض النجوم"
-        },
-        {
-          "title": "صرف حقيبة MITB",
-          "description": "يمكن صرف الحقائب على أي لقب مؤهل في العرض"
-        },
-        {
-          "title": "البروموهات المحسنة",
-          "description": "البروموهات الذاتية، وطلبات المواجهة، والمقاطعات، والتحديات المفتوحة، ومقابلات ما بعد النزال"
-        },
-        {
-          "title": "أشرطة ضبط تنظيم النزالات",
-          "description": "اضبط فرز بطاقة النزالات مع مكافآت للألقاب، والعداوات، وأنواع النزالات"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "إبداعات مجتمع Ragnarok Origin Classic",
-      "subtitle": "أنشئ محتوى مخصصاً أكبر وأكثر تفصيلاً",
-      "quickFacts": [
-        {
-          "label": "فتحات CAS",
-          "value": "200"
-        },
-        {
-          "label": "فتحات الصور",
-          "value": "2,000"
-        },
-        {
-          "label": "قوالب الجسم",
-          "value": "+40"
-        },
-        {
-          "label": "تقسيم الطبقات",
-          "value": "60 للزي + 40 للرأس/الجسم"
-        }
-      ],
-      "sections": [
-        {
-          "title": "إنشاء مصارع",
-          "description": "تشكيل الجسم وتشكيل الوجه المحسن مع +40 قالب للجسم"
-        },
-        {
-          "title": "الشعر وطلاء الجسم",
-          "description": "دمج ألوان الشعر ثنائي اللون وعناصر تحكم Joy-Con 2 للماوس لطلاء الجسم"
-        },
-        {
-          "title": "إنشاء حلبة",
-          "description": "حواجز LED، طاولات معلقين جديدة، وخيارات موسعة لبساط الحلبة وحوافها"
-        },
-        {
-          "title": "إنشاء صورة",
-          "description": "مضاعفة حد رفع الصور من 1,000 إلى 2,000 فتحة"
-        },
-        {
-          "title": "إنشاء بطولة",
-          "description": "أجزاء موسعة وواجهة بناء محدثة"
-        },
-        {
-          "title": "إنشاء دخلة",
-          "description": "تعديل الجدول الزمني المتقدم لدخلات البطل، MITB، والفرق (رباعي/خماسي)"
-        }
-      ]
-    },
-    "theIsland": {
-      "title": "Ragnarok Origin Classic الجزيرة",
-      "subtitle": "اختر تنظيماً وقاتل من أجل السيطرة",
-      "quickFacts": [
-        {
-          "label": "الفصائل",
-          "value": "3 تنظيمات"
-        },
-        {
-          "label": "فصول القصة",
-          "value": "3"
-        },
-        {
-          "label": "مستويات الهيبة",
-          "value": "4"
-        },
-        {
-          "label": "نمط PvP جديد",
-          "value": "2 ضد 2 PvP"
-        }
-      ],
-      "orders": [
-        {
-          "name": "تنظيم التقاليد",
-          "leader": "Cody Rhodes",
-          "description": "مبني على تراث الحلبة، الاستعراض، وقيم المدرسة القديمة"
-        },
-        {
-          "name": "تنظيم الظلال",
-          "leader": "Rhea Ripley",
-          "description": "يتبنى الغرابة، والمسرحية، وقوة الترهيب"
-        },
-        {
-          "name": "تنظيم الفوضى",
-          "leader": "CM Punk",
-          "description": "يرفض الوضع الراهن ويدفع الجزيرة في اتجاهات جريئة جديدة"
-        }
-      ],
-      "prestige": [
-        {
-          "tier": "مجنّد",
-          "ovrRange": "70-85"
-        },
-        {
-          "tier": "المشاغب",
-          "ovrRange": "75-90"
-        },
-        {
-          "tier": "المخطط",
-          "ovrRange": "80-95"
-        },
-        {
-          "tier": "أسطوري",
-          "ovrRange": "85-100"
+          "name": "استخدم الدليل قبل الزراعة المجانية",
+          "priority": "متوسط",
+          "frequency": "عندما يعلق",
+          "details": "يساعد الكتيب اللاعبين على التحقق من مواد الترقية ومواقع الوحوش وأهداف الزراعة الأفضل.",
+          "why_it_matters": "يمنع إضاعة الوقت عندما يصل اللاعبون إلى جدران القصة ويحتاجون إلى التركيز على الزراعة الفعالة.",
+          "icon": "BookOpen"
         }
       ],
       "highlights": [
-        "ساحة الخردة: منطقة عراك مركزية تحتوي على مخاطر وهياكل قابلة للتسلق",
-        "الأبراج: نمط PvE قابل للتكرار بمسارات عشوائية ومعارك زعماء",
-        "المهام الأسبوعية تمنح XP، وعناصر تجميلية، ومكافآت الجزيرة",
-        "اللعب المصنف الموسمي مع لوحات صدارة لـ 1 ضد 1، و2 ضد 2، والبطولات"
+        "يجب أن تظل العمولات اليومية ووقت القتال والمكافآت في أعلى الحلقة.",
+        "تضيف مهام النقابة وعمليات البحث عن الزعماء قيمة تتراكم بمرور الوقت.",
+        "الدليل هو أسرع طريقة للتعافي عندما يتباطأ تقدم القصة."
       ]
     },
-    "myfaction": {
-      "title": "Ragnarok Origin Classic MyFACTION",
-      "subtitle": "ابنِ تشكيلات أقوى مع التناغم وQuick Swap",
-      "quickFacts": [
+    "skillBuilds": {
+      "title": "Ragnarok Origin Classic بناء المهارات",
+      "subtitle": "حركة بناء المهارات عملية للغاية لأن اللاعبين عادة ما يبحثون بعد اختيار فصل دراسي ويريدون اتجاهًا واضحًا.",
+      "intro": "Ragnarok Origin Classic تتقارب مناقشات البناء عبر الإنترنت بالفعل حول ما يمكن التعرف عليه حزم المهارات بدلاً من توزيع نقطة عالمية واحدة لكل لاعب. تنسيق الصفحة الرئيسية الأكثر استقرارًا هو إظهار كل فئة متقدمة مع مسار المهارات الرئيسي الخاص بها، والغرض من المسار، والمفاضلة الأساسية بين الزراعة، والإدارة، PvP، وملاءمة الميزانية.",
+      "items": [
         {
-          "label": "حجم التشكيلة",
-          "value": "4 Superstars"
-        },
-        {
-          "label": "سمات التناغم",
-          "value": "60 عبر 10 فئات"
-        },
-        {
-          "label": "نوع مباراة جديد",
-          "value": "Quick Swap"
-        },
-        {
-          "label": "مجموعات بطاقات الإطلاق",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
-        }
-      ],
-      "features": [
-        {
-          "title": "تناغم الفريق",
-          "description": "تؤثر التفاعلات الإيجابية والسلبية على Chemistry Score؛ ويقلل Managers من السلبيات"
-        },
-        {
-          "title": "دعم الجنسين",
-          "description": "ابنِ تشكيلات مكونة من أربعة أشخاص مختلطة الجنسين"
-        },
-        {
-          "title": "Quick Swap",
-          "description": "بدّل زملاء الفريق في منتصف المباراة، وشارك خانات Signature/Finisher، وفُز بالضربة القاضية"
-        },
-        {
-          "title": "Faction Wars",
-          "description": "تقدم قائم على المجموعة يبدأ بـ Crowd's Deck"
-        },
-        {
-          "title": "World Tour",
-          "description": "تشمل المكافآت Personas وMFP وArc Cards وحزمًا عبر مواقع عالمية"
-        }
-      ]
-    },
-    "lockerCodes": {
-      "title": "أكواد خزانة Ragnarok Origin Classic",
-      "subtitle": "استبدل الأكواد النشطة للحصول على مكافآت MyFACTION",
-      "quickFacts": [
-        {
-          "label": "الوضع",
-          "value": "MyFACTION"
-        },
-        {
-          "label": "الكود النشط",
-          "value": "BSTINTWRLD26"
-        },
-        {
-          "label": "تاريخ الانتهاء",
-          "value": "March 13, 2026"
-        }
-      ],
-      "codes": [
-        {
-          "code": "BSTINTWRLD26",
-          "rewards": [
-            "1x حزمة Aftershock Series I الأساسية",
-            "1x حزمة Momentum Series I الأساسية"
+          "job": "Sniper",
+          "build_name": "ADL / طريق الصقر",
+          "core_skills": [
+            "حزمة الزناد المستندة إلى الصقر",
+            "الضرر المركّز للهجوم التلقائي",
+            "مهارات دعم ASPD العالية"
           ],
-          "expires": "March 13, 2026"
+          "best_for": "الزراعة المبكرة إلى منتصف اللعبة، DPS ثابت المدى، عام PvE",
+          "notes": "تسلط تغطية البناء عبر الإنترنت لـ Sniper الضوء باستمرار على إعدادات ADL وFalcon كواحدة من أكثر مسارات DPS بعيدة المدى شيوعًا.",
+          "icon": "Feather"
+        },
+        {
+          "job": "Sniper",
+          "build_name": "Trapper Route",
+          "core_skills": [
+            "مهارات التحكم التي تركز على المصيدة",
+            "أدوات رفض المنطقة",
+            "الانفجار الموجه نحو الإعداد"
+          ],
+          "best_for": "اللعب الظرفي PvE والتشغيل الثقيل",
+          "notes": "يتم تقديم Trapper بشكل شائع كبديل لـ ADL للاعبين الذين يفضلون ضرر الإعداد بدلاً من الهجمات التلقائية المستمرة.",
+          "icon": "Target"
+        },
+        {
+          "job": "اللورد نايت",
+          "build_name": "بيرس / طريق حلزوني متصادم",
+          "core_skills": [
+            "بيرس",
+            "حلزوني متصادم",
+            "أدوات انفجار المشاجرة ذات الهدف الواحد"
+          ],
+          "best_for": "أهداف النخبة، والخط الأمامي DPS",
+          "notes": "تفصل تغطية البناء الحالية بشكل متكرر لورد نايت بين بيرس، وClashing Spiral، وBash، والاتجاهات المستندة إلى Crit.",
+          "icon": "السيوف"
+        },
+        {
+          "job": "High Wizard",
+          "build_name": "Meteor Storm / طريق حقل الجاذبية",
+          "core_skills": [
+            "Meteor Storm",
+            "مجال الجاذبية",
+            "حزمة الضرر الإملائي AoE"
+          ],
+          "best_for": "طحن AoE، تلف المجموعة، التحكم على مستوى الشاشة",
+          "notes": "تؤطر مناقشات المعالج العالي الفصل باستمرار حول الاختيار بين هويات تعويذة AoE الرئيسية.",
+          "icon": "Orbit"
+        },
+        {
+          "job": "Paladin",
+          "build_name": "الصليب المقدس / التضحية / طريق الدرع",
+          "core_skills": [
+            "الصليب المقدس",
+            "التضحية",
+            "حزمة المهارات القائمة على الدرع"
+          ],
+          "best_for": "لعب خط المواجهة المدرع مع خيارات PvE و PvP مرنة ",
+          "notes": " يعد Paladin أحد أوضح الأمثلة على فئة ذات هويات مهارات متعددة قابلة للحياة بدلاً من مسار افتراضي واحد.",
+          "icon": "Shield"
+        },
+        {
+          "job": "Professor",
+          "build_name": "Autocast / Psychic Wave / SP Route",
+          "core_skills": [
+            "Psychic Wave",
+            "حزمة تفاعل البث التلقائي",
+            "طريق مهارات توسيع نطاق SP"
+          ],
+          "best_for": "لاعبو Magic DPS الذين يريدون إما الصب المتسق أو المزيد من اللعب التجريبي القائم على بروك",
+          "notes": " تركز تغطية بناء البروفيسور حاليًا على ثلاثة مسارات يمكن التعرف عليها: Autocast، وPsychic Wave، والمتغيرات التي تركز على SP.",
+          "icon": "Brain"
+        },
+        {
+          "job": "عالم الكيمياء الحيوية",
+          "build_name": "عرض الحمض / طريق هيلبلانت",
+          "core_skills": [
+            "عرض الحمض",
+            "Hellplant",
+            "أدوات المساعدة والأضرار بعيدة المدى"
+          ],
+          "best_for": "اللاعبون الذين يريدون فرعًا تجاريًا يتمتع بهوية هجومية قوية",
+          "notes": "يقوم الكيميائيون الحيويون ببناء مقاطع فيديو يقارنون باستمرار بين مظاهرة الحمض وHellplant باعتبارهما الاتجاهين الرئيسيين.",
+          "icon": "FlaskConical"
+        },
+        {
+          "job": "الكاهن الأعلى",
+          "build_name": "الدعم الكامل / طريق طارد الأرواح الشريرة",
+          "core_skills": [
+            "دعم حزمة برتقالية",
+            "مجموعة أدوات الشفاء",
+            "PvE خيار الضرر المقدس"
+          ],
+          "best_for": "دعم الحفلة، تسوية أكثر أمانًا، تقدم ثقيل المنفعة",
+          "notes": "تنقسم تغطية الكاهن الأعلى عادةً بين اللعب التقليدي للدعم الكامل ومتغيرات PvE الموجهة أكثر نحو الضرر.",
+          "icon": "HeartHandshake"
         }
       ],
-      "howToRedeem": [
-        "افتح Ragnarok Origin Classic من القائمة الرئيسية",
-        "اختر Locker Codes",
-        "أدخل الكود تماماً كما هو موضح",
-        "استبدل الكود وافتح حزمك في MyFACTION"
+      "highlights": [
+        "Ragnarok Origin Classic تكون تغطية البناء أقوى عندما يحصل كل مسار فئة على تسمية دور واضحة.",
+        "من السهل على اللاعبين بشكل خاص مقارنة القناص واللورد الفارس والساحر والكاهن في لمحة.",
+        "يؤدي عرض مسار المهارة والدور والمفاضلة معًا إلى جعل القسم أكثر فائدة من قائمة بسيطة."
       ]
     },
-    "pcRequirements": {
-      "title": "متطلبات PC للعبة Ragnarok Origin Classic",
-      "subtitle": "تحقق مما إذا كان PC الخاص بك يمكنه تشغيل Ragnarok Origin Classic",
-      "quickFacts": [
+    "classBuilds": {
+      "title": "Ragnarok Origin Classic إنشاءات الفصل",
+      "subtitle": "لا يبحث اللاعبون فقط عن أشجار المهارات. إنهم يريدون أيضًا اتجاهًا كاملاً للبناء يجمع بين الدور وراحة الزراعة ومنحنى القوة والتركيز على الإحصائيات. ",
+      "intro": " إن إصدار الصفحة الرئيسية الأكثر فائدة لبناءات الفصل الدراسي ليس جدارًا نظريًا طويلًا. إنها نظرة عامة سريعة تخبر اللاعبين بما يبدو عليه كل نموذج أصلي للفئة، ونوع المحتوى الذي يناسبه، ولماذا يختاره شخص ما على مسار وظيفي منافس. بالنسبة إلى Ragnarok Origin Classic، فإن أقوى النماذج الأولية الموثقة علنًا تدور بالفعل حول الزراعة بعيدة المدى، وانفجار المشاجرة في الخطوط الأمامية، ومنطقة التأثير السحرية، وبناء الدبابات الهجين، وفروع المهام المتأخرة المتخصصة.",
+      "items": [
         {
-          "label": "نظام التشغيل",
-          "value": "Windows 10 64-bit"
+          "class_name": "Sniper",
+          "archetype": "ADL / Falcon",
+          "role": "نطاق DPS المستمر",
+          "focus": "سرعة الهجوم، ووقت تشغيل الهجوم التلقائي، وتآزر الصقر",
+          "best_for": [
+            "الزراعة",
+            "الطحن في العالم المفتوح",
+            "عام PvE"
+          ],
+          "strengths": [
+            "اللعب الآمن بعيد المدى",
+            "قابلية استخدام مبكرة قوية",
+            "طريق الضرر الشائع المناسب للمبتدئين"
+          ],
+          "icon": "Feather"
         },
         {
-          "label": "RAM",
-          "value": "16 جيجابايت"
+          "class_name": "Sniper",
+          "archetype": "Trapper",
+          "role": " DPS الموجه للتحكم في نطاق واسع",
+          "focus": "إعداد المصيدة، اللعب الموضعي، إنكار المنطقة",
+          "best_for": [
+            "الموقفية PvE",
+            "المواجهات المبنية على المرافق"
+          ],
+          "strengths": [
+            "سرعة مختلفة عن ADL",
+            "يمكن معاقبة الأعداء المجمعين",
+            "مفيدة للاعبين الذين يفضلون أسلوب اللعب الإعدادي"
+          ],
+          "icon": "Target"
         },
         {
-          "label": "التخزين",
-          "value": "120 جيجابايت"
+          "class_name": "اللورد نايت",
+          "archetype": "Pierce / Clashing Spiral",
+          "role": "المشاجرة في الخطوط الأمامية DPS",
+          "focus": "انفجار هدف واحد، تحجيم الأسلحة، ضغط الزعيم العدواني",
+          "best_for": [
+            "الزعيم",
+            "أعداء النخبة",
+            "ضرر الخط الأمامي للفريق"
+          ],
+          "strengths": [
+            "هوية الاندفاع القوية ",
+            " مسار تقدم المشاجرة الموثوق به ",
+            " تخصص واضح عالي الضرر "
+          ],
+          "icon": "السيوف"
         },
         {
-          "label": "ملاحظة المعالج",
-          "value": "يتطلب دعم AVX2 و F16C"
+          "class_name": "High Wizard",
+          "archetype": " عاصفة النيزك / مجال الجاذبية ",
+          "role": " عجلة AoE DPS",
+          "focus": "انفجار تعويذة، تغطية المنطقة، التحجيم السحري",
+          "best_for": [
+            "زراعة AoE",
+            "محتوى الحفلة",
+            "مسح الموجة"
+          ],
+          "strengths": [
+            "تحكم قوي في الشاشة",
+            "مسح سريع متعدد الأهداف",
+            "خيال قوة الساحر الكلاسيكي"
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "class_name": "Paladin",
+          "archetype": "Holy Cross / الدرع / التضحية",
+          "role": "الدبابات الهجينة",
+          "focus": "المتانة بالإضافة إلى خيارات هجومية مرنة",
+          "best_for": [
+            "اللعب الجماعي في الخطوط الأمامية",
+            "PvP التجارب",
+            "تقدم أكثر أمانًا"
+          ],
+          "strengths": [
+            "يمكن لعب الدبابة دون الشعور بالسلبية",
+            "اتجاهات متعددة قابلة للتطبيق",
+            "جيد للاعبين الذين يحبون البقاء على قيد الحياة"
+          ],
+          "icon": "Shield"
+        },
+        {
+          "class_name": "Professor",
+          "archetype": "الموجة النفسية / البث التلقائي / SP",
+          "role": "السحر التقني DPS",
+          "focus": "القياس السحري، والتفاعلات العملية، والأضرار المتخصصة القائمة على الموارد",
+          "best_for": [
+            "اللاعبون الذين يريدون إنشاءات سحرية مرنة",
+            "التجريب",
+            "تحسين اللعبة من منتصف إلى أواخر"
+          ],
+          "strengths": [
+            "العديد من مسارات المهام المتأخرة المتميزة",
+            "يمكن التمحور بين الأنماط",
+            "هوية بناء عالية"
+          ],
+          "icon": "Brain"
+        },
+        {
+          "class_name": "عالم الكيمياء الحيوية",
+          "archetype": "العرض التوضيحي للحمض / Hellplant",
+          "role": "أخصائي هجوم فرع التاجر",
+          "focus": "أضرار متفاوتة تعتمد على المهارة مع فائدة خاصة بفئة معينة",
+          "best_for": [
+            "اللاعبون الذين يريدون تقدم التاجر مع وجود ضرر حقيقي",
+            "متخصص PvE"
+          ],
+          "strengths": [
+            "هوية فئة فريدة",
+            "طرق هجومية متعددة",
+            "فرع جيد للاعبين الذين سئموا توقعات الدعم الأساسي"
+          ],
+          "icon": "FlaskConical"
+        },
+        {
+          "class_name": "الكاهن الأعلى",
+          "archetype": "الدعم الكامل / PvE طارد الأرواح الشريرة",
+          "role": "دعم المعالج أو دعم الضرر المقدس",
+          "focus": "التعزيزات، الشفاء، الاستدامة، اختياري PvE اتجاه الضرر",
+          "best_for": [
+            "الأطراف",
+            "الدعم الرئيسي",
+            "تقدم الحساب الآمن"
+          ],
+          "strengths": [
+            "مفيد دائمًا في اللعب الجماعي",
+            "خيار التقدم منخفض المخاطر",
+            "مرن بدرجة كافية للتفرع إلى إعدادات PvE أكثر نشاطًا"
+          ],
+          "icon": "HeartHandshake"
         }
       ],
-      "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 أو AMD Ryzen 5 1500X",
-        "memory": "16 جيجابايت RAM",
-        "graphics": "NVIDIA RTX 2060 أو AMD Radeon RX 5700",
-        "directX": "الإصدار 12",
-        "storage": "مساحة متوفرة 120 جيجابايت",
-        "notes": "يجب أن تحتوي GPU على 6 جيجابايت VRAM على الأقل؛ يجب أن يدعم CPU تقنيات AVX2 و F16C"
-      },
-      "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 أو AMD Ryzen 5 2600",
-        "memory": "16 جيجابايت RAM",
-        "graphics": "NVIDIA RTX 3060 أو AMD Radeon RX 6700 XT",
-        "directX": "الإصدار 12",
-        "storage": "مساحة متوفرة 120 جيجابايت",
-        "notes": "12 جيجابايت VRAM على الأقل؛ يجب أن يدعم CPU تقنيات AVX2 و F16C"
+      "highlights": [
+        "يجب أن يخبر قسم بناء الفصل النظيف اللاعبين بالدور والإحساس والمكافأة بسرعة.",
+        "أقوى النماذج الأولية ROOC من السهل بالفعل تجميعها من خلال الزراعة والقيادة وPvP وقيمة الدعم.",
+        "هذا يظل القسم مفيدًا حتى عندما يقوم اللاعبون بمقارنة وظيفتين أو ثلاث وظائف مفضلة فقط."
+      ]
+    },
+    "gearProgression": {
+      "title": "Ragnarok Origin Classic تقدم العتاد",
+      "subtitle": " غالبًا ما يتعثر اللاعبون بمجرد تباطؤ التسوية الأولية ولم يعودوا متأكدين مما يجب تحسينه أو شرائه أو زراعته بعد ذلك.",
+      "intro": "Ragnarok Origin Classic يتم بناء قوة الشخصية من خلال عدة أنظمة مرتبطة بدلاً من شاشة معدات واحدة. تشير أدلة التقدم العامة للمبتدئين بالفعل إلى نظام نمو ثابت: تحسين العتاد الأساسي بكفاءة، وملء فتحات الريش في وقت مبكر، واستخدام الحيوانات الأليفة لتحسين نتيجة القتال، وإضافة بطاقات للضرر والمرافق، وإنفاق عملات المتجر على قيمة طويلة الأجل بدلاً من الترقيات العشوائية.",
+      "items": [
+        {
+          "stage": "تحسين البداية",
+          "focus": "السلاح +6، ثم الملحقات +6",
+          "details": "توصي إرشادات التقدم الحالية بالبدء بالسلاح والملحقات الأساسية قبل توزيع الموارد بشكل ضئيل جدًا.",
+          "why_now": "هذه هي قفزة الطاقة المبكرة الأكثر كفاءة.",
+          "icon": "Wrench"
+        },
+        {
+          "stage": "خط الأساس للمجموعة الكاملة",
+          "focus": "اجعل المجموعة الكاملة تصل إلى +6",
+          "details": "بعد أول ترقيات للسلاح والملحقات، أكمل بقية المعدات حتى لا يتم الإفراط في استثمار الشخصية في فتحة واحدة فقط.",
+          "why_now": " تعمل قيمة التحسين المتوازنة على تحسين الاتساق العام.",
+          "icon": "Package"
+        },
+        {
+          "stage": "دفعة التحسين في منتصف اللعبة",
+          "focus": "السلاح +10، ثم الملحقات +10",
+          "details": " بمجرد تعيين خط أساسي ثابت +6، يصبح السلاح والملحقات أهداف التحسين الرئيسية مرة أخرى.",
+          "why_now": "عادةً ما يأتي الارتفاع الكبير التالي في الضرر من عتبات التحسين الأعلى.",
+          "icon": "ArrowUpRight"
+        },
+        {
+          "stage": "هدف التحسين طويل المدى",
+          "focus": "ادفع السلاح تدريجيًا نحو +15",
+          "details": "تصبح تأثيرات التحسين المتقدمة والمقياس الأقوى أكثر أهمية عند الحدود الأعلى.",
+          "why_now": "يعد هذا أحد أوضح مسارات الاستثمار طويل المدى لقوة الحساب.",
+          "icon": "TrendingUp"
+        },
+        {
+          "stage": "إعداد الحد الأدنى",
+          "focus": "املأ جميع فتحات الحدود الخمس مبكرًا",
+          "details": "يوفر الحد الأدنى طبقات الإحصائيات الرئيسية مثل الهجوم والدفاع وتعزيز الضرر وتقليل الضرر.",
+          "why_now": "يعد إعداد الحد الأدنى الكامل مهمًا في وقت مبكر أكثر من الإفراط في ترقية ريشة ضعيفة واحدة.",
+          "icon": "Feather"
+        },
+        {
+          "stage": "قاعدة الريش",
+          "focus": "لا تبالغ في الاستثمار في الريش ذي الطبقة المنخفضة",
+          "details": "يتم تحديد التأثيرات بواسطة الريش الأقل ندرة المجهز، لذلك تأتي الكفاءة المبكرة من التغطية أولاً، والاستثمار العميق لاحقًا.",
+          "why_now": "وهذا يتجنب إهدار الموارد على القطع المؤقتة.",
+          "icon": "Layers3"
+        },
+        {
+          "stage": "تقدم الحيوانات الأليفة",
+          "focus": "ترقية مستوى الحيوانات الأليفة ومستوىها",
+          "details": "تم تبسيط نمو الحيوانات الأليفة في المستوى الكلاسيكي حول المستوى والطبقة، ويتم وضع الحيوانات الأليفة كمساعد رئيسي للزراعة في وقت مبكر وفي منتصف اللعبة.",
+          "why_now": "تضيف الحيوانات الأليفة قيمة قتالية عملية دون الحاجة إلى إعداد عتاد كامل أولاً.",
+          "icon": "PawPrint"
+        },
+        {
+          "stage": "تقدم البطاقة",
+          "focus": "إعطاء الأولوية لبطاقات الضرر والمرافق أولاً",
+          "details": "يتم الحصول على البطاقات من أنظمة مثل Monster Annihilation وتبادل المتاجر، ويتم التعامل معها عادةً كطبقة كفاءة للأداء الزراعي والقتال.",
+          "why_now": "تعمل البطاقات على تحسين بناء الهوية والمساعدة في تسريع المحتوى الروتيني.",
+          "icon": "BadgeDollarSign"
+        },
+        {
+          "stage": "أولوية التسوق",
+          "focus": "إنفاق المتاجر على القيمة طويلة المدى",
+          "details": "تبدأ أولوية متجر الذهب بصناديق اختيار الريش وصقل المواد؛ يعطي Social Shop الأولوية للريش، ثم الذهب، ثم Blue Star Coin؛ يعطي متجر الحيوانات الأليفة الأولوية للأجزاء الملحمية والأسطورية؛ يسلط متجر البطاقات الضوء على بطاقة تانوكي على وجه التحديد كأولوية مبكرة.",
+          "why_now": "إن الإنفاق الصحيح في المتجر يبقي التقدم نظيفًا لـ F2P والمنفقين الخفيفين.",
+          "icon": "Store"
+        }
+      ],
+      "highlights": [
+        "Ragnarok Origin Classic يعمل نمو العتاد بشكل أفضل عندما يتحرك كل من الصقل والريش والحيوانات الأليفة والبطاقات والمتاجر معًا.",
+        "تأتي الكفاءة المبكرة من التغطية الكاملة، وليس من الإفراط في الاستثمار في فتحة واحدة في وقت مبكر جدًا.",
+        "إن قرارات القيمة طويلة المدى مهمة أكثر من مطاردة ترقيات صغيرة قصيرة المدى."
+      ]
+    },
+    "universeMode": {
+      "eyebrow": "الاقتصاد",
+      "title": "Ragnarok Origin Classic Zeny الزراعة",
+      "subtitle": "أفضل مسارات العملات في وقت مبكر ومنتصف اللعبة",
+      "intro": "يرتبط تدفق العملة في Ragnarok Origin Classic باللعب اليومي الفعال بدلاً من نقطة طحن واحدة. أقوى نمط يظهر عبر الأدلة الحالية هو مسح قيمة الكنز لمرة واحدة أولاً، ثم التحول إلى الزراعة السريعة القتل ومحتوى الزعيم والبيع المنضبط حتى يستمر حسابك في النمو دون إضاعة وقت القتال.",
+      "highlights": [
+        "افتح صناديق كنوز الخرائط عبر مناطق مختلفة قبل الاستثمار بكثافة في الترقيات المبكرة.",
+        "اقض وقت القتال على الوحوش التي يمكنك إزالتها بسرعة بدلاً من فرض أهداف صعبة.",
+        "واصل بيع الغنائم والبطاقات غير المستخدمة الجرع والطعام حتى تستمر قيمة المخزون في التحرك."
+      ],
+      "items": [
+        {
+          "method": "مسار صندوق الكنز",
+          "category": "الدخل المتفجر لمرة واحدة",
+          "how_to_do_it": "افتح صناديق كنوز الخرائط عبر مناطق مختلفة قبل الاستثمار بكثافة في الترقيات المبكرة.",
+          "best_for": "جميع الفئات",
+          "why_it_works": "يسلط دليل طريق الصندوق الحالي الضوء على ما يقرب من 8 ملايين Zeny متاحة من مجموعة الصناديق المجانية.",
+          "watch_out_for": "لا تعامل دخل الصندوق باعتباره خطة اقتصادية دائمة بعد عملية المسح الأولى."
+        },
+        {
+          "method": "زراعة الوحوش سريعة القتل",
+          "category": "دخل يومي قابل للتكرار",
+          "how_to_do_it": "اقض وقت القتال على الوحوش التي يمكنك إزالتها بسرعة بدلاً من فرض أهداف صعبة.",
+          "best_for": "الصياد أو الساحر أو غيرها من بناءات المدى الفعال أو AoE",
+          "why_it_works": "توصي التغطية الحالية للمبتدئين بشكل متكرر بالقتل السريع لتحسين كفاءة الخبرة والإسقاط، مما يحسن أيضًا تدفق الغنائم القابلة للبيع.",
+          "watch_out_for": "الطحن على الأهداف البطيئة أو النخبة يقلل من الدخل ووتيرة التسوية."
+        },
+        {
+          "method": "قم ببيع الغنائم والمواد الاستهلاكية غير المستخدمة",
+          "category": "تحويل المخزون",
+          "how_to_do_it": "قم بتنظيف المخزون بانتظام وبيع المزيد من الغنائم والبطاقات والجرعات والأطعمة التي لا تستخدمها بشكل نشط.",
+          "best_for": "جميع الفئات",
+          "why_it_works": "تشير مادة المبتدئين الحالية Ragnarok Origin Classic إلى اللاعبين بشكل صريح نحو بيع العناصر غير المستخدمة للحصول على دخل ثابت.",
+          "watch_out_for": "لا تتخلص من مواد التقدم التي لا تزال بحاجة إليها للتحسين أو البطاقات أو نمو الفصل."
+        },
+        {
+          "method": "MVP وصيد الزعماء الصغار",
+          "category": "طريق إسقاط عالي القيمة",
+          "how_to_do_it": "انضم إلى الزعماء في عمليات البحث عن المواد النادرة والمخططات والبطاقات، خاصة عندما يتمكن فصلك أو مجموعتك من تأمين مساهمة ثابتة.",
+          "best_for": "لاعبو الحفلة، الكيمياء الحيوية، انفجار DPS، مجموعات النقابة المنسقة",
+          "why_it_works": "يصف مرشدو الزعماء محتوى MVP كمصدر للعناصر النادرة، البطاقات والمخططات التي لا تشكل جزءًا من الزراعة الميدانية العادية.",
+          "watch_out_for": "لا تطارد كل تفرخ بشكل أعمى؛ قم بإعطاء الأولوية للزعماء الذين يتناسبون مع بنيتك أو احتياجات العتاد الحالية."
+        },
+        {
+          "method": "العملات الذهبية التي حصلت عليها من خلال اللعب",
+          "category": "عملة التقدم الأساسية",
+          "how_to_do_it": "قم ببناء حلقتك اليومية حول عمليات قتل الوحوش والأبراج المحصنة والأنشطة الزراعية التي تغذي اقتصاد العملة الذهبية.",
+          "best_for": "جميع اللاعبين، وخاصة F2P",
+          "why_it_works": "تشير التغطية الأخيرة Ragnarok Origin Classic إلى أنه يتم ربح العملات الذهبية من خلال أنشطة اللعب بدلاً من الأنظمة المتميزة فقط.",
+          "watch_out_for": "تجنب إنفاق العملات الذهبية مبكرًا جدًا على ترقيات منخفضة القيمة عندما لا تزال أنظمة الطاقة الأساسية بحاجة إلى الأولوية."
+        },
+        {
+          "method": "اللعب الاقتصادي على نمط التاجر",
+          "category": "ميزة الفئة",
+          "how_to_do_it": "استخدم نقاط قوة فئة التاجر للعب يركز على الاقتصاد، وصياغة الدعم، ومواجهة السوق بشكل أكثر ذكاءً القرارات.",
+          "best_for": "مسارات التاجر والحداد والكيميائي",
+          "why_it_works": "تحدد إرشادات المبتدئين الحالية والمواد الترويجية الرسمية مسارات التاجر كفئات موجهة نحو الاقتصاد.",
+          "watch_out_for": "تصبح مسارات التاجر أقوى عندما تقترن بالتخطيط، وليس الإنفاق العشوائي."
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://www.youtube.com/watch?v=Qu2KSCvJ_Xc",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "عرض كامل Zeny دليل الزراعة",
+        "href": "/ragnarok-origin-classic-zeny-farming"
       }
     },
-    "arenas": {
-      "title": "Ragnarok Origin Classic Arenas",
-      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
-      "quickFacts": [
+    "communityCreations": {
+      "eyebrow": "F2P",
+      "title": "Ragnarok Origin Classic F2P Guide",
+      "subtitle": " خطة البدء الآمنة للاعبين المجانيين ومنخفضي الإنفاق",
+      "intro": "Ragnarok Origin Classic يتم وضعها حاليًا كإصدار أكثر ملاءمة F2P من النظام البيئي الأوسع Ragnarok Origin، مع العملات الذهبية المكتسبة أثناء اللعب وعدد أقل من نقاط الضغط المباشرة للدفع مقابل الفوز. أقوى خطة F2P لا تتعلق بالاستعجال في كل نظام في وقت واحد؛ يتعلق الأمر باختيار فئة مستقرة، وإعطاء الأولوية للمتاجر الفعالة، وتأخير الترقيات المهدرة حتى يصبح لحسابك اتجاه حقيقي. ",
+      "highlights": [
+        " اختر فئة بداية مستقرة قبل إنفاق الموارد. ",
+        " استخدم القصة الرئيسية والدليل للحفاظ على كفاءة التقدم.",
+        "قم بتأخير الترقيات المحفوفة بالمخاطر حتى يتخذ حسابك اتجاهًا حقيقيًا."
+      ],
+      "items": [
         {
-          "label": "Arena Count",
-          "value": "40+"
+          "step": 1,
+          "label": "اختر فئة بداية مستقرة",
+          "details": "للحصول على راحة المبتدئين، توصي الأدلة الحالية باستمرار بـ Archer أو Mage للزراعة الأكثر أمانًا، بينما يظل Acolyte طريق دعم قوي. للحصول على قيمة F2P مخصصة، يضع أحد أدلة الفصل الحديثة Blacksmith في أعلى تصنيفات F2P بسبب تعدد الاستخدامات وكفاءة الموارد."
         },
         {
-          "label": "New Venues",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "step": 2,
+          "label": "ادفع المهام الرئيسية قبل الطحن العشوائي",
+          "details": "استخدم القصة الرئيسية كعمودك الفقري للتقدم المبكر. إنه يفتح الميزات، ويمنح خبرة ثابتة وخبرة عمل، ويمنع إضاعة الوقت في الطحن منخفض الكفاءة قبل فتح أنظمة حسابك."
         },
         {
-          "label": "Classic Highlights",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "step": 3,
+          "label": "استخدم الكتيب قبل أن تقوم بالمزرعة",
+          "details": " يعد الكتيب واحدًا من أكثر الأدوات المبكرة فائدة لأنه يعرض مواد الترقية ومواقع الوحوش ومعلومات EXP. يتيح ذلك F2P للاعبين استهداف الوحوش المناسبة بدلاً من حرق الوقت ومكافحة القدرة على التحمل بشكل غير فعال."
+        },
+        {
+          "step": 4,
+          "label": "إعطاء الأولوية للمحلات التجارية التي تعمل على تحسين كفاءة الحساب",
+          "details": "توصي إرشادات المتجر الحالية بصناديق اختيار الريش أولاً في متجر الذهب، والريش ثم الذهب ثم عملة النجمة الزرقاء في المتجر الاجتماعي، وبطاقة تانوكي كأولوية مبكرة لمتجر البطاقات، وأجزاء الحيوانات الأليفة الملحمية أو الأسطورية كمتجر للحيوانات الأليفة على المدى الطويل الأهداف."
+        },
+        {
+          "step": 5,
+          "label": "التحسين في نقاط التفتيش الخاضعة للرقابة",
+          "details": "المسار الفعال الشائع هو السلاح +6، ثم الملحقات +6، ثم المجموعة الكاملة +6، ولاحقًا السلاح +10 والملحقات +10، وعندها فقط الدفع أكثر. يؤدي ذلك إلى تجنب الوقوع في فخ F2P الكلاسيكي المتمثل في الالتزام الزائد بالترقيات المحفوفة بالمخاطر في وقت مبكر جدًا."
+        },
+        {
+          "step": 6,
+          "label": "املأ الأنظمة قبل الإفراط في الاستثمار فيها",
+          "details": "يتحسن حجم الريش والبطاقات والحيوانات الأليفة والمعدات الأساسية بشكل أفضل عندما يتمتع حسابك بتغطية أساسية أولاً. توصي الأدلة الحديثة صراحةً بملء فتحات الريش مبكرًا وتجنب الاستثمار الكبير في القطع الضعيفة من الطبقة المبكرة."
+        },
+        {
+          "step": 7,
+          "label": "تعامل مع الإنفاق باعتباره تسريعًا، وليس وصولًا",
+          "details": "تصف التغطية الحالية اللعبة بأنها يمكن الوصول إليها إلى حد كبير من خلال المحتوى اليومي والأبراج المحصنة، مع عمليات الشراء الإضافية التي تعمل بشكل أساسي كتسريع للتقدم. يشير أحد الأدلة أيضًا إلى أنه يمكن ربط الوصول إلى البطاقة الشهرية بالذهب داخل اللعبة، وهي ميزة كبيرة لتخطيط المريض F2P."
         }
       ],
-      "categories": [
-        {
-          "name": "Current Weekly Shows",
-          "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
-          ]
-        },
-        {
-          "name": "Premium Live Events",
-          "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
-          ]
-        },
-        {
-          "name": "Classic Arenas",
-          "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
-          ]
-        },
-        {
-          "name": "Original and Brawl Spaces",
-          "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
-          ]
-        }
-      ]
+      "source_urls": [
+        "https://www.youtube.com/watch?v=I5EqSIYZTGs",
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "عرض كامل F2P دليل",
+        "href": "/ragnarok-origin-classic-f2p-guide"
+      }
     },
-    "dlcUnlockables": {
-      "title": "محتويات Ragnarok Origin Classic DLC والعناصر القابلة للفتح",
-      "subtitle": "تتبع كل مسار مكافآت رئيسي بعد الإطلاق",
-      "quickFacts": [
-        {
-          "label": "مواسم Ringside Pass",
-          "value": "6"
-        },
-        {
-          "label": "المستويات لكل موسم",
-          "value": "40"
-        },
-        {
-          "label": "مكافآت المسار المجاني",
-          "value": "60"
-        },
-        {
-          "label": "إجمالي المكافآت",
-          "value": "120"
-        }
+    "theIsland": {
+      "eyebrow": "الزعيم",
+      "title": "Ragnarok Origin Classic MVP دليل",
+      "subtitle": "كيف يعمل MVP يعتبر محتوى الصيد وما يجب تحديد أولوياته",
+      "intro": "MVP أحد أوضح نقاط توقف التقدم في Ragnarok Origin Classic لأنه يربط بين بناء الفصل واللعب الجماعي واستهداف العناصر النادرة. تُظهر الأدلة العامة الحالية أن اللعب الجيد MVP لا يتعلق فقط بإحداث الضرر؛ تؤثر المساهمة وتوازن الأدوار وحدود المكافأة اليومية واختيار الهدف على مقدار القيمة التي تحصل عليها من كل عملية صيد.",
+      "highlights": [
+        "المساهمة أوسع من مجرد DPS.",
+        "حدود المكافآت اليومية تجعل التخطيط أمرًا مهمًا.",
+        "يتفوق اللعب الجماعي على القوة الغاشمة على المدى الطويل."
       ],
-      "seasons": [
+      "items": [
         {
-          "season": "الموسم 1",
-          "release": "March 6, 2026"
-        },
-        {
-          "season": "الموسم 2",
-          "release": "April 2026"
-        },
-        {
-          "season": "الموسم 3",
-          "release": "June 2026"
-        },
-        {
-          "season": "الموسم 4",
-          "release": "July 2026"
-        },
-        {
-          "season": "الموسم 5",
-          "release": "September 2026"
-        },
-        {
-          "season": "الموسم 6",
-          "release": "October 2026"
-        }
-      ],
-      "editionPacks": [
-        {
-          "name": "حزمة إصدار King of Kings",
-          "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "حركة Triple H الاستعراضية الخاصة"
+          "title": "استخدم قائمة MVP قبل النشر",
+          "summary": "تعرض واجهة MVP الموقع والعد التنازلي، وتعلن اللعبة عن عمليات النشر قبل وقت قصير من ظهورها.",
+          "highlights": [
+            "تحقق من وقت النشر من قائمة الأحداث",
+            "يظهر إعلان النظام قبل 5 دقائق من النشر",
+            " تُظهر الواجهة أيضًا الطرف الذي قام مؤخرًا بتأمين MVP"
           ]
         },
         {
-          "name": "حزمة إصدار Attitude Era",
-          "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "بطاقة EVO لـ Stone Cold Steve Austin",
-            "بطاقة EVO لـ The Rock",
-            "حلبة Raw Is War '98"
+          "title": "تعرف على طبقتي المكافأة",
+          "summary": "MVP يتم تقسيم المكافآت بين المكافآت القائمة على الحزب والمكافآت الفردية، لذلك حتى اللاعبين الذين لا يتمتعون بأكبر قدر من الضرر لا يزال بإمكانهم اكتساب القيمة.",
+          "highlights": [
+            "ترتبط مكافآت الفريق باللقب MVP الفائز داخل الحزب",
+            "يمكن أن تتضمن مكافآت الفريق الماس، وقسائم التبادل، وفرص المخططات، وMVP فرص البطاقات",
+            "يمكن أن تتضمن المكافآت الشخصية مخططات ملحقة، وElunium، وأغطية الرأس الكريستالية إذا شاركت بشكل صحيح"
           ]
         },
         {
-          "name": "حزمة إصدار Monday Night War",
-          "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "حلبة WCW Thunder '98"
+          "title": "المساهمة أوسع من DPS النقي",
+          "summary": "يكافئ نظام التسجيل الدبابات، وDPS، والشفاء، ولحظات التوقيت الرئيسية بدلاً من الاندفاع فقط. الضرر.",
+          "highlights": [
+            " الضرر الذي يحدث يساهم في النتيجة",
+            "يساهم DPS بأكبر حصة من النقاط",
+            "الشفاء، والضربة الأولى، والضربة النهائية، وعقوبة الإعدام كلها تؤثر على النتائج"
           ]
         },
         {
-          "name": "حزمة WrestleMania 42",
-          "includes": [
-            "حلبة WrestleMania 42",
-            "شخصية WM42 رقم 1",
-            "شخصية WM42 رقم 2",
-            "شخصية WM42 رقم 3"
+          "title": "المحاولات اليومية مهمة",
+          "summary": "MVP يجب التخطيط للصيد لأن مكافآت الفريق لها حد يومي.",
+          "highlights": [
+            "تدرج مادة دليل ROO الحالية حدًا يوميًا يبلغ 5 MVP من مكافآت الفريق",
+            "أثناء MVP الحمى، يرتفع الحد إلى 7",
+            "يقلل عدد أعضاء المجموعة الزائد من كفاءة النتيجة الإجمالية"
+          ]
+        },
+        {
+          "title": "أعط الأولوية للزعماء الذين يناسبون بنيتك",
+          "summary": "الطريق الأقوى هو مطاردة الزعماء الذين يسقطون البطاقات أو المعدات التي تعمل على تحسين فئتك بشكل مباشر.",
+          "highlights": [
+            "مثال على المعالج العالي: رؤساء مستهدفون مرتبطون بـ MATK والملحقات الملائمة لوقت التهدئة.",
+            "مثال لورد نايت: إعطاء الأولوية للزعماء المرتبطين بالهجوم الجسدي والحلقات الموجهة نحو STR",
+            "لا تضيع المحاولات على MVP عشوائية ليس لها قيمة مباشرة للبناء الخاص بك"
+          ]
+        },
+        {
+          "title": "اللعب الجماعي يتفوق على القوة الغاشمة",
+          "summary": "تصف المواد المبتدئة الحالية الرؤساء الأصغر حجمًا بأنهم في بعض الأحيان يمكن اللعب منفردًا، ولكن من الواضح أن MVP الأكبر حجمًا أفضل مع التنسيق المنسق. الفرق.",
+          "highlights": [
+            "يعد الرؤساء مصدرًا رئيسيًا للعناصر والبطاقات والمخططات النادرة",
+            "من الأفضل التعامل مع MVP الأكبر حجمًا في الحفلات",
+            "يلفت الكيمياء الحيوية الانتباه حاليًا باعتباره خيار ضرر قوي يركز على MVP في مقاطع الفيديو المجتمعية"
           ]
         }
       ],
-      "unlockExamples": [
+      "source_urls": [
+        "https://www.youtube.com/shorts/8eP4miwmrAw",
+        "https://www.youtube.com/watch?v=ekijaNVArbk",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://roo-global.gitbook.io/guide/game-wiki/mvp-boss-system",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html"
+      ],
+      "cta": {
+        "label": "عرض كامل MVP دليل",
+        "href": "/ragnarok-origin-classic-mvp-guide"
+      }
+    },
+    "myfaction": {
+      "eyebrow": "Guild PvP",
+      "title": "Ragnarok Origin Classic دليل حرب الإمبراطورية",
+      "subtitle": "الأساسيات والأدوار والمكافآت لـ War of Emperium",
+      "intro": " تعد War of Emperium واحدة من أكثر أوضاع النقابات واسعة النطاق شهرة في صيغة Ragnarok، وتظل سببًا رئيسيًا وراء استثمار اللاعبين في تقدم النقابة. توضح المادة الإرشادية الحالية Ragnarok Origin أن النجاح يعتمد على فترات التحضير، وتناسب دور الفصل، وفهم ما إذا كانت نقابتك تهاجم أو تدافع أو تلعب من أجل قيمة القلعة طويلة المدى بدلاً من عمليات القتل قصيرة المدى.",
+      "highlights": [
+        "إن نوافذ الإعداد مهمة بقدر أهمية القتال نفسه.",
+        "تفتح ملكية القلعة قيمة النقابة الإضافية.",
+        "تناسب الأدوار أكثر أهمية من لعب البطل المنفرد."
+      ],
+      "items": [
         {
-          "name": "AJ Lee",
-          "source": "Showcase: مباراة What If رقم 7"
+          "section": "نظرة عامة على الوضع",
+          "content": [
+            "War of Emperium هو وضع حصار النقابة حيث تتقاتل النقابات للاستيلاء على القلاع والدفاع عنها.",
+            "يصبح المهاجمون مدافعين عن طريق كسر الإمبراطورية داخل القلعة.",
+            "عندما ينتهي المؤقت، تصبح النقابة التي تسيطر على القلعة هي الشاغل الجديد."
+          ]
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "المستوى 5 في المسار المجاني لـ Ringside Pass #1"
+          "section": "عندما يحدث ذلك ومن يمكنه الانضمام",
+          "content": [
+            "قوائم مواد دليل ROO الحالية WoE يوم الأحد الساعة 21:30.",
+            "يتم التحقق من أهلية النقابة يوم الأحد الساعة 5:00، تليها نافذة إعداد من الساعة 5:00 إلى الساعة 20:00.",
+            "تقتصر المشاركة على النقابات فوق المستوى 3، والشخصيات في المستوى الأساسي 80 أو أعلى، والأعضاء الذين كانوا في النقابة لمدة لا تقل عن 72 ساعة."
+          ]
         },
         {
-          "name": "Andre The Giant",
-          "source": "المستوى 4 في المسار المجاني لـ Ringside Pass #1"
+          "section": "أفضل أدوار فئة الدفاع",
+          "content": [
+            "يتم حاليًا تسليط الضوء على الكاهن والساحر باعتبارهما اختيارات دفاع من الطبقة S في أحد أدلة الفصل الحديثة.",
+            "يتم تقدير الكاهن من أجل الشفاء والحفاظ على الدعم أثناء الدفاع عن نقطة الاختناق.",
+            "يتم تقدير الساحر لأضرار منطقة التأثير والتحكم في الحشود عند المداخل والمناطق المستهدفة.",
+            "يتم تقديم الحداد والصياد كبدائل قوية من المستوى A للتشكيلات الدفاعية."
+          ]
         },
         {
-          "name": "El Hijo del Vikingo",
-          "source": "المستوى 1 في المسار المميز لـ Ringside Pass #1"
+          "section": "أفضل أدوار فئة الهجوم",
+          "content": [
+            "يتم تسليط الضوء حاليًا على القاتل والفارس كاختيارات هجومية من المستوى S في دليل واحد حديث.",
+            "يجلب Assassin ضغطًا قويًا لعمليات تصفية سريعة وإزعاج الهدف.",
+            "يوفر Knight ضغطًا متينًا في الخطوط الأمامية وحضورًا هجوميًا ثابتًا.",
+            "يظل الساحر والحداد خيارين مفيدين لدعم جانب الهجوم."
+          ]
         },
         {
-          "name": "Flammer",
-          "source": "المستوى 7 في المسار المميز لـ Ringside Pass #1"
+          "section": "الإعداد وقيمة المتجر",
+          "content": [
+            "يمكن للأعضاء المؤهلين إكمال WoE مهام التحضير أثناء نافذة الإعداد.",
+            "يشتمل الوضع على WoE متجر عناصر ومتجر تبادل مكافآت مرتبط بنقاط المشاركة.",
+            "يعد الانضمام إلى الأدوار المخططة مسبقًا أكثر أهمية من الدخول كمجموعة فضفاضة من المبارزين الفرديين."
+          ]
         },
         {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: المباراة التاريخية رقم 7"
+          "section": "لماذا تتقاتل النقابات من أجل القلاع",
+          "content": [
+            "تحصل النقابات المالكة للقلعة على حقوق خاصة بما في ذلك صندوق الكنز في منزل اللورد الغرفة.",
+            " يمكن للنقابات المحتلة أيضًا الوصول إلى زنزانة النقابة.",
+            "يمكن لـ Guild Dungeon إنتاج أهداف صغيرة وMVP وتوفر فرصًا في المخططات والبطاقات."
+          ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=FSBPnayKUhc",
+        "https://roo-global.gitbook.io/guide/limited-time-event/gvg-war-of-emperium"
+      ],
+      "cta": {
+        "label": "عرض دليل War of Emperium الكامل",
+        "href": "/ragnarok-origin-classic-war-of-emperium-guide"
+      }
+    },
+    "pvpGuide": {
+      "eyebrow": "Competitive",
+      "title": "Ragnarok Origin Classic PvP Guide",
+      "subtitle": "PvP دروس في ساحة 3 ضد 3 ومعارك النقابات",
+      "intro": "Ragnarok Origin Classic يكافئ فئات مختلفة من القوة اعتمادًا على الوضع. في ساحة 3 ضد 3، تعد السرعة والتحكم في الحشود وضغط القتل السريع أكثر أهمية، بينما تضع Guild vs Guild قيمة أكبر على الشفاء والتحكم في المنطقة والبدء واللعب الجماعي المنسق.",
+      "items": [
+        {
+          "tier": "S",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "قاتل",
+              "role": "مزيل الانفجار",
+              "strengths": [
+                "ضرر انفجاري عالي جدًا",
+                "وصول سريع إلى الهدف",
+                "ضغط قتل قوي في معارك قصيرة"
+              ],
+              "notes": "القتلة مميتون للغاية في المعارك صغيرة النطاق لأنهم يستطيعون إزالة الأهداف الرئيسية بسرعة قبل أن يستقر فريق العدو."
+            },
+            {
+              "class": "فارس",
+              "role": "التحكم في الخطوط الأمامية",
+              "strengths": [
+                "نقاط الصحة العالية",
+                "السيطرة على الحشود",
+                "حركة قوية"
+              ],
+              "notes": "يؤدي الفرسان أداءً جيدًا في الساحة بفضل متانتهم وقدرتهم على تعطيل حركة العدو أثناء البقاء نشطين في وسط القتال."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "الصياد",
+              "role": "نطاق DPS",
+              "strengths": [
+                "ضرر قوي بعيد المدى",
+                "ضغط ثابت",
+                "إمكانية اختيار جيدة"
+              ],
+              "notes": "يمكن للصيادين الضغط من مسافة بعيدة، لكن يصبح من الأسهل معاقبتهم بمجرد قيام الأعداء بسد الفجوة."
+            },
+            {
+              "class": "الكاهن",
+              "role": "الدعم المستمر",
+              "strengths": [
+                "الشفاء",
+                "أداة الدعم المساعدة",
+                "مكافحة الاستقرار"
+              ],
+              "notes": "غالبًا ما يتأرجح الكهنة نتائج الساحة من خلال إبقاء زملائهم على قيد الحياة لفترة كافية حتى تتمكن من إنهاء الصفقات."
+            },
+            {
+              "class": "المعالج",
+              "role": "ملقي التحكم في المنطقة",
+              "strengths": [
+                "التحكم في AoE",
+                "إنكار المنطقة",
+                "ضغط القتال الجماعي"
+              ],
+              "notes": "يعتبر السحرة خطرين عندما يتم وضعهم بشكل جيد، لكنهم يحتاجون إلى الحماية والتباعد الدقيق لتجنب الانهيار."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "حداد",
+              "role": "دعم Bruiser",
+              "strengths": [
+                "أدوات دعم مفيدة",
+                "قيمة أمامية محترمة"
+              ],
+              "notes": "يمكن أن يساهم الحدادون، لكن في مباريات الساحة الأسرع قد يواجهون صعوبة في مواكبة الفئات الأكثر مرونة أو متفجرة."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "الكاهن",
+              "role": "دعم الفريق الأساسي",
+              "strengths": [
+                "الشفاء",
+                "Buffs",
+                "أداة الإحياء"
+              ],
+              "notes": "يلعب الكهنة دورًا أساسيًا في المعارك واسعة النطاق لأنهم يحافظون على قوة الدفع ويساعدون الفرق على التعافي من النوافذ المنفجرة."
+            },
+            {
+              "class": "المعالج",
+              "role": "AoE وحدة التحكم في المعركة",
+              "strengths": [
+                "ضرر بمساحة كبيرة",
+                "عقاب العدو المجمّع",
+                "ضغط موضوعي قوي"
+              ],
+              "notes": "يزدهر السحرة في معارك النقابات المزدحمة حيث يمكن لـ AoE ذات الطبقات كسر تشكيلات العدو المتجمعة."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "قاتل",
+              "role": "غواص الخط الخلفي",
+              "strengths": [
+                "ضغط الهدف الرئيسي",
+                "التقاط سريع للأعداء الضعفاء"
+              ],
+              "notes": "القتلة فعالون في غوص المعالجين ومسببي الأضرار، خاصة عندما يكون لدى فريقهم بالفعل غطاء في الخطوط الأمامية."
+            },
+            {
+              "class": "حداد",
+              "role": "دعم الكدمة",
+              "strengths": [
+                "المتانة",
+                "دعم الفريق"
+              ],
+              "notes": "يضيف الحدادون قيمة ثابتة ويساعدون في تعزيز بنية الفريق في المعارك الطويلة."
+            },
+            {
+              "class": "فارس",
+              "role": "البادئ",
+              "strengths": [
+                "مشاركة موثوقة",
+                "تعطيل الخط",
+                "التواجد في الخطوط الأمامية"
+              ],
+              "notes": "يعد الفرسان بداية قوية لارتباطات النقابة ويساعدون في فتح مساحة للكهنة والسحرة للعمل بأمان."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "الصياد",
+              "role": "الضرر الخلفي",
+              "strengths": [
+                "DPS ذات نطاق متسق"
+              ],
+              "notes": "لا يزال بإمكان الصيادين المساهمة في الضرر، لكنهم يجلبون فائدة أقل على نطاق واسع من أفضل اختيارات حرب النقابات."
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=9j-qf02Zl3A"
+      ],
+      "cta": {
+        "label": "عرض كامل PvP دليل",
+        "href": "/pvp-guide"
+      }
+    },
+    "guildGuide": {
+      "eyebrow": "التقدم الاجتماعي",
+      "title": "Ragnarok Origin Classic دليل النقابة",
+      "subtitle": "لماذا الانضمام إلى النقابة أمر مهم في وقت مبكر",
+      "intro": "في Ragnarok Origin Classic، النقابات ليست مجرد مجموعات اجتماعية. وهي تتصل مباشرة بالمهام الأسبوعية، والأحداث الموقوتة، ومكافآت المساهمة، والوصول إلى المتجر، والإحصائيات الإضافية، وأنظمة المكافآت المشتركة التي تنعكس في التقدم اليومي.",
+      "items": [
+        {
+          "card_title": "مهام النقابة",
+          "tag": "التقدم الأسبوعي",
+          "description": "تتيح مهام النقابة للاعبين إكمال 30 مهمة كل أسبوع للحصول على نقاط النقابة.",
+          "highlights": [
+            "تتضمن مهام تجنيد النقابة",
+            "تتضمن مهام التفاعل NPC",
+            "تتضمن صيد الوحوش",
+            "تتضمن صيد الوحوش النخبة"
+          ]
+        },
+        {
+          "card_title": "مكافآت المساهمة",
+          "tag": "المعالم",
+          "description": "يتم تعقب المساهمة الشخصية وتحويلها إلى مكافآت المعالم، مما يمنح الأعضاء النشطين سببًا ثابتًا للمشاركة كل أسبوع.",
+          "highlights": [
+            "يتم تتبع المساهمة بشكل فردي",
+            "يمكن المطالبة بمكافآت المعالم من تقدم النشاط"
+          ]
+        },
+        {
+          "card_title": "مزاد النقابة",
+          "tag": "الغنائم المشتركة",
+          "description": "بعد أحداث النقابة، يمكن أن تظهر العناصر في مزاد النقابة. يتم تحويل Nyan Berries هناك إلى ألماس ويتم توزيعه بالتساوي بين أعضاء النقابة.",
+          "highlights": [
+            "تدخل غنيمة حدث النقابة في المزاد",
+            "يمكن للأعضاء شراء العناصر المطلوبة",
+            "تتم مشاركة قيمة المزاد مرة أخرى بين الأعضاء"
+          ]
+        },
+        {
+          "card_title": "بعثة النقابة",
+          "tag": "الحدث المحدد بوقت",
+          "description": "تفتح رحلة النقابة أيام الثلاثاء والخميس والسبت والأحد من الساعة 20:00 إلى الساعة 20:20. يدخل الأعضاء خرائط خاصة لمحاربة MVP حقيقية واستنساخ MVP للحصول على مكافآت أفضل للنقابة.",
+          "highlights": [
+            "مقررة أربعة أيام كل أسبوع",
+            "يؤثر الضرر الواقع على جودة المكافأة",
+            "من الأفضل القيام بذلك مع مجموعات النقابة المنسقة"
+          ]
+        },
+        {
+          "card_title": "شذوذ الزمان والمكان",
+          "tag": "الحدث المحدد بوقت",
+          "description": "يُقام حدث النقابة هذا أيام الثلاثاء والخميس والسبت والأحد من الساعة 19:30 إلى الساعة 19:43 ويكافئ اللاعبين بناءً على التصنيف الشخصي وتصنيف النقابة.",
+          "highlights": [
+            "نافذة نشاط قصيرة المدة",
+            "يستخدم الحيوانات الأليفة أثناء التحدي",
+            "يعد كل من الأداء الفردي وأداء النقابة مهمًا"
+          ]
+        },
+        {
+          "card_title": "فوائد النقابة",
+          "tag": "نمو القوة",
+          "description": "توفر أنظمة النقابة العديد من مزايا الحساب طويلة الأجل بما يتجاوز المكافآت الأساسية.",
+          "highlights": [
+            "يمنح Emperium Buff إحصائيات إضافية",
+            "تقوم آلة بيع النقابة بتبادل المساهمة بالعناصر",
+            "تضيف مهارات النقابة إحصائيات إضافية",
+            "يمكن لمكافأة النقابة منح الماسات وNyanberry وZenies"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=uWwc3kKyPyE",
+        "https://www.gravity.co.kr/en/game/ROOC",
+        "https://roo-global.gitbook.io/guide/game-wiki/guild"
+      ],
+      "cta": {
+        "label": "استكشف أنظمة النقابة",
+        "href": "/guild-guide"
+      }
+    },
+    "codes": {
+      "eyebrow": "المكافآت",
+      "title": "Ragnarok Origin Classic تحتوي الأكواد",
+      "subtitle": "رموز الاسترداد النشطة وكيفية استخدامها",
+      "intro": "Ragnarok Origin Classic حاليًا على مجموعة صغيرة من الأكواد النشطة، مما يجعل تخطيط المسح النظيف أولاً أكثر فائدة من المقالة الطويلة. أهم الأشياء التي يجب إظهارها هي الرموز المباشرة ومسار الاسترداد وآخر تاريخ تم التحقق منه.",
+      "items": [
+        {
+          "code": "ROOCREADY2GO",
+          "status": "active",
+          "reward": "المكافآت",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC888",
+          "status": "active",
+          "reward": "المكافآت",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC2026",
+          "status": "active",
+          "reward": "المكافآت",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC666",
+          "status": "active",
+          "reward": "المكافآت",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC777",
+          "status": "active",
+          "reward": "المكافآت",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "الرموز منتهية الصلاحية",
+          "status": "لم يتم إدراج أي رموز منتهية الصلاحية",
+          "reward": "لم يتم إدراج أي رموز منتهية الصلاحية في تحديث 26 مارس 2026",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "مسار الاسترداد",
+          "status": "guide",
+          "reward": "افتح اللعبة -> اضغط على المكافآت -> افتح الاسترداد -> أدخل الرمز -> اضغط على تأكيد",
+          "last_checked": "2026-03-26"
+        }
+      ],
+      "source_urls": [
+        "https://progameguides.com/ragnarok-origin/ragnarok-origin-codes/",
+        "https://www.reddit.com/r/RagnarokOrigin/comments/12s9dkr/redeem_codes/",
+        "https://www.reddit.com/r/RagnarokMClassic/comments/1n7di9v/romc_global_new_serverexclusive_bonuses_redeem/",
+        "https://levelgeeks.net/ragnarok-origin-classic-codes/"
+      ],
+      "cta": {
+        "label": "فتح صفحة الرموز",
+        "href": "/codes"
+      }
+    },
+    "petsGuide": {
+      "eyebrow": "الرفاق",
+      "title": "Ragnarok Origin Classic دليل الحيوانات الأليفة",
+      "subtitle": "أساسيات الحيوانات الأليفة ومعالم التقدم ومستويات الندرة",
+      "intro": "يغذي نظام الحيوانات الأليفة في Ragnarok Origin بشكل مباشر الدعم القتالي ونمو الحساب. الأسئلة الأساسية للمبتدئين هي متى يتم فتح الحيوانات الأليفة، وكم عدد الأشخاص الذين يمكن أن يكونوا نشطين، ومتى يتم فتح فتحات المساعدة، وكيف تعمل ندرة الحيوانات الأليفة قبل أن يستثمر اللاعبون الكثير من الموارد.",
+      "items": [
+        {
+          "card_title": "عندما تفتح الحيوانات الأليفة",
+          "tag": "Milestone",
+          "description": "يتم فتح نظام الحيوانات الأليفة عند المستوى الأساسي 22.",
+          "highlights": [
+            "تدعم الحيوانات الأليفة الزراعة",
+            "تدعم الحيوانات الأليفة تشغيل الزنزانات",
+            "تدعم الحيوانات الأليفة PvP المعارك"
+          ]
+        },
+        {
+          "card_title": "حد الحيوانات الأليفة النشط",
+          "tag": "القاعدة الأساسية",
+          "description": "مع زيادة مستوى الشخصية، يتم فتح المزيد من خيارات تنشيط الحيوانات الأليفة. يمكن لأربعة حيوانات أليفة كحد أقصى أن تكون نشطة في نفس الوقت.",
+          "highlights": [
+            "ما يصل إلى أربعة حيوانات أليفة نشطة في وقت واحد",
+            "تم تصميمها لدعم الحساب المستمر بدلاً من فتحة استدعاء واحدة"
+          ]
+        },
+        {
+          "card_title": "فتحة المساعدة",
+          "tag": "المستوى 55",
+          "description": "في المستوى الأساسي 55، يمكن للاعبين تعيين حيوانات أليفة في فتحة المساعدة. لا يتم استدعاء الحيوانات الأليفة المساعدة إلى المعركة، لكنها لا تزال توفر السمات وتزيد من القوة الإجمالية.",
+          "highlights": [
+            "يتم فتحه عند المستوى الأساسي 55",
+            "يضيف سمات سلبية",
+            "مفيد لتكديس الإحصائيات على المدى الطويل"
+          ]
+        },
+        {
+          "card_title": "S مستوى الحيوانات الأليفة",
+          "tag": "أعلى ندرة",
+          "description": "يتم إدراج الحيوانات الأليفة من المستوى S على أنها أعلى فئة نادرة ويتم وصفها بأنها تتمتع بخصائص قوية جدًا.",
+          "highlights": [
+            "الأمثلة المدرجة: Ghost Samurai",
+            "الأمثلة المدرجة: Antasha Model",
+            "الأمثلة المدرجة: Earth Lord",
+            "الأمثلة المدرجة: Dunell"
+          ]
+        },
+        {
+          "card_title": "الحيوانات الأليفة من المستوى A وB",
+          "tag": "النمو العملي",
+          "description": "A يمكن للحيوانات الأليفة من المستوى S أن تعمل كبدائل للحيوانات الأليفة من المستوى S عندما يتم تطويرها بشكل جيد، بينما من الأسهل الحصول على الحيوانات الأليفة من المستوى B من خلال استدعاء الحيوانات الأليفة العادية والأسطورية.",
+          "highlights": [
+            "A الحيوانات الأليفة من المستوى أكثر سهولة في الوصول إليها من الحيوانات الأليفة من المستوى S",
+            " الحيوانات الأليفة من المستوى B أسهل في العثور عليها وتطويرها",
+            "يمكن للاعبين الأوائل تحقيق تقدم ملموس دون انتظار أعلى الندرة فقط"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=jBlEVqvqCFM",
+        "https://www.youtube.com/watch?v=dRgGDUjhZ9o",
+        "https://roo-global.gitbook.io/guide/game-wiki/pet-system"
+      ],
+      "cta": {
+        "label": "راجع دليل الحيوانات الأليفة",
+        "href": "/pets-guide"
+      }
     }
   },
   "faq": {
-    "title": "الأسئلة الأكثر",
-    "titleHighlight": "شيوعاً",
+    "title": "الأسئلة الشائعة",
+    "titleHighlight": "الأسئلة",
     "subtitle": "كل ما تحتاج لمعرفته حول Ragnarok Origin Classic",
     "questions": [
       {
-        "question": "متى سيتم إصدار Ragnarok Origin Classic؟",
-        "answer": "يصدر الإصدار القياسي من Ragnarok Origin Classic في 13 مارس 2026. تحصل إصدارات Deluxe على وصول مبكر بدءاً من 6 مارس 2026."
+        "question": "ما الذي يجب علي فعله أولاً في Ragnarok Origin Classic؟",
+        "answer": "في Ragnarok Origin Classic، ادفع المهمة الرئيسية أولاً، واحصل على وظيفتك الأولى في المستوى 10، واصنع سلاح فئتك في المستوى 15، وابدأ العمولات اليومية في المستوى 16."
       },
       {
-        "question": "كم عدد النجوم في Ragnarok Origin Classic؟",
-        "answer": "تضم Ragnarok Origin Classic أكثر من 400 نجم قابل للعب، بما في ذلك الأساطير، والقائمة الحالية، وشخصيات DLC."
+        "question": "ما هي الفئة الأسهل في Ragnarok Origin Classic؟",
+        "answer": "Ragnarok Origin Classic هي الأسهل بالنسبة لمعظم اللاعبين على آرتشر أو ماجى إذا كانوا يريدون الأمان الزراعة بعيدة المدى، في حين أن المساعد هو مسار الدعم الأكثر سلاسة."
       },
       {
-        "question": "ما هي المنصات التي تتوفر عليها Ragnarok Origin Classic؟",
-        "answer": "تتوفر Ragnarok Origin Classic على PS5، و Xbox Series X|S، و Steam (PC)، و Nintendo Switch 2."
+        "question": "كيف أقوم بالتسوية بسرعة في Ragnarok Origin Classic؟",
+        "answer": "Ragnarok Origin Classic يكون التسوية أسرع عندما تستمر في المهمة أولاً، وتنهي العمولات اليومية، وتستخدم وقت القتال على الغوغاء ذوي الكفاءة، وتتجنب الانعطافات المبكرة للنخبة."
       },
       {
-        "question": "كيف يمكنني استرداد رموز Locker Codes في Ragnarok Origin Classic؟",
-        "answer": "انتقل إلى نمط MyFACTION، واختر قائمة Locker Code، ثم أدخل الرمز. تحقق من صفحة الرموز الخاصة بنا للحصول على أحدث الرموز النشطة."
+        "question": "أين يمكنني العثور على رموز Ragnarok Origin Classic؟",
+        "answer": "Ragnarok Origin Classic عادةً ما تتم مشاركة الرموز من خلال صفحات الإطلاق الرسمية، Discord، ومنشورات المجتمع. أبقِ وحدة الرموز مفتوحة وانسخ الإدخال النشط الحالي."
       },
       {
-        "question": "ما هي أنواع المباريات الجديدة في Ragnarok Origin Classic؟",
-        "answer": "تقدم Ragnarok Origin Classic 4 أنواع جديدة من المباريات تشمل Inferno Match، و Dumpster Match، و Three Stages of Hell، و I Quit Match."
+        "question": "هل Ragnarok Origin Classic مناسب للاعبين الذين يلعبون مجانًا؟",
+        "answer": "نعم. Ragnarok Origin Classic يدعم مسار F2P ثابت إذا ركزت على المكافآت اليومية، وترقيات العتاد الفعالة، وأنظمة القيمة الأولى بدلاً من الإنفاق التجميلي."
       },
       {
-        "question": "ما هي أنماط اللعب المتوفرة في Ragnarok Origin Classic؟",
-        "answer": "تتضمن Ragnarok Origin Classic أنماط MyGM، و MyRISE، و Universe Mode، و Showcase (CM Punk)، و The Island، و MyFACTION، و Creation Suite."
+        "question": "ما الذي يجب أن أنضم إليه أولاً في Ragnarok Origin Classic: النقابة أو PvP؟",
+        "answer": "في Ragnarok Origin Classic، انضم إلى النقابة مبكرًا، ثم تفرع إلى PvP، وMVP الصيد، وحرب الإمبراطورية بمجرد استقرار بنيتك الأساسية."
       }
     ]
   },
   "cta": {
-    "title": "هل أنت مستعد لدخول الحلبة؟",
-    "description": "انضم إلى مجتمع Ragnarok Origin Classic على Discord للحصول على التحديثات، والكشف عن القوائم، ومناقشات أسلوب اللعب!",
-    "joinCommunity": "انضم إلى Discord",
-    "joinGame": "اشترِ Ragnarok Origin Classic"
+    "title": "هل أنت مستعد لاستكشاف Ragnarok Origin Classic؟",
+    "description": "انضم إلى Ragnarok Origin Classic Discord للحصول على التحديثات ومناقشة الفصل ومشاركة البناء وإطلاق الأخبار.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "زيارة الموقع الرسمي"
   },
   "footer": {
-    "title": "ويكي Ragnarok Origin Classic",
-    "description": "مركزك المتكامل للمصادر لقائمة مصارعي Ragnarok Origin Classic، والتقييمات، ورموز الخزانة، وأنواع المباريات، وأدلة أنماط اللعب.",
-    "resources": "المصادر",
-    "community": "المجتمع",
-    "legal": "قانوني",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "مركز الموارد الكامل الخاص بك لـ Ragnarok Origin Classic مسارات المبتدئين واختيارات الفصل والإنشاءات ولعب النقابات والأكواد والحيوانات الأليفة.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Official Site",
+    "instagram": "الموقع الرسمي",
     "about": "حول",
     "privacy": "سياسة الخصوصية",
     "terms": "شروط الخدمة",
     "copyrightNotice": "حقوق الطبع والنشر",
-    "copyright": "© 2026 Ragnarok Origin Classic Wiki. غير تابع لـ 2K Sports، أو Visual Concepts، أو WWE.",
-    "disclaimer": "موقع مصادر غير رسمي من صنع المعجبين."
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki. ليست تابعة لـ Gravity أو أي شريك رسمي للعبة.",
+    "disclaimer": "موقع ويب غير رسمي للموارد من صنع المعجبين."
   }
 }

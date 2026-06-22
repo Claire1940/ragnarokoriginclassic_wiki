@@ -1,1267 +1,1518 @@
 {
   "seo": {
     "home": {
-      "title": "Ragnarok Origin Classic 위키 - 로스터, 능력치, 모드 및 가이드",
-      "description": "Ragnarok Origin Classic 위키는 PS5, Xbox, Steam 및 Switch 2용 로스터, 능력치, 라커 코드, 매치 종류, MyGM, MyRISE, Universe 및 The Island 가이드를 제공합니다.",
-      "keywords": "Ragnarok Origin Classic, Ragnarok Origin Classic 로스터, Ragnarok Origin Classic 능력치, Ragnarok Origin Classic 라커 코드, Ragnarok Origin Classic MyGM",
-      "ogTitle": "Ragnarok Origin Classic 위키 - 로스터, 능력치, 모드 및 가이드",
-      "ogDescription": "Ragnarok Origin Classic 위키는 PS5, Xbox, Steam 및 Switch 2용 로스터, 능력치, 라커 코드, 매치 종류, MyGM, MyRISE, Universe 및 The Island 가이드를 제공합니다.",
-      "twitterTitle": "Ragnarok Origin Classic 위키 - 로스터, 능력치, 모드 및 가이드",
-      "twitterDescription": "Ragnarok Origin Classic 위키는 로스터, 능력치, 라커 코드, 매치 종류 및 게임 모드 가이드를 제공합니다."
+      "title": "Ragnarok Origin Classic Wiki - 초보자 가이드, 빌드 및 코드",
+      "description": "Ragnarok Origin Classic 초보자 경로, 일일 루틴, 스킬 빌드, 클래스 빌드, 길드 플레이, 코드, 애완동물 및 PC, Android, iOS 및 Windows의 출시 진행 상황에 대한 위키입니다.",
+      "keywords": "Ragnarok Origin Classic, ROOC, 초보자 가이드, 일일 루틴, 스킬 빌드, 클래스 빌드, 코드, 길드, PvP, 애완동물, 레벨링",
+      "ogTitle": "Ragnarok Origin Classic Wiki - 초보자 가이드, 빌드 및 코드",
+      "ogDescription": "Ragnarok Origin Classic 초보자 경로, 일일 루틴, 스킬 빌드, 클래스 빌드, 길드 플레이, 코드, 애완동물 및 PC, Android, iOS 및 Windows의 출시 진행 상황에 대한 위키입니다.",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - 초보자 가이드, 빌드 및 코드",
+      "twitterDescription": "Ragnarok Origin Classic 초보자 루트, 일일 루틴, 스킬 빌드, 클래스 빌드, 길드 플레이, 코드 및 애완동물을 위한 위키입니다."
     }
   },
   "nav": {},
   "common": {
     "home": "홈",
     "more": "더 보기",
-    "playNow": "지금 구매",
+    "playNow": "공식 사이트 방문",
     "switchLanguage": "언어 전환",
     "switchTheme": "테마 전환",
-    "lightMode": "라이트 모드",
+    "lightMode": "조명 모드",
     "darkMode": "다크 모드",
-    "notFound": "페이지를 찾을 수 없습니다",
-    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "notFound": "페이지를 찾을 수 없음",
+    "notFoundDescription": "찾고 있는 페이지가 존재하지 않습니다.",
     "backToHome": "홈으로 돌아가기",
     "relatedArticles": "관련 기사",
-    "readMore": "더 읽어보기"
+    "readMore": "더 읽기"
   },
   "hero": {
-    "badge": "400명 이상의 슈퍼스타가 등장하는 공식 레슬링 시뮬레이션",
-    "title": "Ragnarok Origin Classic 위키",
-    "description": "CM Punk Showcase부터 The Island, MyGM, MyRISE, Universe까지 Ragnarok Origin Classic의 전체 로스터, 능력치, 매치 종류, 에디션 및 모드 가이드를 확인하세요.",
-    "getFreeCodesCTA": "무료 코드 받기",
-    "playOnRobloxCTA": "Ragnarok Origin Classic 구매하기",
+    "badge": "클래식 크로스 플랫폼 판타지 MMORPG",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "초보자 루트, 일상, 스킬 빌드, 클래스 빌드, 길드 플레이, 코드, 애완동물 및 출시 진행을 위한 실용적인 ROOC 콘텐츠 허브입니다.",
+    "getFreeCodesCTA": "코드 보기",
+    "playOnRobloxCTA": "공식 사이트 방문",
     "stats": {
       "stat1": {
-        "value": "2026-03-13",
-        "label": "표준 출시일"
+        "value": "2026년 3월 26일",
+        "label": "공식 출시"
       },
       "stat2": {
-        "value": "400+",
-        "label": "플레이 가능한 슈퍼스타"
+        "value": "Android iOS Windows",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "40+",
-        "label": "경기장"
+        "value": "14 채용 정보 27 빌드",
+        "label": "클래스 및 빌드"
       },
       "stat4": {
-        "value": "4",
-        "label": "새로운 매치 종류"
+        "value": "203",
+        "label": "코스튬"
       }
     }
   },
   "gameFeature": {
-    "title": "Ragnarok Origin Classic 게임플레이",
-    "description": "400명 이상의 슈퍼스타와 새로운 매치 유형으로 가장 사실적인 레슬링 시뮬레이션을 경험해 보세요!"
+    "title": "Ragnarok Origin Classic 개요",
+    "description": "Ragnarok Origin Classic의 출시 경로, 일일 루틴, 스킬 빌드, 클래스 빌드, 코드, 길드 플레이 및 진행 경로를 살펴보세요."
   },
   "tools": {
     "title": "Ragnarok Origin Classic",
     "titleHighlight": "빠른 탐색",
-    "subtitle": "아래 섹션으로 바로 이동하세요",
+    "subtitle": "아래 섹션으로 이동",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "출시 및 에디션",
-        "description": "4가지 에디션 전체 비교 및 출시일"
+        "icon": "BookOpen",
+        "title": "초보자 가이드",
+        "description": "퀘스트 우선 루트와 초기 마일스톤으로 강하게 시작하세요"
       },
       {
         "icon": "Users",
-        "title": "로스터",
-        "description": "400명 이상의 플레이 가능한 슈퍼스타 탐색"
+        "title": "최고 클래스",
+        "description": "초보자 친화적인 직업, 파밍 속도, 지원 가치 비교"
       },
       {
         "icon": "TrendingUp",
-        "title": "레이팅",
-        "description": "최고 등급 슈퍼스타 순위"
+        "title": "티어 목록",
+        "description": "PvE, PvP 및 길드 플레이에 대한 모드 기반 순위 보기"
       },
       {
-        "icon": "Gamepad2",
-        "title": "조작법",
-        "description": "PS5, Xbox 및 PC 조작법"
+        "icon": "시계",
+        "title": "레벨링 가이드",
+        "description": "가장 빠른 초기 EXP 경로를 따라 경로를 잠금 해제하세요"
       },
       {
-        "icon": "Flame",
-        "title": "새로운 매치 유형",
-        "description": "4가지 새로운 매치 유형 데뷔"
+        "icon": "ClipboardCheck",
+        "title": "일상 루틴",
+        "description": "일일, 보상, 커미션을 깔끔한 루프로 전환"
       },
       {
-        "icon": "Film",
-        "title": "쇼케이스",
-        "description": "CM Punk의 전설적인 커리어"
+        "icon": "Hammer",
+        "title": "스킬 빌드",
+        "description": "파밍, 보스싱 및 PvP"
       },
       {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "나만의 WWE 브랜드 관리"
+        "icon": "패키지",
+        "title": "클래스 빌드",
+        "description": "스텟 분포, 장비 방향 및 클래스 유형 비교"
       },
       {
-        "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "나만의 슈퍼스타 스토리 만들기"
+        "icon": "방패에 대한 포인트 할당 계획",
+        "title": "장비 진행",
+        "description": "효율적인 업그레이드 및 낭비되는 개선 경로 방지"
       },
       {
-        "icon": "Globe",
-        "title": "유니버스 모드",
-        "description": "WWE 유니버스 제어"
+        "icon": "코인",
+        "title": "Zeny 농업",
+        "description": "반복 가능한 통화 경로, 상자 청소 및 보스 드롭 추적"
       },
       {
-        "icon": "Palette",
-        "title": "커뮤니티 크리에이션",
-        "description": "창작물 다운로드 및 공유"
+        "icon": "ShieldCheck",
+        "title": "F2P 가이드",
+        "description": "클래스 선택 및 상점 우선순위를 고려하여 안전한 시작 계획을 수립"
       },
       {
-        "icon": "Map",
-        "title": "디 아일랜드",
-        "description": "팩션 기반 배틀 모드"
+        "icon": "트로피",
+        "title": "MVP 가이드",
+        "description": "보상 레이어, 기여도 및 제한에 대한 보스 사냥을 계획합니다"
       },
       {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "꿈의 팩션 구축"
+        "icon": "검",
+        "title": "WoE 가이드",
+        "description": "길드 역할, 공성 타이밍 및 성 가치 준비"
+      },
+      {
+        "icon": "게임패드2",
+        "title": "PvP 가이드",
+        "description": "투기장 플레이에 대한 버스트, 제어 및 팀 압력을 강화"
+      },
+      {
+        "icon": "건물",
+        "title": "길드 가이드",
+        "description": "길드 퀘스트, 이벤트 및 장기 기여 가치 계획"
       },
       {
         "icon": "Gift",
-        "title": "라커 코드",
-        "description": "보상 획득을 위한 활성 코드"
+        "title": "Codes",
+        "description": "활성 교환 코드를 복사하고 게임 내 청구 경로를 따르세요"
       },
       {
-        "icon": "Monitor",
-        "title": "PC 사양",
-        "description": "최소 및 권장 사양"
-      },
-      {
-        "icon": "Building",
-        "title": "아레나",
-        "description": "40개 이상의 상징적인 경기장"
-      },
-      {
-        "icon": "Package",
-        "title": "DLC 및 잠금 해제 요소",
-        "description": "시즌 패스 및 콘텐츠 로드맵"
+        "icon": "Layers",
+        "title": "Pets Guide",
+        "description": "농업, 능력치 성장 및 유틸리티를 지원하는 애완동물을 선택하세요"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "Ragnarok Origin Classic 출시일 및 에디션",
-      "subtitle": "플레이 스타일에 맞는 에디션을 선택하세요",
+      "title": "Ragnarok Origin Classic 초보자 가이드",
+      "subtitle": "퀘스트 우선 라우팅, 첫 작업 타이밍, 첫날에 잠금 해제되는 초기 시스템.",
       "quickFacts": [
         {
-          "label": "일반 출시",
-          "value": "2026년 3월 13일"
+          "label": "메인 루트",
+          "value": "퀘스트 우선"
         },
         {
-          "label": "프리미엄 얼리 액세스",
-          "value": "2026년 3월 6일"
+          "label": "첫 번째 직업",
+          "value": "레벨 10"
         },
         {
-          "label": "플랫폼",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "label": "무기 스파이크",
+          "value": "레벨 15"
         },
         {
-          "label": "장르",
-          "value": "스포츠, 프로레슬링"
+          "label": "일일 루프",
+          "value": "레벨 16"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "2026년 3월 13일",
+          "name": "튜토리얼 및 설정",
+          "price": "1단계",
+          "releaseDate": "캐릭터 생성 및 소개 완료",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic 기본 게임"
+            "닉네임 및 기본 환경 설정",
+            "전투, 인벤토리 및 퀘스트 흐름 알아보기",
+            "메인 퀘스트 추적기 잠금 해제"
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "2026년 3월 6일",
+          "name": "메인 퀘스트 루트",
+          "price": "2단계",
+          "releaseDate": "무작위 분쇄 전에 스토리 푸시",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic 기본 게임",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7일 얼리 액세스",
-            "Joe Hendry Pack"
+            "EXP 및 잠금 해제를 위해 메인 퀘스트를 사용",
+            "엘리트 몬스터로 조기 우회를 피하세요",
+            "진행 상황을 깔끔하게 유지하세요"
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "2026년 3월 6일",
+          "name": "작업 및 무기 마일스톤",
+          "price": "3단계",
+          "releaseDate": "레벨 10에서 15까지 도달",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic 기본 게임",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7일 얼리 액세스",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
+            "레벨 10에서 첫 번째 직업을 선택하세요",
+            "잠그기 전에 클래스의 편안함을 미리 살펴보세요",
+            "레벨 15에서 일급 무기 제작"
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "2026년 3월 6일",
+          "name": "일일 루프",
+          "price": "4단계",
+          "releaseDate": "레벨 16부터 시작",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic 기본 게임",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7일 얼리 액세스",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
+            "레벨 16에서 일일 커미션 시작",
+            "잠금 해제 시 길드 및 계정 시스템을 사용",
+            "일상적인 보상을 꾸준한 진행으로 전환"
           ]
         }
       ],
       "highlights": [
-        "프리미엄 에디션은 게임을 7일 먼저 플레이할 수 있습니다",
-        "Monday Night War Edition에는 세 가지 프리미엄 콘텐츠 팩이 모두 포함되어 있습니다",
-        "프리미엄 에디션에서는 Ringside Pass가 6개 시즌에 걸쳐 확장됩니다"
+        "퀘스트 우선 플레이는 Ragnarok Origin Classic에서 가장 빠른 초기 경로입니다",
+        "일일 커미션과 길드 시스템이 꾸준한 계정 성장을 촉진합니다",
+        "Archer, Mage 및 Acolyte는 신규 플레이어에게 일반적으로 편안한 선택입니다"
       ]
     },
     "roster": {
-      "title": "Ragnarok Origin Classic 로스터",
-      "subtitle": "400명 이상의 플레이 가능한 슈퍼스타와 레전드를 확인하세요",
+      "title": "Ragnarok Origin Classic 최고의 클래스",
+      "subtitle": "초기 자원을 낭비하지 않고 메인 클래스를 원하는 플레이어를 위한 빠른 답변",
       "stats": [
         {
-          "label": "총 슈퍼스타 수",
-          "value": "400+"
+          "label": "최고의 초보자 시작",
+          "value": "Archer"
         },
         {
-          "label": "새로운 추가 인원",
-          "value": "50+"
+          "label": "최고의 파밍 시작",
+          "value": "Mage"
         },
         {
-          "label": "로스터 규모",
-          "value": "프랜차이즈 역사상 최대 규모"
+          "label": "최고의 지원 시작",
+          "value": "Acolyte"
         }
       ],
       "categories": [
         {
-          "name": "현재 스타",
+          "name": "초보자 친화적",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "Archer",
+            "Mage",
+            "Acolyte"
           ]
         },
         {
-          "name": "레전드",
+          "name": "안전한 솔로 플레이",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "상인",
+            "검사",
+            "사냥꾼"
           ]
         },
         {
-          "name": "뉴 에라 하이라이트",
+          "name": "그룹 유틸리티",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "Acolyte",
+            "사제",
+            "대장장이"
           ]
         },
         {
-          "name": "시즌 1 스포트라이트",
+          "name": "버스트와 PvP",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "도둑",
+            "암살자",
+            "기사"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "Ragnarok Origin Classic 능력치",
-      "subtitle": "최고 능력치 슈퍼스타 순위",
+      "title": "Ragnarok Origin Classic 계층 목록",
+      "subtitle": "하나의 범용 목록 대신 PvE, PvP 및 길드 플레이에 대한 모드 기반 순위입니다.",
+      "leftTitle": "Best PvE Jobs",
+      "rightTitle": "Best PvP Jobs",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
-          "rating": 97
+          "name": "사냥꾼",
+          "rating": "S"
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "John Cena",
-          "rating": 97
+          "name": "사제",
+          "rating": "A"
         },
         {
-          "name": "John Cena '12",
-          "rating": 96
+          "name": "대장장이",
+          "rating": "A"
         },
         {
-          "name": "The Rock '01",
-          "rating": 96
+          "name": "기사",
+          "rating": "B"
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
-        },
-        {
-          "name": "Stone Cold Steve Austin '00",
-          "rating": 95
-        },
-        {
-          "name": "The Rock",
-          "rating": 95
-        },
-        {
-          "name": "Cody Rhodes",
-          "rating": 95
-        },
-        {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "암살자",
+          "rating": "B"
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
-          "rating": 96
+          "name": "사제",
+          "rating": "S"
         },
         {
-          "name": "Becky Lynch",
-          "rating": 94
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "Bianca Belair",
-          "rating": 94
+          "name": "암살자",
+          "rating": "A"
         },
         {
-          "name": "Charlotte Flair",
-          "rating": 93
+          "name": "기사",
+          "rating": "A"
         },
         {
-          "name": "Iyo Sky",
-          "rating": 93
+          "name": "사냥꾼",
+          "rating": "B"
         },
         {
-          "name": "Naomi",
-          "rating": 92
-        },
-        {
-          "name": "Stephanie Vaquer",
-          "rating": 92
-        },
-        {
-          "name": "Liv Morgan",
-          "rating": 92
-        },
-        {
-          "name": "AJ Lee '15",
-          "rating": 92
-        },
-        {
-          "name": "Tiffany Stratton",
-          "rating": 91
+          "name": "대장장이",
+          "rating": "B"
         }
-      ],
-      "highlights": [
-        "남성부 최고 능력치: 97",
-        "여성부 최고 능력치: 96",
-        "능력치는 현재 스타, 레전드, 그리고 다른 시대의 페르소나를 조합하여 구성되었습니다"
       ]
     },
     "controls": {
-      "title": "Ragnarok Origin Classic 조작법",
-      "subtitle": "PS5, Xbox, PC의 핵심 조작법을 익히세요",
+      "title": "Ragnarok Origin Classic 레벨링 가이드",
+      "subtitle": "퀘스트 우선 순위, 일일 시스템 및 효율적인 파밍을 중심으로 구축된 실용적인 시작 경로입니다.",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "메인 퀘스트",
           "controls": [
             {
-              "action": "달리기",
-              "input": "Hold L2 + Left Stick"
+              "action": "스토리 흐름 따라가기",
+              "input": "기본 경험치 및 잠금 해제"
             },
             {
-              "action": "잡기 (그래플)",
-              "input": "O"
+              "action": "레벨 10에 도달",
+              "input": "첫 번째 직업 선택"
             },
             {
-              "action": "약공격 / 약한 그래플",
-              "input": "Square"
-            },
-            {
-              "action": "강공격 / 강한 그래플",
-              "input": "X"
-            },
-            {
-              "action": "아이리시 휩",
-              "input": "O (잡기 상태에서)"
-            },
-            {
-              "action": "시그니처",
-              "input": "R2 + Square"
-            },
-            {
-              "action": "피니셔",
-              "input": "R2 + X"
-            },
-            {
-              "action": "서브미션",
-              "input": "R2 + O"
-            },
-            {
-              "action": "페이백",
-              "input": "R2 + Triangle"
-            },
-            {
-              "action": "반격 / 회피",
-              "input": "Triangle"
-            },
-            {
-              "action": "방어",
-              "input": "Hold Triangle"
-            },
-            {
-              "action": "핀 시도",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "무기 줍기",
-              "input": "L1"
+              "action": "레벨 15에 도달",
+              "input": "클래스 무기 제작"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "일일 커미션",
           "controls": [
             {
-              "action": "달리기",
-              "input": "Hold LT + Left Stick"
+              "action": "일일 루프 잠금 해제",
+              "input": "레벨 16에서 시작"
             },
             {
-              "action": "잡기 (그래플)",
-              "input": "B"
+              "action": "일일 보상 받기",
+              "input": "무료 경험치 및 재료"
             },
             {
-              "action": "약공격 / 약한 그래플",
-              "input": "X"
+              "action": "스택 이벤트 값",
+              "input": "꾸준한 성장 유지"
+            }
+          ]
+        },
+        {
+          "name": "전투 시간",
+          "controls": [
+            {
+              "action": "농장 효율적인 몹",
+              "input": "갈기 시간을 최대한 활용"
             },
             {
-              "action": "강공격 / 강한 그래플",
-              "input": "A"
+              "action": "초기 엘리트 우회 건너뛰기",
+              "input": "시간 낭비 방지"
             },
             {
-              "action": "아이리시 휩",
-              "input": "B (잡기 상태에서)"
-            },
-            {
-              "action": "시그니처",
-              "input": "RT + X"
-            },
-            {
-              "action": "피니셔",
-              "input": "RT + A"
-            },
-            {
-              "action": "서브미션",
-              "input": "RT + B"
-            },
-            {
-              "action": "페이백",
-              "input": "RT + Y"
-            },
-            {
-              "action": "반격 / 회피",
-              "input": "Y"
-            },
-            {
-              "action": "방어",
-              "input": "Hold Y"
-            },
-            {
-              "action": "핀 시도",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "무기 줍기",
-              "input": "LB"
+              "action": "길드 콘텐츠 가입",
+              "input": "추가 진행 및 보상"
             }
           ]
         }
-      ],
-      "tips": [
-        "콤보는 약공격과 강공격을 연결하여 사용합니다",
-        "브레이커는 상대방이 누르는 버튼과 동일한 버튼을 사용하여 방어합니다",
-        "타이밍 기반 킥아웃 미니게임은 오른쪽 스틱 위 방향을 사용합니다",
-        "특별 심판 액션에는 카운트, 로프 브레이크, 경고 및 퇴장이 포함됩니다"
       ]
     },
-    "matchTypes": {
-      "title": "Ragnarok Origin Classic 새로운 매치 유형",
-      "subtitle": "4가지 새로운 매치 유형과 확장된 게임플레이를 경험하세요",
-      "quickFacts": [
+    "dailyRoutine": {
+      "title": "Ragnarok Origin Classic 일일 루틴",
+      "subtitle": "깨끗한 일일 루프는 플레이어가 제한된 전투 시간을 낭비하지 않고 시스템 레벨링, 농사 및 잠금 해제를 계속하는 데 도움이 됩니다.",
+      "intro": "Ragnarok Origin Classic에서 가장 빠른 진행은 무작위로 작업하는 대신 올바른 순서로 올바른 작업을 수행하는 것에서 비롯됩니다. 좋은 일일 경로는 일반적으로 무료 보상과 스토리 진행으로 시작한 다음 일일 커미션, 전투 시간 파밍, 보스, 길드 콘텐츠로 전환됩니다.",
+      "items": [
         {
-          "label": "새로운 매치 유형",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "name": "일일 보상을 먼저 청구하세요.",
+          "priority": "최고",
+          "frequency": "일일 로그인",
+          "details": "긴 세션을 시작하기 전에 일일 보상, 이벤트 보상, 배틀 패스 경품을 수집하세요.",
+          "why_it_matters": "이것은 초기 티켓, 소모품 및 진행 자료를 가장 쉽게 얻을 수 있는 소스입니다.",
+          "icon": "Gift"
         },
         {
-          "label": "새로운 난투 공간",
-          "value": "Scrapyard Brawl"
+          "name": "레벨 제한까지 메인 스토리를 밀어 넣으세요.",
+          "priority": "최고",
+          "frequency": "차단될 때까지 매일",
+          "details": "메인 퀘스트는 초기 경험치, 작업 경험치, 기능 잠금 해제 및 기본 장비 진행의 주요 소스로 유지됩니다.",
+          "why_it_matters": "스토리 진행은 무작위 필드 연삭보다 빠르게 시스템을 잠금 해제합니다.",
+          "icon": "북마크됨"
         },
         {
-          "label": "모드 추가 사항",
-          "value": "MyFACTION의 퀵 스왑"
-        }
-      ],
-      "matches": [
-        {
-          "name": "I Quit",
-          "description": "상대방이 'I Quit'이라고 말하게 만들어 잔혹한 대결에서 승리하세요"
+          "name": "일일 커미션 완료",
+          "priority": "최고",
+          "frequency": "일일",
+          "details": "일일 커미션은 일반적으로 플레이어에게 몬스터를 물리치거나 작은 목표를 완료하도록 요청하는 빠르고 반복 가능한 퀘스트입니다.",
+          "why_it_matters": "일일 루프에 자연스럽게 어울리면서 꾸준한 경험치, Zeny 및 유용한 재료를 제공합니다.",
+          "icon": "ClipboardCheck"
         },
         {
-          "name": "Inferno",
-          "description": "상대방의 몸에 불을 붙여 승리를 쟁취하세요"
+          "name": "전투 시간을 효율적으로 사용합니다.",
+          "priority": "최고",
+          "frequency": "일일",
+          "details": "빠르게 죽일 수 있는 몬스터에 전투 시간을 사용하세요. 이상적으로는 레벨 근처의 몬스터나 필요한 드롭에 연결된 몹을 대상으로 합니다.",
+          "why_it_matters": "전투 시간은 레벨링, 파밍, 드롭 생성을 위한 핵심 효율성 시스템 중 하나입니다.",
+          "icon": "Clock3"
         },
         {
-          "name": "Dumpster",
-          "description": "상대방을 쓰러뜨리고 쓰레기 수거함에 던져 넣어 승리하세요"
+          "name": "일상 활동 및 순환 이벤트 작업을 수행합니다",
+          "priority": "High",
+          "frequency": "일일",
+          "details": "정기적인 일일 활동과 제한 이벤트는 추가 성장 재료, 보너스 보상 및 시즌 진행을 추가합니다.",
+          "why_it_matters": "이러한 활동은 시간이 지남에 따라 계정 가치를 쌓으며 가능한 경우 F2P.",
+          "icon": "Sparkles"
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "각 폴마다 다른 매치 유형을 사용하는 3판 2선승제 챌린지입니다"
+          "name": "Hunt Mini 및 MVP 보스",
+          "priority": "High",
+          "frequency": "Daily / 기회주의",
+          "details": "Mini 및 MVP 보스 콘텐츠를 따라잡을 수 있는 가장 쉬운 방법입니다.",
+          "why_it_matters": "보스 콘텐츠는 일상적인 플레이를 장기적인 장비 진행으로 전환하는 주요 방법 중 하나입니다.",
+          "icon": "트로피"
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "The Island의 폐기물 황무지를 배경으로 한 새로운 난투 환경입니다"
-        }
-      ],
-      "newSystems": [
-        "확장된 관중석 전투",
-        "중첩 가능한 테이블",
-        "압정",
-        "기습 공격자",
-        "바리케이드 전투",
-        "퀵 스왑 팀 녹아웃 액션"
-      ]
-    },
-    "showcase": {
-      "title": "Ragnarok Origin Classic 쇼케이스",
-      "subtitle": "CM Punk의 위대한 라이벌 관계를 다시 경험하세요",
-      "quickFacts": [
-        {
-          "label": "커버 스타",
-          "value": "CM Punk"
+          "name": "길드 활동에 참여",
+          "priority": "High",
+          "frequency": "일일",
+          "details": "길드 퀘스트 및 길드 이벤트는 솔로 플레이에 기여 보상과 추가 계정 성장을 추가합니다.",
+          "why_it_matters": "길드 참여는 많은 신규 플레이어가 너무 자주 건너뛰는 반복 가능한 진행 소스입니다.",
+          "icon": "Users"
         },
         {
-          "label": "타임라인",
-          "value": "25년 이상의 WWE 역사"
-        },
-        {
-          "label": "매치 유형",
-          "value": "역사적, 판타지, What If"
-        }
-      ],
-      "moments": [
-        {
-          "title": "오프닝 매치",
-          "description": "WrestleMania 41 트리플 쓰렛: CM Punk vs Seth Rollins vs Roman Reigns"
-        },
-        {
-          "title": "역사적 매치",
-          "description": "실제 경기장과 매치 목표를 충실히 재현했습니다"
-        },
-        {
-          "title": "판타지 워페어",
-          "description": "Punk의 여정에 영향을 준 레전드들과의 드림 매치입니다"
-        },
-        {
-          "title": "What If 매치",
-          "description": "다른 커리어 경로를 탐구하는 대체 타임라인 시나리오입니다"
-        }
-      ],
-      "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "CM Punk 또는 AJ Lee로 20명의 상대를 연속으로 상대하여 모든 쇼케이스 보상을 한 번에 잠금 해제하세요"
-      }
-    },
-    "mygm": {
-      "title": "Ragnarok Origin Classic MyGM",
-      "subtitle": "더욱 깊이 있는 부킹과 전략으로 브랜드를 운영하세요",
-      "quickFacts": [
-        {
-          "label": "시즌 기간",
-          "value": "50주"
-        },
-        {
-          "label": "시작 예산",
-          "value": "$3M - $7M"
-        },
-        {
-          "label": "평균 로스터 규모",
-          "value": "20-35 슈퍼스타"
-        },
-        {
-          "label": "새로운 난이도",
-          "value": "Immortal"
-        }
-      ],
-      "features": [
-        {
-          "title": "연장된 시즌",
-          "description": "기본 시즌 길이가 50주로 늘어났으며 유연한 예산 옵션을 제공합니다"
-        },
-        {
-          "title": "확장된 매치 유형",
-          "description": "5인, 6인, 8인, 트리플 쓰렛 태그, 페이탈 포 웨이 태그, 핸디캡 매치를 부킹하세요"
-        },
-        {
-          "title": "새로운 매치 규칙",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "title": "파워 카드 거래",
-          "description": "거래 주간에 파워 카드를 거래할 수 있으며 파워 카드 상점을 비활성화할 수도 있습니다"
-        },
-        {
-          "title": "혼성 매치",
-          "description": "추가 부킹 비용을 지불하고 남녀 혼성 매치를 부킹하세요"
-        }
-      ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
-      ]
-    },
-    "myrise": {
-      "title": "Ragnarok Origin Classic MyRISE",
-      "subtitle": "The Comeback에서 다시 싸워 올라가세요",
-      "quickFacts": [
-        {
-          "label": "스토리 이름",
-          "value": "The Comeback"
-        },
-        {
-          "label": "주인공",
-          "value": "The Archetype"
-        },
-        {
-          "label": "테마",
-          "value": "2년의 공백 후 복귀"
-        }
-      ],
-      "paths": [
-        {
-          "name": "전통적인 경로",
-          "description": "정당한 방법으로 기회를 얻고 다시 타이틀 전선에 합류하세요"
-        },
-        {
-          "name": "무자비한 경로",
-          "description": "수단과 방법을 가리지 않고 공격적인 전술을 통해 빠르게 복귀하세요"
-        }
-      ],
-      "divisions": [
-        {
-          "name": "남성부",
-          "goal": "WWE 챔피언 Bron Breakker에게 다시 도전할 기회를 얻으세요",
-          "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
-          ]
-        },
-        {
-          "name": "여성부",
-          "goal": "WWE 여성 챔피언 Jordynne Grace와 다시 대결하세요",
-          "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
-          ]
-        }
-      ],
-      "features": [
-        "분기형 대화가 스토리 진행에 영향을 줍니다",
-        "플레이어의 선택에 따라 반응이 달라지는 WWE 기자회견",
-        "챔피언 재임 기간에 영향을 미치는 중대한 최종 결정"
-      ],
-      "rewards": [
-        "경기장",
-        "챔피언십",
-        "CAS 파츠",
-        "플레이 가능한 캐릭터",
-        "무기",
-        "페이백",
-        "MyFACTION 콘텐츠"
-      ]
-    },
-    "universeMode": {
-      "title": "Ragnarok Origin Classic 유니버스 모드",
-      "subtitle": "더욱 세밀한 제어로 꿈의 WWE 일정을 만드세요",
-      "quickFacts": [
-        {
-          "label": "설정 도구",
-          "value": "Universe Wizard"
-        },
-        {
-          "label": "최대 드래프트 이벤트",
-          "value": "8"
-        },
-        {
-          "label": "쇼당 타이틀 수",
-          "value": "최대 8개"
-        },
-        {
-          "label": "MITB 슬롯",
-          "value": "쇼당 2개"
-        }
-      ],
-      "features": [
-        {
-          "title": "Universe Wizard",
-          "description": "쇼, PLE, 챔피언, 로스터를 미리 선택하여 세이브를 더 빠르게 시작하세요"
-        },
-        {
-          "title": "WWE Draft",
-          "description": "쇼 간에 슈퍼스타를 교환하는 드래프트 이벤트를 생성하고 예약하세요"
-        },
-        {
-          "title": "MITB 캐싱인",
-          "description": "쇼의 모든 자격 있는 타이틀에 가방을 사용할 수 있습니다"
-        },
-        {
-          "title": "강화된 프로모",
-          "description": "셀프 프로모, 콜아웃, 난입, 오픈 챌린지, 경기 후 인터뷰"
-        },
-        {
-          "title": "매치메이킹 슬라이더",
-          "description": "타이틀, 라이벌 관계, 매치 유형에 따른 보너스로 매치 카드 정렬을 조정하세요"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "Ragnarok Origin Classic 커뮤니티 크리에이션",
-      "subtitle": "더 크고 상세한 커스텀 콘텐츠를 제작하세요",
-      "quickFacts": [
-        {
-          "label": "CAS 슬롯",
-          "value": "200"
-        },
-        {
-          "label": "이미지 슬롯",
-          "value": "2,000"
-        },
-        {
-          "label": "바디 템플릿",
-          "value": "40+"
-        },
-        {
-          "label": "레이어 분할",
-          "value": "복장 60개 + 머리/몸 40개"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Create-a-Superstar",
-          "description": "40개 이상의 바디 템플릿과 개선된 얼굴 및 체형 변형 기능을 제공합니다"
-        },
-        {
-          "title": "헤어 및 바디 페인트",
-          "description": "투톤 헤어 컬러 블렌딩과 Joy-Con 2 마우스 컨트롤을 이용한 바디 페인트 기능을 지원합니다"
-        },
-        {
-          "title": "Create-an-Arena",
-          "description": "LED 바리케이드, 새로운 아나운서 테이블, 확장된 링 매트 및 에이프런 옵션을 제공합니다"
-        },
-        {
-          "title": "Create-an-Image",
-          "description": "이미지 업로더 제한이 1,000개에서 2,000개 슬롯으로 두 배 늘어났습니다"
-        },
-        {
-          "title": "Create-a-Championship",
-          "description": "확장된 파츠와 새로워진 제작 인터페이스를 제공합니다"
-        },
-        {
-          "title": "Create-an-Entrance",
-          "description": "챔피언, MITB, 스테이블 등장(4인/5인)을 위한 고급 타임라인 편집 기능을 제공합니다"
-        }
-      ]
-    },
-    "theIsland": {
-      "title": "Ragnarok Origin Classic The Island",
-      "subtitle": "세력을 선택하고 통제권을 위해 싸우세요",
-      "quickFacts": [
-        {
-          "label": "팩션",
-          "value": "3개 세력"
-        },
-        {
-          "label": "스토리 챕터",
-          "value": "3"
-        },
-        {
-          "label": "프레스티지 티어",
-          "value": "4"
-        },
-        {
-          "label": "새로운 PvP",
-          "value": "2v2 PvP"
-        }
-      ],
-      "orders": [
-        {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "링의 유산, 화려한 볼거리, 올드 스쿨 가치를 중심으로 구축되었습니다"
-        },
-        {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "기이함, 연극적 요소, 위압적인 힘을 수용합니다"
-        },
-        {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "현상 유지를 거부하고 The Island를 대담하고 새로운 방향으로 이끕니다"
-        }
-      ],
-      "prestige": [
-        {
-          "tier": "Recruit",
-          "ovrRange": "70-85"
-        },
-        {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
-        },
-        {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
-        },
-        {
-          "tier": "Legendary",
-          "ovrRange": "85-100"
+          "name": "무료 파밍 전에 핸드북을 사용하세요.",
+          "priority": "중간",
+          "frequency": "막히는 경우",
+          "details": "핸드북은 플레이어가 업그레이드 재료, 몬스터 위치 및 더 나은 파밍 목표를 확인하는 데 도움이 됩니다.",
+          "why_it_matters": "플레이어가 스토리 벽에 부딪혀 효율적인 파밍으로 전환해야 할 때 낭비되는 시간을 방지합니다.",
+          "icon": "BookOpen"
         }
       ],
       "highlights": [
-        "Scrapyard: 위험 요소와 올라갈 수 있는 구조물이 있는 중앙 난투 구역입니다",
-        "Towers: 무작위 경로와 보스전이 있는 반복 가능한 PvE 모드입니다",
-        "주간 퀘스트를 통해 XP, 코스메틱, Island 보상을 획득할 수 있습니다",
-        "1v1, 2v2, 챔피언십 리더보드가 포함된 시즌별 랭크 플레이를 지원합니다"
+        "일일 커미션, 전투 시간 및 보상이 루프의 최상위에 유지되어야 합니다.",
+        "길드 작업과 보스 사냥은 시간이 지남에 따라 복합적인 가치를 더합니다.",
+        "스토리 진행이 느려질 때 핸드북은 복구할 수 있는 가장 빠른 방법입니다."
       ]
     },
-    "myfaction": {
-      "title": "Ragnarok Origin Classic MyFACTION",
-      "subtitle": "케미스트리와 퀵 스왑으로 더 강력한 라인업을 구축하세요",
-      "quickFacts": [
+    "skillBuilds": {
+      "title": "Ragnarok Origin Classic 스킬 빌드",
+      "subtitle": "플레이어는 일반적으로 클래스를 선택하고 명확한 방향을 원하는 후 검색하기 때문에 스킬 빌드 트래픽은 매우 실용적입니다.",
+      "intro": "Ragnarok Origin Classic 온라인 빌드 토론은 이미 인식 가능한 스킬 패키지로 수렴되고 있습니다. 모든 플레이어에게 하나의 보편적인 포인트 확산이 아닌 가장 안정적인 홈페이지 형식은 각 고급 클래스의 주요 기술 경로, 경로의 용도, 파밍, 보스 싱, PvP 및 예산 친화성 간의 핵심 균형을 보여주는 것입니다.",
+      "items": [
         {
-          "label": "라인업 규모",
-          "value": "4 슈퍼스타"
-        },
-        {
-          "label": "케미스트리 특성",
-          "value": "10개 카테고리에 걸친 60개 특성"
-        },
-        {
-          "label": "새로운 매치 유형",
-          "value": "Quick Swap"
-        },
-        {
-          "label": "출시 카드 세트",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
-        }
-      ],
-      "features": [
-        {
-          "title": "팀 케미스트리",
-          "description": "긍정적 및 부정적 반응이 케미스트리 점수에 영향을 주며, 매니저가 부정적 요소를 줄여줍니다"
-        },
-        {
-          "title": "혼성 지원",
-          "description": "남녀 혼성 4인 라인업을 구축할 수 있습니다"
-        },
-        {
-          "title": "Quick Swap",
-          "description": "경기 도중 팀원을 교체하고 시그니처/피니셔 슬롯을 공유하며 녹아웃으로 승리하세요"
-        },
-        {
-          "title": "Faction Wars",
-          "description": "Crowd's Deck으로 시작하는 덱 기반 진행 모드입니다"
-        },
-        {
-          "title": "World Tour",
-          "description": "전 세계 위치에서 페르소나, MFP, Arc 카드, 팩 등을 보상으로 획득하세요"
-        }
-      ]
-    },
-    "lockerCodes": {
-      "title": "Ragnarok Origin Classic 라커 코드",
-      "subtitle": "활성화된 코드를 입력하고 MyFACTION 보상을 받으세요",
-      "quickFacts": [
-        {
-          "label": "모드",
-          "value": "MyFACTION"
-        },
-        {
-          "label": "활성 코드",
-          "value": "BSTINTWRLD26"
-        },
-        {
-          "label": "만료일",
-          "value": "2026년 3월 13일"
-        }
-      ],
-      "codes": [
-        {
-          "code": "BSTINTWRLD26",
-          "rewards": [
-            "1x Aftershock Series I Basic Pack",
-            "1x Momentum Series I Basic Pack"
+          "job": "스나이퍼",
+          "build_name": "ADL / 팔콘 경로",
+          "core_skills": [
+            "팔콘 기반 트리거 패키지",
+            "자동 공격 집중 피해",
+            "높은 ASPD 지원 스킬"
           ],
-          "expires": "2026년 3월 13일"
+          "best_for": "게임 초반부터 중반까지의 파밍, 안정적인 원거리 DPS, 일반 PvE",
+          "notes": "스나이퍼의 온라인 빌드 적용 범위는 가장 일반적인 원거리 DPS 경로 중 하나로 ADL 및 매 중심 설정을 지속적으로 강조합니다.",
+          "icon": "Feather"
+        },
+        {
+          "job": "스나이퍼",
+          "build_name": "트랩퍼 경로",
+          "core_skills": [
+            "트랩 중심 제어 기술",
+            "지역 거부 도구",
+            "설정 지향 버스트"
+          ],
+          "best_for": "상황 PvE 및 유틸리티 중심 플레이",
+          "notes": "Trapper는 일반적으로 지속적인 자동 공격 대신 설정 피해를 선호하는 플레이어에게 ADL의 대안으로 제시됩니다.",
+          "icon": "Target"
+        },
+        {
+          "job": "Lord Knight",
+          "build_name": "Pierce / Clashing Spiral Route",
+          "core_skills": [
+            "Pierce",
+            "Clashing Spiral",
+            "단일 대상 근접 공격 도구"
+          ],
+          "best_for": "Bossing, Elite Target, Front-line DPS",
+          "notes": "현재 빌드 적용 범위는 Lord Knight를 Pierce, Clashing Spiral, Bash 및 Crit 기반 방향 간에 반복적으로 분리합니다.",
+          "icon": "검"
+        },
+        {
+          "job": "High Wizard",
+          "build_name": "Meteor Storm / 중력장 경로",
+          "core_skills": [
+            "Meteor Storm",
+            "중력장",
+            "AoE 주문 피해 패키지"
+          ],
+          "best_for": "AoE 그라인딩, 파티 피해, 화면 전체 제어",
+          "notes": "하이 위저드 토론은 클래스의 주요 AoE 주문 정체성 중에서 선택하는 것을 중심으로 일관되게 프레임을 구성합니다.",
+          "icon": "Orbit"
+        },
+        {
+          "job": "성기사",
+          "build_name": "성십자 / 희생 / 방패 루트",
+          "core_skills": [
+            "성십자",
+            "희생",
+            "방패 기반 스킬 패키지"
+          ],
+          "best_for": "유연한 PvE 및 PvP 옵션을 사용하는 탱키한 최전선 플레이",
+          "notes": "Paladin은 단일 기본 경로 대신 여러 개의 실행 가능한 스킬 정체성을 가진 클래스의 가장 명확한 예 중 하나입니다.",
+          "icon": "방패에 대한 포인트 할당 계획"
+        },
+        {
+          "job": "Professor",
+          "build_name": "Autocast / Psychic Wave / SP Route",
+          "core_skills": [
+            "Psychic Wave",
+            "자동 시전 상호 작용 패키지",
+            "SP 확장 스킬 경로"
+          ],
+          "best_for": "일관된 시전 또는 보다 실험적인 프로세스 기반 게임플레이를 원하는 Magic DPS 플레이어",
+          "notes": "교수 빌드 적용 범위는 현재 인식 가능한 세 가지 경로인 자동 시전, 심령 파동 및 SP 중심 변형에 중점을 두고 있습니다.",
+          "icon": "Brain"
+        },
+        {
+          "job": "생화학자",
+          "build_name": "산성 시연 / 헬플랜트 루트",
+          "core_skills": [
+            "산성 시연",
+            "헬플랜트",
+            "원거리 유틸리티 및 손상 도구"
+          ],
+          "best_for": "강력한 공격적 정체성을 지닌 상인 계통을 원하는 플레이어",
+          "notes": "생화학자 빌드 동영상은 두 가지 헤드라인 방향으로 산성 시연과 헬플랜트를 지속적으로 비교합니다.",
+          "icon": "FlaskConical"
+        },
+        {
+          "job": "대제사장",
+          "build_name": "완전 지원 / 엑소시스트 루트",
+          "core_skills": [
+            "지원 버프 패키지",
+            "치유 툴킷",
+            "PvE 신성한 피해 옵션"
+          ],
+          "best_for": "파티 지원, 더 안전한 레벨링, 유틸리티가 많은 진행",
+          "notes": "대사제 적용 범위는 일반적으로 전통적인 전체 지원 플레이와 피해 지향적인 PvE 변형으로 나뉩니다.",
+          "icon": "HeartHandshake"
         }
       ],
-      "howToRedeem": [
-        "메인 메뉴에서 Ragnarok Origin Classic를 엽니다",
-        "라커 코드를 선택합니다",
-        "표시된 대로 코드를 정확하게 입력합니다",
-        "보상을 받고 MyFACTION에서 팩을 엽니다"
+      "highlights": [
+        "Ragnarok Origin Classic 빌드 적용 범위는 각 클래스 경로에 명확한 역할 레이블이 있을 때 가장 강력합니다.",
+        "스나이퍼, 로드 나이트, 마법사 및 사제는 특히 플레이어가 한 눈에 쉽게 비교할 수 있습니다.",
+        "스킬 경로, 역할 및 절충 사항을 함께 표시하면 섹션이 단순한 목록보다 더 유용합니다."
       ]
     },
-    "pcRequirements": {
-      "title": "Ragnarok Origin Classic PC 사양",
-      "subtitle": "PC에서 Ragnarok Origin Classic를 실행할 수 있는지 확인하세요",
-      "quickFacts": [
+    "classBuilds": {
+      "title": "Ragnarok Origin Classic 클래스 빌드",
+      "subtitle": "플레이어는 스킬 트리만 검색하는 것이 아닙니다. 그들은 또한 역할, 파밍의 편안함, 전력 곡선 및 능력치 강조를 결합한 완전한 빌드 방향을 원합니다.",
+      "intro": "클래스 빌드의 가장 유용한 홈페이지 버전은 지나치게 긴 이론 공예 벽이 아닙니다. 이는 플레이어에게 각 클래스 전형이 실제로 어떤 느낌인지, 어떤 콘텐츠가 적합한지, 경쟁 직업 경로보다 이 전형을 선택하는 이유를 알려주는 빠른 개요입니다. Ragnarok Origin Classic의 경우, 공개적으로 문서화된 가장 강력한 전형은 이미 원거리 농업, 최전선 근접 공격, 마법 AoE, 하이브리드 탱크 빌드 및 전문화된 후반 작업 지점을 중심으로 전개됩니다.",
+      "items": [
         {
-          "label": "운영체제",
-          "value": "Windows 10 64-bit"
+          "class_name": "스나이퍼",
+          "archetype": "ADL / Falcon",
+          "role": "원거리 지속 DPS",
+          "focus": "공격 속도, 자동 공격 가동 시간, Falcon 시너지",
+          "best_for": [
+            "파밍",
+            "오픈월드 연삭",
+            "일반 PvE"
+          ],
+          "strengths": [
+            "안전한 원거리 플레이",
+            "강력한 초반 활용성",
+            "초보자에게 인기 있는 데미지 루트"
+          ],
+          "icon": "Feather"
         },
         {
-          "label": "RAM",
-          "value": "16 GB"
+          "class_name": "스나이퍼",
+          "archetype": "트랩퍼",
+          "role": "컨트롤 위주의 원거리 DPS",
+          "focus": "트랩 설정, 위치 플레이, 지역 거부",
+          "best_for": [
+            "상황별 PvE",
+            "유틸리티 기반 조우"
+          ],
+          "strengths": [
+            "ADL과 다른 속도",
+            "그룹화된 적을 처벌할 수 있음",
+            "설정 게임플레이를 선호하는 플레이어에게 유용함"
+          ],
+          "icon": "Target"
         },
         {
-          "label": "저장 공간",
-          "value": "120 GB"
+          "class_name": "Lord Knight",
+          "archetype": "Pierce / Clashing Spiral",
+          "role": "최전선 근접 DPS",
+          "focus": "단일 대상 버스트, 무기 크기 조정, 공격적인 보스 압박",
+          "best_for": [
+            "보싱",
+            "정예 적",
+            "파티 최전선 피해"
+          ],
+          "strengths": [
+            "강력한 버스트 정체성",
+            "신뢰할 수 있는 근접 공격 경로",
+            "고 데미지 전문화 클리어"
+          ],
+          "icon": "검"
         },
         {
-          "label": "CPU 참고",
-          "value": "AVX2 및 F16C 지원 필수"
+          "class_name": "High Wizard",
+          "archetype": "유성 폭풍 / 중력장",
+          "role": "AoE 캐스터 DPS",
+          "focus": "스펠 버스트, 영역 커버리지, 매직 스케일링",
+          "best_for": [
+            "AoE 파밍",
+            "파티 콘텐츠",
+            "웨이브 클리어"
+          ],
+          "strengths": [
+            "강력한 화면 제어",
+            "빠른 다중 대상 클리어",
+            "클래식 마법사 파워 판타지"
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "class_name": "성기사",
+          "archetype": "홀리 크로스 / 쉴드 / 희생",
+          "role": "탱크 브루저 하이브리드",
+          "focus": "내구성과 유연한 공격 옵션",
+          "best_for": [
+            "최전선 파티 플레이",
+            "PvP 실험",
+            "더 안전한 진행"
+          ],
+          "strengths": [
+            "수동적인 느낌 없이 탱키하게 플레이할 수 있음",
+            "다양한 실행 가능한 방향",
+            "생존 가능성을 좋아하는 플레이어에게 적합"
+          ],
+          "icon": "방패에 대한 포인트 할당 계획"
+        },
+        {
+          "class_name": "Professor",
+          "archetype": "심령 파동 / 자동 시전 / SP",
+          "role": "기술적 마법 DPS",
+          "focus": "마법 스케일링, 발동 상호 작용, 특수 자원 기반 피해",
+          "best_for": [
+            "유연한 마법사 빌드를 원하는 플레이어",
+            "실험",
+            "중후반 게임 최적화"
+          ],
+          "strengths": [
+            "몇 가지 뚜렷한 후기 작업 경로",
+            "스타일 간 전환 가능",
+            "높은 빌드 정체성"
+          ],
+          "icon": "Brain"
+        },
+        {
+          "class_name": "생화학자",
+          "archetype": "애시드 데모 / 헬플랜트",
+          "role": "상점 공격 전문가",
+          "focus": "클래스별 유틸리티를 갖춘 스킬 기반 원거리 피해",
+          "best_for": [
+            "실질적인 피해 존재감으로 상인 진행을 원하는 플레이어",
+            "특수 PvE"
+          ],
+          "strengths": [
+            "독특한 클래스 정체성",
+            "다양한 공격 경로",
+            "기본적인 지원 기대에 지친 플레이어에게 좋은 지점"
+          ],
+          "icon": "FlaskConical"
+        },
+        {
+          "class_name": "대제사장",
+          "archetype": "완전 지원 / PvE 엑소시스트",
+          "role": "힐러 지원 또는 신성 피해 지원",
+          "focus": "버프, 치유, 유지, 선택 PvE 피해 방향",
+          "best_for": [
+            "파티",
+            "지원 메인",
+            "안전한 계정 진행"
+          ],
+          "strengths": [
+            "그룹 플레이에 항상 유용합니다.",
+            "위험도가 낮은 진행 선택",
+            "보다 활동적인 PvE 설정으로 분기할 수 있을 만큼 유연함"
+          ],
+          "icon": "HeartHandshake"
         }
       ],
-      "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 또는 AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 또는 AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 GB의 사용 가능한 공간",
-        "notes": "GPU는 최소 6 GB VRAM이 필요하며, CPU는 AVX2 및 F16C를 지원해야 합니다"
-      },
-      "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 또는 AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 또는 AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 GB의 사용 가능한 공간",
-        "notes": "최소 12 GB VRAM이 필요하며, CPU는 AVX2 및 F16C를 지원해야 합니다"
+      "highlights": [
+        "깨끗한 클래스 구축 섹션은 플레이어에게 역할, 느낌 및 보상을 빠르게 알려야 합니다.",
+        "가장 강력한 ROOC 전형은 이미 파밍, 보스, PvP 및 지원 가치별로 쉽게 그룹화할 수 있습니다.",
+        "이 섹션은 그대로 유지됩니다. 플레이어가 좋아하는 직업 두세 개만 비교할 때에도 유용합니다."
+      ]
+    },
+    "gearProgression": {
+      "title": "Ragnarok Origin Classic 장비 진행",
+      "subtitle": "기본 레벨링이 느려지고 무엇을 개선해야 할지, 구매해야 할지, 다음에 무엇을 파밍해야 할지 더 이상 확신할 수 없을 때 플레이어는 종종 꼼짝 못하게 됩니다.",
+      "intro": "Ragnarok Origin Classic 캐릭터 파워는 단일 장비 화면이 아닌 여러 연결된 시스템을 통해 구축됩니다. 공개 초보자 및 진행 가이드는 이미 일관된 성장 순서를 가리키고 있습니다. 즉, 핵심 장비를 효율적으로 개선하고, 깃털 슬롯을 조기에 채우고, 애완동물을 사용하여 전투 결과를 향상하고, 손상 및 유용성을 위한 카드를 추가하고, 무작위 업그레이드 대신 상점 통화를 장기적인 가치에 사용하는 것입니다.",
+      "items": [
+        {
+          "stage": "시작 개선",
+          "focus": "무기 +6, 그 다음 액세서리 +6",
+          "details": "현재 진행 지침에서는 자원을 너무 얇게 분산시키기 전에 무기와 핵심 액세서리부터 시작하는 것이 좋습니다.",
+          "why_now": "가장 효율적인 초기 파워 점프입니다.",
+          "icon": "렌치"
+        },
+        {
+          "stage": "풀 세트 베이스라인",
+          "focus": "풀 세트를 +6으로 가져옵니다.",
+          "details": "첫 번째 무기 및 액세서리 업그레이드 이후에는 캐릭터가 하나의 슬롯에만 과도하게 투자되지 않도록 나머지 장비를 마무리합니다.",
+          "why_now": "균형 있는 제련도는 전체적인 일관성을 향상시킵니다.",
+          "icon": "패키지"
+        },
+        {
+          "stage": "게임 중간 제련 푸시",
+          "focus": "무기 +10, 액세서리 +10",
+          "details": "안정적인 +6 기준선이 설정되면 무기 및 액세서리가 다시 주요 제련 대상이 됩니다.",
+          "why_now": "다음으로 의미 있는 피해 급증은 일반적으로 더 높은 정제 임계값에서 발생합니다.",
+          "icon": "ArrowUpRight"
+        },
+        {
+          "stage": "장기 개선 목표",
+          "focus": "점차적으로 무기를 +15쪽으로 밀어넣기",
+          "details": "고급 개선 효과와 더 강력한 스케일링은 더 높은 임계값에서 더욱 관련성이 높아집니다.",
+          "why_now": "이는 계정 강도를 위한 가장 명확한 장기 투자 경로 중 하나입니다.",
+          "icon": "TrendingUp"
+        },
+        {
+          "stage": "깃털 설정",
+          "focus": "깃털 슬롯 5개를 모두 일찍 채우세요",
+          "details": "깃털은 공격, 방어, 피해 증폭, 피해 감소와 같은 주요 능력치 레이어를 제공합니다.",
+          "why_now": "완전한 깃털 설정은 약한 깃털 하나를 과도하게 업그레이드하는 것보다 더 일찍 중요합니다.",
+          "icon": "Feather"
+        },
+        {
+          "stage": "깃털 규칙",
+          "focus": "낮은 깃털에 과도한 투자를 하지 마세요",
+          "details": "세트 효과는 가장 희귀도가 낮은 깃털을 장착한 상태에 따라 결정되므로 초반 효율성은 먼저 적용하고, 깊게 투자하는 것은 나중에 이루어집니다.",
+          "why_now": "이렇게 하면 임시 조각에 리소스가 낭비되는 것을 방지할 수 있습니다.",
+          "icon": "레이어3"
+        },
+        {
+          "stage": "애완동물 진행",
+          "focus": "펫 레벨 및 티어 업그레이드",
+          "details": "클래식의 애완동물 성장은 레벨과 티어를 중심으로 단순화되었으며, 애완동물은 게임 초반 및 중반 파밍에 큰 도움이 되는 위치에 있습니다.",
+          "why_now": "애완동물은 먼저 완전히 완성된 장비 설정이 필요 없이 실용적인 전투 가치를 더해줍니다.",
+          "icon": "PawPrint"
+        },
+        {
+          "stage": "카드 진행",
+          "focus": "데미지와 유틸리티 카드를 우선적으로 처리합니다",
+          "details": "카드는 Monster Annihilation 및 상점 교환과 같은 시스템에서 공급되며 일반적으로 파밍 및 전투 성능을 위한 효율성 레이어로 처리됩니다.",
+          "why_now": "카드는 빌드 아이덴티티를 개선하고 일상적인 콘텐츠 속도를 높이는 데 도움이 됩니다.",
+          "icon": "BadgeDollarSign"
+        },
+        {
+          "stage": "상점 우선순위",
+          "focus": "장기적인 가치에 상점을 소비하세요",
+          "details": "금 상점 우선순위는 깃털 선택 상자와 재료를 다듬는 것부터 시작됩니다. Social Shop은 깃털, 금, 블루스타 코인 순으로 우선순위를 정합니다. Pet Shop은 Epic 및 Legendary 조각을 우선시합니다. 카드 상점에서는 특별히 타누키 카드를 초기 우선순위로 강조합니다.",
+          "why_now": "올바른 상점 지출은 F2P 및 지출이 적은 사용자의 진행 상황을 깔끔하게 유지합니다.",
+          "icon": "Store"
+        }
+      ],
+      "highlights": [
+        "Ragnarok Origin Classic 장비 성장은 정제, 깃털, 애완동물, 카드 및 상점이 모두 함께 움직일 때 가장 잘 작동합니다.",
+        "초기 효율성은 단일 슬롯에 너무 빨리 과잉 투자하는 것이 아니라 완전한 범위에서 비롯됩니다.",
+        "장기적인 가치 결정은 작은 단기 업그레이드를 추구하는 것보다 중요합니다."
+      ]
+    },
+    "universeMode": {
+      "eyebrow": "경제",
+      "title": "Ragnarok Origin Classic Zeny 농업",
+      "subtitle": "최고의 초반 및 중반 게임 화폐 경로",
+      "intro": "Ragnarok Origin Classic의 화폐 흐름은 단일한 갈림길보다는 효율적인 일일 플레이에 연결되어 있습니다. 현재 가이드에서 볼 수 있는 가장 강력한 패턴은 일회성 보물 가치를 먼저 지운 다음 빠르게 죽이는 파밍, 보스 콘텐츠, 규율 있는 판매로 전환하여 전투 시간을 낭비하지 않고 계정이 계속 성장하도록 하는 것입니다.",
+      "highlights": [
+        "초기 업그레이드에 막대한 투자를 하기 전에 여러 지역에 걸쳐 지도 보물 상자를 엽니다.",
+        "어려운 목표를 강요하는 대신 빠르게 처치할 수 있는 몬스터에 전투 시간을 투자하세요.",
+        "사용하지 않은 전리품, 카드, 카드를 계속 판매하세요. 물약, 음식 등이 있어 재고 가치가 계속해서 움직입니다."
+      ],
+      "items": [
+        {
+          "method": "보물 상자 경로",
+          "category": "일회성 버스트 수입",
+          "how_to_do_it": "초기 업그레이드에 막대한 투자를 하기 전에 여러 지역에 걸쳐 지도 보물 상자를 엽니다.",
+          "best_for": "모든 클래스",
+          "why_it_works": "현재 상자 경로 가이드는 무료 상자 수집에서 사용할 수 있는 대략 8백만 Zeny을 강조합니다.",
+          "watch_out_for": "첫 번째 청소 후 상자 수입을 영구 경제 계획으로 취급하지 마십시오."
+        },
+        {
+          "method": "빠른 처치 몬스터 농업",
+          "category": "반복 가능한 일일 수입",
+          "how_to_do_it": "어려운 목표를 강요하는 대신 빠르게 처치할 수 있는 몬스터에 전투 시간을 투자하세요.",
+          "best_for": "사냥꾼, 마법사, 기타 효율적인 원거리 또는 AoE 빌드",
+          "why_it_works": "현재 초보자 보도에서는 더 나은 EXP 및 드롭 효율성을 위해 빠른 처치를 반복적으로 권장하며 이는 판매 가능한 전리품 흐름도 향상시킵니다.",
+          "watch_out_for": "느린 또는 엘리트 대상을 연마하면 수입과 레벨링 속도가 모두 감소합니다."
+        },
+        {
+          "method": "사용하지 않은 전리품 및 소모품 판매",
+          "category": "인벤토리 전환",
+          "how_to_do_it": "정기적으로 재고를 정리하고 적극적으로 사용하지 않는 여분의 전리품, 카드, 물약 및 음식을 판매합니다.",
+          "best_for": "모든 클래스",
+          "why_it_works": "현재 Ragnarok Origin Classic 초보자 자료는 플레이어가 꾸준한 수입을 위해 사용하지 않은 아이템을 판매하도록 명시적으로 지시합니다.",
+          "watch_out_for": "제련, 카드 또는 클래스 성장에 여전히 필요한 진행 재료를 버리지 마십시오."
+        },
+        {
+          "method": "MVP 및 미니 보스 사냥",
+          "category": "고가치 드랍 루트",
+          "how_to_do_it": "특히 클래스나 파티가 안정적인 기여도를 확보할 수 있는 경우 희귀한 재료, 청사진, 카드를 얻기 위해 보스 런에 참여하세요.",
+          "best_for": "파티 플레이어, 생화학자, 버스트 DPS, 협동 길드 그룹",
+          "why_it_works": "보스 가이드에서는 MVP 콘텐츠를 희귀 아이템, 카드, 일반적인 농경지의 일부가 아닌 청사진.",
+          "watch_out_for": "맹목적으로 모든 산란을 쫓지 마십시오. 빌드 또는 현재 장비 요구 사항에 맞는 보스의 우선 순위를 지정하세요."
+        },
+        {
+          "method": "게임 플레이로 획득한 금화",
+          "category": "핵심 진행 통화",
+          "how_to_do_it": "금화 경제에 도움이 되는 몬스터 처치, 던전 및 농사 활동을 중심으로 일일 루프를 구축하세요.",
+          "best_for": "모든 플레이어, 특히 F2P",
+          "why_it_works": "최근 Ragnarok Origin Classic 보도에 따르면 금화는 프리미엄 전용 시스템이 아닌 게임 플레이 활동을 통해 획득할 수 있습니다.",
+          "watch_out_for": "핵심 전원 시스템에 여전히 우선순위가 필요한 경우 낮은 가치의 업그레이드에 금화를 너무 일찍 소비하지 마십시오."
+        },
+        {
+          "method": "상인 스타일 경제 플레이",
+          "category": "클래스 이점",
+          "how_to_do_it": "경제 중심 플레이, 제작 지원 및 보다 현명한 시장 지향 결정을 위해 판매자 클래스 강점을 사용하세요.",
+          "best_for": "상인, 대장장이, 연금술사 경로",
+          "why_it_works": "현재 초보자 지침 및 공식 수업 홍보 자료는 모두 상인 경로를 경제 중심 수업으로 구성합니다.",
+          "watch_out_for": "상인 경로는 무작위 지출이 아닌 계획과 결합될 때 가장 강력합니다."
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://www.youtube.com/watch?v=Qu2KSCvJ_Xc",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "전체 Zeny 보기 농업 가이드",
+        "href": "/ragnarok-origin-classic-zeny-farming"
       }
     },
-    "arenas": {
-      "title": "Ragnarok Origin Classic 경기장",
-      "subtitle": "현대, 클래식, 오리지널 경기장을 포함한 40개 이상의 경기장을 탐험하세요",
-      "quickFacts": [
+    "communityCreations": {
+      "eyebrow": "F2P",
+      "title": "Ragnarok Origin Classic F2P 가이드",
+      "subtitle": "무료 및 저비용 플레이어를 위한 안전한 시작 계획",
+      "intro": "Ragnarok Origin Classic은 현재 게임플레이를 통해 획득한 금화와 더 적은 직접 지불로 승리하는 압력 포인트를 갖춘 광범위한 Ragnarok Origin 생태계의 보다 F2P 친화적인 버전으로 포지셔닝되고 있습니다. 가장 강력한 F2P 계획은 모든 시스템을 한꺼번에 서두르는 것이 아닙니다. 안정적인 클래스를 선택하고, 효율적인 상점의 우선순위를 정하고, 계정이 실제 방향을 잡을 때까지 낭비적인 업그레이드를 지연시키는 것입니다.",
+      "highlights": [
+        "자원을 소비하기 전에 안정적인 시작 클래스를 선택하세요.",
+        "진행을 효율적으로 유지하려면 메인 스토리와 핸드북을 사용하세요.",
+        "귀하의 계정이 실질적인 방향을 잡을 때까지 위험한 업그레이드를 연기하십시오."
+      ],
+      "items": [
         {
-          "label": "경기장 수",
-          "value": "40+"
+          "step": 1,
+          "label": "안정적인 시작 클래스를 선택하십시오",
+          "details": "초보자의 편의를 위해 현재 가이드에서는 보다 안전한 농업을 위해 Archer 또는 Mage를 지속적으로 권장하는 반면 Acolyte는 여전히 강력한 지원 경로로 남아 있습니다. 헌신적인 F2P 가치의 경우, 최근 한 클래스 가이드에서는 다재다능함과 자원 효율성으로 인해 대장장이를 F2P 순위의 최상위에 올렸습니다."
         },
         {
-          "label": "새로운 장소",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "step": 2,
+          "label": "무작위로 갈기 전에 메인 퀘스트를 푸시",
+          "details": "메인 스토리를 초기 진행 척추로 사용하세요. 기능을 잠금 해제하고 꾸준한 경험치와 작업 경험치를 제공하며 계정 시스템이 열리기 전에 효율성이 낮은 연삭에 낭비되는 시간을 방지합니다."
         },
         {
-          "label": "클래식 하이라이트",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "step": 3,
+          "label": "파밍하기 전에 핸드북을 사용하세요",
+          "details": "핸드북은 업그레이드 재료, 몬스터 위치, 경험치 정보 등을 보여주기 때문에 초기에 가장 유용한 도구 중 하나입니다. 이를 통해 F2P 플레이어는 시간을 소모하는 대신 올바른 몬스터를 타겟팅하고 비효율적으로 체력과 싸울 수 있습니다."
+        },
+        {
+          "step": 4,
+          "label": "계정 효율성을 향상시키는 상점을 우선순위로 지정",
+          "details": "현재 상점 지침에서는 골드 상점에서 깃털 선택 상자를 먼저 권장하고, 소셜 상점에서는 깃털 다음 금, 블루스타 코인, 타누키 카드를 초기 카드 상점 우선순위로, 에픽 또는 전설 애완동물 조각을 장기 애완동물 상점으로 권장합니다. targets."
+        },
+        {
+          "step": 5,
+          "label": "통제된 체크포인트 개선",
+          "details": "일반적인 효율적인 경로는 무기 +6, 액세서리 +6, 전체 세트 +6, 나중에 무기 +10 및 액세서리 +10이며 그 다음에는 계속해서 더 나아가는 것입니다. 이렇게 하면 위험한 업그레이드에 너무 일찍 과도하게 투자하는 고전적인 F2P 함정을 피할 수 있습니다."
+        },
+        {
+          "step": 6,
+          "label": "과잉 투자하기 전에 시스템을 채우십시오",
+          "details": "깃털, 카드, 애완동물 및 핵심 장비는 계정에 먼저 기본 적용 범위가 있을 때 더 잘 확장됩니다. 최근 가이드에서는 깃털 슬롯을 일찍 채우고 약한 초기 단계 부분에 대한 과도한 투자를 피하는 것을 명시적으로 권장합니다."
+        },
+        {
+          "step": 7,
+          "label": "액세스가 아닌 가속으로 지출을 처리",
+          "details": "현재 보도에서는 이 게임이 주로 일일 콘텐츠와 던전을 통해 액세스할 수 있으며 추가 구매가 주로 진행 속도 향상으로 작용한다고 설명합니다. 한 가이드는 또한 월간 패스 액세스가 게임 내 골드와 연결될 수 있으며 이는 인내심 있는 F2P 계획에 큰 이점이라고 지적합니다."
         }
       ],
-      "categories": [
-        {
-          "name": "현재 주간 쇼",
-          "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
-          ]
-        },
-        {
-          "name": "프리미엄 라이브 이벤트",
-          "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
-          ]
-        },
-        {
-          "name": "클래식 경기장",
-          "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
-          ]
-        },
-        {
-          "name": "오리지널 및 난투 공간",
-          "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
-          ]
-        }
-      ]
+      "source_urls": [
+        "https://www.youtube.com/watch?v=I5EqSIYZTGs",
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "전체 보기 F2P 가이드",
+        "href": "/ragnarok-origin-classic-f2p-guide"
+      }
     },
-    "dlcUnlockables": {
-      "title": "Ragnarok Origin Classic DLC 및 잠금 해제 요소",
-      "subtitle": "출시 후 모든 주요 보상 경로를 확인하세요",
-      "quickFacts": [
-        {
-          "label": "Ringside Pass 시즌",
-          "value": "6"
-        },
-        {
-          "label": "시즌당 티어",
-          "value": "40"
-        },
-        {
-          "label": "무료 트랙 보상",
-          "value": "60"
-        },
-        {
-          "label": "총 보상",
-          "value": "120"
-        }
+    "theIsland": {
+      "eyebrow": "보싱",
+      "title": "Ragnarok Origin Classic MVP 가이드",
+      "subtitle": "MVP 사냥 방식 및 우선 순위 지정",
+      "intro": "MVP 콘텐츠는 클래스 구축, 파티 플레이 및 희귀 아이템 타겟팅을 연결하기 때문에 Ragnarok Origin Classic에서 가장 명확한 진행 중단점 중 하나입니다. 현재 공개 가이드는 좋은 MVP 플레이가 피해를 입히는 것만이 아니라는 것을 보여줍니다. 기여도, 역할 균형, 일일 보상 한도 및 대상 선택은 모두 각 사냥에서 얻는 가치에 영향을 미칩니다.",
+      "highlights": [
+        "기여는 순수 DPS보다 넓습니다.",
+        "일일 보상 제한은 계획을 중요하게 만듭니다.",
+        "파티 플레이는 장기적으로 무차별 대입을 능가합니다."
       ],
-      "seasons": [
+      "items": [
         {
-          "season": "Season 1",
-          "release": "2026년 3월 6일"
-        },
-        {
-          "season": "Season 2",
-          "release": "2026년 4월"
-        },
-        {
-          "season": "Season 3",
-          "release": "2026년 6월"
-        },
-        {
-          "season": "Season 4",
-          "release": "2026년 7월"
-        },
-        {
-          "season": "Season 5",
-          "release": "2026년 9월"
-        },
-        {
-          "season": "Season 6",
-          "release": "2026년 10월"
-        }
-      ],
-      "editionPacks": [
-        {
-          "name": "King of Kings Edition Pack",
-          "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Triple H Signature Taunt"
+          "title": "생성 전에 MVP 메뉴를 사용합니다",
+          "summary": "MVP 인터페이스는 위치와 카운트다운을 표시하고 게임은 생성이 나타나기 직전에 알려줍니다.",
+          "highlights": [
+            "이벤트 메뉴에서 생성 시간을 확인합니다.",
+            "생성 5분 전에 시스템 공지가 나타납니다",
+            "인터페이스에는 최근 MVP"
           ]
         },
         {
-          "name": "Attitude Era Edition Pack",
-          "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Stone Cold Steve Austin EVO Card",
-            "The Rock EVO Card",
-            "Raw Is War '98 arena"
+          "title": "두 개의 보상 레이어를 알아두세요",
+          "summary": "MVP 보상은 파티 기반 보상과 개인 보상으로 나누어져 있으므로 상위 딜러가 아닌 플레이어도 여전히 가치를 얻을 수 있습니다.",
+          "highlights": [
+            "팀 보상은 파티 내 MVP 타이틀 우승자와 연결되어 있습니다.",
+            "팀 보상에는 다이아몬드, 교환권, 청사진 기회 및 MVP 카드 기회가 포함될 수 있습니다",
+            "올바르게 참여하는 경우 개인 보상에는 액세서리 청사진, 엘루늄 및 모자 크리스탈이 포함될 수 있습니다"
           ]
         },
         {
-          "name": "Monday Night War Edition Pack",
-          "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "WCW Thunder '98 arena"
+          "title": "기여는 순수 DPS보다 넓습니다",
+          "summary": "점수 시스템은 버스트만 보상하는 것이 아니라 탱킹, DPS, 치유 및 주요 타이밍 순간을 보상합니다. 피해.",
+          "highlights": [
+            "받은 피해가 점수에 기여합니다.",
+            "DPS가 가장 큰 점수 공유를 기여합니다",
+            "치유, 선제공격, 결정타 및 사망 패널티가 모두 결과에 영향을 미칩니다"
           ]
         },
         {
-          "name": "WrestleMania 42 Pack",
-          "includes": [
-            "WrestleMania 42 arena",
-            "WM42 Persona #1",
-            "WM42 Persona #2",
-            "WM42 Persona #3"
+          "title": "일일 시도가 중요합니다",
+          "summary": "MVP 팀 보상에는 일일 제한이 있으므로 사냥을 계획해야 합니다.",
+          "highlights": [
+            "현재 ROO 가이드 자료에는 일일 팀 보상이 5MVP개로 제한되어 있습니다.",
+            "MVP Fever 동안 제한은 7",
+            "으로 증가합니다. 초과된 파티원은 전체 점수 효율성을 감소시킵니다"
+          ]
+        },
+        {
+          "title": "자신의 빌드에 맞는 보스를 우선시합니다",
+          "summary": "가장 강력한 방법은 클래스를 직접적으로 향상시키는 카드나 장비를 떨어뜨리는 보스를 추적하는 것입니다.",
+          "highlights": [
+            "하이 위저드 예: MATK 및 쿨다운 친화적인 액세서리에 연결된 대상 보스",
+            "Lord Knight 예: 물리적 공격 및 STR 지향 링과 연결된 보스의 우선순위를 지정합니다",
+            "빌드에 직접적인 가치가 없는 무작위 MVP에 대한 시도를 낭비하지 마십시오"
+          ]
+        },
+        {
+          "title": "파티 플레이가 무차별 대입을 능가합니다",
+          "summary": "현재 초보자 자료에서는 작은 보스가 때때로 솔로가 가능한 것으로 설명하지만 더 큰 MVP는 확실히 협력을 통해 더 좋습니다. 팀.",
+          "highlights": [
+            "보스는 희귀 아이템, 카드, 청사진의 주요 공급원입니다.",
+            "큰 MVP는 파티에서 가장 잘 처리됩니다",
+            "Biochemist는 현재 커뮤니티 비디오에서 강력한 MVP에 초점을 맞춘 피해 옵션으로 주목을 받고 있습니다"
           ]
         }
       ],
-      "unlockExamples": [
+      "source_urls": [
+        "https://www.youtube.com/shorts/8eP4miwmrAw",
+        "https://www.youtube.com/watch?v=ekijaNVArbk",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://roo-global.gitbook.io/guide/game-wiki/mvp-boss-system",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html"
+      ],
+      "cta": {
+        "label": "전체 MVP 가이드 보기",
+        "href": "/ragnarok-origin-classic-mvp-guide"
+      }
+    },
+    "myfaction": {
+      "eyebrow": "길드 PvP",
+      "title": "Ragnarok Origin Classic War of Emperium 가이드",
+      "subtitle": "War of Emperium 기본, 역할 및 보상",
+      "intro": "War of Emperium은 라그나로크 공식에서 가장 잘 알려진 대규모 길드 모드 중 하나이며 플레이어가 길드 진행에 투자하는 주요 이유입니다. 현재 Ragnarok Origin 가이드 자료에 따르면 성공은 준비 기간, 클래스 역할 적합성, 그리고 길드가 단기 킬이 아닌 장기적인 성 가치를 위해 공격, 방어 또는 플레이하는지 이해하는 것에 달려 있음을 보여줍니다.",
+      "highlights": [
+        "준비 기간은 전투 자체만큼 중요합니다.",
+        "성 소유권은 추가 길드 가치를 잠금 해제합니다.",
+        "역할 적합성은 솔로 영웅 플레이보다 더 중요합니다."
+      ],
+      "items": [
         {
-          "name": "AJ Lee",
-          "source": "Showcase: What If Match #7"
+          "section": "모드 개요",
+          "content": [
+            "제국 전쟁은 길드들이 성을 점령하고 방어하기 위해 싸우는 길드 공성전 모드입니다.",
+            "공격자는 성 내부의 제국을 무너뜨려 방어자가 됩니다.",
+            "타이머가 종료되면 성을 보유한 길드가 새로운 점령자가 됩니다."
+          ]
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "Ringside Pass #1 Free Track Tier 5"
+          "section": "발생 시 및 누가 참여할 수 있습니까?",
+          "content": [
+            "현재 ROO 가이드 자료 목록WoE 일요일 21시 30분.",
+            "일요일 5시 길드 자격 확인 후, 5시부터 20시까지 준비 기간입니다.",
+            "참여는 길드 3레벨 이상, 기본 레벨 80 이상 캐릭터, 길드 가입 기간 1년 이상인 회원으로 제한됩니다. 72시간."
+          ]
         },
         {
-          "name": "Andre The Giant",
-          "source": "Ringside Pass #1 Free Track Tier 4"
+          "section": "방어를 위한 최고의 클래스 역할",
+          "content": [
+            "사제와 마법사는 현재 최근 클래스 가이드에서 S티어 방어 선택으로 강조되어 있습니다.",
+            "Priest는 초크 포인트 방어 시 치유와 유지에 중요합니다.",
+            "Wizard는 입구와 목표 구역에서 AoE 손상 및 군중 제어에 중요합니다.",
+            "Blacksmith와 Hunter는 방어 라인업을 위한 강력한 A-티어 대안으로 제시됩니다."
+          ]
         },
         {
-          "name": "El Hijo del Vikingo",
-          "source": "Ringside Pass #1 Premium Track Tier 1"
+          "section": "공격을 위한 최고의 클래스 역할",
+          "content": [
+            "Assassin과 Knight는 최근 한 연구에서 S-티어 공격 선택으로 강조되었습니다. 가이드.",
+            "Assassin은 빠른 처치와 표적 교란을 위해 폭발적인 압박을 가합니다.",
+            "Knight는 지속 가능한 최전선 압박과 일관된 공격 존재감을 제공합니다.",
+            "Wizard와 Blacksmith는 여전히 공격측 지원 옵션으로 유용합니다."
+          ]
         },
         {
-          "name": "Flammer",
-          "source": "Ringside Pass #1 Premium Track Tier 7"
+          "section": "준비 및 상점 가치",
+          "content": [
+            "적격 멤버는 준비 기간 동안 WoE 준비 퀘스트를 완료할 수 있습니다.",
+            "모드에는 WoE 아이템 상점과 참여 포인트에 연결된 보상 교환 상점이 포함되어 있습니다.",
+            "미리 계획된 역할로 합류하는 것은 느슨한 개별 결투사 그룹으로 들어가는 것보다 더 중요합니다."
+          ]
         },
         {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: Historical Match #7"
+          "section": "길드가 성을 위해 싸우는 이유",
+          "content": [
+            "성을 보유한 길드는 영주의 보물 상자를 포함한 특별한 권리에 접근할 수 있습니다. room.",
+            "점령 중인 길드도 길드 던전에 입장할 수 있습니다.",
+            "길드 던전은 미니 및 MVP 대상을 생성할 수 있으며 청사진과 카드에 대한 기회를 제공합니다."
+          ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=FSBPnayKUhc",
+        "https://roo-global.gitbook.io/guide/limited-time-event/gvg-war-of-emperium"
+      ],
+      "cta": {
+        "label": "전체 War of Emperium 가이드 보기",
+        "href": "/ragnarok-origin-classic-war-of-emperium-guide"
+      }
+    },
+    "pvpGuide": {
+      "eyebrow": "Competitive",
+      "title": "Ragnarok Origin Classic PvP 가이드",
+      "subtitle": "PvP 3v3 경기장 및 길드 전투를 위한 클래스",
+      "intro": "Ragnarok Origin Classic은 모드에 따라 다양한 클래스 강점을 보상합니다. 3v3 아레나에서는 속도, 군중 제어, 빠른 처치 압력이 가장 중요한 반면 길드 대 길드는 치유, 영역 제어, 개시 및 조화로운 팀 플레이에 더 많은 가치를 둡니다.",
+      "items": [
+        {
+          "tier": "S",
+          "mode": "3v3 아레나",
+          "entries": [
+            {
+              "class": "암살자",
+              "role": "버스트 제거기",
+              "strengths": [
+                "매우 높은 버스트 피해",
+                "빠른 대상 접근",
+                "짧은 전투에서 강력한 살상 압력"
+              ],
+              "notes": "암살자는 적 팀이 안정화되기 전에 주요 목표를 빠르게 제거할 수 있기 때문에 소규모 전투에서 매우 치명적입니다."
+            },
+            {
+              "class": "기사",
+              "role": "전선 제어",
+              "strengths": [
+                "높은 HP",
+                "군중 제어",
+                "탄탄한 기동성"
+              ],
+              "notes": "기사는 내구성과 전투의 중심에서 활동하면서 적의 움직임을 방해하는 능력 덕분에 경기장에서 좋은 성능을 발휘합니다."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "3v3 아레나",
+          "entries": [
+            {
+              "class": "사냥꾼",
+              "role": "원거리 DPS",
+              "strengths": [
+                "강한 원거리 피해",
+                "일관적인 압박",
+                "좋은 선택 가능성"
+              ],
+              "notes": "사냥꾼은 원거리에서 압박을 가할 수 있지만 적들이 격차를 좁히면 처벌하기가 훨씬 쉬워집니다."
+            },
+            {
+              "class": "사제",
+              "role": "지속 지원",
+              "strengths": [
+                "치유",
+                "지원 유틸리티",
+                "전투 안정화"
+              ],
+              "notes": "사제는 버스트 클래스가 거래를 완료할 수 있을 만큼 오랫동안 팀원을 살려 두어 경기장 결과를 바꾸는 경우가 많습니다."
+            },
+            {
+              "class": "Wizard",
+              "role": "지역 제어 시전자",
+              "strengths": [
+                "AoE 제어",
+                "구역 거부",
+                "팀전 압박"
+              ],
+              "notes": "마법사들은 잘 배치되면 위험하지만, 쓰러지지 않으려면 보호와 주의 깊은 간격이 필요합니다."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "3v3 아레나",
+          "entries": [
+            {
+              "class": "대장장이",
+              "role": "Bruiser 지원",
+              "strengths": [
+                "유용한 지원 도구",
+                "존경받는 최전선 가치"
+              ],
+              "notes": "대장장이는 기여할 수 있지만 더 빠른 경기장 경기에서는 더 민첩하거나 폭발적인 클래스를 따라잡는 데 어려움을 겪을 수 있습니다."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "mode": "길드 대 길드",
+          "entries": [
+            {
+              "class": "사제",
+              "role": "핵심 팀 지원",
+              "strengths": [
+                "치유",
+                "버프",
+                "부활 유틸리티"
+              ],
+              "notes": "사제는 푸시를 계속 유지하고 팀이 창 파열에서 회복하도록 돕기 때문에 대규모 전투의 중심입니다."
+            },
+            {
+              "class": "Wizard",
+              "role": "AoE 전투 컨트롤러",
+              "strengths": [
+                "대규모 피해",
+                "집단 적 처벌",
+                "강력한 목표 압박"
+              ],
+              "notes": "마법사는 다층화된 AoE가 밀집된 적 진형을 무너뜨릴 수 있는 밀집된 길드 전투에서 성공합니다."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "길드 대 길드",
+          "entries": [
+            {
+              "class": "암살자",
+              "role": "백라인 다이버",
+              "strengths": [
+                "주요 목표 압력",
+                "취약한 적에 대한 빠른 선택"
+              ],
+              "notes": "어새신은 다이빙 힐러와 데미지 딜러에게 효과적이며, 특히 팀이 이미 최전선 엄호를 하고 있는 경우 더욱 그렇습니다."
+            },
+            {
+              "class": "대장장이",
+              "role": "지원 투사",
+              "strengths": [
+                "내구성",
+                "팀 지원"
+              ],
+              "notes": "대장장이는 꾸준한 가치를 추가하고 장기전에서 팀 구조를 강화하는 데 도움이 됩니다."
+            },
+            {
+              "class": "기사",
+              "role": "개시자",
+              "strengths": [
+                "안정적인 교전",
+                "라인 중단",
+                "최전선 존재"
+              ],
+              "notes": "기사는 길드 교전의 강력한 시작 요소이며 사제와 마법사가 안전하게 작업할 수 있는 열린 공간을 돕습니다."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "길드 대 길드",
+          "entries": [
+            {
+              "class": "사냥꾼",
+              "role": "후위 피해",
+              "strengths": [
+                "일관된 원거리 DPS"
+              ],
+              "notes": "사냥꾼은 여전히 ​​피해를 입힐 수 있지만 길드전 최고의 선택보다 대규모 유틸리티를 제공하지 않습니다."
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=9j-qf02Zl3A"
+      ],
+      "cta": {
+        "label": "전체 보기 PvP 가이드",
+        "href": "/pvp-guide"
+      }
+    },
+    "guildGuide": {
+      "eyebrow": "사회 발전",
+      "title": "Ragnarok Origin Classic 길드 가이드",
+      "subtitle": "길드 조기 가입이 중요한 이유",
+      "intro": "Ragnarok Origin Classic에서 길드는 단순한 사회 단체가 아닙니다. 주간 퀘스트, 시간 제한 이벤트, 기여 보상, 상점 이용, 추가 통계 및 일일 진행 상황에 다시 피드백되는 공유 보상 시스템에 직접 연결됩니다.",
+      "items": [
+        {
+          "card_title": "길드 퀘스트",
+          "tag": "주간 진행",
+          "description": "길드 퀘스트를 통해 플레이어는 매주 30개의 퀘스트를 완료하여 길드 포인트를 얻을 수 있습니다.",
+          "highlights": [
+            "길드 모집 작업 포함",
+            "NPC 상호 작용 작업 포함",
+            "몬스터 사냥 포함",
+            "엘리트 몬스터 사냥 포함"
+          ]
+        },
+        {
+          "card_title": "공헌 보상",
+          "tag": "마일스톤",
+          "description": "개인 기여도가 추적되어 마일스톤 보상으로 전환되어 활성 회원에게 매주 꾸준히 참여할 이유를 제공합니다.",
+          "highlights": [
+            "기여도가 개별적으로 추적됩니다",
+            "마일스톤 보상은 활동 진행 상황에서 청구할 수 있습니다"
+          ]
+        },
+        {
+          "card_title": "길드 경매",
+          "tag": "공유 전리품",
+          "description": "길드 이벤트 이후 길드 경매에 아이템이 등장할 수 있습니다. 그곳에서 소비한 Nyan Berries는 다이아몬드로 전환되어 길드원들에게 균등하게 분배됩니다.",
+          "highlights": [
+            "길드 이벤트 전리품이 경매에 들어갑니다",
+            "회원은 필요한 아이템을 구입할 수 있습니다",
+            "경매 가치는 회원 간에 다시 공유됩니다."
+          ]
+        },
+        {
+          "card_title": "길드 원정대",
+          "tag": "시간 제한 이벤트",
+          "description": "길드 원정대는 화, 목, 토요일, 일요일 20:00부터 20:20까지 열립니다. 회원은 더 나은 길드 보상을 위해 실제 MVP와 싸우고 복제 MVP와 싸우기 위해 특별 지도에 입장합니다.",
+          "highlights": [
+            "매주 4일로 예정됨",
+            "피해는 보상 품질에 영향을 미칩니다.",
+            "협력된 길드 그룹을 사용하는 것이 가장 좋습니다"
+          ]
+        },
+        {
+          "card_title": "시공간 이상",
+          "tag": "시간 제한 이벤트",
+          "description": "이 길드 이벤트는 화요일, 목요일, 토요일, 일요일 19:30부터 19:43까지 진행되며 개인 순위와 길드 순위를 모두 기준으로 플레이어에게 보상을 제공합니다.",
+          "highlights": [
+            "짧은 시간 활동 창",
+            "챌린지 중에 애완동물을 사용합니다.",
+            "개인 및 길드 성능 모두 중요"
+          ]
+        },
+        {
+          "card_title": "길드 혜택",
+          "tag": "파워 성장",
+          "description": "길드 시스템은 기본 보상 외에도 여러 가지 장기적인 계정 혜택을 제공합니다.",
+          "highlights": [
+            "엠페리움 버프는 추가 능력치를 부여합니다.",
+            "길드 자판기에서 아이템에 대한 기여도 교환",
+            "길드 스킬로 추가 능력치 추가",
+            "길드 보너스로 다이아몬드, 냔베리, 제니를 부여할 수 있음"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=uWwc3kKyPyE",
+        "https://www.gravity.co.kr/en/game/ROOC",
+        "https://roo-global.gitbook.io/guide/game-wiki/guild"
+      ],
+      "cta": {
+        "label": "길드 시스템 탐색",
+        "href": "/guild-guide"
+      }
+    },
+    "codes": {
+      "eyebrow": "보상",
+      "title": "Ragnarok Origin Classic Codes",
+      "subtitle": "Active Redeem Codes 및 사용 방법",
+      "intro": "Ragnarok Origin Classic에는 현재 작은 활성 코드 풀이 있으므로 긴 기사보다 깔끔한 스캔 우선 레이아웃이 더 유용합니다. 표시해야 할 가장 중요한 사항은 라이브 코드, 교환 경로 및 마지막 확인 날짜입니다.",
+      "items": [
+        {
+          "code": "ROOCREADY2GO",
+          "status": "active",
+          "reward": "보상",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC888",
+          "status": "active",
+          "reward": "보상",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC2026",
+          "status": "active",
+          "reward": "보상",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC666",
+          "status": "active",
+          "reward": "보상",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC777",
+          "status": "active",
+          "reward": "보상",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "만료된 코드",
+          "status": "나열되지 않음",
+          "reward": "만료된 코드가 2026년 3월 26일 업데이트에 나열되지 않았습니다",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "사용 경로",
+          "status": "가이드",
+          "reward": "게임 열기 -> 보상 누르기 -> 교환 열기 -> 코드 입력 -> 확인 누르기",
+          "last_checked": "2026-03-26"
+        }
+      ],
+      "source_urls": [
+        "https://progameguides.com/ragnarok-origin/ragnarok-origin-codes/",
+        "https://www.reddit.com/r/RagnarokOrigin/comments/12s9dkr/redeem_codes/",
+        "https://www.reddit.com/r/RagnarokMClassic/comments/1n7di9v/romc_global_new_serverexclusive_bonuses_redeem/",
+        "https://levelgeeks.net/ragnarok-origin-classic-codes/"
+      ],
+      "cta": {
+        "label": "코드 열기 페이지",
+        "href": "/codes"
+      }
+    },
+    "petsGuide": {
+      "eyebrow": "Companions",
+      "title": "Ragnarok Origin Classic 애완동물 가이드",
+      "subtitle": "Pet 기본 사항, 진행 마일스톤 및 희귀 등급",
+      "intro": "Ragnarok Origin의 애완동물 시스템은 전투 지원 및 계정 성장에 직접적으로 영향을 미칩니다. 초보자의 핵심 질문은 애완동물이 잠금 해제되는 시기, 활성화할 수 있는 개체 수, 지원 슬롯이 열리는 시기, 플레이어가 너무 많은 리소스를 투자하기 전에 애완동물 희귀도가 어떻게 작동하는지에 대한 것입니다.",
+      "items": [
+        {
+          "card_title": "애완동물이 잠금 해제될 때",
+          "tag": "마일스톤",
+          "description": "애완동물 시스템은 기본 레벨 22에서 잠금 해제됩니다.",
+          "highlights": [
+            "애완동물은 농업을 지원합니다.",
+            "펫 지원 던전 실행",
+            "펫 지원 PvP 전투"
+          ]
+        },
+        {
+          "card_title": "활성 펫 제한",
+          "tag": "핵심 규칙",
+          "description": "캐릭터 레벨이 높아질수록 더 많은 펫 활성화 옵션이 열립니다. 동시에 최대 4마리의 애완동물을 활성화할 수 있습니다.",
+          "highlights": [
+            "동시에 최대 4마리의 활성 애완동물",
+            "단일 소환 슬롯이 아닌 지속적인 계정 지원을 위해 제작"
+          ]
+        },
+        {
+          "card_title": "지원 슬롯",
+          "tag": "레벨 55",
+          "description": "기본 레벨 55에서 플레이어는 애완동물을 지원 슬롯에 할당할 수 있습니다. 보조 애완동물은 전투에 소환되지는 않지만 여전히 속성을 제공하고 전반적인 위력을 높여줍니다.",
+          "highlights": [
+            "기본 레벨 55에서 잠금 해제",
+            "패시브 속성 추가",
+            "장기 능력치 축적에 유용"
+          ]
+        },
+        {
+          "card_title": "S 레벨 애완동물",
+          "tag": "최고 희귀도",
+          "description": "S 레벨 애완동물은 가장 희귀도가 높은 등급으로 나열되며 매우 강력한 특성을 갖는 것으로 설명됩니다.",
+          "highlights": [
+            "나열된 예: Ghost Samurai",
+            "나열된 예: Antasha Model",
+            "나열된 예: Earth Lord",
+            "나열된 예: Dunell"
+          ]
+        },
+        {
+          "card_title": "A, B레벨 펫",
+          "tag": "실질적인 성장",
+          "description": "A레벨 펫은 잘 성장하면 S레벨 펫을 대체할 수 있으며, B레벨 펫은 일반 및 전설 펫 소환을 통해 쉽게 획득할 수 있습니다.",
+          "highlights": [
+            "A레벨 펫은 S레벨 펫보다 접근성이 더 좋습니다",
+            "B레벨 펫은 찾고 키우기가 더 쉽습니다.",
+            "초기 플레이어는 최고 희귀도만 기다리지 않고 의미 있는 진전을 이룰 수 있습니다"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=jBlEVqvqCFM",
+        "https://www.youtube.com/watch?v=dRgGDUjhZ9o",
+        "https://roo-global.gitbook.io/guide/game-wiki/pet-system"
+      ],
+      "cta": {
+        "label": "펫 가이드 보기",
+        "href": "/pets-guide"
+      }
     }
   },
   "faq": {
-    "title": "자주 묻는",
+    "title": "자주 묻는 질문",
     "titleHighlight": "질문",
     "subtitle": "Ragnarok Origin Classic에 대해 알아야 할 모든 것",
     "questions": [
       {
-        "question": "Ragnarok Origin Classic의 출시일은 언제인가요?",
-        "answer": "Ragnarok Origin Classic 스탠다드 에디션은 2026년 3월 13일에 출시됩니다. 디럭스 에디션은 2026년 3월 6일부터 얼리 액세스가 가능합니다."
+        "question": "Ragnarok Origin Classic에서 먼저 무엇을 해야 합니까?",
+        "answer": "Ragnarok Origin Classic에서 메인 퀘스트를 먼저 푸시하고, 레벨 10에서 첫 직업을 취하고, 레벨 15에서 클래스 무기를 제작하고, 레벨 16에서 일일 커미션을 시작하세요."
       },
       {
-        "question": "Ragnarok Origin Classic에는 얼마나 많은 슈퍼스타가 등장하나요?",
-        "answer": "Ragnarok Origin Classic에는 레전드, 현재 로스터, DLC 캐릭터를 포함하여 400명 이상의 플레이 가능한 슈퍼스타가 등장합니다."
+        "question": "[0]]에서 어떤 클래스가 가장 쉬운가요?",
+        "answer": "Ragnarok Origin Classic는 안전한 원거리를 원하는 대부분의 궁수 또는 마법사 플레이어에게 가장 쉽습니다. Acolyte는 가장 원활한 지원 경로입니다."
       },
       {
-        "question": "Ragnarok Origin Classic는 어떤 플랫폼에서 이용 가능한가요?",
-        "answer": "Ragnarok Origin Classic는 PS5, Xbox Series X|S, Steam (PC) 및 Nintendo Switch 2에서 이용 가능합니다."
+        "question": "Ragnarok Origin Classic에서 어떻게 빨리 레벨을 올릴 수 있나요?",
+        "answer": "Ragnarok Origin Classic 레벨링은 퀘스트 우선 유지, 일일 커미션 완료, 효율적인 몹에 대한 전투 시간 사용, 조기 정예 우회 회피 등을 수행할 때 가장 빠릅니다."
       },
       {
-        "question": "Ragnarok Origin Classic 래커 코드는 어떻게 사용하나요?",
-        "answer": "MyFACTION 모드로 이동하여 래커 코드 메뉴를 선택하고 코드를 입력하세요. 최신 활성 코드는 코드 페이지에서 확인하세요."
+        "question": "[0]] 코드는 어디서 찾을 수 있습니까?",
+        "answer": "Ragnarok Origin Classic 코드는 일반적으로 공식 출시 페이지, Discord 및 커뮤니티 게시물을 통해 공유됩니다. 코드 모듈을 열어두고 현재 활성 항목을 복사하세요."
       },
       {
-        "question": "Ragnarok Origin Classic의 새로운 매치 유형은 무엇인가요?",
-        "answer": "Ragnarok Origin Classic에는 Inferno Match, Dumpster Match, Three Stages of Hell, I Quit Match를 포함한 4가지 새로운 매치 유형이 도입됩니다."
+        "question": "Ragnarok Origin Classic이 무료 플레이 플레이어에 적합합니까?",
+        "answer": "예. Ragnarok Origin Classic는 일일 보상, 효율적인 장비 업그레이드 및 치장적인 지출 대신 가치 우선 시스템에 중점을 둔 경우 꾸준한 F2P 경로를 지원합니다."
       },
       {
-        "question": "Ragnarok Origin Classic에는 어떤 게임 모드가 있나요?",
-        "answer": "Ragnarok Origin Classic에는 MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION 및 Creation Suite가 포함되어 있습니다."
+        "question": "Ragnarok Origin Classic에서 먼저 무엇에 가입해야 합니까? 길드 또는 PvP?",
+        "answer": "Ragnarok Origin Classic에서 길드에 일찍 가입한 다음 기본 빌드가 안정되면 PvP, MVP 사냥, 전쟁 오브 엠페리움으로 분기하십시오."
       }
     ]
   },
   "cta": {
-    "title": "링 위로 올라갈 준비가 되셨나요?",
-    "description": "업데이트, 로스터 공개, 게임플레이 토론을 위해 Discord에서 Ragnarok Origin Classic 커뮤니티에 참여하세요!",
-    "joinCommunity": "Discord 참여하기",
-    "joinGame": "Ragnarok Origin Classic 구매하기"
+    "title": "[0]]을(를) 탐험할 준비가 되셨습니까?",
+    "description": "Ragnarok Origin Classic에 가입하세요 Discord 업데이트, 학급 토론, 빌드 공유 및 출시 소식을 확인하세요.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "공식 사이트 방문"
   },
   "footer": {
-    "title": "Ragnarok Origin Classic 위키",
-    "description": "Ragnarok Origin Classic 로스터, 능력치, 라커 코드, 매치 유형 및 게임 모드 가이드를 위한 종합 리소스 허브입니다.",
-    "resources": "리소스",
-    "community": "커뮤니티",
-    "legal": "법적 고지",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "Ragnarok Origin Classic 초보자 루트, 클래스 선택, 빌드, 길드 플레이, 코드 및 애완동물을 위한 완전한 리소스 허브입니다.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Official Site",
-    "about": "정보",
-    "privacy": "개인정보 처리방침",
-    "terms": "이용약관",
+    "instagram": "공식 사이트",
+    "about": "소개",
+    "privacy": "개인 정보 보호 정책",
+    "terms": "서비스 약관",
     "copyrightNotice": "저작권",
-    "copyright": "© 2026 Ragnarok Origin Classic 위키. 2K Sports, Visual Concepts 또는 WWE와 관련이 없습니다.",
-    "disclaimer": "비공식 팬 제작 리소스 웹사이트입니다."
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki. Gravity 또는 공식 게임 파트너와 제휴하지 않습니다.",
+    "disclaimer": "비공식 팬이 만든 리소스 웹사이트입니다."
   }
 }

@@ -1,0 +1,22 @@
+Batch Codex dispatch
+   Tasks file: /root/.openclaw/workspace-code-dev/skills/game-refactor/tasks/game-refactor-ragnarokoriginclassic-tasks.json
+   Workdir: /root/Documents/GameProjects/ragnarokoriginclassic_wiki
+   Feishu: chat:oc_045fd72845c61526b8076f9d01fa2ef3
+   Tmux session: ragnarokoriginclassic_wiki
+
+Total tasks: 8
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task [1/8]: game-refactor-part1-basic-config-ragnarokoriginclassic
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Task metadata written: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/sessions/ragnarokoriginclassic_wiki/task-meta.json
+   Task ID: game-refactor-part1-basic-config-ragnarokoriginclassic_20260326_165959_637714
+   Task: game-refactor-part1-basic-config-ragnarokoriginclassic
+   Target: chat:oc_045fd72845c61526b8076f9d01fa2ef3
+   Prompt file: /root/.openclaw/workspace-code-dev/skills/codex-agent/data/prompts/game-refactor-part1-basic-config-ragnarokoriginclassic_20260326_165959_637714.md
+Creating tmux session: ragnarokoriginclassic_wiki
+codex binary not found: /root/.nvm/versions/node/v22.22.0/bin/codex
+   Task ID: game-refactor-part1-basic-config-ragnarokoriginclassic_20260326_165959_637714
+Waiting for task: game-refactor-part1-basic-config-ragnarokoriginclassic_20260326_165959_637714 (timeout: 7200s)
+   Still waiting... (60s / 7200s)

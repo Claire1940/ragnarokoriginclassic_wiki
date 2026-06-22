@@ -24,13 +24,16 @@ class MessagesTranslator:
         # API credentials
         self.api_key = config['api_key']
         self.api_base_url = config['api_base_url']
-        self.api_url = f"{self.api_base_url.rstrip('/')}/chat/completions"
+        if self.api_base_url.rstrip('/').endswith('/chat/completions'):
+            self.api_url = self.api_base_url.rstrip('/')
+        else:
+            self.api_url = f"{self.api_base_url.rstrip('/')}/chat/completions"
         self.model = config.get('model', 'gemini-2.0-flash')
         self.temperature = config.get('temperature', 0.7)
         self.max_tokens = config.get('max_tokens', 8192)
-        self.retry_attempts = config.get('retry_attempts', 5)  # Increase retries
+        self.retry_attempts = config.get('retry_attempts', 3)  # Increase retries
         self.retry_delay = config.get('retry_delay', 3)  # Increase delay
-        self.timeout = config.get('timeout', 900)  # Increase timeout for large JSON
+        self.timeout = config.get('timeout', 300)  # Increase timeout for large JSON
         self.group = config.get('group', 'default')
 
         # Game names and language names from config
@@ -143,8 +146,8 @@ class MessagesTranslator:
                 # More detailed timeout configuration
                 timeout = aiohttp.ClientTimeout(
                     total=self.timeout,
-                    connect=120,      # Allow more time to connect
-                    sock_read=600     # Allow more time to read large responses
+                    connect=60,      # Allow more time to connect
+                    sock_read=180     # Allow more time to read large responses
                 )
 
                 async with session.post(
@@ -260,8 +263,8 @@ class MessagesTranslator:
             try:
                 timeout = aiohttp.ClientTimeout(
                     total=self.timeout,
-                    connect=120,
-                    sock_read=600
+                    connect=60,
+                    sock_read=180
                 )
 
                 async with session.post(

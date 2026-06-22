@@ -1,0 +1,35 @@
+{
+  "lang": "pt",
+  "strategies_tried": [
+    {
+      "strategy": "top_level",
+      "chunk_size": null,
+      "success": false,
+      "chunks_count": 10,
+      "failed_chunks": 10
+    },
+    {
+      "strategy": "medium",
+      "chunk_size": 30,
+      "success": false,
+      "chunks_count": 1,
+      "failed_chunks": 1
+    },
+    {
+      "strategy": "small",
+      "chunk_size": 15,
+      "success": false,
+      "chunks_count": 1,
+      "failed_chunks": 1
+    },
+    {
+      "strategy": "tiny",
+      "chunk_size": 5,
+      "success": false,
+      "chunks_count": 2,
+      "failed_chunks": 2
+    }
+  ],
+  "final_status": "failed",
+  "error": "所有分块策略都失败"
+}

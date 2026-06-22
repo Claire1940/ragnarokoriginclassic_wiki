@@ -1,1267 +1,1518 @@
 {
   "seo": {
     "home": {
-      "title": "Ragnarok Origin Classic Wiki - Elenco, Notas, Modos e Guias",
-      "description": "A Ragnarok Origin Classic Wiki cobre elenco, notas, códigos de vestiário, tipos de luta, MyGM, MyRISE, Universe e guias de The Island para PS5, Xbox, Steam e Switch 2.",
-      "keywords": "Ragnarok Origin Classic, elenco Ragnarok Origin Classic, notas Ragnarok Origin Classic, códigos de vestiário Ragnarok Origin Classic, MyGM Ragnarok Origin Classic",
-      "ogTitle": "Ragnarok Origin Classic Wiki - Elenco, Notas, Modos e Guias",
-      "ogDescription": "A Ragnarok Origin Classic Wiki cobre elenco, notas, códigos de vestiário, tipos de luta, MyGM, MyRISE, Universe e guias de The Island para PS5, Xbox, Steam e Switch 2.",
-      "twitterTitle": "Ragnarok Origin Classic Wiki - Elenco, Notas, Modos e Guias",
-      "twitterDescription": "A Ragnarok Origin Classic Wiki cobre elenco, notas, códigos de vestiário, tipos de luta e guias de modos de jogo."
+      "title": "Ragnarok Origin Classic Wiki - Guias, construções e códigos para iniciantes",
+      "description": "Ragnarok Origin Classic wiki para rotas para iniciantes, rotina diária, desenvolvimento de habilidades, construção de classe, jogos de guilda, códigos, animais de estimação e progressão de lançamento em PC, Android, iOS e Windows.",
+      "keywords": "Ragnarok Origin Classic, ROOC, guia para iniciantes, rotina diária, construção de habilidades, construção de classe, códigos, guilda, PvP, animais de estimação, nivelamento",
+      "ogTitle": "Ragnarok Origin Classic Wiki - Guias, construções e códigos para iniciantes",
+      "ogDescription": "Ragnarok Origin Classic wiki para rotas para iniciantes, rotina diária, desenvolvimento de habilidades, construção de classe, jogos de guilda, códigos, animais de estimação e progressão de lançamento em PC, Android, iOS e Windows.",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - Guias, construções e códigos para iniciantes",
+      "twitterDescription": "Ragnarok Origin Classic wiki para rotas para iniciantes, rotina diária, desenvolvimento de habilidades, construção de classe, jogo de guilda, códigos e animais de estimação."
     }
   },
   "nav": {},
   "common": {
-    "home": "Início",
+    "home": "Home",
     "more": "Mais",
-    "playNow": "Compre Agora",
-    "switchLanguage": "Mudar Idioma",
+    "playNow": "Visite o site oficial",
+    "switchLanguage": "Mudar idioma",
     "switchTheme": "Mudar Tema",
-    "lightMode": "Modo Claro",
-    "darkMode": "Modo Escuro",
-    "notFound": "Página Não Encontrada",
-    "notFoundDescription": "A página que você está procurando não existe.",
-    "backToHome": "Voltar para o Início",
-    "relatedArticles": "Artigos Relacionados",
-    "readMore": "Leia Mais"
+    "lightMode": "Modo claro",
+    "darkMode": "Modo escuro",
+    "notFound": "Página não encontrada",
+    "notFoundDescription": "A página que você procura não existe.",
+    "backToHome": "Voltar à página inicial",
+    "relatedArticles": "Artigos relacionados",
+    "readMore": "Leia mais"
   },
   "hero": {
-    "badge": "Simulador Oficial de Wrestling com mais de 400 Superstars",
+    "badge": "MMORPG clássico de fantasia multiplataforma",
     "title": "Ragnarok Origin Classic Wiki",
-    "description": "Acompanhe o elenco completo, notas, tipos de luta, edições e guias de modo para Ragnarok Origin Classic, do Showcase do CM Punk ao The Island, MyGM, MyRISE e Universe.",
-    "getFreeCodesCTA": "Obtenha Códigos Gratuitos",
-    "playOnRobloxCTA": "Compre Ragnarok Origin Classic",
+    "description": "Um centro de conteúdo prático ROOC para rotas para iniciantes, rotina diária, construção de habilidades, construção de classe, jogo de guilda, códigos, animais de estimação e progressão de lançamento.",
+    "getFreeCodesCTA": "Ver códigos",
+    "playOnRobloxCTA": "Visite o site oficial",
     "stats": {
       "stat1": {
-        "value": "13-03-2026",
-        "label": "Lançamento Padrão"
+        "value": "26 de março 2026",
+        "label": "Lançamento Oficial"
       },
       "stat2": {
-        "value": "400+",
-        "label": "Superstars Jogáveis"
+        "value": "Android iOS Windows",
+        "label": "Plataformas"
       },
       "stat3": {
-        "value": "40+",
-        "label": "Arenas"
+        "value": "14 Empregos 27 Construções",
+        "label": "Aulas e Builds"
       },
       "stat4": {
-        "value": "4",
-        "label": "Novos Tipos de Luta"
+        "value": "203",
+        "label": "Trajes"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de Ragnarok Origin Classic",
-    "description": "Experimente a simulação de wrestling mais autêntica com mais de 400 superstars e novos tipos de luta!"
+    "title": "Ragnarok Origin Classic Visão geral",
+    "description": "Explore rotas de lançamento, rotina diária, desenvolvimento de habilidades, construção de classe, códigos, jogo de guilda e caminhos de progressão para Ragnarok Origin Classic."
   },
   "tools": {
     "title": "Ragnarok Origin Classic",
-    "titleHighlight": "Navegação Rápida",
+    "titleHighlight": "Navegação rápida",
     "subtitle": "Pule para qualquer seção abaixo",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "Lançamento e Edições",
-        "description": "Compare todas as 4 edições e datas de lançamento"
+        "icon": "BookOpen",
+        "title": "Guia para iniciantes",
+        "description": "Comece forte com a primeira rota da missão e os primeiros marcos"
       },
       {
-        "icon": "Users",
-        "title": "Elenco",
-        "description": "Navegue por mais de 400 Superstars jogáveis"
+        "icon": "Usuários",
+        "title": "Melhor classe",
+        "description": "Compare para iniciantes empregos, velocidade de cultivo e valor de suporte"
       },
       {
         "icon": "TrendingUp",
-        "title": "Notas",
-        "description": "Ranking dos Superstars com as melhores notas"
+        "title": "Tier List",
+        "description": "Veja classificações baseadas em modo para PvE, PvP e jogo de guilda"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Controles",
-        "description": "Controles para PS5, Xbox e PC"
+        "icon": "Clock",
+        "title": "Leveling Guide",
+        "description": "Siga a rota de EXP inicial mais rápida e o caminho de desbloqueio"
       },
       {
-        "icon": "Flame",
-        "title": "Novos Tipos de Luta",
-        "description": "Estreia de 4 novos tipos de luta"
+        "icon": "ClipboardCheck",
+        "title": "Rotina diária",
+        "description": "Transforme diários, recompensas e comissões em um ciclo limpo"
       },
       {
-        "icon": "Film",
-        "title": "Showcase",
-        "description": "A carreira lendária de CM Punk"
-      },
-      {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Gerencie sua marca da WWE"
-      },
-      {
-        "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Crie sua história de Superstar"
-      },
-      {
-        "icon": "Globe",
-        "title": "Modo Universe",
-        "description": "Controle o WWE Universe"
-      },
-      {
-        "icon": "Palette",
-        "title": "Criações da Comunidade",
-        "description": "Baixe e compartilhe criações"
-      },
-      {
-        "icon": "Map",
-        "title": "The Island",
-        "description": "Modo de batalha baseado em facções"
-      },
-      {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Monte sua facção dos sonhos"
-      },
-      {
-        "icon": "Gift",
-        "title": "Códigos de Vestiário",
-        "description": "Códigos ativos para recompensas"
-      },
-      {
-        "icon": "Monitor",
-        "title": "Requisitos para PC",
-        "description": "Especificações mínimas e recomendadas"
-      },
-      {
-        "icon": "Building",
-        "title": "Arenas",
-        "description": "Mais de 40 locais icônicos"
+        "icon": "Hammer",
+        "title": "Skill Builds",
+        "description": "Planeje a alocação de pontos para farm, chefes e PvP"
       },
       {
         "icon": "Package",
-        "title": "DLC e Desbloqueáveis",
-        "description": "Passe de Temporada e roteiro de conteúdo"
+        "title": "Class Construções",
+        "description": "Compare spreads de estatísticas, direção de equipamento e arquétipos de classe"
+      },
+      {
+        "icon": "Escudo",
+        "title": "Progressão de equipamento",
+        "description": "Atualize com eficiência e evite caminhos de refinamento desperdiçados"
+      },
+      {
+        "icon": "Moedas",
+        "title": "Zeny Agricultura",
+        "description": "Rastreie rotas de moeda repetíveis, baú varreduras e quedas de chefes"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "F2P Guia",
+        "description": "Construa um plano inicial seguro com escolha de classe e prioridades de compra"
+      },
+      {
+        "icon": "Troféu",
+        "title": "MVP Guia",
+        "description": "Planeje caçadas ao chefe em torno de camadas de recompensa, contribuição e limites"
+      },
+      {
+        "icon": "Espadas",
+        "title": "WoE Guia",
+        "description": "Prepare as funções da guilda, o tempo de cerco e o valor do castelo"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "PvP Guia",
+        "description": "Afie a explosão, o controle e a pressão da equipe para o jogo na arena"
+      },
+      {
+        "icon": "Construção",
+        "title": "Guia da guilda",
+        "description": "Planeje missões de guilda, eventos e longo prazo valor da contribuição"
+      },
+      {
+        "icon": "Gift",
+        "title": "Codes",
+        "description": "Copie os códigos de resgate ativos e siga o caminho de reivindicação no jogo"
+      },
+      {
+        "icon": "Layers",
+        "title": "Pets Guide",
+        "description": "Escolha animais de estimação que suportam agricultura, crescimento de estatísticas e utilidade"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "Data de Lançamento e Edições de Ragnarok Origin Classic",
-      "subtitle": "Escolha a edição que combina com seu estilo de jogo",
+      "title": "Ragnarok Origin Classic Guia para iniciantes",
+      "subtitle": "Roteamento da primeira missão, primeiro trabalho tempo e sistemas iniciais que são desbloqueados no primeiro dia.",
       "quickFacts": [
         {
-          "label": "Lançamento Padrão",
-          "value": "13 de março de 2026"
+          "label": "Rota Principal",
+          "value": "Quest First"
         },
         {
-          "label": "Acesso Antecipado Premium",
-          "value": "6 de março de 2026"
+          "label": "Primeiro Trabalho",
+          "value": "Nível 10"
         },
         {
-          "label": "Plataformas",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "label": "Weapon Spike",
+          "value": "Nível 15"
         },
         {
-          "label": "Gênero",
-          "value": "Esportes, Wrestling Profissional"
+          "label": "Daily Loop",
+          "value": "Nível 16"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "13 de março de 2026",
+          "name": "Tutorial e configuração",
+          "price": "Etapa 1",
+          "releaseDate": "Crie seu personagem e termine a introdução",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Jogo base Ragnarok Origin Classic"
+            "Defina seu apelido e preferências básicas",
+            "Aprenda combate, inventário e fluxo de missão",
+            "Desbloqueie o rastreador de missão principal"
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "6 de março de 2026",
+          "name": "Rota de missão principal",
+          "price": "Etapa 2",
+          "releaseDate": "Empurre a história antes da moagem aleatória",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Jogo base Ragnarok Origin Classic",
-            "Pacote King of Kings Edition",
-            "Ringside Pass Premium Temporada 1",
-            "7 dias de Acesso Antecipado",
-            "Pacote Joe Hendry"
+            "Use a missão principal para EXP e desbloqueia",
+            "Evite desvios antecipados para monstros de elite",
+            "Mantenha a progressão em uma linha limpa"
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "6 de março de 2026",
+          "name": "Marcos de trabalho e armas",
+          "price": "Etapa 3",
+          "releaseDate": "Alcance o nível 10 a 15",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Jogo base Ragnarok Origin Classic",
-            "Pacote King of Kings Edition",
-            "Pacote Attitude Era Edition",
-            "Ringside Pass Premium Temporadas 1-4",
-            "7 dias de Acesso Antecipado",
-            "Superstar Mega-Boost",
-            "Pacote Joe Hendry"
+            "Escolha seu primeiro trabalho no nível 10",
+            "Visualize o conforto da classe antes de travar",
+            "Crie sua arma de primeira classe no nível 15"
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "6 de março de 2026",
+          "name": "Daily Loop",
+          "price": "Etapa 4",
+          "releaseDate": "Comece no nível 16 em diante",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Jogo base Ragnarok Origin Classic",
-            "Pacote Monday Night War Edition",
-            "Pacote King of Kings Edition",
-            "Pacote Attitude Era Edition",
-            "Pacote WrestleMania 42",
-            "Ringside Pass Premium Temporadas 1-6",
-            "7 dias de Acesso Antecipado",
-            "Superstar Mega-Boost",
-            "Pacote Joe Hendry",
-            "32.500 VC"
+            "Comece as comissões diárias no nível 16",
+            "Use os sistemas de guilda e de conta à medida que eles são desbloqueados",
+            "Transforme as recompensas de rotina em um progresso constante"
           ]
         }
       ],
       "highlights": [
-        "Edições premium desbloqueiam o jogo 7 dias antes",
-        "A Monday Night War Edition inclui todos os três pacotes de conteúdo premium",
-        "O Ringside Pass se expande por seis temporadas nas edições premium"
+        "Jogar a primeira missão é o caminho inicial mais rápido em Ragnarok Origin Classic",
+        "Comissões diárias e sistemas de guilda impulsionam o crescimento constante da conta",
+        "Arqueiro, Mago e Acólito são escolhas de conforto comuns para novos jogadores"
       ]
     },
     "roster": {
-      "title": "Elenco de Ragnarok Origin Classic",
-      "subtitle": "Navegue por mais de 400 Superstars e Lendas jogáveis",
+      "title": "Ragnarok Origin Classic Melhor classe",
+      "subtitle": "Respostas rápidas para jogadores que desejam uma classe principal sem desperdiçar recursos iniciais.",
       "stats": [
         {
-          "label": "Total de Superstars",
-          "value": "400+"
+          "label": "Melhor início para iniciantes",
+          "value": "Archer"
         },
         {
-          "label": "Novas Adições",
-          "value": "50+"
+          "label": "Melhor início de agricultura",
+          "value": "Mage"
         },
         {
-          "label": "Escopo do Elenco",
-          "value": "O maior na história da franquia"
+          "label": "Melhor suporte Iniciar",
+          "value": "Acólito"
         }
       ],
       "categories": [
         {
-          "name": "Estrelas Atuais",
+          "name": "Amigável para iniciantes",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "Archer",
+            "Mage",
+            "Acólito"
           ]
         },
         {
-          "name": "Lendas",
+          "name": "Jogo solo seguro",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "Merchant",
+            "Espadachim",
+            "Hunter"
           ]
         },
         {
-          "name": "Destaques da Nova Era",
+          "name": "Utilitário de grupo",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "Acólito",
+            "Priest",
+            "Blacksmith"
           ]
         },
         {
-          "name": "Destaque da Temporada 1",
+          "name": "Burst e PvP",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "Thief",
+            "Assassin",
+            "Knight"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "Notas de Ragnarok Origin Classic",
-      "subtitle": "Ranking dos Superstars com as melhores notas",
+      "title": "Ragnarok Origin Classic Tier List",
+      "subtitle": "Classificações baseadas em modo para PvE, PvP e jogo de guilda em vez de um universal list.",
+      "leftTitle": "Best PvE Jobs",
+      "rightTitle": "Best PvP Jobs",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
-          "rating": 97
+          "name": "Hunter",
+          "rating": "S"
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "John Cena",
-          "rating": 97
+          "name": "Priest",
+          "rating": "A"
         },
         {
-          "name": "John Cena '12",
-          "rating": 96
+          "name": "Blacksmith",
+          "rating": "A"
         },
         {
-          "name": "The Rock '01",
-          "rating": 96
+          "name": "Knight",
+          "rating": "B"
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
-        },
-        {
-          "name": "Stone Cold Steve Austin '00",
-          "rating": 95
-        },
-        {
-          "name": "The Rock",
-          "rating": 95
-        },
-        {
-          "name": "Cody Rhodes",
-          "rating": 95
-        },
-        {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "Assassin",
+          "rating": "B"
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
-          "rating": 96
+          "name": "Priest",
+          "rating": "S"
         },
         {
-          "name": "Becky Lynch",
-          "rating": 94
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "Bianca Belair",
-          "rating": 94
+          "name": "Assassin",
+          "rating": "A"
         },
         {
-          "name": "Charlotte Flair",
-          "rating": 93
+          "name": "Knight",
+          "rating": "A"
         },
         {
-          "name": "Iyo Sky",
-          "rating": 93
+          "name": "Hunter",
+          "rating": "B"
         },
         {
-          "name": "Naomi",
-          "rating": 92
-        },
-        {
-          "name": "Stephanie Vaquer",
-          "rating": 92
-        },
-        {
-          "name": "Liv Morgan",
-          "rating": 92
-        },
-        {
-          "name": "AJ Lee '15",
-          "rating": 92
-        },
-        {
-          "name": "Tiffany Stratton",
-          "rating": 91
+          "name": "Blacksmith",
+          "rating": "B"
         }
-      ],
-      "highlights": [
-        "Maior nota masculina: 97",
-        "Maior nota feminina: 96",
-        "As notas misturam estrelas atuais, lendas e personas de eras alternativas"
       ]
     },
     "controls": {
-      "title": "Controles de Ragnarok Origin Classic",
-      "subtitle": "Domine os controles principais para PS5, Xbox e PC",
+      "title": "Ragnarok Origin Classic Guia de nivelamento",
+      "subtitle": "Uma rota de lançamento prática construída em torno de prioridade de missão, sistemas diários, e uma agricultura eficiente.",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "Missão principal",
           "controls": [
             {
-              "action": "Correr",
-              "input": "Segurar L2 + Analógico Esquerdo"
+              "action": "Siga o fluxo da história",
+              "input": "EXP primária e desbloqueios"
             },
             {
-              "action": "Agarrar (Grapple)",
-              "input": "O"
+              "action": "Alcance o nível 10",
+              "input": "Escolha seu primeiro emprego"
             },
             {
-              "action": "Ataque Leve / Agarrão Leve",
-              "input": "Quadrado"
-            },
-            {
-              "action": "Ataque Pesado / Agarrão Pesado",
-              "input": "X"
-            },
-            {
-              "action": "Irish Whip",
-              "input": "O (dentro do Agarrão)"
-            },
-            {
-              "action": "Signature",
-              "input": "R2 + Quadrado"
-            },
-            {
-              "action": "Finalizador",
-              "input": "R2 + X"
-            },
-            {
-              "action": "Submissão",
-              "input": "R2 + O"
-            },
-            {
-              "action": "Payback",
-              "input": "R2 + Triângulo"
-            },
-            {
-              "action": "Reversão / Esquiva",
-              "input": "Triângulo"
-            },
-            {
-              "action": "Bloqueio",
-              "input": "Segurar Triângulo"
-            },
-            {
-              "action": "Fazer o Pin no Oponente",
-              "input": "Analógico Direito para Baixo"
-            },
-            {
-              "action": "Pegar Arma",
-              "input": "L1"
+              "action": "Alcance o nível 15",
+              "input": "Crie sua arma de classe"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "Comissões diárias",
           "controls": [
             {
-              "action": "Correr",
-              "input": "Segurar LT + Analógico Esquerdo"
+              "action": "Desbloqueie diariamente loop",
+              "input": "Começa no nível 16"
             },
             {
-              "action": "Agarrar (Grapple)",
-              "input": "B"
+              "action": "Reivindicar recompensas diárias",
+              "input": "EXP e materiais grátis"
             },
             {
-              "action": "Ataque Leve / Agarrão Leve",
-              "input": "X"
+              "action": "Acumular valor do evento",
+              "input": "Manter o crescimento constante"
+            }
+          ]
+        },
+        {
+          "name": "Tempo de combate",
+          "controls": [
+            {
+              "action": "Cultive mobs eficientes",
+              "input": "Melhor uso do tempo de moagem"
             },
             {
-              "action": "Ataque Pesado / Agarrão Pesado",
-              "input": "A"
+              "action": "Pule os primeiros desvios de elite",
+              "input": "Evite perda de tempo"
             },
             {
-              "action": "Irish Whip",
-              "input": "B (dentro do Agarrão)"
-            },
-            {
-              "action": "Signature",
-              "input": "RT + X"
-            },
-            {
-              "action": "Finalizador",
-              "input": "RT + A"
-            },
-            {
-              "action": "Submissão",
-              "input": "RT + B"
-            },
-            {
-              "action": "Payback",
-              "input": "RT + Y"
-            },
-            {
-              "action": "Reversão / Esquiva",
-              "input": "Y"
-            },
-            {
-              "action": "Bloqueio",
-              "input": "Segurar Y"
-            },
-            {
-              "action": "Fazer o Pin no Oponente",
-              "input": "Analógico Direito para Baixo"
-            },
-            {
-              "action": "Pegar Arma",
-              "input": "LB"
+              "action": "Junte-se ao conteúdo da guilda",
+              "input": "Progresso e recompensas extras"
             }
           ]
         }
-      ],
-      "tips": [
-        "Combos encadeiam Ataques Leves e Pesados juntos",
-        "Breakers usam o mesmo botão que seu oponente pressiona",
-        "O minijogo de kick-out cronometrado usa o Analógico Direito para Cima",
-        "Ações de Juiz Especial incluem contagem, quebra de corda, avisos e expulsões"
       ]
     },
-    "matchTypes": {
-      "title": "Novos Tipos de Luta de Ragnarok Origin Classic",
-      "subtitle": "Experimente 4 novos tipos de luta e jogabilidade expandida",
-      "quickFacts": [
+    "dailyRoutine": {
+      "title": "Ragnarok Origin Classic Rotina diária",
+      "subtitle": "Um ciclo diário limpo ajuda os jogadores a manter o nível, farmar e desbloquear sistemas sem perder tempo de combate limitado.",
+      "intro": "Em Ragnarok Origin Classic, o progresso mais rápido vem de fazer as coisas certas na ordem certa, em vez de trabalhar aleatoriamente. Uma boa rota diária geralmente começa com recompensas gratuitas e progresso da história, depois muda para comissões diárias, agricultura em tempo de combate, chefes e conteúdo de guilda.",
+      "items": [
         {
-          "label": "Novos Tipos de Luta",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "name": "Solicite recompensas diárias primeiro",
+          "priority": "Mais alta",
+          "frequency": "Login diário",
+          "details": "Colete recompensas diárias, recompensas de eventos e brindes de passe de batalha antes de iniciar sessões longas.",
+          "why_it_matters": "Esta é a fonte mais fácil de ingressos antecipados, consumíveis e materiais de progressão.",
+          "icon": "Gift"
         },
         {
-          "label": "Novo Espaço de Briga",
-          "value": "Briga no Ferro-Velho (Scrapyard Brawl)"
+          "name": "Avançar a história principal até o nível definido",
+          "priority": "Mais alta",
+          "frequency": "Diariamente até serem bloqueadas",
+          "details": "As missões principais continuam sendo a principal fonte de EXP inicial, EXP de trabalho, desbloqueios de recursos e progressão de equipamentos básicos.",
+          "why_it_matters": "A progressão da história desbloqueia sistemas mais rápido do que a moagem de campo aleatória.",
+          "icon": "BookMarked"
         },
         {
-          "label": "Adição de Modo",
-          "value": "Troca Rápida (Quick Swap) no MyFACTION"
-        }
-      ],
-      "matches": [
-        {
-          "name": "I Quit",
-          "description": "Force seu oponente a dizer 'I Quit' para vencer este confronto brutal"
+          "name": "Concluir comissões diárias",
+          "priority": "Mais alta",
+          "frequency": "Daily",
+          "details": "As comissões diárias são missões repetíveis rápidas que geralmente são solicitadas aos jogadores para derrotar monstros ou completar pequenos objetivos.",
+          "why_it_matters": "Eles fornecem EXP constante, Zeny e materiais úteis enquanto se ajustam naturalmente ao ciclo diário.",
+          "icon": "ClipboardCheck"
         },
         {
-          "name": "Inferno",
-          "description": "Ateie fogo em seu oponente para garantir a vitória nesta luta de terra arrasada"
+          "name": "Gaste o tempo de combate com eficiência",
+          "priority": "Mais alta",
+          "frequency": "Daily",
+          "details": "Use o tempo de combate em monstros que você pode matar rapidamente, de preferência em alvos próximos ao seu nível ou mobs vinculados aos drops necessários.",
+          "why_it_matters": "O tempo de combate é um dos principais sistemas de eficiência para nivelamento, cultivo e queda geração.",
+          "icon": "Clock3"
         },
         {
-          "name": "Dumpster",
-          "description": "Espanque seu oponente e jogue-o na caçamba para vencer"
+          "name": "Faça atividades diárias e tarefas de eventos rotativos",
+          "priority": "High",
+          "frequency": "Daily",
+          "details": "Atividades diárias regulares e eventos limitados adicionam materiais extras de crescimento, recompensas de bônus e progressão sazonal.",
+          "why_it_matters": "Essas atividades acumulam valor de conta ao longo do tempo e geralmente são a maneira mais fácil de acompanhar F2P.",
+          "icon": "Sparkles"
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "Desafio de melhor de três onde cada queda usa um tipo de luta diferente"
+          "name": "Hunt Mini e MVP chefes quando possível",
+          "priority": "High",
+          "frequency": "Diário / oportunista",
+          "details": "Mini e MVP conteúdo de chefe está vinculado a itens valiosos, como materiais raros, cartas e projetos.",
+          "why_it_matters": "O conteúdo do chefe é uma das principais maneiras de converter o jogo rotineiro em progressão de equipamento de longo prazo.",
+          "icon": "Troféu"
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "Novo ambiente de briga situado no deserto de destroços de The Island"
-        }
-      ],
-      "newSystems": [
-        "Combate na Multidão Expandido",
-        "Mesas Empilháveis",
-        "Tachinhas",
-        "Atacantes Surpresa",
-        "Combate na Barricada",
-        "Ação de nocaute de equipe com Troca Rápida"
-      ]
-    },
-    "showcase": {
-      "title": "Showcase de Ragnarok Origin Classic",
-      "subtitle": "Reviva as maiores rivalidades de CM Punk",
-      "quickFacts": [
-        {
-          "label": "Estrela da Capa",
-          "value": "CM Punk"
+          "name": "Participe de atividades da guilda",
+          "priority": "High",
+          "frequency": "Daily",
+          "details": "As missões da guilda e os eventos da guilda adicionam recompensas de contribuição e crescimento extra da conta além do jogo solo.",
+          "why_it_matters": "A participação na guilda é uma fonte repetível de progressão que muitos novos jogadores pulam com muita frequência.",
+          "icon": "Usuários"
         },
         {
-          "label": "Linha do Tempo",
-          "value": "Mais de 25 anos de história da WWE"
-        },
-        {
-          "label": "Tipos de Luta",
-          "value": "Histórica, Fantasia, \"E Se\""
-        }
-      ],
-      "moments": [
-        {
-          "title": "Luta de Abertura",
-          "description": "WrestleMania 41 Triple Threat: CM Punk vs Seth Rollins vs Roman Reigns"
-        },
-        {
-          "title": "Lutas Históricas",
-          "description": "Recriações fiéis com arenas autênticas e objetivos de luta"
-        },
-        {
-          "title": "Guerra de Fantasia",
-          "description": "Confrontos dos sonhos contra lendas que influenciaram a jornada de Punk"
-        },
-        {
-          "title": "Lutas \"E Se\"",
-          "description": "Cenários de linha do tempo alternativa explorando diferentes caminhos na carreira"
-        }
-      ],
-      "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "Enfrente 20 oponentes consecutivos como CM Punk ou AJ Lee para desbloquear todas as recompensas do Showcase de uma vez"
-      }
-    },
-    "mygm": {
-      "title": "MyGM de Ragnarok Origin Classic",
-      "subtitle": "Administre sua marca com agendamentos e estratégias mais profundas",
-      "quickFacts": [
-        {
-          "label": "Duração da Temporada",
-          "value": "50 semanas"
-        },
-        {
-          "label": "Orçamentos Iniciais",
-          "value": "$3M - $7M"
-        },
-        {
-          "label": "Tamanho Médio do Elenco",
-          "value": "20-35 Superstars"
-        },
-        {
-          "label": "Nova Dificuldade",
-          "value": "Imortal"
-        }
-      ],
-      "features": [
-        {
-          "title": "Temporadas Estendidas",
-          "description": "A duração padrão da temporada agora é de 50 semanas com opções de orçamento flexíveis"
-        },
-        {
-          "title": "Tipos de Luta Expandidos",
-          "description": "Agende lutas de 5, 6 e 8 pessoas, tag de três duplas, tag de quatro duplas e lutas handicap"
-        },
-        {
-          "title": "Novas Regras de Luta",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "title": "Troca de Power Cards",
-          "description": "Troque Power Cards durante as semanas de troca com opção de desativar a Loja de Power Cards"
-        },
-        {
-          "title": "Lutas Intergênero",
-          "description": "Agende lutas intergênero com custo de agendamento adicional"
-        }
-      ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
-      ]
-    },
-    "myrise": {
-      "title": "MyRISE de Ragnarok Origin Classic",
-      "subtitle": "Lute pelo seu caminho de volta em O Retorno (The Comeback)",
-      "quickFacts": [
-        {
-          "label": "Nome da História",
-          "value": "O Retorno (The Comeback)"
-        },
-        {
-          "label": "Personagem Principal",
-          "value": "O Arquétipo"
-        },
-        {
-          "label": "Tema",
-          "value": "Retorno após 2 anos de ausência"
-        }
-      ],
-      "paths": [
-        {
-          "name": "Rota Tradicional",
-          "description": "Ganhe oportunidades da maneira certa e trabalhe para voltar à disputa pelo título"
-        },
-        {
-          "name": "Rota Implacável",
-          "description": "Corte caminhos e acelere o retorno através de táticas agressivas"
-        }
-      ],
-      "divisions": [
-        {
-          "name": "Divisão Masculina",
-          "goal": "Ganhe outra chance contra o Campeão da WWE Bron Breakker",
-          "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
-          ]
-        },
-        {
-          "name": "Divisão Feminina",
-          "goal": "Busque outro confronto com a Campeã Feminina da WWE Jordynne Grace",
-          "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
-          ]
-        }
-      ],
-      "features": [
-        "Diálogos ramificados moldam a progressão da história",
-        "Coletivas de imprensa da WWE com respostas de escolha do jogador",
-        "Uma grande decisão final afeta o reinado do campeonato"
-      ],
-      "rewards": [
-        "Arenas",
-        "Campeonatos",
-        "Peças de CAS",
-        "Personagens jogáveis",
-        "Armas",
-        "Paybacks",
-        "Conteúdo do MyFACTION"
-      ]
-    },
-    "universeMode": {
-      "title": "Modo Universe de Ragnarok Origin Classic",
-      "subtitle": "Construa seu calendário dos sonhos da WWE com controle mais profundo",
-      "quickFacts": [
-        {
-          "label": "Ferramenta de Configuração",
-          "value": "Assistente do Universe"
-        },
-        {
-          "label": "Máximo de Eventos de Draft",
-          "value": "8"
-        },
-        {
-          "label": "Títulos por Show",
-          "value": "Até 8"
-        },
-        {
-          "label": "Slots de MITB",
-          "value": "2 por show"
-        }
-      ],
-      "features": [
-        {
-          "title": "Assistente do Universe",
-          "description": "Inicie salvamentos mais rápido escolhendo shows, PLEs, campeões e elencos antecipadamente"
-        },
-        {
-          "title": "WWE Draft",
-          "description": "Crie e agende eventos de Draft onde os shows trocam Superstars"
-        },
-        {
-          "title": "Cash-Ins de MITB",
-          "description": "As maletas podem ser usadas em qualquer título elegível em um show"
-        },
-        {
-          "title": "Promos Aprimoradas",
-          "description": "Auto-Promos, Desafios, Interrupções, Desafios Abertos, Entrevistas Pós-Luta"
-        },
-        {
-          "title": "Sliders de Casamento de Lutas",
-          "description": "Ajuste a triagem do card de lutas com bônus para títulos, rivalidades e tipos de luta"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "Criações da Comunidade de Ragnarok Origin Classic",
-      "subtitle": "Crie conteúdo personalizado maior e mais detalhado",
-      "quickFacts": [
-        {
-          "label": "Slots de CAS",
-          "value": "200"
-        },
-        {
-          "label": "Slots de Imagem",
-          "value": "2.000"
-        },
-        {
-          "label": "Modelos de Corpo",
-          "value": "40+"
-        },
-        {
-          "label": "Divisão de Camadas",
-          "value": "60 trajes + 40 cabeça/corpo"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Criar um Superstar",
-          "description": "Modelagem de corpo e modelagem facial aprimorada com mais de 40 modelos de corpo"
-        },
-        {
-          "title": "Cabelo e Pintura Corporal",
-          "description": "Mistura de cores de cabelo em dois tons e controles de mouse Joy-Con 2 para pintura corporal"
-        },
-        {
-          "title": "Criar uma Arena",
-          "description": "Barricadas de LED, novas mesas de comentaristas, opções expandidas de lona e saia de ringue"
-        },
-        {
-          "title": "Criar uma Imagem",
-          "description": "Limite de upload de imagens dobrado de 1.000 para 2.000 slots"
-        },
-        {
-          "title": "Criar um Campeonato",
-          "description": "Peças expandidas e interface de construção renovada"
-        },
-        {
-          "title": "Criar uma Entrada",
-          "description": "Edição avançada de linha do tempo para entradas de campeão, MITB e equipes (Quad/Quint)"
-        }
-      ]
-    },
-    "theIsland": {
-      "title": "The Island de Ragnarok Origin Classic",
-      "subtitle": "Escolha uma Ordem e lute pelo controle",
-      "quickFacts": [
-        {
-          "label": "Facções",
-          "value": "3 Ordens"
-        },
-        {
-          "label": "Capítulos da História",
-          "value": "3"
-        },
-        {
-          "label": "Níveis de Prestígio",
-          "value": "4"
-        },
-        {
-          "label": "Novo PvP",
-          "value": "PvP 2v2"
-        }
-      ],
-      "orders": [
-        {
-          "name": "Ordem da Tradição",
-          "leader": "Cody Rhodes",
-          "description": "Construída em torno da herança do ringue, espetáculo e valores da velha guarda"
-        },
-        {
-          "name": "Ordem das Sombras",
-          "leader": "Rhea Ripley",
-          "description": "Abraça o estranho, o teatral e o poder da intimidação"
-        },
-        {
-          "name": "Ordem da Anarquia",
-          "leader": "CM Punk",
-          "description": "Rejeita o status quo e leva The Island em novas direções ousadas"
-        }
-      ],
-      "prestige": [
-        {
-          "tier": "Recruta",
-          "ovrRange": "70-85"
-        },
-        {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
-        },
-        {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
-        },
-        {
-          "tier": "Lendário",
-          "ovrRange": "85-100"
+          "name": "Use o Manual antes da agricultura gratuita",
+          "priority": "Médio",
+          "frequency": "Quando travado",
+          "details": "O Manual ajuda os jogadores a verificar materiais de atualização, localizações de monstros e melhores alvos de cultivo.",
+          "why_it_matters": "Evita perda de tempo quando os jogadores atingem paredes da história e precisam se transformar em uma agricultura eficiente.",
+          "icon": "BookOpen"
         }
       ],
       "highlights": [
-        "Ferro-Velho: zona central de briga com perigos e estruturas escaláveis",
-        "Torres: PvE repetível com caminhos aleatórios e lutas contra chefes",
-        "Missões semanais recompensam com XP, cosméticos e recompensas da Island",
-        "Jogo Ranqueado Sazonal com placares de líderes para 1v1, 2v2 e Campeonatos"
+        "Comissões diárias, tempo de combate e recompensas devem permanecer no topo do ciclo.",
+        "As tarefas da guilda e a caça aos chefes agregam valor que aumenta com o tempo.",
+        "O Manual é a maneira mais rápida de se recuperar quando o progresso da história fica mais lento."
       ]
     },
-    "myfaction": {
-      "title": "MyFACTION de Ragnarok Origin Classic",
-      "subtitle": "Monte escalações mais fortes com química e Troca Rápida",
-      "quickFacts": [
+    "skillBuilds": {
+      "title": "Ragnarok Origin Classic Desenvolvimento de habilidades",
+      "subtitle": "O tráfego de construção de habilidades é altamente prático porque os jogadores geralmente pesquisam depois de escolher uma classe e querem uma direção clara.",
+      "intro": "Ragnarok Origin Classic as discussões de construção online já estão convergindo em torno de pacotes de habilidades reconhecíveis em vez de um spread de pontos universal para cada jogador. O formato de página inicial mais estável é mostrar cada classe avançada com sua rota de habilidade principal, para que serve a rota e a compensação principal entre agricultura, chefia, PvP e economia de orçamento.",
+      "items": [
         {
-          "label": "Tamanho da Escalação",
-          "value": "4 Superstars"
-        },
-        {
-          "label": "Traços de Química",
-          "value": "60 em 10 categorias"
-        },
-        {
-          "label": "Novo Tipo de Luta",
-          "value": "Troca Rápida (Quick Swap)"
-        },
-        {
-          "label": "Conjuntos de Cartas de Lançamento",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
-        }
-      ],
-      "features": [
-        {
-          "title": "Química de Equipe",
-          "description": "Reações positivas e negativas afetam a Pontuação de Química; Managers reduzem negativas"
-        },
-        {
-          "title": "Suporte Intergênero",
-          "description": "Monte escalações de quatro pessoas com gêneros mistos"
-        },
-        {
-          "title": "Troca Rápida",
-          "description": "Troque de companheiros no meio da luta, compartilhe slots de Signature/Finalizador, vença por nocaute"
-        },
-        {
-          "title": "Faction Wars",
-          "description": "Progressão baseada em baralho começando com o Baralho da Multidão"
-        },
-        {
-          "title": "World Tour",
-          "description": "As recompensas incluem Personas, MFP, Cartas Arc e pacotes em locais globais"
-        }
-      ]
-    },
-    "lockerCodes": {
-      "title": "Códigos de Vestiário de Ragnarok Origin Classic",
-      "subtitle": "Resgate códigos ativos para recompensas do MyFACTION",
-      "quickFacts": [
-        {
-          "label": "Modo",
-          "value": "MyFACTION"
-        },
-        {
-          "label": "Código Ativo",
-          "value": "BSTINTWRLD26"
-        },
-        {
-          "label": "Expira em",
-          "value": "13 de março de 2026"
-        }
-      ],
-      "codes": [
-        {
-          "code": "BSTINTWRLD26",
-          "rewards": [
-            "1x Pacote Básico Aftershock Series I",
-            "1x Pacote Básico Momentum Series I"
+          "job": "Sniper",
+          "build_name": "ADL / Falcon Route",
+          "core_skills": [
+            "Pacote de gatilho baseado em Falcon",
+            "Danos focados em ataque automático",
+            "Altas habilidades de suporte ASPD"
           ],
-          "expires": "13 de março de 2026"
+          "best_for": "Agricultura do início ao meio do jogo, DPS de longo alcance constante, geral PvE",
+          "notes": "A cobertura de construção online para Sniper destaca consistentemente as configurações orientadas para ADL e Falcon como uma das rotas DPS de longo alcance mais comuns.",
+          "icon": "Feather"
+        },
+        {
+          "job": "Sniper",
+          "build_name": "Trapper Route",
+          "core_skills": [
+            "Habilidades de controle focadas em armadilhas",
+            "Ferramentas de negação de área",
+            "Explosão orientada para configuração"
+          ],
+          "best_for": "Jogo situacional PvE e utilitário pesado",
+          "notes": "Trapper é comumente apresentado como uma alternativa ao ADL para jogadores que preferem dano de configuração em vez de ataques automáticos constantes.",
+          "icon": "Alvo"
+        },
+        {
+          "job": "Lord Knight",
+          "build_name": "Pierce / Clashing Spiral Route",
+          "core_skills": [
+            "Pierce",
+            "Clashing Spiral",
+            "Ferramentas de explosão corpo a corpo de alvo único"
+          ],
+          "best_for": "Bossing, alvos de elite, DPS de linha de frente",
+          "notes": "A cobertura de construção atual separa repetidamente Lord Knight entre Pierce, Clashing Spiral, Bash e direções baseadas em Crit.",
+          "icon": "Espadas"
+        },
+        {
+          "job": "High Wizard",
+          "build_name": "Meteor Storm / Rota do Campo Gravitacional",
+          "core_skills": [
+            "Meteor Storm",
+            "Campo Gravitacional",
+            "Pacote de dano de feitiço AoE"
+          ],
+          "best_for": "moagem AoE, dano de grupo, controle em toda a tela",
+          "notes": "As altas discussões do Wizard enquadram consistentemente a classe em torno da escolha entre suas principais identidades de feitiço AoE.",
+          "icon": "Orbit"
+        },
+        {
+          "job": "Paladin",
+          "build_name": "Holy Cross / Sacrifício / Shield Route",
+          "core_skills": [
+            "Holy Cross",
+            "Sacrifice",
+            "Pacote de habilidades baseado em escudo"
+          ],
+          "best_for": "Jogo de linha de frente Tanky com opções flexíveis PvE e PvP",
+          "notes": "Paladin é um dos exemplos mais claros de uma classe com múltiplas identidades de habilidade viáveis ​​​​em vez de um único caminho padrão.",
+          "icon": "Escudo"
+        },
+        {
+          "job": "Professor",
+          "build_name": "Autocast / Onda Psíquica / Rota SP",
+          "core_skills": [
+            "Onda Psíquica",
+            "Pacote de interação Autocast",
+            "Rota de habilidade de escalonamento de SP"
+          ],
+          "best_for": "Jogadores de Magic DPS que desejam elenco consistente ou jogabilidade mais experimental baseada em proc",
+          "notes": "A cobertura de construção do professor atualmente se concentra em três rotas reconhecíveis: Autocast, Psychic Wave e variantes focadas em SP.",
+          "icon": "Brain"
+        },
+        {
+          "job": "Bioquímico",
+          "build_name": "Demonstração de Ácido / Rota Hellplant",
+          "core_skills": [
+            "Demonstração de Ácido",
+            "Hellplant",
+            "Utilitários de longo alcance e ferramentas de dano"
+          ],
+          "best_for": "Jogadores que desejam um ramo mercante com forte identidade ofensiva",
+          "notes": "Bioquímico criam vídeos comparando consistentemente Demonstração de Ácido e Planta Infernal como as duas direções principais.",
+          "icon": "FlaskConical"
+        },
+        {
+          "job": "High Priest",
+          "build_name": "Suporte total / Rota Exorcista",
+          "core_skills": [
+            "Pacote de buffs de suporte",
+            "Kit de ferramentas de cura",
+            "PvE opção de dano sagrado"
+          ],
+          "best_for": "Suporte a grupos, nivelamento mais seguro, progressão pesada em utilitários",
+          "notes": "A cobertura do High Priest geralmente se divide entre o jogo tradicional de suporte total e variantes mais orientadas a danos PvE.",
+          "icon": "HeartHandshake"
         }
       ],
-      "howToRedeem": [
-        "Abra o Ragnarok Origin Classic pelo menu principal",
-        "Selecione Códigos de Vestiário (Locker Codes)",
-        "Insira o código exatamente como mostrado",
-        "Resgate e abra seus pacotes no MyFACTION"
+      "highlights": [
+        "Ragnarok Origin Classic a cobertura de construção é mais forte quando cada rota de classe recebe um rótulo de função claro.",
+        "Sniper, Lord Knight, Wizard e Priest são especialmente fáceis para os jogadores compararem rapidamente.",
+        "Mostrar a rota de habilidade, função e compensação juntos torna a seção mais útil do que uma lista simples."
       ]
     },
-    "pcRequirements": {
-      "title": "Requisitos para PC de Ragnarok Origin Classic",
-      "subtitle": "Verifique se o seu PC pode rodar Ragnarok Origin Classic",
-      "quickFacts": [
+    "classBuilds": {
+      "title": "Ragnarok Origin Classic Construções de classe",
+      "subtitle": "Os jogadores não procuram apenas árvores de habilidades. Eles também querem uma direção de construção completa que combine função, conforto agrícola, curva de poder e ênfase em estatísticas.",
+      "intro": "A versão da página inicial mais útil de construções de classe não é uma parede teórica muito longa. É uma visão geral rápida que diz aos jogadores como realmente é cada arquétipo de classe, que tipo de conteúdo é adequado e por que alguém o escolheria em vez de um trabalho concorrente. Para Ragnarok Origin Classic, os arquétipos mais fortes documentados publicamente já giram em torno de agricultura de longo alcance, explosão corpo a corpo na linha de frente, AoE mágico, construção de tanques híbridos e ramos especializados de trabalho tardio.",
+      "items": [
         {
-          "label": "SO",
-          "value": "Windows 10 64-bit"
+          "class_name": "Sniper",
+          "archetype": "ADL / Falcon",
+          "role": "DPS sustentado de longo alcance",
+          "focus": "Velocidade de ataque, tempo de atividade de ataque automático, sinergia Falcon",
+          "best_for": [
+            "Agricultura",
+            "Moagem de mundo aberto",
+            "Geral PvE"
+          ],
+          "strengths": [
+            "Jogo à distância seguro",
+            "Forte usabilidade inicial",
+            "Rota de dano popular para iniciantes"
+          ],
+          "icon": "Feather"
         },
         {
-          "label": "RAM",
-          "value": "16 GB"
+          "class_name": "Sniper",
+          "archetype": "Trapper",
+          "role": "DPS de longo alcance orientado a controle",
+          "focus": "Configuração de armadilha, jogo posicional, negação de área",
+          "best_for": [
+            "Situacional PvE",
+            "Encontros baseados em utilitários"
+          ],
+          "strengths": [
+            "Ritmo diferente do ADL",
+            "Pode punir inimigos agrupados",
+            "Útil para jogadores que preferem jogabilidade configurada"
+          ],
+          "icon": "Alvo"
         },
         {
-          "label": "Armazenamento",
-          "value": "120 GB"
+          "class_name": "Lord Knight",
+          "archetype": "Pierce / Clashing Spiral",
+          "role": "DPS corpo a corpo na linha de frente",
+          "focus": "Explosão de alvo único, escalonamento de arma, pressão agressiva de chefe",
+          "best_for": [
+            "Chefes",
+            "Inimigos de elite",
+            "Danos na linha de frente do grupo"
+          ],
+          "strengths": [
+            "Identidade de explosão forte",
+            "Caminho de progressão corpo a corpo confiável",
+            "Especialização clara de alto dano"
+          ],
+          "icon": "Espadas"
         },
         {
-          "label": "Nota de CPU",
-          "value": "Suporte a AVX2 e F16C obrigatório"
+          "class_name": "High Wizard",
+          "archetype": "Tempestade de meteoros / Campo Gravitacional",
+          "role": "AoE caster DPS",
+          "focus": "Explosão de feitiço, cobertura de área, escalonamento mágico",
+          "best_for": [
+            "Agricultura AoE",
+            "Conteúdo da festa",
+            "Limpar onda"
+          ],
+          "strengths": [
+            "Controle de tela forte",
+            "Limpeza rápida de vários alvos",
+            "Fantasia clássica de poder de mago"
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "class_name": "Paladin",
+          "archetype": "Cruz Sagrada / Escudo / Sacrifício",
+          "role": "Híbrido de tanque-destruidor",
+          "focus": "Durabilidade mais opções ofensivas flexíveis",
+          "best_for": [
+            "Jogo de grupo na linha de frente",
+            "PvP experimentos",
+            "Progressão mais segura"
+          ],
+          "strengths": [
+            "Pode jogar tanque sem se sentir passivo",
+            "Múltiplas direções viáveis",
+            "Bom para jogadores que gostam de capacidade de sobrevivência"
+          ],
+          "icon": "Escudo"
+        },
+        {
+          "class_name": "Professor",
+          "archetype": "Onda Psíquica / Autocast / SP",
+          "role": "Magia técnica DPS",
+          "focus": "Escalonamento mágico, interações proc, dano especializado baseado em recursos",
+          "best_for": [
+            "Jogadores que desejam construções flexíveis de magos",
+            "Experimentação",
+            "Otimização de jogo do meio para o final"
+          ],
+          "strengths": [
+            "Várias rotas distintas de trabalho tardio",
+            "Pode girar entre estilos",
+            "Identidade de alta construção"
+          ],
+          "icon": "Brain"
+        },
+        {
+          "class_name": "Bioquímico",
+          "archetype": "Demonstração de ácido / Hellplant",
+          "role": "Especialista ofensivo do ramo mercante",
+          "focus": "Dano à distância baseado em habilidade com utilidade específica de classe",
+          "best_for": [
+            "Jogadores que desejam progressão de comerciante com presença de dano real",
+            "Especializado PvE"
+          ],
+          "strengths": [
+            "Identidade de classe única",
+            "Múltiplas rotas ofensivas",
+            "Bom ramo para jogadores cansados ​​de expectativas básicas de suporte"
+          ],
+          "icon": "FlaskConical"
+        },
+        {
+          "class_name": "High Priest",
+          "archetype": "Suporte total / PvE Exorcista",
+          "role": "Suporte de curandeiro ou suporte de dano sagrado",
+          "focus": "Buffs, cura, sustentação, PvE direção de dano opcional",
+          "best_for": [
+            "Parties",
+            "Rede de suporte",
+            "Progressão segura da conta"
+          ],
+          "strengths": [
+            "Sempre útil em jogos em grupo",
+            "Escolha de progressão de baixo risco",
+            "Flexível o suficiente para ramificar para configurações PvE mais ativas"
+          ],
+          "icon": "HeartHandshake"
         }
       ],
-      "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 ou AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 ou AMD Radeon RX 5700",
-        "directX": "Versão 12",
-        "storage": "120 GB de espaço disponível",
-        "notes": "A GPU deve ter pelo menos 6 GB de VRAM; a CPU deve suportar AVX2 e F16C"
-      },
-      "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 ou AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 ou AMD Radeon RX 6700 XT",
-        "directX": "Versão 12",
-        "storage": "120 GB de espaço disponível",
-        "notes": "Pelo menos 12 GB de VRAM; a CPU deve suportar AVX2 e F16C"
+      "highlights": [
+        "Uma seção limpa de construção de classe deve informar aos jogadores a função, a sensação e a recompensa rapidamente.",
+        "Os arquétipos ROOC mais fortes já são fáceis de agrupar por farm, chefe, PvP e valor de suporte.",
+        "Esta seção permanece útil mesmo quando os jogadores estão comparando apenas dois ou três trabalhos favoritos."
+      ]
+    },
+    "gearProgression": {
+      "title": "Ragnarok Origin Classic Progressão de equipamento",
+      "subtitle": "Os jogadores muitas vezes ficam presos quando o nivelamento bruto fica mais lento e eles não têm mais certeza do que refinar, comprar ou cultivar em seguida.",
+      "intro": "Ragnarok Origin Classic o poder do personagem é construído através de vários sistemas interligados, em vez de uma única tela de equipamento. Guias públicos para iniciantes e progressão já apontam para uma ordem de crescimento consistente: refinar o equipamento principal com eficiência, preencher slots de penas antecipadamente, usar animais de estimação para melhorar a produção de combate, adicionar cartas para dano e utilidade e gastar moedas da loja em valor de longo prazo em vez de atualizações aleatórias.",
+      "items": [
+        {
+          "stage": "Refinar Início",
+          "focus": "Arma +6, depois acessórios +6",
+          "details": "A orientação de progressão atual recomenda começar com a arma e os acessórios principais antes de distribuir recursos muito escassos.",
+          "why_now": "Este é o power jump inicial mais eficiente.",
+          "icon": "Chave inglesa"
+        },
+        {
+          "stage": "Linha de base do conjunto completo",
+          "focus": "Traga o conjunto completo para +6",
+          "details": "Após as primeiras atualizações de armas e acessórios, complete o resto do equipamento para que o personagem não seja investido demais em apenas um slot.",
+          "why_now": "O valor de refinamento equilibrado melhora a consistência geral.",
+          "icon": "Package"
+        },
+        {
+          "stage": "Aperto de refino no meio do jogo",
+          "focus": "Arma +10, depois acessórios +10",
+          "details": "Uma vez que uma linha de base estável de +6 é definida, armas e acessórios se tornam os principais alvos de refinamento novamente.",
+          "why_now": "O próximo pico de dano significativo geralmente vem de limites de refinamento mais altos.",
+          "icon": "ArrowUpRight"
+        },
+        {
+          "stage": "Meta de refinamento de longo prazo",
+          "focus": "Avançar gradualmente a arma em direção a +15",
+          "details": "Efeitos de refinamento avançados e escalonamento mais forte tornam-se mais relevantes em limites mais altos.",
+          "why_now": "Este é um dos caminhos de investimento de longo prazo mais claros para a força da conta.",
+          "icon": "TrendingUp"
+        },
+        {
+          "stage": "Configuração de penas",
+          "focus": "Preencha todos os 5 slots de penas antecipadamente",
+          "details": "As penas fornecem camadas de estatísticas importantes, como Ataque, Defesa, Aumento de danos e Redução de danos.",
+          "why_now": "Uma configuração de penas completa é mais importante do que atualizar excessivamente uma pena fraca.",
+          "icon": "Feather"
+        },
+        {
+          "stage": "Regra de penas",
+          "focus": "Não invista demais em penas de nível baixo",
+          "details": "Os efeitos do conjunto são determinados pela pena de menor raridade equipada, portanto, a eficiência inicial vem da cobertura primeiro, e do investimento profundo depois.",
+          "why_now": "Isso evita o desperdício de recursos em peças temporárias.",
+          "icon": "Camadas3"
+        },
+        {
+          "stage": "Progressão do animal de estimação",
+          "focus": "Atualize o nível e o nível do animal de estimação",
+          "details": "O crescimento do animal de estimação no Clássico é simplificado em torno do nível e do nível, e os animais de estimação são posicionados como uma grande ajuda para a criação no início e no meio do jogo.",
+          "why_now": "Animais de estimação adicionam valor prático ao combate sem exigir primeiro uma configuração de equipamento totalmente finalizada.",
+          "icon": "PawPrint"
+        },
+        {
+          "stage": "Progressão de cartas",
+          "focus": "Priorize primeiro os cartões de danos e utilidades",
+          "details": "Os cartões são provenientes de sistemas como Aniquilação de Monstros e troca de loja, e são comumente tratados como uma camada de eficiência para agricultura e desempenho de combate.",
+          "why_now": "Os cartões melhoram a identidade da construção e ajudam a acelerar o conteúdo de rotina.",
+          "icon": "BadgeDollarSign"
+        },
+        {
+          "stage": "Prioridade de compra",
+          "focus": "Gaste lojas com valor de longo prazo",
+          "details": "Ouro A prioridade de compra começa com caixas de seleção de penas e materiais refinados; A Social Shop prioriza penas, depois ouro e depois Blue Star Coin; Pet Shop prioriza fragmentos Épicos e Lendários; A Card Shop destaca especificamente o Cartão Tanuki como uma prioridade inicial.",
+          "why_now": "Os gastos corretos na loja mantêm a progressão limpa para F2P e gastadores leves.",
+          "icon": "Store"
+        }
+      ],
+      "highlights": [
+        "Ragnarok Origin Classic o crescimento de equipamentos funciona melhor quando refinar, penas, animais de estimação, cartas e lojas se movem juntos.",
+        "A eficiência inicial vem da cobertura completa, não do investimento excessivo em um único slot muito cedo.",
+        "Decisões de valor de longo prazo são mais importantes do que perseguir pequenas atualizações de curto prazo."
+      ]
+    },
+    "universeMode": {
+      "eyebrow": "Economia",
+      "title": "Ragnarok Origin Classic Zeny Agricultura",
+      "subtitle": "Melhores rotas de moeda no início e no meio do jogo",
+      "intro": "O fluxo de moeda em Ragnarok Origin Classic está vinculado ao jogo diário eficiente, em vez de a um único ponto de grind. O padrão mais forte mostrado nos guias atuais é limpar primeiro o valor do tesouro único e, em seguida, alternar para agricultura de morte rápida, conteúdo de chefe e vendas disciplinadas para que sua conta continue crescendo sem perder tempo de combate.",
+      "highlights": [
+        "Abra baús de tesouro do mapa em diferentes áreas antes de investir pesadamente em atualizações iniciais.",
+        "Gaste tempo de combate em monstros que você pode eliminar rapidamente em vez de forçar alvos difíceis.",
+        "Continue vendendo itens não utilizados, cartas, poções e alimentos para que o valor do inventário continue em movimento."
+      ],
+      "items": [
+        {
+          "method": "Rota do baú do tesouro",
+          "category": "Renda de explosão única",
+          "how_to_do_it": "Abra baús de tesouro do mapa em diferentes áreas antes de investir pesadamente em atualizações iniciais.",
+          "best_for": "Todas as classes",
+          "why_it_works": "Um guia de rota do baú atual destaca cerca de 8 milhões Zeny disponíveis na coleta gratuita de baús.",
+          "watch_out_for": "Não trate a renda do baú como seu plano de economia permanente após a primeira varredura."
+        },
+        {
+          "method": "Agricultura de monstros de morte rápida",
+          "category": "Renda diária repetível",
+          "how_to_do_it": "Gaste tempo de combate em monstros que você pode eliminar rapidamente em vez de forçar alvos difíceis.",
+          "best_for": "Hunter, Wizard, outras construções eficientes de longo alcance ou AoE",
+          "why_it_works": "A cobertura atual para iniciantes recomenda repetidamente mortes rápidas para melhor EXP e eficiência de drop, o que também melhora o fluxo de saque vendável.",
+          "watch_out_for": "Grinding em alvos lentos ou de elite reduz a renda e o ritmo de nivelamento."
+        },
+        {
+          "method": "Venda itens não utilizados e consumíveis",
+          "category": "Conversão de estoque",
+          "how_to_do_it": "Limpe regularmente o estoque e venda itens extras, cartas, poções e alimentos que você não está usando ativamente.",
+          "best_for": "Todas as classes",
+          "why_it_works": "O material atual para iniciantes Ragnarok Origin Classic indica explicitamente aos jogadores a venda de itens não utilizados para obter uma renda estável.",
+          "watch_out_for": "Não descarte materiais de progressão que você ainda precisa para refinar, cartões ou crescimento de classe."
+        },
+        {
+          "method": "MVP e caça ao mini chefe",
+          "category": "Rota de queda de alto valor",
+          "how_to_do_it": "Junte-se a corridas de chefes para obter materiais raros, projetos e cartas, especialmente quando sua classe ou grupo pode garantir uma contribuição estável.",
+          "best_for": "Jogadores de festa, Bioquímico, DPS de explosão, grupos de guilda coordenados",
+          "why_it_works": "Guias de chefes descrevem o conteúdo MVP como uma fonte de itens raros, cartas e projetos que não fazem parte da agricultura normal.",
+          "watch_out_for": "Não persiga cegamente todas as crias; priorize chefes que correspondam às suas necessidades atuais de construção ou equipamento."
+        },
+        {
+          "method": "Moedas de ouro ganhas pelo jogo",
+          "category": "Moeda de progressão principal",
+          "how_to_do_it": "Construa seu ciclo diário em torno de mortes de monstros, masmorras e atividades agrícolas que alimentam a economia de moedas de ouro.",
+          "best_for": "Todos os jogadores, especialmente F2P",
+          "why_it_works": "A cobertura recente Ragnarok Origin Classic afirma que as moedas de ouro são obtidas por meio de atividades de jogo, em vez de sistemas somente premium.",
+          "watch_out_for": "Evite gastar moedas de ouro muito cedo em atualizações de baixo valor, quando os sistemas de energia principais ainda precisam de prioridade."
+        },
+        {
+          "method": "Jogo econômico no estilo comerciante",
+          "category": "Vantagem de classe",
+          "how_to_do_it": "Use os pontos fortes da classe comerciante para jogos com foco na economia, suporte de criação e uma abordagem mais inteligente ao mercado decisões.",
+          "best_for": "Caminhos de comerciante, ferreiro e alquimista",
+          "why_it_works": "As atuais orientações para iniciantes e o material oficial de promoção de classe enquadram os caminhos de comerciante como classes orientadas para a economia.",
+          "watch_out_for": "As rotas de comerciante são mais fortes quando combinadas com planejamento, não com gastos aleatórios."
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://www.youtube.com/watch?v=Qu2KSCvJ_Xc",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "Ver completo Zeny Guia de agricultura",
+        "href": "/ragnarok-origin-classic-zeny-farming"
       }
     },
-    "arenas": {
-      "title": "Arenas de Ragnarok Origin Classic",
-      "subtitle": "Explore mais de 40 arenas entre locais modernos, clássicos e originais",
-      "quickFacts": [
+    "communityCreations": {
+      "eyebrow": "F2P",
+      "title": "Ragnarok Origin Classic F2P Guia",
+      "subtitle": "Plano inicial seguro para jogadores gratuitos e com baixo gasto",
+      "intro": "Ragnarok Origin Classic está atualmente sendo posicionado como uma versão mais F2P amigável do ecossistema Ragnarok Origin mais amplo, com moedas de ouro ganhas no jogo e menos pontos de pressão diretos de pagamento para ganhar. O plano mais forte F2P não é apressar todos os sistemas de uma vez; trata-se de escolher uma classe estável, priorizar lojas eficientes e adiar atualizações inúteis até que sua conta tenha uma direção real.",
+      "highlights": [
+        "Escolha uma classe inicial estável antes de gastar recursos.",
+        "Use a história principal e o manual para manter a progressão eficiente.",
+        "Adie atualizações arriscadas até que sua conta tenha uma direção real."
+      ],
+      "items": [
         {
-          "label": "Contagem de Arenas",
-          "value": "40+"
+          "step": 1,
+          "label": "Escolha uma classe inicial estável",
+          "details": "Para conforto de iniciante, os guias atuais recomendam consistentemente Arqueiro ou Mago para uma agricultura mais segura, enquanto Acólito continua sendo uma rota de suporte forte. Para obter valor F2P dedicado, um guia de classe recente coloca o Ferreiro no topo de sua classificação F2P devido à versatilidade e eficiência de recursos."
         },
         {
-          "label": "Novos Locais",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "step": 2,
+          "label": "Empurre as missões principais antes da moagem aleatória",
+          "details": "Use a história principal como sua espinha dorsal de progressão inicial. Ele desbloqueia recursos, fornece EXP e EXP de trabalho constantes e evita perda de tempo em moagem de baixa eficiência antes que seus sistemas de conta sejam abertos."
         },
         {
-          "label": "Destaques Clássicos",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "step": 3,
+          "label": "Use o Manual antes de cultivar",
+          "details": "O Manual é uma das primeiras ferramentas mais úteis porque mostra materiais de atualização, localização de monstros e informações de EXP. Isso permite que F2P os jogadores mirem nos monstros certos em vez de gastar tempo e combater a resistência de forma ineficiente."
+        },
+        {
+          "step": 4,
+          "label": "Priorize lojas que melhorem a eficiência da conta",
+          "details": "As orientações atuais da loja recomendam caixas de seleção de penas primeiro na Gold Shop, Feathers, depois Gold e depois Blue Star Coin na Social Shop, Tanuki Card como uma prioridade inicial da Card Shop e fragmentos de animais de estimação épicos ou lendários como Pet Shop de longo prazo alvos."
+        },
+        {
+          "step": 5,
+          "label": "Refinar em pontos de verificação controlados",
+          "details": "Um caminho eficiente comum é Arma +6, depois Acessórios +6, depois conjunto completo +6, depois Arma +10 e Acessórios +10, e só então avançar ainda mais. Isso evita a armadilha clássica F2P de se comprometer demais com atualizações arriscadas muito cedo."
+        },
+        {
+          "step": 6,
+          "label": "Preencha os sistemas antes de investir demais neles",
+          "details": "Penas, cartas, animais de estimação e equipamentos principais escalam melhor quando sua conta tem cobertura básica primeiro. Guias recentes recomendam explicitamente preencher slots antecipadamente e evitar investimentos pesados ​​em peças fracas de nível inicial."
+        },
+        {
+          "step": 7,
+          "label": "Trate os gastos como aceleração, não como acesso",
+          "details": "A cobertura atual descreve o jogo como amplamente acessível por meio de conteúdo diário e masmorras, com compras extras atuando principalmente como acelerações de progressão. Um guia também observa que o acesso ao Passe Mensal pode ser vinculado ao Ouro do jogo, o que é uma grande vantagem para o planejamento do paciente F2P."
         }
       ],
-      "categories": [
-        {
-          "name": "Shows Semanais Atuais",
-          "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
-          ]
-        },
-        {
-          "name": "Eventos Premium ao Vivo (PLE)",
-          "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
-          ]
-        },
-        {
-          "name": "Arenas Clássicas",
-          "arenas": [
-            "ECW Hardcore Heaven 1",
-            "994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32"
-          ]
-        },
-        {
-          "name": "WWE WrestleMania 35",
-          "arenas": [
-            "Espaços Originais e de Briga",
-            "Academia Arquétipa",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Convenção de Wrestling (Grapple Legends)",
-            "Briga nos Bastidores",
-            "Estacionamento do NXT"
-          ]
-        }
-      ]
+      "source_urls": [
+        "https://www.youtube.com/watch?v=I5EqSIYZTGs",
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "Ver F2P Guia completo",
+        "href": "/ragnarok-origin-classic-f2p-guide"
+      }
     },
-    "dlcUnlockables": {
-      "title": "O Ferro-Velho (The Scrapyard)",
-      "subtitle": "DLC e Desbloqueáveis de Ragnarok Origin Classic",
-      "quickFacts": [
-        {
-          "label": "Acompanhe cada caminho de recompensa pós-lançamento",
-          "value": "Temporadas do Ringside Pass"
-        },
-        {
-          "label": "6",
-          "value": "Níveis por Temporada"
-        },
-        {
-          "label": "40",
-          "value": "Recompensas da Trilha Gratuita"
-        },
-        {
-          "label": "60",
-          "value": "Total de Recompensas"
-        }
+    "theIsland": {
+      "eyebrow": "Chefes",
+      "title": "Ragnarok Origin Classic MVP Guia",
+      "subtitle": "Como MVP A caça funciona e o que priorizar",
+      "intro": "MVP o conteúdo é um dos pontos de interrupção de progressão mais claros em Ragnarok Origin Classic porque conecta construção de classe, jogo em grupo e segmentação de itens raros. Os guias públicos atuais mostram que um bom jogo não consiste apenas em causar danos; contribuição, equilíbrio de funções, limites diários de recompensa e seleção de alvos afetam quanto valor você obtém de cada caçada.",
+      "highlights": [
+        "A contribuição é mais ampla do que DPS puro.",
+        "Os limites diários de recompensa tornam o planejamento importante.",
+        "O jogo em festa supera a força bruta no longo prazo."
       ],
-      "seasons": [
+      "items": [
         {
-          "season": "120",
-          "release": "Temporada 1"
-        },
-        {
-          "season": "6 de março de 2026",
-          "release": "Temporada 2"
-        },
-        {
-          "season": "Abril de 2026",
-          "release": "Temporada 3"
-        },
-        {
-          "season": "Junho de 2026",
-          "release": "Temporada 4"
-        },
-        {
-          "season": "Julho de 2026",
-          "release": "Temporada 5"
-        },
-        {
-          "season": "Setembro de 2026",
-          "release": "Temporada 6"
-        }
-      ],
-      "editionPacks": [
-        {
-          "name": "Outubro de 2026",
-          "includes": [
-            "Pacote King of Kings Edition",
-            "Triple H '98",
-            "Stephanie McMahon '00"
+          "title": "Use o menu MVP antes do spawn",
+          "summary": "A interface MVP mostra a localização e a contagem regressiva, e o jogo anuncia os spawns pouco antes de eles aparecerem.",
+          "highlights": [
+            "Verifique o tempo de spawn no menu Evento",
+            "Um anúncio do sistema aparece 5 minutos antes do spawn",
+            "A interface também mostra o grupo que recentemente garantiu as recompensas MVP"
           ]
         },
         {
-          "name": "Provocação de Assinatura do Triple H",
-          "includes": [
-            "Pacote Attitude Era Edition",
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Carta EVO Stone Cold Steve Austin",
-            "Carta EVO The Rock"
+          "title": "Conheça as duas camadas de recompensa",
+          "summary": "MVP são divididas entre recompensas baseadas em grupo e recompensas individuais, então mesmo jogadores que não causam grandes danos ainda podem ganhar valor.",
+          "highlights": [
+            "As recompensas da equipe estão vinculadas ao vencedor do título MVP dentro da festa",
+            "As recompensas da equipe podem incluir diamantes, vouchers de troca, chances de projetos e MVP chances de cartas",
+            "As recompensas pessoais podem incluir projetos de acessórios, Elunium e Headwear Crystal se você participar corretamente"
           ]
         },
         {
-          "name": "Arena Raw Is War '98",
-          "includes": [
-            "Pacote Monday Night War Edition",
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98"
+          "title": "A contribuição é mais ampla do que DPS puro",
+          "summary": "O sistema de pontuação recompensa tanking, DPS, cura e momentos de tempo chave em vez de apenas explosão dano.",
+          "highlights": [
+            "O dano sofrido contribui para a pontuação",
+            "DPS contribui com a maior parcela de pontuação",
+            "Cura, primeiro ataque, golpe final e pena de morte afetam os resultados"
           ]
         },
         {
-          "name": "Arena WCW Thunder '98",
-          "includes": [
-            "Pacote WrestleMania 42",
-            "Arena WrestleMania 42",
-            "Persona WM42 #1",
-            "Persona WM42 #2"
+          "title": "As tentativas diárias são importantes",
+          "summary": "MVP a caça deve ser planejada porque as recompensas da equipe têm um limite diário.",
+          "highlights": [
+            "O material atual do guia ROO lista um limite diário de 5 MVP recompensas da equipe",
+            "Durante MVP Fever, o limite sobe para 7",
+            "Membros do grupo com excesso de limite reduzem a eficiência geral da pontuação"
+          ]
+        },
+        {
+          "title": "Priorize chefes que se adaptam à sua construção",
+          "summary": "O caminho mais forte é perseguir chefes que deixam cair cartas ou equipamentos que melhoram diretamente sua classe.",
+          "highlights": [
+            "Exemplo de assistente alto: alvo de chefes vinculados a MATK e acessórios amigáveis ​​​​ao resfriamento",
+            "Exemplo de Lord Knight: priorize chefes vinculados a ataque físico e anéis orientados a STR",
+            "Não desperdice tentativas em MVPs aleatórios sem valor direto para sua construção"
+          ]
+        },
+        {
+          "title": "Jogar em festa supera a força bruta",
+          "summary": "O material atual para iniciantes descreve chefes menores como às vezes soláveis, mas MVPs maiores são claramente melhores com equipes coordenadas.",
+          "highlights": [
+            "Chefes são um principal fonte de itens raros, cartas e projetos",
+            "MVPs maiores são melhor tratados em grupos",
+            "Bioquímico está atualmente chamando a atenção como uma forte opção de dano focada em MVP em vídeos da comunidade"
           ]
         }
       ],
-      "unlockExamples": [
+      "source_urls": [
+        "https://www.youtube.com/shorts/8eP4miwmrAw",
+        "https://www.youtube.com/watch?v=ekijaNVArbk",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://roo-global.gitbook.io/guide/game-wiki/mvp-boss-system",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html"
+      ],
+      "cta": {
+        "label": "Ver Guia MVP completo",
+        "href": "/ragnarok-origin-classic-mvp-guide"
+      }
+    },
+    "myfaction": {
+      "eyebrow": "Guild PvP",
+      "title": "Ragnarok Origin Classic Guia de War of Emperium",
+      "subtitle": "Noções básicas, funções e recompensas de War of Emperium",
+      "intro": "War of Emperium é um dos modos de guilda em grande escala mais reconhecidos na fórmula Ragnarok e continua sendo um dos principais motivos pelos quais os jogadores investem na progressão de guilda. O material de guia atual Ragnarok Origin mostra que o sucesso depende das janelas de preparação, da adequação à função da classe e da compreensão se sua guilda está atacando, defendendo ou jogando pelo valor do castelo a longo prazo, em vez de mortes a curto prazo.",
+      "highlights": [
+        "As janelas de preparação são tão importantes quanto a luta em si.",
+        "A propriedade do castelo desbloqueia valor extra para a guilda.",
+        "O ajuste de função é mais importante do que o jogo de herói solo."
+      ],
+      "items": [
         {
-          "name": "Persona WM42 #3",
-          "source": "AJ Lee"
+          "section": "Visão geral do modo",
+          "content": [
+            "War of Emperium é um modo de cerco de guilda onde as guildas lutam para capturar e defender castelos.",
+            "Os atacantes se tornam defensores quebrando o Emperium dentro do castelo.",
+            "Quando o cronômetro termina, a guilda que detém o castelo se torna o novo ocupante."
+          ]
         },
         {
-          "name": "Showcase: Luta \"E Se\" #7",
-          "source": "Alundra Blayze '94"
+          "section": "Quando isso acontece e quem pode participar",
+          "content": [
+            "Listas atuais de materiais do guia ROO WoE no domingo às 21h30.",
+            "A elegibilidade da guilda é verificada no domingo às 5h, seguida por uma janela de preparação das 5h00 às 20h00.",
+            "A participação é limitada a guildas acima do nível 3, personagens no nível base 80 ou superior e membros que estão na guilda há pelo menos 72 horas."
+          ]
         },
         {
-          "name": "Ringside Pass #1 Trilha Gratuita Nível 5",
-          "source": "Andre The Giant"
+          "section": "Melhores funções de classe para defesa",
+          "content": [
+            "Priest e Wizard estão atualmente destacados como escolhas de defesa de nível S em um guia de classe recente.",
+            "Priest é valorizado pela cura e sustentação durante a defesa do ponto de estrangulamento.",
+            "Wizard é valorizado pelo dano AoE e controle de multidão nas entradas e zonas objetivas.",
+            "Ferreiro e Caçador são apresentados como fortes alternativas de nível A para escalações defensivas."
+          ]
         },
         {
-          "name": "Ringside Pass #1 Trilha Gratuita Nível 4",
-          "source": "El Hijo del Vikingo"
+          "section": "Melhores funções de classe para ataque",
+          "content": [
+            "Assassino e Cavaleiro são atualmente destacados como escolhas ofensivas de nível S em um guia recente.",
+            "Assassino traz pressão de explosão para eliminações rápidas e destruição de alvos.",
+            "Knight oferece pressão durável na linha de frente e presença ofensiva consistente.",
+            "Wizard e Blacksmith continuam sendo opções úteis de suporte no lado do ataque."
+          ]
         },
         {
-          "name": "Ringside Pass #1 Trilha Premium Nível 1",
-          "source": "Flammer"
+          "section": "Preparação e Valor de Compra",
+          "content": [
+            "Membros elegíveis podem completar WoE missões de preparação durante a janela de preparação.",
+            "O modo inclui uma loja de itens WoE e uma loja de troca de recompensas vinculada a pontos de participação.",
+            "Juntar-se a funções pré-planejadas é mais importante do que entrar como um grupo solto de duelistas individuais."
+          ]
         },
         {
-          "name": "Ringside Pass #1 Trilha Premium Nível 7",
-          "source": "Main Event R-Truth"
-        },
-        {
-          "name": "MyRISE",
-          "source": "Dusty Rhodes '89"
-        },
-        {
-          "name": "MyRISE",
-          "source": "Brock Lesnar '13"
+          "section": "Por que as guildas lutam por castelos",
+          "content": [
+            "As guildas detentoras de castelos ganham acesso a direitos especiais, incluindo um baú de tesouro na sala do senhor.",
+            "Ocupando guildas também podem acessar uma Masmorra de Guilda.",
+            "O Guild Dungeon pode gerar alvos Mini e MVP e oferece chances de projetos e cartas."
+          ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=FSBPnayKUhc",
+        "https://roo-global.gitbook.io/guide/limited-time-event/gvg-war-of-emperium"
+      ],
+      "cta": {
+        "label": "Ver Guia completo do War of Emperium",
+        "href": "/ragnarok-origin-classic-war-of-emperium-guide"
+      }
+    },
+    "pvpGuide": {
+      "eyebrow": "Competitivo",
+      "title": "Ragnarok Origin Classic PvP Guia",
+      "subtitle": "PvP Classes para arena 3v3 e batalhas de guilda",
+      "intro": "Ragnarok Origin Classic recompensa diferentes pontos fortes de classe dependendo do modo. Na Arena 3v3, velocidade, controle de multidão e pressão de morte rápida são os mais importantes, enquanto Guilda vs Guilda dá mais valor à cura, controle de área, iniciação e jogo coordenado em equipe.",
+      "items": [
+        {
+          "tier": "S",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "Assassin",
+              "role": "Eliminador de explosão",
+              "strengths": [
+                "Danos de explosão muito altos",
+                "Acesso rápido ao alvo",
+                "Forte pressão de morte em lutas curtas"
+              ],
+              "notes": "Os assassinos são extremamente mortais em lutas de pequena escala porque podem remover rapidamente os alvos principais antes que o time inimigo se estabilize."
+            },
+            {
+              "class": "Knight",
+              "role": "Controle da linha de frente",
+              "strengths": [
+                "HP alto",
+                "Controle de multidão",
+                "Mobilidade sólida"
+              ],
+              "notes": "Os cavaleiros têm um bom desempenho na arena graças à sua durabilidade e capacidade de interromper o movimento inimigo enquanto permanecem ativos no centro da luta."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "Hunter",
+              "role": "DPS de longo alcance",
+              "strengths": [
+                "Forte dano de longo alcance",
+                "Pressão consistente",
+                "Bom potencial de escolha"
+              ],
+              "notes": "Os caçadores podem pressionar à distância, mas se tornam muito mais fáceis de punir quando os inimigos diminuem a distância."
+            },
+            {
+              "class": "Priest",
+              "role": "Suporte de suporte",
+              "strengths": [
+                "Cura",
+                "Utilitário de suporte",
+                "Estabilização de luta"
+              ],
+              "notes": "Os sacerdotes muitas vezes alteram os resultados da arena, mantendo os companheiros de equipe vivos por tempo suficiente para que as classes de explosão concluam as negociações."
+            },
+            {
+              "class": "Wizard",
+              "role": "Láster de controle de área",
+              "strengths": [
+                "Controle AoE",
+                "Negação de zona",
+                "Pressão do Teamfight"
+              ],
+              "notes": "Os magos são perigosos quando bem posicionados, mas precisam de proteção e espaçamento cuidadoso para evitar o colapso."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "3v3 Arena",
+          "entries": [
+            {
+              "class": "Blacksmith",
+              "role": "Suporte ao Bruiser",
+              "strengths": [
+                "Ferramentas de suporte úteis",
+                "Valor respeitável da linha de frente"
+              ],
+              "notes": "Os ferreiros podem contribuir, mas em partidas de arena mais rápidas eles podem ter dificuldade para acompanhar classes mais ágeis ou explosivas."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "Priest",
+              "role": "Suporte da equipe principal",
+              "strengths": [
+                "Cura",
+                "Buffs",
+                "Utilitário de revivificação"
+              ],
+              "notes": "Os sacerdotes são fundamentais para batalhas em grande escala porque mantêm os ataques vivos e ajudam as equipes a se recuperarem de janelas estouradas."
+            },
+            {
+              "class": "Wizard",
+              "role": "Controlador de batalha AoE",
+              "strengths": [
+                "Danos em grande área",
+                "Punição de inimigo agrupado",
+                "Forte pressão objetiva"
+              ],
+              "notes": "Os magos prosperam em lutas de guildas lotadas, onde AoE em camadas podem quebrar formações inimigas agrupadas."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "Assassin",
+              "role": "Mergulhador de linha de fundo",
+              "strengths": [
+                "Pressão do alvo-chave",
+                "Ataques rápidos em inimigos frágeis"
+              ],
+              "notes": "Assassinos são eficazes em mergulhar em curandeiros e causadores de danos, especialmente quando sua equipe já tem cobertura na linha de frente."
+            },
+            {
+              "class": "Blacksmith",
+              "role": "Apoie o brutamontes",
+              "strengths": [
+                "Durabilidade",
+                "Suporte da equipe"
+              ],
+              "notes": "Os ferreiros agregam valor constante e ajudam a reforçar a estrutura da equipe em lutas prolongadas."
+            },
+            {
+              "class": "Knight",
+              "role": "Iniciador",
+              "strengths": [
+                "Envolvimento confiável",
+                "Interrupção de linha",
+                "Presença na linha de frente"
+              ],
+              "notes": "Os cavaleiros são fortes iniciadores para compromissos de guilda e ajudam a abrir espaço para sacerdotes e magos trabalharem com segurança."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "Guild vs Guild",
+          "entries": [
+            {
+              "class": "Hunter",
+              "role": "Danos na linha de fundo",
+              "strengths": [
+                "DPS de longo alcance consistentes"
+              ],
+              "notes": "Hunters ainda podem contribuir com danos, mas trazem menos utilidade em grande escala do que as principais escolhas de guerra de guildas."
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=9j-qf02Zl3A"
+      ],
+      "cta": {
+        "label": "Ver Guia completo PvP",
+        "href": "/pvp-guide"
+      }
+    },
+    "guildGuide": {
+      "eyebrow": "Progressão Social",
+      "title": "Ragnarok Origin Classic Guia da Guilda",
+      "subtitle": "Por que ingressar em uma guilda é importante desde cedo",
+      "intro": "Em Ragnarok Origin Classic, as guildas não são apenas grupos sociais. Eles se conectam diretamente a missões semanais, eventos cronometrados, recompensas de contribuição, acesso à loja, estatísticas extras e sistemas de recompensa compartilhados que retroalimentam a progressão diária.",
+      "items": [
+        {
+          "card_title": "Missões de Guilda",
+          "tag": "Progresso Semanal",
+          "description": "As Missões de Guilda permitem que os jogadores completem 30 missões por semana para ganhar pontos de guilda.",
+          "highlights": [
+            "Inclui tarefas de recrutamento de guilda",
+            "Inclui NPC tarefas de interação",
+            "Inclui caça a monstros",
+            "Inclui caça a monstros de elite"
+          ]
+        },
+        {
+          "card_title": "Recompensas de contribuição",
+          "tag": "Marcos",
+          "description": "A contribuição pessoal é rastreada e convertida em recompensas de marcos, dando aos membros ativos um motivo constante para participar todas as semanas.",
+          "highlights": [
+            "A contribuição é rastreada individualmente",
+            "As recompensas de marcos podem ser reivindicadas no progresso da atividade"
+          ]
+        },
+        {
+          "card_title": "Leilão da Guilda",
+          "tag": "Saque Compartilhado",
+          "description": "Após os eventos da guilda, os itens podem aparecer no leilão da guilda. Nyan Berries gastos lá são convertidos em diamantes e distribuídos igualmente entre os membros da guilda.",
+          "highlights": [
+            "O saque do evento da guilda entra em leilão",
+            "Os membros podem comprar os itens necessários",
+            "O valor do leilão é compartilhado entre os membros"
+          ]
+        },
+        {
+          "card_title": "Expedição da Guilda",
+          "tag": "Evento Temporizado",
+          "description": "A Expedição da Guilda abre às terças, quintas, sábados e domingos, das 20h às 20h20. Os membros entram em mapas especiais para lutar contra MVP reais e clonar MVP para obter melhores recompensas de guilda.",
+          "highlights": [
+            "Programado quatro dias por semana",
+            "O dano causado afeta a qualidade da recompensa",
+            "Melhor realizado com grupos de guilda coordenados"
+          ]
+        },
+        {
+          "card_title": "Anomalia Espaço-Tempo",
+          "tag": "Evento Temporizado",
+          "description": "Este evento de guilda acontece às terças, quintas, sábados e domingos, das 19h30 às 19h43, e recompensa os jogadores com base na classificação pessoal e na classificação da guilda.",
+          "highlights": [
+            "Janela de atividade de curta duração",
+            "Usa animais de estimação durante o desafio",
+            "O desempenho individual e da guilda é importante"
+          ]
+        },
+        {
+          "card_title": "Benefícios da guilda",
+          "tag": "Power Growth",
+          "description": "Os sistemas de guilda fornecem vários benefícios de conta de longo prazo além das recompensas básicas.",
+          "highlights": [
+            "Emperium Buff concede estatísticas adicionais",
+            "Máquina de venda automática de guilda troca contribuição por itens",
+            "Habilidades de guilda adicionam estatísticas extras",
+            "Bônus de guilda pode conceder diamantes, Nyanberries e Zenies"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=uWwc3kKyPyE",
+        "https://www.gravity.co.kr/en/game/ROOC",
+        "https://roo-global.gitbook.io/guide/game-wiki/guild"
+      ],
+      "cta": {
+        "label": "Explorar sistemas de guilda",
+        "href": "/guild-guide"
+      }
+    },
+    "codes": {
+      "eyebrow": "Recompensas",
+      "title": "Ragnarok Origin Classic Códigos",
+      "subtitle": "Códigos de resgate ativos e como usá-los",
+      "intro": "Ragnarok Origin Classic atualmente tem um pequeno conjunto de códigos ativos, tornando um layout limpo de digitalização primeiro mais útil do que um artigo longo. As coisas mais importantes a serem mostradas são os códigos ativos, a rota de resgate e a data da última verificação.",
+      "items": [
+        {
+          "code": "ROOCREADY2GO",
+          "status": "active",
+          "reward": "Recompensas",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC888",
+          "status": "active",
+          "reward": "Recompensas",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC2026",
+          "status": "active",
+          "reward": "Recompensas",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC666",
+          "status": "active",
+          "reward": "Recompensas",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC777",
+          "status": "active",
+          "reward": "Recompensas",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "Códigos expirados",
+          "status": "nenhum listado",
+          "reward": "Nenhum código expirado foi listado na atualização de 26 de março de 2026",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "Redeem Path",
+          "status": "guide",
+          "reward": "Abra o jogo -> toque em Recompensas -> abra Resgatar -> insira o código -> toque em Confirmar",
+          "last_checked": "2026-03-26"
+        }
+      ],
+      "source_urls": [
+        "https://progameguides.com/ragnarok-origin/ragnarok-origin-codes/",
+        "https://www.reddit.com/r/RagnarokOrigin/comments/12s9dkr/redeem_codes/",
+        "https://www.reddit.com/r/RagnarokMClassic/comments/1n7di9v/romc_global_new_serverexclusive_bonuses_redeem/",
+        "https://levelgeeks.net/ragnarok-origin-classic-codes/"
+      ],
+      "cta": {
+        "label": "Abrir página de códigos",
+        "href": "/codes"
+      }
+    },
+    "petsGuide": {
+      "eyebrow": "Companions",
+      "title": "Ragnarok Origin Classic Guia de animais de estimação",
+      "subtitle": "Noções básicas sobre animais de estimação, marcos de progressão e níveis de raridade",
+      "intro": "O sistema de animais de estimação em Ragnarok Origin alimenta diretamente o suporte ao combate e o crescimento da conta. As principais questões para iniciantes são quando os animais de estimação são desbloqueados, quantos podem estar ativos, quando os slots de assistência são abertos e como a raridade dos animais de estimação funciona antes que os jogadores invistam muitos recursos.",
+      "items": [
+        {
+          "card_title": "Quando os animais de estimação são desbloqueados",
+          "tag": "Milestone",
+          "description": "O sistema de animais de estimação é desbloqueado no nível básico 22.",
+          "highlights": [
+            "Os animais de estimação suportam a agricultura",
+            "Animais de estimação suportam corridas de masmorras",
+            "Animais de estimação suportam PvP batalhas"
+          ]
+        },
+        {
+          "card_title": "Limite ativo de animais de estimação",
+          "tag": "Regra básica",
+          "description": "À medida que o nível do personagem aumenta, mais opções de ativação de animais de estimação são abertas. No máximo quatro animais de estimação podem estar ativos ao mesmo tempo.",
+          "highlights": [
+            "Até quatro animais de estimação ativos simultaneamente",
+            "Construído para suporte contínuo à conta em vez de um único slot de invocação"
+          ]
+        },
+        {
+          "card_title": "Slot de assistência",
+          "tag": "Nível 55",
+          "description": "No nível base 55, os jogadores podem atribuir animais de estimação ao slot de assistência. Os animais de estimação auxiliares não são convocados para a batalha, mas ainda fornecem atributos e aumentam o poder geral.",
+          "highlights": [
+            "Desbloqueia no nível base 55",
+            "Adiciona atributos passivos",
+            "Útil para empilhamento de estatísticas de longo prazo"
+          ]
+        },
+        {
+          "card_title": "Animais de estimação de nível S",
+          "tag": "Raridade mais alta",
+          "description": "Animais de estimação de nível S são listados como o nível de raridade mais alto e são descritos como tendo características muito fortes.",
+          "highlights": [
+            "Exemplos listados: Samurai Fantasma",
+            "Exemplos listados: Modelo Antasha",
+            "Exemplos listados: Senhor da Terra",
+            "Exemplos listados: Dunell"
+          ]
+        },
+        {
+          "card_title": "Animais de estimação de nível A e B",
+          "tag": "Crescimento prático",
+          "description": "A animais de estimação de nível podem atuar como substitutos para animais de estimação de nível S quando bem desenvolvidos, enquanto animais de estimação de nível B são mais fáceis de obter por meio de invocação de animais de estimação normais e lendários.",
+          "highlights": [
+            "A animais de estimação de nível são mais acessíveis do que animais de estimação de nível S",
+            "Animais de estimação de nível B são mais fáceis de encontrar e desenvolver",
+            "Os primeiros jogadores podem fazer um progresso significativo sem esperar apenas pela raridade máxima"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=jBlEVqvqCFM",
+        "https://www.youtube.com/watch?v=dRgGDUjhZ9o",
+        "https://roo-global.gitbook.io/guide/game-wiki/pet-system"
+      ],
+      "cta": {
+        "label": "Veja o Guia de animais de estimação",
+        "href": "/pets-guide"
+      }
     }
   },
   "faq": {
-    "title": "Perguntas",
-    "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que voce precisa saber sobre Ragnarok Origin Classic",
+    "title": "Perguntas frequentes",
+    "titleHighlight": "Perguntas",
+    "subtitle": "Tudo o que você precisa saber sobre Ragnarok Origin Classic",
     "questions": [
       {
-        "question": "Quando o Ragnarok Origin Classic sera lancado?",
-        "answer": "A edicao padrao do Ragnarok Origin Classic sera lancada em 13 de marco de 2026. As edicoes Deluxe tem acesso antecipado a partir de 6 de marco de 2026."
+        "question": "O que devo fazer primeiro em Ragnarok Origin Classic?",
+        "answer": "Em Ragnarok Origin Classic, empurre a missão principal primeiro, faça seu primeiro trabalho no nível 10, crie sua arma de classe no nível 15 e inicie as Comissões Diárias no nível 16."
       },
       {
-        "question": "Quantos superstars existem no Ragnarok Origin Classic?",
-        "answer": "O Ragnarok Origin Classic conta com mais de 400 superstars jogaveis, incluindo lendas, elenco atual e personagens de DLC."
+        "question": "Qual classe é mais fácil em Ragnarok Origin Classic?",
+        "answer": "Ragnarok Origin Classic é mais fácil para a maioria dos jogadores em Archer ou Mage se eles quiserem um ataque à distância seguro agricultura, enquanto Acolyte é o caminho de suporte mais suave."
       },
       {
-        "question": "Em quais plataformas o Ragnarok Origin Classic esta disponivel?",
-        "answer": "O Ragnarok Origin Classic esta disponivel para PS5, Xbox Series X|S, Steam (PC) e Nintendo Switch 2."
+        "question": "Como faço para nivelar rapidamente em Ragnarok Origin Classic?",
+        "answer": "Ragnarok Origin Classic o nivelamento é mais rápido quando você mantém a missão em primeiro lugar, conclui as comissões diárias, usa o tempo de combate em mobs eficientes e evita desvios iniciais de elite."
       },
       {
-        "question": "Como resgato os codigos de vestiario do Ragnarok Origin Classic?",
-        "answer": "Va ao modo MyFACTION, selecione o menu Locker Code e insira o codigo. Verifique nossa pagina de codigos para os codigos ativos mais recentes."
+        "question": "Onde encontro códigos Ragnarok Origin Classic?",
+        "answer": "Ragnarok Origin Classic os códigos geralmente são compartilhados por meio de páginas de lançamento oficiais, Discord e postagens da comunidade. Mantenha o módulo Códigos aberto e copie a entrada ativa atual."
       },
       {
-        "question": "Quais sao os novos tipos de luta no Ragnarok Origin Classic?",
-        "answer": "O Ragnarok Origin Classic introduz 4 novos tipos de luta, incluindo Inferno Match, Dumpster Match, Three Stages of Hell e I Quit Match."
+        "question": "Ragnarok Origin Classic é bom para jogadores free-to-play?",
+        "answer": "Sim. Ragnarok Origin Classic oferece suporte a uma rota estável F2P se você se concentrar em recompensas diárias, atualizações eficientes de equipamentos e sistemas que priorizam o valor, em vez de gastos cosméticos."
       },
       {
-        "question": "Quais modos de jogo estao no Ragnarok Origin Classic?",
-        "answer": "O Ragnarok Origin Classic inclui MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION e Creation Suite."
+        "question": "O que devo ingressar primeiro em Ragnarok Origin Classic: guilda ou PvP?",
+        "answer": "Em Ragnarok Origin Classic, junte-se a uma guilda mais cedo, depois vá para PvP, MVP caça e War of Emperium quando sua construção básica estiver estável."
       }
     ]
   },
   "cta": {
-    "title": "Pronto para Entrar no Ringue?",
-    "description": "Junte-se à comunidade Ragnarok Origin Classic no Discord para atualizações, revelações de elenco e discussões de gameplay!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Comprar Ragnarok Origin Classic"
+    "title": "Pronto para explorar Ragnarok Origin Classic?",
+    "description": "Junte-se a Ragnarok Origin Classic Discord para atualizações, classe discussão, compartilhamento de criação e lançamento de notícias.",
+    "joinCommunity": "Participe Discord",
+    "joinGame": "Visite o site oficial"
   },
   "footer": {
     "title": "Ragnarok Origin Classic Wiki",
-    "description": "Seu centro de recursos completo para elenco, notas, códigos de vestiário, tipos de luta e guias de modos de jogo do Ragnarok Origin Classic.",
-    "resources": "Recursos",
-    "community": "Comunidade",
+    "description": "Seu centro de recursos completo para Ragnarok Origin Classic rotas para iniciantes, escolhas de classe, construções, jogos de guilda, códigos e animais de estimação.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Official Site",
+    "instagram": "Site Oficial",
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
-    "copyrightNotice": "Direitos Autorais",
-    "copyright": "© 2026 Ragnarok Origin Classic Wiki. Não afiliado à 2K Sports, Visual Concepts ou WWE.",
-    "disclaimer": "Site de recursos não oficial criado por fãs."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki. Não afiliado à Gravity ou a qualquer parceiro oficial do jogo.",
+    "disclaimer": "Site não oficial de recursos feitos por fãs."
   }
 }

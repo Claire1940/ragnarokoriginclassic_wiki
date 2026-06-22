@@ -1,1267 +1,1518 @@
 {
   "seo": {
     "home": {
-      "title": "Ragnarok Origin Classic Wiki - ロースター、レーティング、モード、ガイド",
-      "description": "Ragnarok Origin Classic Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
-      "keywords": "Ragnarok Origin Classic, Ragnarok Origin Classic ロースター, Ragnarok Origin Classic レーティング, Ragnarok Origin Classic ロッカーコード, Ragnarok Origin Classic MyGM",
-      "ogTitle": "Ragnarok Origin Classic Wiki - ロースター、レーティング、モード、ガイド",
-      "ogDescription": "Ragnarok Origin Classic Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
-      "twitterTitle": "Ragnarok Origin Classic Wiki - ロースター、レーティング、モード、ガイド",
-      "twitterDescription": "Ragnarok Origin Classic Wikiでは、ロースター、レーティング、ロッカーコード、試合形式、ゲームモードのガイドを網羅しています。"
+      "title": "Ragnarok Origin Classic Wiki - 初心者ガイド、ビルド、コード",
+      "description": "Ragnarok Origin Classic 初心者ルート、日課、スキル ビルド、クラス ビルド、ギルド プレイ、コード、ペット、および PC、Android、iOS、および Windows の起動の進行に関する Wiki。",
+      "keywords": "Ragnarok Origin Classic、ROOC、初心者ガイド、毎日ルーチン、スキル ビルド、クラス ビルド、コード、ギルド、PvP、ペット、レベリング",
+      "ogTitle": "Ragnarok Origin Classic Wiki - 初心者ガイド、ビルド、コード",
+      "ogDescription": "Ragnarok Origin Classic 初心者ルート、日課、スキル ビルド、クラス ビルド、ギルド プレイ、コード、ペット、および PC、Android、iOS、および Windows の起動の進行に関する Wiki。",
+      "twitterTitle": "Ragnarok Origin Classic Wiki - 初心者ガイド、ビルド、コード",
+      "twitterDescription": "Ragnarok Origin Classic 初心者ルート、日課、スキル ビルド、クラス ビルド、ギルド プレイ、コード、ペットに関する wiki。"
     }
   },
   "nav": {},
   "common": {
-    "home": "ホーム",
-    "more": "もっと見る",
-    "playNow": "今すぐ購入",
+    "home": "Home",
+    "more": "詳細",
+    "playNow": "公式サイトにアクセス",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
-    "darkMode": "ダークモード",
+    "darkMode": "ダーク モード",
     "notFound": "ページが見つかりません",
-    "notFoundDescription": "お探しのページは存在しません。",
+    "notFoundDescription": "探しているページは存在しません。",
     "backToHome": "ホームに戻る",
     "relatedArticles": "関連記事",
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "400人以上のスーパースターを収録した公式レスリングシミュレーター",
+    "badge": "クラシックなクロスプラットフォーム ファンタジー MMORPG",
     "title": "Ragnarok Origin Classic Wiki",
-    "description": "CM Punk ShowcaseからThe Island、MyGM、MyRISE、Universeまで、Ragnarok Origin Classicの全ロースター、評価、試合形式、エディション、モードガイドを網羅。",
-    "getFreeCodesCTA": "無料コードを入手",
-    "playOnRobloxCTA": "Ragnarok Origin Classicを購入",
+    "description": "初心者ルート、日課、スキル ビルド、クラス ビルド、ギルド プレイ、コード、ペット、および起動の進行状況のための実用的な ROOC コンテンツ ハブ。",
+    "getFreeCodesCTA": "コードを表示",
+    "playOnRobloxCTA": "公式サイトにアクセス",
     "stats": {
       "stat1": {
-        "value": "2026-03-13",
-        "label": "通常版発売日"
+        "value": "2026 年 3 月 26 日",
+        "label": "正式発表"
       },
       "stat2": {
-        "value": "400+",
-        "label": "プレイ可能なスーパースター"
+        "value": "Android iOS Windows",
+        "label": "プラットフォーム"
       },
       "stat3": {
-        "value": "40+",
-        "label": "アリーナ"
+        "value": "14 ジョブ 27 ビルド",
+        "label": "クラスとビルド"
       },
       "stat4": {
-        "value": "4",
-        "label": "新しい試合形式"
+        "value": "203",
+        "label": "コスチューム"
       }
     }
   },
   "gameFeature": {
-    "title": "Ragnarok Origin Classic ゲームプレイ",
-    "description": "400人以上のスーパースターと新しいマッチタイプで、最もリアルなレスリングシミュレーションを体験しよう！"
+    "title": "Ragnarok Origin Classic 概要",
+    "description": "Ragnarok Origin Classic の起動ルート、日課、スキル ビルド、クラス ビルド、コード、ギルド プレイ、および進行パスを探索します。"
   },
   "tools": {
     "title": "Ragnarok Origin Classic",
-    "titleHighlight": "クイックナビゲーション",
-    "subtitle": "以下のセクションへ移動",
+    "titleHighlight": "クイック ナビゲーション",
+    "subtitle": "以下のセクションにジャンプ",
     "cards": [
       {
-        "icon": "Calendar",
-        "title": "発売日とエディション",
-        "description": "全4種類のエディションと発売日を比較"
+        "icon": "BookOpen",
+        "title": "初心者ガイド",
+        "description": "クエスト優先ルートと初期のマイルストーンで強力にスタート"
       },
       {
-        "icon": "Users",
-        "title": "ロースター",
-        "description": "400人以上のプレイ可能なスーパースターを閲覧"
+        "icon": "ユーザー",
+        "title": "ベストクラス",
+        "description": "初心者向けのジョブ、農業速度、サポート値を比較"
       },
       {
         "icon": "TrendingUp",
-        "title": "レーティング",
-        "description": "トップ評価のスーパースターランキング"
+        "title": "ティアリスト",
+        "description": "PvE、PvP、およびギルドプレイのモードベースのランキングを参照"
       },
       {
-        "icon": "Gamepad2",
-        "title": "操作方法",
-        "description": "PS5、Xbox、PCの操作方法"
+        "icon": "時計",
+        "title": "レベリングガイド",
+        "description": "最速の初期EXPルートをたどってパスのロックを解除"
       },
       {
-        "icon": "Flame",
-        "title": "新しい試合形式",
-        "description": "4つの新しい試合形式が登場"
+        "icon": "ClipboardCheck",
+        "title": "日課",
+        "description": "日課、報酬、コミッションをクリーンなループに変える"
       },
       {
-        "icon": "Film",
-        "title": "ショーケース",
-        "description": "CM Punkの伝説的なキャリア"
+        "icon": "ハンマー",
+        "title": "スキルビルド",
+        "description": "ファーミング、ボス、PvP"
       },
       {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "WWEブランドを運営"
+        "icon": "パッケージ",
+        "title": "クラスビルド",
+        "description": "ステータスのスプレッド、ギアの方向、クラスアーキタイプを比較"
+      },
+      {
+        "icon": "シールド",
+        "title": "ギアの進行",
+        "description": "効率的にアップグレードし、無駄な精製パスを回避"
+      },
+      {
+        "icon": "コイン",
+        "title": "Zeny 農業",
+        "description": "反復可能な通貨ルート、チェストスイープ、ボスドロップを追跡"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "F2P ガイド",
+        "description": "クラスの選択とショップの優先順位を考慮して安全なスタート プランを構築する"
       },
       {
         "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "自分だけのスーパースターの物語を作成"
+        "title": "MVP ガイド",
+        "description": "報酬レイヤー、貢献度、制限に基づいてボス狩りを計画する"
       },
       {
-        "icon": "Globe",
-        "title": "ユニバースモード",
-        "description": "WWEユニバースをコントロール"
+        "icon": "剣",
+        "title": "WoE ガイド",
+        "description": "ギルドの役割、包囲のタイミング、城の価値を準備する"
       },
       {
-        "icon": "Palette",
-        "title": "コミュニティ・クリエイション",
-        "description": "クリエイションをダウンロードして共有"
+        "icon": "Gamepad2",
+        "title": "PvP ガイド",
+        "description": "アリーナプレイのためのバースト、コントロール、チームプレッシャーを強化"
       },
       {
-        "icon": "Map",
-        "title": "The Island",
-        "description": "ユニットベースのバトルモード"
-      },
-      {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "夢のユニットを結成"
+        "icon": "構築",
+        "title": "ギルドガイド",
+        "description": "ギルドクエスト、イベント、長期的な貢献値を計画する"
       },
       {
         "icon": "Gift",
-        "title": "ロッカーコード",
-        "description": "報酬用の有効なコード"
+        "title": "Codes",
+        "description": "アクティブな引き換えコードをコピーし、ゲーム内の請求パスに従ってください"
       },
       {
-        "icon": "Monitor",
-        "title": "PC動作環境",
-        "description": "最小および推奨スペック"
-      },
-      {
-        "icon": "Building",
-        "title": "アリーナ",
-        "description": "40以上の象徴的な会場"
-      },
-      {
-        "icon": "Package",
-        "title": "DLCとアンロック要素",
-        "description": "シーズンパスとコンテンツロードマップ"
+        "icon": "Layers",
+        "title": "Pets Guide",
+        "description": "農業、ステータスの成長、ユーティリティをサポートするペットを選択してください"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "Ragnarok Origin Classic Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
+      "title": "Ragnarok Origin Classic 初心者ガイド",
+      "subtitle": "クエストファーストのルーティング、最初のジョブのタイミング、初日にロックが解除される初期システム。",
       "quickFacts": [
         {
-          "label": "Standard Release",
-          "value": "March 13, 2026"
+          "label": "メインルート",
+          "value": "クエストファースト"
         },
         {
-          "label": "Premium Early Access",
-          "value": "March 6, 2026"
+          "label": "最初のジョブ",
+          "value": "レベル 10"
         },
         {
-          "label": "Platforms",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "label": "武器スパイク",
+          "value": "レベル 15"
         },
         {
-          "label": "Genre",
-          "value": "Sports, Professional Wrestling"
+          "label": "デイリー ループ",
+          "value": "レベル 16"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
+          "name": "チュートリアル & セットアップ",
+          "price": "ステップ 1",
+          "releaseDate": "キャラクターを作成し、イントロを完了",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game"
+            "ニックネームと基本設定を設定",
+            "戦闘、在庫、クエストの流れを学ぶ",
+            "メインクエストトラッカーのロックを解除する"
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
+          "name": "メイン クエスト ルート",
+          "price": "ステップ 2",
+          "releaseDate": "ランダムな研磨の前にストーリーを進める",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
+            "メイン クエストを使用して経験値を獲得し、ロックを解除する",
+            "エリート モンスターへの早い段階の寄り道を避ける",
+            "きれいなラインで進行を続ける"
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
+          "name": "ジョブと武器のマイルストーン",
+          "price": "ステップ 3",
+          "releaseDate": "レベル 10 ～ 15 に到達",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
+            "レベル 10 で最初のジョブを選択する",
+            "ロックインする前にクラスの快適さをプレビュー",
+            "レベル 15 でファーストクラスの武器を作成"
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
+          "name": "デイリー ループ",
+          "price": "ステップ 4",
+          "releaseDate": "レベル 16 以降で開始",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Android",
+            "iOS",
+            "Windows"
           ],
           "includes": [
-            "Ragnarok Origin Classic base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
+            "毎日のコミッションをレベル 16 で開始",
+            "ギルドとアカウント システムを使用してロックを解除します",
+            "ルーチンの報酬を着実な進歩に変えましょう"
           ]
         }
       ],
       "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
+        "クエストからのプレイが Ragnarok Origin Classic の最速の初期ルートです",
+        "デイリー コミッションとギルド システムがアカウントの着実な成長を促進します",
+        "アーチャー、メイジ、アコライトは新規プレイヤーにとって一般的な快適な選択です"
       ]
     },
     "roster": {
-      "title": "Ragnarok Origin Classic ロースター",
-      "subtitle": "400人以上のプレイ可能なスーパースターとレジェンドをチェック",
+      "title": "Ragnarok Origin Classic ベスト クラス",
+      "subtitle": "初期のリソースを無駄にすることなくメイン クラスを求めるプレイヤーのための簡単な答え。",
       "stats": [
         {
-          "label": "スーパースター総数",
-          "value": "400+"
+          "label": "ベストの初心者スタート",
+          "value": "アーチャー"
         },
         {
-          "label": "新規追加",
-          "value": "50+"
+          "label": "ベストのファーミング スタート",
+          "value": "メイジ"
         },
         {
-          "label": "ロースター規模",
-          "value": "シリーズ史上最大"
+          "label": "ベストサポートスタート",
+          "value": "アコライト"
         }
       ],
       "categories": [
         {
-          "name": "現役スター",
+          "name": "初心者向け",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "アーチャー",
+            "メイジ",
+            "アコライト"
           ]
         },
         {
-          "name": "レジェンド",
+          "name": "安全なソロプレイ",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "商人",
+            "剣士",
+            "ハンター"
           ]
         },
         {
-          "name": "新時代のハイライト",
+          "name": "グループユーティリティ",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "アコライト",
+            "僧侶",
+            "鍛冶屋"
           ]
         },
         {
-          "name": "シーズン1 スポットライト",
+          "name": "バーストとPvP",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "盗賊",
+            "暗殺者",
+            "ナイト"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "Ragnarok Origin Classic レーティング",
-      "subtitle": "最高評価のスーパースターランキング",
+      "title": "Ragnarok Origin Classic ティア リスト",
+      "subtitle": "1 つのユニバーサル リストではなく、PvE、PvP、およびギルド プレイのモードベースのランキングです。",
+      "leftTitle": "Best PvE Jobs",
+      "rightTitle": "Best PvP Jobs",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
-          "rating": 97
+          "name": "ハンター",
+          "rating": "S"
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "John Cena",
-          "rating": 97
+          "name": "僧侶",
+          "rating": "A"
         },
         {
-          "name": "John Cena '12",
-          "rating": 96
+          "name": "鍛冶屋",
+          "rating": "A"
         },
         {
-          "name": "The Rock '01",
-          "rating": 96
+          "name": "ナイト",
+          "rating": "B"
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
-        },
-        {
-          "name": "Stone Cold Steve Austin '00",
-          "rating": 95
-        },
-        {
-          "name": "The Rock",
-          "rating": 95
-        },
-        {
-          "name": "Cody Rhodes",
-          "rating": 95
-        },
-        {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "暗殺者",
+          "rating": "B"
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
-          "rating": 96
+          "name": "僧侶",
+          "rating": "S"
         },
         {
-          "name": "Becky Lynch",
-          "rating": 94
+          "name": "Wizard",
+          "rating": "S"
         },
         {
-          "name": "Bianca Belair",
-          "rating": 94
+          "name": "暗殺者",
+          "rating": "A"
         },
         {
-          "name": "Charlotte Flair",
-          "rating": 93
+          "name": "ナイト",
+          "rating": "A"
         },
         {
-          "name": "Iyo Sky",
-          "rating": 93
+          "name": "ハンター",
+          "rating": "B"
         },
         {
-          "name": "Naomi",
-          "rating": 92
-        },
-        {
-          "name": "Stephanie Vaquer",
-          "rating": 92
-        },
-        {
-          "name": "Liv Morgan",
-          "rating": 92
-        },
-        {
-          "name": "AJ Lee '15",
-          "rating": 92
-        },
-        {
-          "name": "Tiffany Stratton",
-          "rating": 91
+          "name": "鍛冶屋",
+          "rating": "B"
         }
-      ],
-      "highlights": [
-        "男子最高レーティング: 97",
-        "女子最高レーティング: 96",
-        "レーティングは現役スター、レジェンド、そして別時代の姿を融合させています"
       ]
     },
     "controls": {
-      "title": "Ragnarok Origin Classic 操作方法",
-      "subtitle": "PS5、Xbox、PCの基本操作をマスターしよう",
+      "title": "Ragnarok Origin Classic レベリング ガイド",
+      "subtitle": "クエストの優先順位、毎日のシステム、効率的な農業を中心に構築された実用的な起動ルート。",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "メインクエスト",
           "controls": [
             {
-              "action": "走る",
-              "input": "L2長押し + 左スティック"
+              "action": "ストーリーの流れに従う",
+              "input": "プライマリEXPとロック解除"
             },
             {
-              "action": "掴む（グラップル）",
-              "input": "○"
+              "action": "レベル10に到達",
+              "input": "最初のジョブを選択"
             },
             {
-              "action": "弱攻撃 / 弱グラップル",
-              "input": "□"
-            },
-            {
-              "action": "強攻撃 / 強グラップル",
-              "input": "×"
-            },
-            {
-              "action": "アイリッシュホイップ",
-              "input": "○（掴み中）"
-            },
-            {
-              "action": "シグネチャー",
-              "input": "R2 + □"
-            },
-            {
-              "action": "フィニッシャー",
-              "input": "R2 + ×"
-            },
-            {
-              "action": "サブミッション",
-              "input": "R2 + ○"
-            },
-            {
-              "action": "ペイバック",
-              "input": "R2 + △"
-            },
-            {
-              "action": "リバーサル / 回避",
-              "input": "△"
-            },
-            {
-              "action": "ブロック",
-              "input": "△長押し"
-            },
-            {
-              "action": "フォール",
-              "input": "右スティック下"
-            },
-            {
-              "action": "武器を拾う",
-              "input": "L1"
+              "action": "レベル 15 に到達",
+              "input": "クラスの武器を作成"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "デイリー コミッション",
           "controls": [
             {
-              "action": "走る",
-              "input": "LT長押し + 左スティック"
+              "action": "デイリー ループのロックを解除",
+              "input": "レベル 16 から開始"
             },
             {
-              "action": "掴む（グラップル）",
-              "input": "B"
+              "action": "毎日の報酬を受け取ろう",
+              "input": "無料の経験値と素材"
             },
             {
-              "action": "弱攻撃 / 弱グラップル",
-              "input": "X"
+              "action": "スタックイベント値",
+              "input": "安定した成長を維持"
+            }
+          ]
+        },
+        {
+          "name": "戦闘時間",
+          "controls": [
+            {
+              "action": "効率的なMobの農場",
+              "input": "グラインドタイムの​​最大限の活用"
             },
             {
-              "action": "強攻撃 / 強グラップル",
-              "input": "A"
+              "action": "初期のエリート寄り道をスキップ",
+              "input": "無駄な時間を避ける"
             },
             {
-              "action": "アイリッシュホイップ",
-              "input": "B（掴み中）"
-            },
-            {
-              "action": "シグネチャー",
-              "input": "RT + X"
-            },
-            {
-              "action": "フィニッシャー",
-              "input": "RT + A"
-            },
-            {
-              "action": "サブミッション",
-              "input": "RT + B"
-            },
-            {
-              "action": "ペイバック",
-              "input": "RT + Y"
-            },
-            {
-              "action": "リバーサル / 回避",
-              "input": "Y"
-            },
-            {
-              "action": "ブロック",
-              "input": "Y長押し"
-            },
-            {
-              "action": "フォール",
-              "input": "右スティック下"
-            },
-            {
-              "action": "武器を拾う",
-              "input": "LB"
+              "action": "ギルドコンテンツに参加する",
+              "input": "追加の進行状況と報酬"
             }
           ]
         }
-      ],
-      "tips": [
-        "コンボは弱攻撃と強攻撃を組み合わせて繋げます",
-        "ブレイカーは相手が押したボタンと同じボタンを使用します",
-        "タイミングを合わせるキックアウトのミニゲームでは、右スティックを上に倒します",
-        "スペシャルレフェリーのアクションには、カウント、ロープブレイク、警告、退場処分が含まれます"
       ]
     },
-    "matchTypes": {
-      "title": "Ragnarok Origin Classic 新しい試合形式",
-      "subtitle": "4つの新しい試合形式と拡張されたゲームプレイを体験しよう",
-      "quickFacts": [
+    "dailyRoutine": {
+      "title": "Ragnarok Origin Classic 日課",
+      "subtitle": "クリーンな毎日のループにより、プレイヤーは限られた戦闘時間を無駄にすることなく、レベリング、ファーム、システムのロック解除を続けることができます。",
+      "intro": "Ragnarok Origin Classic では、ランダムに作業するのではなく、正しい順序で正しいことを行うことで最速の進歩が得られます。優れたデイリー ルートは、通常、無料の報酬とストーリーの進行状況から始まり、その後、デイリー コミッション、戦闘時間の農業、ボス、ギルド コンテンツに移行します。",
+      "items": [
         {
-          "label": "新しい試合形式",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "name": "最初に毎日の報酬を受け取りましょう",
+          "priority": "最高",
+          "frequency": "毎日ログイン",
+          "details": "長いセッションを開始する前に、毎日の報酬、イベント報酬、バトルパスの景品を集めてください。",
+          "why_it_matters": "これは、早期チケット、消耗品、進行素材の最も簡単なソースです。",
+          "icon": "Gift"
         },
         {
-          "label": "新しい乱闘エリア",
-          "value": "Scrapyard Brawl"
+          "name": "レベルゲートまでメインストーリーを進めてください。",
+          "priority": "最高",
+          "frequency": "ブロックされるまで毎日",
+          "details": "メインクエストは、初期のEXP、ジョブEXP、機能のロック解除、および基本的なギアの進行の主な供給源であり続けます。",
+          "why_it_matters": "ストーリーの進行により、ランダムなフィールド研削よりも速くシステムのロックが解除されます。",
+          "icon": "BookMarked"
         },
         {
-          "label": "モードの追加",
-          "value": "MyFACTION でのクイックスワップ"
-        }
-      ],
-      "matches": [
-        {
-          "name": "I Quit",
-          "description": "この過酷な対決で、相手に「I Quit」と言わせて勝利を掴め"
+          "name": "毎日のコミッションを完了する",
+          "priority": "最高",
+          "frequency": "デイリー",
+          "details": "デイリーコミッションは、通常、プレイヤーにモンスターを倒すか、小さな目標を達成するよう求める、繰り返し可能なクエストです。",
+          "why_it_matters": "それらは、毎日のループに自然にフィットしながら、安定した経験値、Zeny、および有用な素材を提供します。",
+          "icon": "ClipboardCheck"
         },
         {
-          "name": "Inferno",
-          "description": "この焦土戦で勝利を確実にするため、相手に火を放て"
+          "name": "戦闘時間を効率的に過ごす",
+          "priority": "最高",
+          "frequency": "デイリー",
+          "details": "すぐに倒せるモンスター、理想的には自分のレベルに近いモンスター、または必要なドロップに結び付けられたモブに戦闘時間を使います。",
+          "why_it_matters": "戦闘時間は、レベリング、農業、ドロップ生成のための中核となる効率システムの 1 つです。",
+          "icon": "Clock3"
         },
         {
-          "name": "Dumpster",
-          "description": "相手を叩きのめし、ダンプスター（ゴミ収集箱）の中に投げ入れて勝利しろ"
+          "name": "毎日のアクティビティとローテーション イベント タスクを実行します",
+          "priority": "高",
+          "frequency": "デイリー",
+          "details": "定期的な毎日のアクティビティと限定イベントにより、追加の成長素材、ボーナス報酬、季節の進行が追加されます。",
+          "why_it_matters": "これらのアクティビティは時間の経過とともにアカウント価値を積み上げ、多くの場合、F2P を維持する最も簡単な方法です。",
+          "icon": "Sparkles"
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "各フォールで異なる試合形式が採用される、2本先取の3本勝負チャレンジ"
+          "name": "可能な場合はミニおよび MVP のボスを狩る",
+          "priority": "高",
+          "frequency": "毎日 / の日和見",
+          "details": "ミニおよび MVP のボスのコンテンツは、レアなマテリアル、カード、設計図などの貴重なドロップに関連付けられています。",
+          "why_it_matters": "ボス コンテンツは、ルーチン プレイを長期的なギアの進歩に変える主な方法の 1 つです。",
+          "icon": "Trophy"
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "The Island の廃材が広がる荒野を舞台にした、新しい乱闘環境"
-        }
-      ],
-      "newSystems": [
-        "拡張された客席戦闘",
-        "重ね置き可能なテーブル",
-        "画鋲",
-        "サプライズ・アタッカー",
-        "バリケード戦",
-        "クイックスワップによるチームノックアウトアクション"
-      ]
-    },
-    "showcase": {
-      "title": "Ragnarok Origin Classic ショーケース",
-      "subtitle": "CM Punkの最高のライバル関係を追体験しよう",
-      "quickFacts": [
-        {
-          "label": "カバースター",
-          "value": "CM Punk"
+          "name": "ギルド アクティビティに参加",
+          "priority": "高",
+          "frequency": "デイリー",
+          "details": "ギルド クエストとギルド イベントでは、ソロ プレイに加えて貢献報酬と特別なアカウントの成長が追加されます。",
+          "why_it_matters": "ギルドへの参加は、多くの新規プレイヤーが頻繁にスキップする繰り返し可能な進行源です。",
+          "icon": "ユーザー"
         },
         {
-          "label": "タイムライン",
-          "value": "25年以上のWWEの歴史"
-        },
-        {
-          "label": "マッチタイプ",
-          "value": "ヒストリカル、ファンタジー、ホワット・イフ"
-        }
-      ],
-      "moments": [
-        {
-          "title": "オープニングマッチ",
-          "description": "WrestleMania 41 トリプルスレット: CM Punk vs Seth Rollins vs Roman Reigns"
-        },
-        {
-          "title": "ヒストリカルマッチ",
-          "description": "本物のアリーナとマッチオブジェクティブによる忠実な再現"
-        },
-        {
-          "title": "ファンタジー・ウォーフェア",
-          "description": "Punkの道のりに影響を与えたレジェンドたちとのドリームマッチ"
-        },
-        {
-          "title": "ホワット・イフ・マッチ",
-          "description": "異なるキャリアの道を探索する、別のタイムラインのシナリオ"
-        }
-      ],
-      "specialFeature": {
-        "name": "ザ・ガントレット",
-        "description": "CM PunkまたはAJ Leeとして20人の対戦相手と連続で対戦し、すべてのショーケース報酬を一度にアンロックしよう"
-      }
-    },
-    "mygm": {
-      "title": "Ragnarok Origin Classic MyGM",
-      "subtitle": "より深化したマッチメイクと戦略で、ブランドを運営しよう",
-      "quickFacts": [
-        {
-          "label": "シーズン期間",
-          "value": "50週間"
-        },
-        {
-          "label": "初期予算",
-          "value": "$300万 - $700万"
-        },
-        {
-          "label": "平均ロースター数",
-          "value": "20-35名のスーパースター"
-        },
-        {
-          "label": "新難易度",
-          "value": "Immortal"
-        }
-      ],
-      "features": [
-        {
-          "title": "シーズンの延長",
-          "description": "デフォルトのシーズン期間が50週間に。柔軟な予算設定も可能"
-        },
-        {
-          "title": "試合形式の拡張",
-          "description": "5ウェイ、6ウェイ、8ウェイ、トリプルスレット・タッグ、フェイタル4ウェイ・タッグ、ハンディキャップマッチが編成可能"
-        },
-        {
-          "title": "新しい試合ルール",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "title": "パワーカードのトレード",
-          "description": "トレード期間中にパワーカードの取引が可能。パワーカードストアの無効化オプションも追加"
-        },
-        {
-          "title": "インタージェンダー・マッチ",
-          "description": "追加コストを支払うことで、男女混合のインタージェンダー・マッチを編成可能"
-        }
-      ],
-      "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
-      ]
-    },
-    "myrise": {
-      "title": "Ragnarok Origin Classic MyRISE",
-      "subtitle": "The Comeback で再起をかけて戦い抜け",
-      "quickFacts": [
-        {
-          "label": "ストーリー名",
-          "value": "The Comeback"
-        },
-        {
-          "label": "主人公",
-          "value": "The Archetype"
-        },
-        {
-          "label": "テーマ",
-          "value": "2年の空白期間を経ての復帰"
-        }
-      ],
-      "paths": [
-        {
-          "name": "トラディショナル・ルート",
-          "description": "正当な方法でチャンスを掴み、再び王座争いへと返り咲け"
-        },
-        {
-          "name": "ルースレス・ルート",
-          "description": "手段を選ばず、攻撃的な戦術で復帰への近道を突き進め"
-        }
-      ],
-      "divisions": [
-        {
-          "name": "男子部門",
-          "goal": "WWE王者 Bron Breakker への再挑戦権を獲得せよ",
-          "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
-          ]
-        },
-        {
-          "name": "女子部門",
-          "goal": "WWE女子王者 Jordynne Grace との再対決を目指せ",
-          "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
-          ]
-        }
-      ],
-      "features": [
-        "分岐するダイアログがストーリーの進行を左右する",
-        "プレイヤーの選択肢によって反応が変わるWWE記者会見",
-        "王座保持期間に影響を与える重大な最終決断"
-      ],
-      "rewards": [
-        "アリーナ",
-        "チャンピオンシップ",
-        "CASパーツ",
-        "プレイアブルキャラクター",
-        "武器",
-        "Paybacks",
-        "MyFACTION コンテンツ"
-      ]
-    },
-    "universeMode": {
-      "title": "Ragnarok Origin Classic ユニバースモード",
-      "subtitle": "より詳細なコントロールで、理想のWWEカレンダーを構築",
-      "quickFacts": [
-        {
-          "label": "セットアップツール",
-          "value": "ユニバース・ウィザード"
-        },
-        {
-          "label": "最大ドラフトイベント数",
-          "value": "8"
-        },
-        {
-          "label": "各番組の王座数",
-          "value": "最大8"
-        },
-        {
-          "label": "MITBスロット",
-          "value": "各番組に2つ"
-        }
-      ],
-      "features": [
-        {
-          "title": "ユニバース・ウィザード",
-          "description": "番組、PLE、チャンピオン、ロースターを事前に選択することで、セーブデータをより素早く開始"
-        },
-        {
-          "title": "WWEドラフト",
-          "description": "番組間でスーパースターをトレードするドラフトイベントを作成・スケジュール"
-        },
-        {
-          "title": "MITBキャッシュイン",
-          "description": "ブリーフケースは、番組内の対象となるすべての王座に対して使用可能"
-        },
-        {
-          "title": "強化されたマイクパフォーマンス",
-          "description": "セルフプロモ、呼び出し、乱入、オープンチャレンジ、試合後インタビュー"
-        },
-        {
-          "title": "マッチメイキングスライダー",
-          "description": "王座、抗争、試合形式のボーナスを設定し、対戦カードのソートを調整"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "Ragnarok Origin Classic コミュニティ・クリエイション",
-      "subtitle": "より大きく、より詳細なカスタムコンテンツを作成",
-      "quickFacts": [
-        {
-          "label": "CASスロット",
-          "value": "200"
-        },
-        {
-          "label": "画像スロット",
-          "value": "2,000"
-        },
-        {
-          "label": "ボディテンプレート",
-          "value": "40+"
-        },
-        {
-          "label": "レイヤー分割",
-          "value": "60（コスチューム）+ 40（頭部/ボディ）"
-        }
-      ],
-      "sections": [
-        {
-          "title": "スーパースター作成",
-          "description": "40以上のボディテンプレートを使用したボディモーフィングと改良されたフェイスモーフィング"
-        },
-        {
-          "title": "ヘアー＆ボディペイント",
-          "description": "2トーンのヘアカラーブレンディングと、ボディペイント用のJoy-Con 2マウス操作"
-        },
-        {
-          "title": "アリーナ作成",
-          "description": "LEDバリケード、新しい実況席、拡張されたリングマットとエプロンのオプション"
-        },
-        {
-          "title": "画像作成",
-          "description": "画像アップローダーの制限が1,000から2,000スロットに倍増"
-        },
-        {
-          "title": "チャンピオンシップ作成",
-          "description": "拡張されたパーツと刷新された作成インターフェース"
-        },
-        {
-          "title": "入場シーン作成",
-          "description": "チャンピオン、MITB、ユニット（4人/5人）入場の高度なタイムライン編集"
-        }
-      ]
-    },
-    "theIsland": {
-      "title": "Ragnarok Origin Classic ジ・アイランド",
-      "subtitle": "オーダーを選び、支配権を懸けて戦え",
-      "quickFacts": [
-        {
-          "label": "派閥",
-          "value": "3つのオーダー"
-        },
-        {
-          "label": "ストーリーチャプター",
-          "value": "3"
-        },
-        {
-          "label": "プレステージティア",
-          "value": "4"
-        },
-        {
-          "label": "新しいPvP",
-          "value": "2v2 PvP"
-        }
-      ],
-      "orders": [
-        {
-          "name": "オーダー・オブ・トラディション",
-          "leader": "Cody Rhodes",
-          "description": "リングの伝統、スペクタクル、そしてオールドスクールの価値観を基盤としている"
-        },
-        {
-          "name": "オーダー・オブ・シャドウズ",
-          "leader": "Rhea Ripley",
-          "description": "奇妙さ、演劇性、そして威圧の力を取り入れている"
-        },
-        {
-          "name": "オーダー・オブ-・アナーキー",
-          "leader": "CM Punk",
-          "description": "現状を打破し、ジ・アイランドを大胆な新しい方向へと推し進める"
-        }
-      ],
-      "prestige": [
-        {
-          "tier": "リクルート",
-          "ovrRange": "70-85"
-        },
-        {
-          "tier": "ディスラプター",
-          "ovrRange": "75-90"
-        },
-        {
-          "tier": "ブループリント",
-          "ovrRange": "80-95"
-        },
-        {
-          "tier": "レジェンダリー",
-          "ovrRange": "85-100"
+          "name": "無料農業の前にハンドブックを使用してください。",
+          "priority": "中",
+          "frequency": "行き詰まったとき",
+          "details": "ハンドブックは、プレイヤーがアップグレード素材、モンスターの場所、より良い農業目標を確認するのに役立ちます。",
+          "why_it_matters": "プレイヤーがストーリーの壁にぶつかり、効率的な農業に方向転換する必要がある場合の無駄な時間を防ぎます。",
+          "icon": "BookOpen"
         }
       ],
       "highlights": [
-        "スクラップヤード：ギミックや登れる構造物がある中央乱闘ゾーン",
-        "タワー：ランダムなルートとボス戦が楽しめる、リプレイ性の高いPvE",
-        "ウィークリークエストでXP、カスタマイズアイテム、ジ・アイランド報酬を獲得",
-        "1v1、2v2、チャンピオンシップのリーダーボードを備えたシーズンランクプレイ"
+        "毎日のコミッション、戦闘時間、報酬はループの一番上に留まるべきです。",
+        "ギルドタスクとボス狩りは、時間の経過とともに増大する価値を追加します。",
+        "ハンドブックは、ストーリーの進行が遅くなったときに回復する最速の方法です。"
       ]
     },
-    "myfaction": {
-      "title": "Ragnarok Origin Classic MyFACTION",
-      "subtitle": "ケミストリーとQuick Swapでより強力なラインナップを構築",
-      "quickFacts": [
+    "skillBuilds": {
+      "title": "Ragnarok Origin Classic スキルビルド",
+      "subtitle": "プレイヤーは通常、クラスを選択し、明確な方向性を求めた後に検索するため、スキルビルドのトラフィックは非常に実用的です。",
+      "intro": "Ragnarok Origin Classic オンラインでのビルドに関する議論はすでに次のことに集中しています。すべてのプレイヤーに共通の 1 つのポイント スプレッドではなく、認識可能なスキル パッケージを提供します。最も安定したホームページの形式は、各上級クラスをそのメイン スキル ルート、そのルートの目的、ファーミング、ボス、PvP、予算への優しさの間の核となるトレードオフとともに表示することです。",
+      "items": [
         {
-          "label": "ラインナップのサイズ",
-          "value": "4名のスーパースター"
-        },
-        {
-          "label": "ケミストリー特性",
-          "value": "10カテゴリーにわたる60種類"
-        },
-        {
-          "label": "新しいマッチタイプ",
-          "value": "Quick Swap"
-        },
-        {
-          "label": "ローンチカードセット",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
-        }
-      ],
-      "features": [
-        {
-          "title": "チームケミストリー",
-          "description": "ポジティブおよびネガティブな反応がケミストリースコアに影響。マネージャーはネガティブな影響を軽減します"
-        },
-        {
-          "title": "男女混合サポート",
-          "description": "男女混合の4人編成ラインナップを構築"
-        },
-        {
-          "title": "Quick Swap",
-          "description": "試合中にチームメイトを交代、シグネチャー/フィニッシャースロットを共有、ノックアウトで勝利"
-        },
-        {
-          "title": "Faction Wars",
-          "description": "Crowd's Deckから始まるデッキベースの進行"
-        },
-        {
-          "title": "World Tour",
-          "description": "報酬には、世界各地のPersona、MFP、Arc Cards、パックが含まれます"
-        }
-      ]
-    },
-    "lockerCodes": {
-      "title": "Ragnarok Origin Classic ロッカーコード",
-      "subtitle": "MyFACTION の報酬と引き換えられる有効なコード",
-      "quickFacts": [
-        {
-          "label": "モード",
-          "value": "MyFACTION"
-        },
-        {
-          "label": "有効なコード",
-          "value": "BSTINTWRLD26"
-        },
-        {
-          "label": "有効期限",
-          "value": "March 13, 2026"
-        }
-      ],
-      "codes": [
-        {
-          "code": "BSTINTWRLD26",
-          "rewards": [
-            "1x Aftershock Series I ベーシックパック",
-            "1x Momentum Series I ベーシックパック"
+          "job": "スナイパー",
+          "build_name": "ADL / ファルコンルート",
+          "core_skills": [
+            "ファルコンベースのトリガーパッケージ",
+            "自動攻撃集中ダメージ",
+            "高いASPDサポートスキル"
           ],
-          "expires": "March 13, 2026"
+          "best_for": "ゲーム初期から中盤までのファーミング、安定した遠距離 DPS、一般的な PvE",
+          "notes": "スナイパーのオンライン ビルド カバレッジでは、最も一般的な遠距離 DPS ルートの 1 つとして ADL と Falcon 指向のセットアップが一貫して強調されています。",
+          "icon": "フェザー"
+        },
+        {
+          "job": "スナイパー",
+          "build_name": "トラッパールート",
+          "core_skills": [
+            "トラップを中心としたコントロールスキル",
+            "エリア拒否ツール",
+            "セットアップ指向のバースト"
+          ],
+          "best_for": "状況PvEおよびユーティリティ重視のプレイ",
+          "notes": "トラッパーは、通常、継続的な自動攻撃ではなくセットアップダメージを好むプレイヤーのためのADLの代替手段として提示されます。",
+          "icon": "ターゲット"
+        },
+        {
+          "job": "Lord Knight",
+          "build_name": "Pierce / Clashing Spiral Route",
+          "core_skills": [
+            "Pierce",
+            "Clashing Spiral",
+            "単一ターゲット近接バーストツール"
+          ],
+          "best_for": "ボス、エリート ターゲット、最前線の DPS",
+          "notes": "現在のビルド カバレッジは、ロード ナイトをピアス、クラッシング スパイラル、バッシュ、クリティカル ベースの方向に繰り返し分けています。",
+          "icon": "剣"
+        },
+        {
+          "job": "ハイ ウィザード",
+          "build_name": "メテオ ストーム / 重力場ルート",
+          "core_skills": [
+            "メテオ ストーム",
+            "Gravitational Field",
+            "AoE スペル ダメージ パッケージ"
+          ],
+          "best_for": "AoE グラインディング、パーティ ダメージ、画面全体のコントロール",
+          "notes": "ハイ ウィザードの議論では、メインの範囲スペルのアイデンティティの選択を中心にクラスが一貫して組み立てられています。",
+          "icon": "Orbit"
+        },
+        {
+          "job": "パラディン",
+          "build_name": "ホーリークロス / サクリファイス / シールドルート",
+          "core_skills": [
+            "ホーリークロス",
+            "サクリファイス",
+            "シールドベースのスキルパッケージ"
+          ],
+          "best_for": "柔軟な PvE および PvP オプションを備えたタンキーな最前線プレイ",
+          "notes": "Paladin は、単一のデフォルト パスではなく複数の実行可能なスキル ID を持つクラスの最も明確な例の 1 つです。",
+          "icon": "シールド"
+        },
+        {
+          "job": "Professor",
+          "build_name": "Autocast / Psychic Wave / SP Route",
+          "core_skills": [
+            "Psychic Wave",
+            "オートキャスト インタラクション パッケージ",
+            "SP スケーリング スキル ルート"
+          ],
+          "best_for": "一貫したキャストまたはより実験的な proc ベースのゲームプレイを望む Magic DPS プレイヤー",
+          "notes": "現在、教授のビルド カバレッジは、オートキャスト、サイキック ウェーブ、SP に焦点を当てたバリアントの 3 つの認識可能なルートに焦点を当てています。",
+          "icon": "Brain"
+        },
+        {
+          "job": "生化学者",
+          "build_name": "酸のデモンストレーション / ヘルプラント ルート",
+          "core_skills": [
+            "酸のデモンストレーション",
+            "ヘルプラント",
+            "遠距離ユーティリティおよびダメージ ツール"
+          ],
+          "best_for": "強力な攻撃的アイデンティティを持つマーチャント ブランチを望んでいるプレイヤー",
+          "notes": "生化学者ビルド ビデオは、一貫して Acid Demonstration と Hellplant を 2 つの見出しの方向性として比較しています。",
+          "icon": "FlaskConical"
+        },
+        {
+          "job": "High Priest",
+          "build_name": "フルサポート / エクソシスト ルート",
+          "core_skills": [
+            "サポートバフパッケージ",
+            "治癒ツールキット",
+            "PvE聖ダメージオプション"
+          ],
+          "best_for": "パーティーサポート、より安全なレベリング、ユーティリティ重視の進行",
+          "notes": "大司祭の範囲は通常、従来のフルサポートプレイとよりダメージ指向のPvEバリアントに分かれています。",
+          "icon": "HeartHandshake"
         }
       ],
-      "howToRedeem": [
-        "メインメニューから Ragnarok Origin Classic を開く",
-        "ロッカーコードを選択する",
-        "表示されている通りにコードを入力する",
-        "コードを引き換え、MyFACTION でパックを開封する"
+      "highlights": [
+        "Ragnarok Origin Classic ビルド カバレッジは、各クラス ルートに明確な役割ラベルが付いている場合に最も強力になります。",
+        "スナイパー、ロード ナイト、ウィザード、プリーストは、プレイヤーが一目で比較するのが特に簡単です。",
+        "スキル ルート、役割、トレードオフをまとめて示すことで、このセクションは単純なリストよりも便利になります。"
       ]
     },
-    "pcRequirements": {
-      "title": "Ragnarok Origin Classic PC システム要件",
-      "subtitle": "お使いの PC で Ragnarok Origin Classic が動作するか確認してください",
-      "quickFacts": [
+    "classBuilds": {
+      "title": "Ragnarok Origin Classic クラス ビルド",
+      "subtitle": "プレイヤーはスキルツリーを検索するだけではありません。また、役割、農業の快適さ、パワーカーブ、ステータスの強調を組み合わせた完全なビルドの方向性も望んでいます。",
+      "intro": "クラスビルドの最も役立つホームページバージョンは、長すぎる理論クラフトの壁ではありません。これは、各クラスのアーキタイプが実際にどのようなものであるか、それがどのようなコンテンツに適しているか、そしてなぜ誰かが競合するジョブパスではなくそれを選択するのかをプレイヤーに伝える簡単な概要です。 Ragnarok Origin Classic の場合、公的に文書化されている最も強力なアーキタイプは、すでに遠距離農業、前線の近接バースト、魔法の AoE、ハイブリッド戦車ビルド、および特殊な後期ジョブ ブランチを中心に展開しています。",
+      "items": [
         {
-          "label": "OS",
-          "value": "Windows 10 64ビット"
+          "class_name": "スナイパー",
+          "archetype": "ADL / Falcon",
+          "role": "遠距離持続 DPS",
+          "focus": "攻撃速度、自動攻撃アップタイム、Falcon シナジー",
+          "best_for": [
+            "農業",
+            "オープンワールドの研削",
+            "一般 PvE"
+          ],
+          "strengths": [
+            "安全な範囲でのプレイ",
+            "強力な初期の使いやすさ",
+            "人気の初心者向けダメージルート"
+          ],
+          "icon": "フェザー"
         },
         {
-          "label": "RAM",
-          "value": "16 GB"
+          "class_name": "スナイパー",
+          "archetype": "トラッパー",
+          "role": "コントロール重視の遠距離DPS",
+          "focus": "トラップセットアップ、ポジションプレイ、エリア拒否",
+          "best_for": [
+            "状況 PvE",
+            "ユーティリティベースのエンカウント"
+          ],
+          "strengths": [
+            "ADLとは異なるペース",
+            "グループ化された敵を懲らしめることができる",
+            "セットアップゲームプレイを好むプレイヤーに便利"
+          ],
+          "icon": "ターゲット"
         },
         {
-          "label": "ストレージ",
-          "value": "120 GB"
+          "class_name": "Lord Knight",
+          "archetype": "Pierce / Clashing Spiral",
+          "role": "最前線近接 DPS",
+          "focus": "単一ターゲットバースト、武器スケーリング、積極的なボスプレッシャー",
+          "best_for": [
+            "ボス攻撃",
+            "エリート敵",
+            "パーティー前線ダメージ"
+          ],
+          "strengths": [
+            "強力なバーストアイデンティティ",
+            "信頼できる近接進行パス",
+            "クリアな高ダメージ特化"
+          ],
+          "icon": "剣"
         },
         {
-          "label": "CPUに関する注意",
-          "value": "AVX2およびF16Cのサポートが必要"
+          "class_name": "ハイ ウィザード",
+          "archetype": "メテオストーム / 重力場",
+          "role": "AoE キャスター DPS",
+          "focus": "スペルバースト、範囲範囲、魔法スケーリング",
+          "best_for": [
+            "AoEファーミング",
+            "パーティーコンテンツ",
+            "ウェーブクリア"
+          ],
+          "strengths": [
+            "強力な画面制御",
+            "高速マルチターゲットクリア",
+            "クラシックな魔術師パワーファンタジー"
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "class_name": "パラディン",
+          "archetype": "ホーリークロス/シールド/サクリファイス",
+          "role": "タンクブルーザーハイブリッド",
+          "focus": "耐久性と柔軟な攻撃オプション",
+          "best_for": [
+            "最前線のパーティープレイ",
+            "PvP 実験",
+            "より安全な進行"
+          ],
+          "strengths": [
+            "受動的に感じることなくタンキーにプレイできる",
+            "複数の実行可能な方向性",
+            "生存性を好むプレイヤーに最適"
+          ],
+          "icon": "シールド"
+        },
+        {
+          "class_name": "Professor",
+          "archetype": "サイキック ウェーブ / オートキャスト / SP",
+          "role": "テクニカル マジック DPS",
+          "focus": "マジック スケーリング、プロシージャ インタラクション、特殊なリソース ベースのダメージ",
+          "best_for": [
+            "柔軟なメイジ ビルドを求めるプレイヤー",
+            "実験",
+            "中盤から後半にかけてのゲーム最適化"
+          ],
+          "strengths": [
+            "いくつかの個別の後期ジョブルート",
+            "スタイル間でピボット可能",
+            "高いビルドアイデンティティ"
+          ],
+          "icon": "Brain"
+        },
+        {
+          "class_name": "生化学者",
+          "archetype": "アシッドデモンストレーション / Hellplant",
+          "role": "マーチャント支店の攻撃スペシャリスト",
+          "focus": "クラス固有のユーティリティを備えたスキル主導の遠距離ダメージ",
+          "best_for": [
+            "実際のダメージの存在によるマーチャントの進行を望むプレイヤー",
+            "特化 PvE"
+          ],
+          "strengths": [
+            "ユニークなクラスのアイデンティティ",
+            "複数の攻撃ルート",
+            "基本的なサポートの期待に飽き飽きしたプレイヤーに適した分岐"
+          ],
+          "icon": "FlaskConical"
+        },
+        {
+          "class_name": "High Priest",
+          "archetype": "フルサポート / PvE エクソシスト",
+          "role": "ヒーラーサポートまたは聖ダメージサポート",
+          "focus": "バフ、回復、維持、オプションの PvE ダメージ方向",
+          "best_for": [
+            "パーティー",
+            "サポートメイン",
+            "安全なアカウント進行"
+          ],
+          "strengths": [
+            "グループプレイで常に役立ちます",
+            "低リスクの進行の選択",
+            "よりアクティブな PvE セットアップに分岐するのに十分な柔軟性"
+          ],
+          "icon": "HeartHandshake"
         }
       ],
-      "minimum": {
-        "os": "Windows 10 64ビット",
-        "processor": "Intel Core i7-4770 または AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 または AMD Radeon RX 5700",
-        "directX": "バージョン 12",
-        "storage": "120 GB の空き容量",
-        "notes": "GPUには少なくとも 6 GB の VRAM が必要です。CPUは AVX2 および F16C をサポートしている必要があります。"
-      },
-      "recommended": {
-        "os": "Windows 10 64ビット",
-        "processor": "Intel Core i7-7700 または AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 または AMD Radeon RX 6700 XT",
-        "directX": "バージョン 12",
-        "storage": "120 GB の空き容量",
-        "notes": "少なくとも 12 GB の VRAM が必要です。CPUは AVX2 および F16C をサポートしている必要があります。"
+      "highlights": [
+        "すっきりとしたクラス構築セクションで、プレイヤーに役割、感触、見返りをすぐに伝える必要があります。",
+        "最強の ROOC アーキタイプは、ファーミング、ボス、PvP、サポート値によってすでに簡単にグループ化できます。",
+        "これこのセクションは、プレイヤーがお気に入りのジョブを 2 つまたは 3 つだけ比較している場合でも役立ちます。"
+      ]
+    },
+    "gearProgression": {
+      "title": "Ragnarok Origin Classic ギアの進歩",
+      "subtitle": "プレーヤーは、一度生のレベリングが遅くなると行き詰まり、次に何を精製、購入、または栽培すればよいのか分からなくなることがよくあります。",
+      "intro": "Ragnarok Origin Classic キャラクターのパワーは、単一の装備画面ではなく、複数のリンクされたシステムを通じて構築されます。公開されている初心者ガイドと進行ガイドでは、すでに一貫した成長順序が示されています。つまり、コアギアを効率的に精製し、フェザースロットを早めに埋め、ペットを使用して戦闘能力を向上させ、ダメージと実用性のためにカードを追加し、ランダムなアップグレードではなく長期的な価値にショップ通貨を費やします。",
+      "items": [
+        {
+          "stage": "Refine Start",
+          "focus": "武器+6、次にアクセサリー+6",
+          "details": "現在の進行ガイダンスでは、リソースをあまりにも薄く分散する前に、武器とコア アクセサリから開始することを推奨しています。",
+          "why_now": "これが最も効率的な初期のパワー ジャンプです。",
+          "icon": "レンチ"
+        },
+        {
+          "stage": "フル セット ベースライン",
+          "focus": "フル セットを +6 にします",
+          "details": "最初の武器とアクセサリーのアップグレード後、キャラクターが 1 つのスロットだけに過剰投資されないように、残りの装備を仕上げます。",
+          "why_now": "バランスのとれた精錬値により、全体の一貫性が向上します。",
+          "icon": "パッケージ"
+        },
+        {
+          "stage": "中盤の精錬プッシュ",
+          "focus": "武器 +10、次にアクセサリー +10",
+          "details": "安定した +6 のベースラインが設定されると、武器とアクセサリーが再び主な精錬ターゲットになります。",
+          "why_now": "次に意味のあるダメージ スパイクは通常、より高い精錬しきい値から発生します。",
+          "icon": "ArrowUpRight"
+        },
+        {
+          "stage": "長期的な精錬目標",
+          "focus": "武器を +15 に向けて徐々に押し上げます",
+          "details": "高度な精錬効果と強力なスケーリングは、より高いしきい値でより関連性が高くなります。",
+          "why_now": "これは、アカウントの強さを示す最も明確な長期投資トラックの 1 つです。",
+          "icon": "TrendingUp"
+        },
+        {
+          "stage": "フェザーのセットアップ",
+          "focus": "5 つのフェザー スロットをすべて早めに埋めてください",
+          "details": "フェザーは、攻撃、防御、ダメージ ブースト、ダメージ軽減などの主要なステータス レイヤーを提供します。",
+          "why_now": "弱いフェザー 1 つを過度にアップグレードするよりも、早期に完全なフェザー セットアップを行うことが重要です。",
+          "icon": "フェザー"
+        },
+        {
+          "stage": "フェザー ルール",
+          "focus": "低ティアのフェザーに過剰投資しないでください",
+          "details": "セットの効果は装備されている最低レアリティのフェザーによって決定されるため、初期の効率はまずカバー範囲から得られ、その後に十分な投資が行われます。",
+          "why_now": "これにより、一時的なピースへのリソースの無駄が回避されます。",
+          "icon": "レイヤー3"
+        },
+        {
+          "stage": "ペットの進行",
+          "focus": "ペットのレベルと階層をアップグレード",
+          "details": "クラシックでのペットの成長はレベルと階層を中心に簡素化されており、ペットはゲーム初期および中盤の農業の主要な助けとして位置付けられています。",
+          "why_now": "ペットは、最初に完全に完成したギアのセットアップを必要とせずに、実用的な戦闘価値を追加します。",
+          "icon": "PawPrint"
+        },
+        {
+          "stage": "カードの進行",
+          "focus": "ダメージ カードとユーティリティ カードを最初に優先します",
+          "details": "カードはモンスター殲滅やショップ交換などのシステムから供給され、通常は農業や戦闘パフォーマンスの効率層として扱われます。",
+          "why_now": "カードはビルドのアイデンティティを向上させ、日常的なコンテンツのスピードアップに役立ちます。",
+          "icon": "BadgeDollarSign"
+        },
+        {
+          "stage": "ショップの優先順位",
+          "focus": "長期的な価値にショップを費やす",
+          "details": "ゴールド ショップの優先順位は、羽の選択ボックスと素材の精製から始まります。ソーシャル ショップでは、羽根、次にゴールド、次にブルー スター コインが優先されます。ペットショップはエピックとレジェンドのフラグメントを優先します。カード ショップでは特に初期の優先事項としてタヌキ カードを強調しています。",
+          "why_now": "ショップでの正しい支出により、F2P や少額の支出をする人にとってはきれいな進行が維持されます。",
+          "icon": "ストア"
+        }
+      ],
+      "highlights": [
+        "Ragnarok Origin Classic 装備の成長は、精錬、羽毛、ペット、カード、ショップがすべて一緒に移動する場合に最も効果的です。",
+        "早期の効率は、単一のスロットにすぐに過剰投資することではなく、完全にカバーすることによってもたらされます。",
+        "短期的な小規模なアップグレードを追うよりも、長期的な価値の決定が重要です。"
+      ]
+    },
+    "universeMode": {
+      "eyebrow": "経済",
+      "title": "Ragnarok Origin Classic Zeny 農業",
+      "subtitle": "ゲーム初期および中盤の最適な通貨ルート",
+      "intro": "Ragnarok Origin Classic の通貨の流れは、単一のグラインド スポットではなく、効率的な毎日のプレイに結びついています。現在のガイド全体で示されている最も強力なパターンは、最初に 1 回限りの宝の価値をクリアし、次にファストキル ファーミング、ボス コンテンツ、規律ある販売にローテーションすることで、戦闘時間を無駄にすることなくアカウントが成長し続けることです。",
+      "highlights": [
+        "初期のアップグレードに多額の投資をする前に、さまざまなエリアのマップの宝箱を開けてください。",
+        "難しいターゲットを強制するのではなく、すぐにクリアできるモンスターに戦闘時間を費やしてください。",
+        "未使用の戦利品、カード、ポーションなどを売り続けてください。そして食品なので、在庫価値は常に変動し続けます。"
+      ],
+      "items": [
+        {
+          "method": "宝箱のルート",
+          "category": "1 回限りのバースト収入",
+          "how_to_do_it": "初期のアップグレードに多額の投資をする前に、さまざまなエリアのマップの宝箱を開けてください。",
+          "best_for": "すべてのクラス",
+          "why_it_works": "現在の宝箱のルート ガイドでは、無料の宝箱コレクションから入手できるおよそ 800 万 Zeny が強調表示されています。",
+          "watch_out_for": "最初の掃討後に宝箱の収入を永続的な経済計画として扱わないでください。"
+        },
+        {
+          "method": "ファストキルモンスターファーミング",
+          "category": "繰り返し可能な毎日の収入",
+          "how_to_do_it": "難しいターゲットを強制するのではなく、すぐにクリアできるモンスターに戦闘時間を費やしてください。",
+          "best_for": "ハンター、ウィザード、その他の効率的な遠距離ビルドまたはAoEビルド",
+          "why_it_works": "現在の初心者向けの記事では、EXPとドロップの効率を高めるためにファストキルを繰り返し推奨しています。これにより、販売可能な戦利品の流れも改善されます。",
+          "watch_out_for": "遅いターゲットやエリートターゲットを徹底的に狙うと、収入とレベリングのペースの両方が低下します。"
+        },
+        {
+          "method": "未使用の戦利品や消耗品を販売する",
+          "category": "在庫変換",
+          "how_to_do_it": "在庫を定期的に整理し、積極的に使用していない余分な戦利品、カード、ポーション、食料を販売します。",
+          "best_for": "すべてのクラス",
+          "why_it_works": "現在の Ragnarok Origin Classic 初心者向け資料では、安定した収入を得るために未使用のアイテムを販売するようプレイヤーに明示的に指示しています。",
+          "watch_out_for": "精錬、カード、またはクラスの成長にまだ必要な進行素材を捨てないでください。"
+        },
+        {
+          "method": "MVP およびミニボスの狩猟",
+          "category": "高価値のドロップ ルート",
+          "how_to_do_it": "クラスやパーティーが安定した貢献を確保できる場合は特に、ボスの実行に参加してレアなマテリアル、青写真、カードを手に入れましょう。",
+          "best_for": "パーティー プレイヤー、生化学者、バースト DPS、調整されたギルド グループ",
+          "why_it_works": "ボス ガイドには、MVP のコンテンツがレア アイテム、カード、通常の畑作には含まれない設計図。",
+          "watch_out_for": "すべてのスポーンを盲目的に追いかけないでください。あなたの体格や現在の装備のニーズに合ったボスを優先してください。"
+        },
+        {
+          "method": "ゲームプレイで獲得したゴールド コイン",
+          "category": "コア進行通貨",
+          "how_to_do_it": "ゴールド コインの経済を養うモンスターの殺害、ダンジョン、農業活動を中心とした毎日のループを構築します。",
+          "best_for": "すべてのプレイヤー、特に F2P",
+          "why_it_works": "最近の Ragnarok Origin Classic の報道では、ゴールド コインはプレミアム専用システムではなくゲームプレイ アクティビティを通じて獲得されると述べています。",
+          "watch_out_for": "コア電源システムを優先する必要がある場合は、価値の低いアップグレードにゴールド コインを早期に費やすことは避けてください。"
+        },
+        {
+          "method": "マーチャント スタイルのエコノミー プレイ",
+          "category": "クラスの利点",
+          "how_to_do_it": "経済重視のプレイ、クラフトのサポート、およびよりスマートなプレイのためにマーチャント クラスの強みを活用してください。市場に直面した意思決定。",
+          "best_for": "商人、鍛冶屋、錬金術師のパス",
+          "why_it_works": "現在の初心者向けガイダンスと公式クラスのプロモーション資料はどちらも、商人パスを経済指向のクラスとして構成しています。",
+          "watch_out_for": "商人ルートは、無作為の出費ではなく、計画と組み合わせると最強になります。"
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://www.youtube.com/watch?v=Qu2KSCvJ_Xc",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "全文を見る Zeny 農業ガイド",
+        "href": "/ragnarok-origin-classic-zeny-farming"
       }
     },
-    "arenas": {
-      "title": "Ragnarok Origin Classic アリーナ",
-      "subtitle": "モダン、クラシック、オリジナルの会場にわたる40以上のアリーナを探索しよう",
-      "quickFacts": [
+    "communityCreations": {
+      "eyebrow": "F2P",
+      "title": "Ragnarok Origin Classic F2P ガイド",
+      "subtitle": "無料および低支出プレイヤー向けの安全なスタート プラン",
+      "intro": "Ragnarok Origin Classic は現在、ゲームプレイで獲得できるゴールド コインと、直接的なペイツーウィンのプレッシャー ポイントが少ない、より広範な Ragnarok Origin エコシステムのより F2P に優しいバージョンとして位置付けられています。最も強力な F2P 計画は、すべてのシステムを一度に急ぐことではありません。それは、安定したクラスを選択し、効率的なショップを優先し、アカウントに実際の方向性が決まるまで無駄なアップグレードを遅らせることです。",
+      "highlights": [
+        "リソースを費やす前に、安定したスターター クラスを選択してください。",
+        "メイン ストーリーとハンドブックを使用して、効率的に進行を維持してください。",
+        "アカウントに本当の方向性が定まるまで、危険なアップグレードは遅らせてください。"
+      ],
+      "items": [
         {
-          "label": "アリーナ数",
-          "value": "40+"
+          "step": 1,
+          "label": "安定したスターター クラスを選択してください",
+          "details": "初心者の快適さのために、現在のガイドは一貫して、より安全な農業のためにアーチャーまたはメイジを推奨していますが、アコライトは引き続き強力なサポート ルートです。専用の F2P 値については、ある最近のクラス ガイドでは、汎用性とリソース効率により Blacksmith が F2P ランキングのトップに挙げられています。"
         },
         {
-          "label": "新しい会場",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "step": 2,
+          "label": "ランダムに磨く前にメイン クエストを進めてください",
+          "details": "メイン ストーリーを初期の進行の背骨として使用してください。機能のロックを解除し、安定した EXP とジョブ EXP を与え、アカウント システムがオープンする前に低効率の研磨で無駄な時間を費やすのを防ぎます。"
         },
         {
-          "label": "クラシック・ハイライト",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "step": 3,
+          "label": "農業を始める前にハンドブックを使用してください",
+          "details": "ハンドブックは、アップグレード素材、モンスターの場所、経験値情報が記載されているため、初期の最も役立つツールの 1 つです。これにより、F2P プレイヤーは時間とスタミナを非効率的に消費する代わりに、適切なモンスターをターゲットにすることができます。"
+        },
+        {
+          "step": 4,
+          "label": "アカウント効率を向上させるショップを優先する",
+          "details": "現在のショップのガイダンスでは、ゴールド ショップでは最初にフェザー選択ボックス、ソーシャル ショップではフェザー、次にゴールド、次にブルー スター コイン、初期のカード ショップの優先事項としてタヌキ カード、長期的なペット ショップとしてエピックまたはレジェンドのペットのフラグメントを推奨しています。ターゲット."
+        },
+        {
+          "step": 5,
+          "label": "制御されたチェックポイントで絞り込む",
+          "details": "一般的な効率的なパスは、武器 +6、次にアクセサリ +6、次にフルセット +6、その後武器 +10 とアクセサリ +10、そしてその後にさらにプッシュすることです。これにより、リスクの高いアップグレードを早すぎてオーバーコミットするという古典的な F2P の罠が回避されます。"
+        },
+        {
+          "step": 6,
+          "label": "システムに過剰投資する前にシステムを充実させましょう",
+          "details": "アカウントに最初にベースラインが適用されている場合、羽根、カード、ペット、コアギアはすべてより適切に拡張されます。最近のガイドでは、フェザースロットを早めに埋め、初期段階の弱いピースへの多額の投資を避けることを明示的に推奨しています。"
+        },
+        {
+          "step": 7,
+          "label": "アクセスではなく、支出を加速として扱う",
+          "details": "現在の報道では、ゲームは毎日のコンテンツとダンジョンを通じて主にアクセス可能であり、追加購入は主に進行速度アップとして機能すると説明されています。あるガイドでは、マンスリー パスへのアクセスはゲーム内のゴールドに関連付けることができ、これは患者 F2P の計画にとって大きな利点であるとも述べています。"
         }
       ],
-      "categories": [
-        {
-          "name": "現在の週間番組",
-          "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
-          ]
-        },
-        {
-          "name": "プレミアム・ライブ・イベント",
-          "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
-          ]
-        },
-        {
-          "name": "クラシック・アリーナ",
-          "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
-          ]
-        },
-        {
-          "name": "オリジナル＆乱闘スペース",
-          "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
-          ]
-        }
-      ]
+      "source_urls": [
+        "https://www.youtube.com/watch?v=I5EqSIYZTGs",
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/"
+      ],
+      "cta": {
+        "label": "全文を見る F2P Guide",
+        "href": "/ragnarok-origin-classic-f2p-guide"
+      }
     },
-    "dlcUnlockables": {
-      "title": "Ragnarok Origin Classic DLCとアンロック要素",
-      "subtitle": "発売後の主要な報酬パスをすべて確認",
-      "quickFacts": [
-        {
-          "label": "リングサイドパス・シーズン",
-          "value": "6"
-        },
-        {
-          "label": "シーズンごとのティア",
-          "value": "40"
-        },
-        {
-          "label": "無料トラック報酬",
-          "value": "60"
-        },
-        {
-          "label": "報酬合計",
-          "value": "120"
-        }
+    "theIsland": {
+      "eyebrow": "ボス攻撃",
+      "title": "Ragnarok Origin Classic MVP Guide",
+      "subtitle": "MVP 狩猟の仕組みと優先順位",
+      "intro": "MVP コンテンツは、クラス構築、パーティー プレイ、レア アイテムのターゲットを結び付けるため、Ragnarok Origin Classic で最も明確な進行ブレークポイントの 1 つです。現在の公開ガイドは、MVP の優れたプレイとはダメージを与えることだけではないことを示しています。貢献度、役割バランス、毎日の報酬制限、ターゲットの選択はすべて、各狩りから得られる価値に影響します。",
+      "highlights": [
+        "貢献度は純粋な DPS よりも広範囲に及びます。",
+        "毎日の報酬制限により、計画が重要になります。",
+        "パーティー プレイは長期的には力技に勝ります。"
       ],
-      "seasons": [
+      "items": [
         {
-          "season": "シーズン1",
-          "release": "March 6, 2026"
-        },
-        {
-          "season": "シーズン2",
-          "release": "April 2026"
-        },
-        {
-          "season": "シーズン3",
-          "release": "June 2026"
-        },
-        {
-          "season": "シーズン4",
-          "release": "July 2026"
-        },
-        {
-          "season": "シーズン5",
-          "release": "September 2026"
-        },
-        {
-          "season": "シーズン6",
-          "release": "October 2026"
-        }
-      ],
-      "editionPacks": [
-        {
-          "name": "King of Kings エディションパック",
-          "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Triple H シグネチャー・タウント"
+          "title": "スポーン前に MVP メニューを使用してください",
+          "summary": "MVP インターフェイスには位置とカウントダウンが表示され、ゲームはスポーンが表示される直前にアナウンスします。",
+          "highlights": [
+            "イベント メニューからスポーン時間を確認してください。",
+            "スポーンの 5 分前にシステム アナウンスが表示されます",
+            "インターフェースには、最近 MVP を確保したパーティーも表示されます"
           ]
         },
         {
-          "name": "Attitude Era エディションパック",
-          "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Stone Cold Steve Austin EVOカード",
-            "The Rock EVOカード",
-            "Raw Is War '98 アリーナ"
+          "title": "2 つの報酬層を知る",
+          "summary": "MVP の報酬はパーティーベースの報酬と個人の報酬に分割されるため、トップダメージプレイヤー以外でも価値を得ることができます。",
+          "highlights": [
+            "チーム報酬は MVP に関連付けられています。党内のタイトル獲得者",
+            "チーム報酬には、ダイヤモンド、引換券、青写真のチャンス、MVP カードのチャンスが含まれます",
+            "正しく参加した場合、個人の報酬にはアクセサリーの青写真、エルニウム、ヘッドウェア クリスタルが含まれます"
           ]
         },
         {
-          "name": "Monday Night War エディションパック",
-          "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "WCW Thunder '98 アリーナ"
+          "title": "貢献は純粋な DPS よりも広範囲です",
+          "summary": "スコアリング システムは、バーストだけでなく、タンキング、DPS、回復、および重要なタイミングの瞬間に報酬を与えますダメージ。",
+          "highlights": [
+            "受けたダメージはスコアに貢献します",
+            "DPS が最大のスコア シェアに貢献",
+            "治癒、先制攻撃、最後の一撃、デスペナルティはすべて結果に影響します"
           ]
         },
         {
-          "name": "WrestleMania 42 パック",
-          "includes": [
-            "WrestleMania 42 アリーナ",
-            "WM42 ペルソナ #1",
-            "WM42 ペルソナ #2",
-            "WM42 ペルソナ #3"
+          "title": "毎日の試行回数が重要",
+          "summary": "チーム報酬には 1 日あたりの制限があるため、MVP の狩猟を計画する必要があります。",
+          "highlights": [
+            "現在の ROO ガイド資料には、1 日のチーム報酬の上限が 5 MVP 個と記載されています",
+            "MVP フィーバー中、制限は 7 に上昇します",
+            "パーティメンバーの上限を超えていると、全体的なスコア効率が低下します"
+          ]
+        },
+        {
+          "title": "自分のビルドに合ったボスを優先します",
+          "summary": "最強のルートは、クラスを直接向上させるカードや装備をドロップするボスを追うことです。",
+          "highlights": [
+            "ハイウィザードの例: MATK とクールダウンに優しいアクセサリに関連付けられたボスをターゲットにする",
+            "Lord Knight の例: 物理攻撃と STR 指向のリングに関連するボスを優先します",
+            "ビルドに直接的な価値のないランダムな MVP の試行を無駄にしないでください"
+          ]
+        },
+        {
+          "title": "パーティー プレイは力技に勝ります",
+          "summary": "現在の初心者向け資料では、小さなボスはソロでプレイできる場合もあると説明していますが、大きな MVP はチームを調整した方が明らかに優れています。",
+          "highlights": [
+            "ボスは主要なボスです。レアなアイテム、カード、設計図のソース",
+            "大きな MVP はパーティーで扱うのが最適です",
+            "生化学者は現在、コミュニティ ビデオで MVP に焦点を当てた強力なダメージ オプションとして注目を集めています"
           ]
         }
       ],
-      "unlockExamples": [
+      "source_urls": [
+        "https://www.youtube.com/shorts/8eP4miwmrAw",
+        "https://www.youtube.com/watch?v=ekijaNVArbk",
+        "https://www.youtube.com/watch?v=1LCscT53Aa8",
+        "https://roo-global.gitbook.io/guide/game-wiki/mvp-boss-system",
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html"
+      ],
+      "cta": {
+        "label": "MVP ガイドの全文を見る",
+        "href": "/ragnarok-origin-classic-mvp-guide"
+      }
+    },
+    "myfaction": {
+      "eyebrow": "ギルド PvP",
+      "title": "Ragnarok Origin Classic エンペリウム戦争ガイド",
+      "subtitle": "War of Emperium の基本、役割、報酬",
+      "intro": "War of Emperium は、ラグナロク フォーミュラの中で最も有名な大規模ギルド モードの 1 つであり、プレイヤーがギルドの進行に投資する主な理由となっています。現在の Ragnarok Origin ガイド資料では、成功は準備期間、クラスの役割の適合性、およびギルドが短期的なキルではなく攻撃、防御、または長期的な城の価値を目指してプレイしているかどうかを理解することによって左右されることが示されています。",
+      "highlights": [
+        "準備期間は戦闘自体と同じくらい重要です。",
+        "城の所有権は追加のギルド価値のロックを解除します。",
+        "役割の適合性はヒーローのソロプレイよりも重要です。"
+      ],
+      "items": [
         {
-          "name": "AJ Lee",
-          "source": "Showcase: What If マッチ #7"
+          "section": "モードの概要",
+          "content": [
+            "エンペリウム戦争は、ギルドが城を占領して守るために戦うギルド包囲モードです。",
+            "攻撃者は城内のエンペリウムを破壊することで防御者になります。",
+            "タイマーが終了すると、城を保持しているギルドが新しい占有者になります。"
+          ]
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "リングサイドパス #1 無料トラック ティア 5"
+          "section": "それが発生したときと誰が参加できるか",
+          "content": [
+            "現在の ROO ガイドのマテリアル リストは日曜日の 21:30 に WoE です。",
+            "ギルドの資格は日曜日の 5:00 にチェックされ、その後 5:00 から 20:00 まで準備期間が続きます。",
+            "参加はレベル 3 以上のギルド、基本レベル 80 以上のキャラクター、および少なくともギルドに所属しているメンバーに限定されます。 72 時間。"
+          ]
         },
         {
-          "name": "Andre The Giant",
-          "source": "リングサイドパス #1 無料トラック ティア 4"
+          "section": "防衛に最適なクラスの役割",
+          "content": [
+            "プリーストとウィザードは現在、最近のクラス ガイドで S ティアの防御ピックとしてハイライトされています。",
+            "Priest is valued for healing and sustain during choke-point defense.",
+            "Wizard is valued for AoE damage and crowd control at entrances and objective zones.",
+            "Blacksmith and Hunter are presented as strong A-tier alternatives for defensive lineups."
+          ]
         },
         {
-          "name": "El Hijo del Vikingo",
-          "source": "リングサイドパス #1 プレミアムトラック ティア 1"
+          "section": "Best Class Roles for Offense",
+          "content": [
+            "Assassin and Knight are currently highlighted as S-tier offensive picks in one recentガイド。",
+            "アサシンは素早い除去とターゲットの妨害にバーストプレッシャーをもたらします。",
+            "ナイトは耐久性のある前線プレッシャーと一貫した攻撃的存在感を提供します。",
+            "ウィザードと鍛冶屋は依然として攻撃側の有用なサポートオプションです。"
+          ]
         },
         {
-          "name": "Flammer",
-          "source": "リングサイドパス #1 プレミアムトラック ティア 7"
+          "section": "準備とショップバリュー",
+          "content": [
+            "資格のあるメンバーは準備期間中にWoE準備クエストを完了できます。",
+            "このモードには、WoE アイテム ショップと参加ポイントに関連付けられた報酬交換ショップが含まれています。",
+            "個々のデュエリストの緩やかなグループとして参加するよりも、事前に計画された役割で参加することが重要です。"
+          ]
         },
         {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: ヒストリカルマッチ #7"
+          "section": "ギルドが城を求めて戦う理由",
+          "content": [
+            "城を保持するギルドは、領主の宝箱を含む特別な権利にアクセスできるようになります。 room.",
+            "占領中のギルドもギルド ダンジョンにアクセスできます。",
+            "ギルド ダンジョンではミニおよび MVP のターゲットが出現し、青写真やカードを獲得するチャンスが提供されます。"
+          ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=FSBPnayKUhc",
+        "https://roo-global.gitbook.io/guide/limited-time-event/gvg-war-of-emperium"
+      ],
+      "cta": {
+        "label": "War of Emperium ガイドの完全版を表示",
+        "href": "/ragnarok-origin-classic-war-of-emperium-guide"
+      }
+    },
+    "pvpGuide": {
+      "eyebrow": "Competitive",
+      "title": "Ragnarok Origin Classic PvP ガイド",
+      "subtitle": "PvP 3v3 アリーナおよびギルド バトル用のクラス",
+      "intro": "Ragnarok Origin Classic はモードに応じて異なるクラスの強さを報酬として与えます。 3v3 アリーナでは、スピード、群集コントロール、素早いキルプレッシャーが最も重要ですが、ギルド対ギルドでは、回復、エリアコントロール、イニシエーション、連携したチームプレイがより重視されます。",
+      "items": [
+        {
+          "tier": "S",
+          "mode": "3v3 アリーナ",
+          "entries": [
+            {
+              "class": "暗殺者",
+              "role": "バーストエリミネーター",
+              "strengths": [
+                "非常に高いバーストダメージ",
+                "素早いターゲットアクセス",
+                "短期戦闘での強力なキルプレッシャー"
+              ],
+              "notes": "暗殺者は、敵チームが安定する前に主要なターゲットを素早く除去できるため、小規模戦闘では非常に致命的です。"
+            },
+            {
+              "class": "ナイト",
+              "role": "前線制御",
+              "strengths": [
+                "高いHP",
+                "群衆制御",
+                "確かな機動性"
+              ],
+              "notes": "Knight は、耐久性と、戦闘の中心でアクティブに保ちながら敵の動きを妨害する能力のおかげで、アリーナで優れたパフォーマンスを発揮します。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "3v3 アリーナ",
+          "entries": [
+            {
+              "class": "ハンター",
+              "role": "遠距離 DPS",
+              "strengths": [
+                "強力な遠距離ダメージ",
+                "一貫した圧力",
+                "優れたピックの可能性"
+              ],
+              "notes": "ハンターは遠距離から圧力をかけることができますが、敵が間合いを縮めると、処罰がはるかに簡単になります。"
+            },
+            {
+              "class": "僧侶",
+              "role": "サポートを維持",
+              "strengths": [
+                "治癒",
+                "サポートユーティリティ",
+                "戦闘の安定化"
+              ],
+              "notes": "プリーストは、バーストクラスがトレードを完了するのに十分な時間チームメイトを生かしておくことで、アリーナの結果を左右します。"
+            },
+            {
+              "class": "Wizard",
+              "role": "エリアコントロールキャスター",
+              "strengths": [
+                "AoEコントロール",
+                "ゾーン拒否",
+                "チームファイトのプレッシャー"
+              ],
+              "notes": "ウィザードは適切な位置にあると危険ですが、倒れないように保護と慎重な間隔が必要です。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "3v3 アリーナ",
+          "entries": [
+            {
+              "class": "鍛冶屋",
+              "role": "ブルーザーのサポート",
+              "strengths": [
+                "便利なサポートツール",
+                "前線での尊敬に値する価値観"
+              ],
+              "notes": "鍛冶屋は貢献できますが、より高速なアリーナ マッチでは、より機敏なクラスや爆発的なクラスに追いつくのに苦労する可能性があります。"
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "mode": "ギルド対ギルド",
+          "entries": [
+            {
+              "class": "僧侶",
+              "role": "コア チーム サポート",
+              "strengths": [
+                "治癒",
+                "バフ",
+                "Revival ユーティリティ"
+              ],
+              "notes": "プリーストはプッシュを維持し、バースト ウィンドウからチームを回復するのに役立つため、大規模な戦闘の中心となります。"
+            },
+            {
+              "class": "Wizard",
+              "role": "AoE バトル コントローラー",
+              "strengths": [
+                "広範囲のダメージ",
+                "集団化した敵への懲罰",
+                "強力な対物圧力"
+              ],
+              "notes": "ウィザードは、階層化された AoE が密集した敵のフォーメーションを破壊できる、密集したギルドの戦いで活躍します。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "mode": "ギルド対ギルド",
+          "entries": [
+            {
+              "class": "暗殺者",
+              "role": "バックライン ダイバー",
+              "strengths": [
+                "キーターゲット プレッシャー",
+                "脆弱な敵を素早くピック"
+              ],
+              "notes": "アサシンは、特にチームが前線のカバーを持っている場合に、ヒーラーやダメージ ディーラーを飛び越えるのに効果的です。"
+            },
+            {
+              "class": "鍛冶屋",
+              "role": "ブルーザーをサポート",
+              "strengths": [
+                "耐久性",
+                "チームサポート"
+              ],
+              "notes": "鍛冶屋は安定した価値を追加し、長期戦でチーム構造を強化するのに役立ちます。"
+            },
+            {
+              "class": "ナイト",
+              "role": "イニシエーター",
+              "strengths": [
+                "信頼できる交戦",
+                "前線の妨害",
+                "前線の存在"
+              ],
+              "notes": "ナイトはギルド交戦の強力なスターターであり、プリーストとウィザードが安全に作業できるスペースを開くのに役立ちます。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "mode": "ギルド対ギルド",
+          "entries": [
+            {
+              "class": "ハンター",
+              "role": "後衛のダメージ",
+              "strengths": [
+                "一貫した遠距離 DPS"
+              ],
+              "notes": "ハンターは依然としてダメージに貢献できますが、ギルド戦争のトップピックほど大規模な有用性はありません。"
+            }
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-tier-list.html",
+        "https://www.joytify.com/blog/en-ph/rpg-ragnarok-origin-classic/",
+        "https://www.youtube.com/watch?v=9j-qf02Zl3A"
+      ],
+      "cta": {
+        "label": "全文を見る PvP ガイド",
+        "href": "/pvp-guide"
+      }
+    },
+    "guildGuide": {
+      "eyebrow": "社会的進歩",
+      "title": "Ragnarok Origin Classic ギルド ガイド",
+      "subtitle": "早めにギルドに参加することが重要な理由",
+      "intro": "Ragnarok Origin Classic では、ギルドは単なる社会的なグループではありません。これらは、毎週のクエスト、時限イベント、貢献報酬、ショップへのアクセス、追加統計、毎日の進行にフィードバックされる共有報酬システムに直接接続されています。",
+      "items": [
+        {
+          "card_title": "ギルド クエスト",
+          "tag": "週ごとの進行",
+          "description": "ギルド クエストでは、プレイヤーはギルド ポイントを獲得するために毎週 30 のクエストを完了できます。",
+          "highlights": [
+            "ギルド募集タスクが含まれます",
+            "NPC インタラクションタスクが含まれます",
+            "モンスター狩りが含まれます",
+            "エリートモンスター狩りが含まれます"
+          ]
+        },
+        {
+          "card_title": "貢献報酬",
+          "tag": "マイルストーン",
+          "description": "個人の貢献度は追跡され、マイルストーン報酬に変換され、アクティブなメンバーに毎週参加する安定した理由が与えられます。",
+          "highlights": [
+            "貢献度は個別に追跡されます",
+            "マイルストーン報酬はアクティビティの進行状況から受け取ることができます"
+          ]
+        },
+        {
+          "card_title": "ギルド オークション",
+          "tag": "共有戦利品",
+          "description": "ギルド イベント後、アイテムがギルド オークションに出品されることがあります。そこで費やしたニャンベリーはダイヤモンドに変換され、ギルドメンバーに平等に分配されます。",
+          "highlights": [
+            "ギルドイベントの戦利品がオークションに出品されます",
+            "メンバーは必要なアイテムを購入できます",
+            "オークションの価値はメンバー間で共有されます"
+          ]
+        },
+        {
+          "card_title": "ギルド遠征",
+          "tag": "時間指定イベント",
+          "description": "ギルド遠征は、火曜日、木曜日、土曜日、日曜日の 20:00 から 20:20 まで開催されます。メンバーは特別なマップに入り、本物の MVP やクローン MVP と戦い、より良いギルド報酬を獲得します。",
+          "highlights": [
+            "毎週 4 日予定",
+            "与えられるダメージは報酬の品質に影響します",
+            "ギルド グループを調整すると最適です"
+          ]
+        },
+        {
+          "card_title": "時空異常",
+          "tag": "時間指定イベント",
+          "description": "このギルド イベントは火曜日、木曜日、土曜日、日曜日の 19:30 から 19:43 まで開催され、個人ランキングとギルド ランキングの両方に基づいてプレイヤーに報酬を与えます。",
+          "highlights": [
+            "短期間のアクティビティ期間",
+            "チャレンジ中にペットを使用します",
+            "個人とギルドの両方のパフォーマンスが重要"
+          ]
+        },
+        {
+          "card_title": "ギルドの特典",
+          "tag": "パワーの成長",
+          "description": "ギルド システムは、基本的な報酬を超えるいくつかの長期的なアカウント特典を提供します。",
+          "highlights": [
+            "エンペリウム バフは追加のステータスを付与します。",
+            "ギルド自動販売機は貢献をアイテムと交換します",
+            "ギルドスキルにより追加の統計情報が追加されます",
+            "ギルドボーナスでダイヤモンド、ニャンベリー、ゼニーを獲得できます"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.ldplayer.net/blog/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=uWwc3kKyPyE",
+        "https://www.gravity.co.kr/en/game/ROOC",
+        "https://roo-global.gitbook.io/guide/game-wiki/guild"
+      ],
+      "cta": {
+        "label": "ギルドシステムを探索してください",
+        "href": "/guild-guide"
+      }
+    },
+    "codes": {
+      "eyebrow": "報酬",
+      "title": "Ragnarok Origin Classic コード",
+      "subtitle": "アクティブな引き換えコードとその使用方法",
+      "intro": "Ragnarok Origin Classic には現在、アクティブなコード プールが小さく、長い記事よりもクリーンなスキャンファースト レイアウトの方が便利です。表示する最も重要なことは、ライブ コード、引き換えルート、および最終確認日です。",
+      "items": [
+        {
+          "code": "ROOCREADY2GO",
+          "status": "active",
+          "reward": "報酬",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC888",
+          "status": "active",
+          "reward": "報酬",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC2026",
+          "status": "active",
+          "reward": "報酬",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC666",
+          "status": "active",
+          "reward": "報酬",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "ROOC777",
+          "status": "active",
+          "reward": "報酬",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "期限切れのコード",
+          "status": "記載なし",
+          "reward": "2026 年 3 月 26 日の更新には期限切れのコードは記載されていません",
+          "last_checked": "2026-03-26"
+        },
+        {
+          "code": "引き換えパス",
+          "status": "ガイド",
+          "reward": "ゲームを開く -> 報酬をタップ -> 引き換えを開く -> コードを入力 -> 確認をタップ",
+          "last_checked": "2026-03-26"
+        }
+      ],
+      "source_urls": [
+        "https://progameguides.com/ragnarok-origin/ragnarok-origin-codes/",
+        "https://www.reddit.com/r/RagnarokOrigin/comments/12s9dkr/redeem_codes/",
+        "https://www.reddit.com/r/RagnarokMClassic/comments/1n7di9v/romc_global_new_serverexclusive_bonuses_redeem/",
+        "https://levelgeeks.net/ragnarok-origin-classic-codes/"
+      ],
+      "cta": {
+        "label": "コードページを開く",
+        "href": "/codes"
+      }
+    },
+    "petsGuide": {
+      "eyebrow": "コンパニオン",
+      "title": "Ragnarok Origin Classic ペットガイド",
+      "subtitle": "ペットの基本、進行マイルストーン、レア度ティア",
+      "intro": "Ragnarok Origin のペット システムは、戦闘サポートとアカウントの成長に直接影響します。初心者向けの主な質問は、ペットがいつロック解除されるか、アクティブにできる数は何時か、アシスト スロットがいつ開くか、プレイヤーがリソースを投資しすぎる前にペットのレアリティがどのように機能するかです。",
+      "items": [
+        {
+          "card_title": "ペットのロックが解除されるとき",
+          "tag": "マイルストーン",
+          "description": "ペット システムは基本レベル 22 でロック解除されます。",
+          "highlights": [
+            "ペットは農業をサポートします。",
+            "ペットはダンジョンの実行をサポート",
+            "ペットはPvPバトルをサポート"
+          ]
+        },
+        {
+          "card_title": "アクティブなペット制限",
+          "tag": "コアルール",
+          "description": "キャラクターレベルが上がるにつれて、より多くのペットのアクティブ化オプションが開きます。最大 4 匹のペットを同時にアクティブにできます。",
+          "highlights": [
+            "同時に最大 4 匹のアクティブ ペット",
+            "単一の召喚スロットではなく、継続的なアカウント サポートのために構築"
+          ]
+        },
+        {
+          "card_title": "アシスト スロット",
+          "tag": "レベル 55",
+          "description": "基本レベル 55 では、プレイヤーはペットをアシスト スロットに割り当てることができます。アシスト ペットは戦闘に召喚されませんが、それでも属性を提供し、全体的なパワーを向上させます。",
+          "highlights": [
+            "基本レベル 55 でロック解除",
+            "パッシブ属性を追加",
+            "長期的なステータスの積み重ねに役立つ"
+          ]
+        },
+        {
+          "card_title": "S レベルのペット",
+          "tag": "最高レアリティ",
+          "description": "S レベル ペットは最高のレアリティ層としてリストされ、非常に強力な特性を持つと説明されています。",
+          "highlights": [
+            "リストの例: Ghost Samurai",
+            "リストの例: Antasha Model",
+            "リストの例: Earth Lord",
+            "リストの例: Dunell"
+          ]
+        },
+        {
+          "card_title": "A および B レベルのペット",
+          "tag": "実用的な成長",
+          "description": "A レベルのペットは、うまく育成すると S レベルのペットの代替として機能しますが、B レベルのペットは通常および伝説のペットの召喚を通じて簡単に入手できます。",
+          "highlights": [
+            "A レベルのペットは、S レベルのペットよりも入手しやすい",
+            "B レベルのペットは、見つけて育成するのが簡単です。",
+            "初期のプレイヤーは、トップレアリティのみを待たずに有意義な進歩を遂げることができます"
+          ]
+        }
+      ],
+      "source_urls": [
+        "https://www.oslink.io/blog/guide/ragnarok-origin-classic-beginner-guide.html",
+        "https://www.youtube.com/watch?v=jBlEVqvqCFM",
+        "https://www.youtube.com/watch?v=dRgGDUjhZ9o",
+        "https://roo-global.gitbook.io/guide/game-wiki/pet-system"
+      ],
+      "cta": {
+        "label": "ペットガイドを参照",
+        "href": "/pets-guide"
+      }
     }
   },
   "faq": {
-    "title": "よくある",
+    "title": "よくある質問",
     "titleHighlight": "質問",
-    "subtitle": "Ragnarok Origin Classicについて知っておくべきすべてのこと",
+    "subtitle": "Ragnarok Origin Classic について知っておくべきことすべて",
     "questions": [
       {
-        "question": "Ragnarok Origin Classicの発売日はいつですか？",
-        "answer": "Ragnarok Origin Classicの通常版は2026年3月13日に発売されます。デラックスエディションは2026年3月6日から早期アクセスが可能です。"
+        "question": "Ragnarok Origin Classic で最初に何をすべきですか?",
+        "answer": "Ragnarok Origin Classic では、最初にメイン クエストを進め、レベル 10 で最初のジョブに就き、レベル 15 でクラス武器を作成し、レベル 16 でデイリー コミッションを開始します。"
       },
       {
-        "question": "Ragnarok Origin Classicには何人のスーパースターが収録されていますか？",
-        "answer": "Ragnarok Origin Classicには、レジェンド、現役ロースター、DLCキャラクターを含む400人以上のプレイ可能なスーパースターが収録されています。"
+        "question": "Ragnarok Origin Classic で最も簡単なクラスはどれですか?",
+        "answer": "Ragnarok Origin Classic は、ほとんどのプレイヤーにとって、安全を確保したい場合はアーチャーまたはメイジの方が簡単です"
       },
       {
-        "question": "Ragnarok Origin Classicはどのプラットフォームで利用できますか？",
-        "answer": "Ragnarok Origin Classicは、PS5、Xbox Series X|S、Steam（PC）、Nintendo Switch 2で利用できます。"
+        "question": "Ragnarok Origin Classic で早くレベルを上げるにはどうすればよいですか?",
+        "answer": "Ragnarok Origin Classic のレベリングは、クエストを優先し、毎日のコミッションを完了し、効率的なMob で戦闘時間を使用し、初期のエリートの寄り道を避けると最も速くなります。"
       },
       {
-        "question": "Ragnarok Origin Classicのロッカーコードを引き換えるにはどうすればよいですか？",
-        "answer": "MyFACTIONモードに移動し、ロッカーコードメニューを選択してコードを入力してください。最新の有効なコードについては、コードページをご確認ください。"
+        "question": "Ragnarok Origin Classic コードはどこで見つけられますか?",
+        "answer": "Ragnarok Origin Classic コードは通常、公式開始ページ、Discord、コミュニティ投稿を通じて共有されます。コード モジュールを開いたままにし、現在アクティブなエントリをコピーします。"
       },
       {
-        "question": "Ragnarok Origin Classicの新しい試合形式は何ですか？",
-        "answer": "Ragnarok Origin Classicでは、Inferno Match、Dumpster Match、Three Stages of Hell、I Quit Matchを含む4つの新しい試合形式が導入されています。"
+        "question": "Ragnarok Origin Classic は無料プレイ プレーヤーに適していますか?",
+        "answer": "はい。 Ragnarok Origin Classic は、化粧品の支出ではなく、毎日の報酬、効率的な装備のアップグレード、価値最優先のシステムに重点を置く場合、安定した F2P ルートをサポートします。"
       },
       {
-        "question": "Ragnarok Origin Classicにはどのようなゲームモードがありますか？",
-        "answer": "Ragnarok Origin Classicには、MyGM、MyRISE、ユニバースモード、ショーケース（CM Punk）、The Island、MyFACTION、クリエイションスイートが含まれています。"
+        "question": "Ragnarok Origin Classic で最初に参加すべきはどちらですか: ギルドと PvP?",
+        "answer": "Ragnarok Origin Classic では、早めにギルドに参加し、基本ビルドが安定したら PvP、MVP の狩猟、および帝国戦争に分岐します。"
       }
     ]
   },
   "cta": {
-    "title": "リングに上がる準備はできていますか？",
-    "description": "DiscordのRagnarok Origin Classicコミュニティに参加して、最新情報、ロスター公開、ゲームプレイの議論をチェックしましょう！",
-    "joinCommunity": "Discordに参加する",
-    "joinGame": "Ragnarok Origin Classicを購入"
+    "title": "Ragnarok Origin Classic を探索する準備はできましたか?",
+    "description": "Ragnarok Origin Classic に参加してくださいDiscord で最新情報、クラスディスカッション、ビルド共有、リリースニュースを入手してください。",
+    "joinCommunity": "Discord に参加してください",
+    "joinGame": "公式サイトにアクセス"
   },
   "footer": {
-    "title": "Ragnarok Origin Classic ウィキ",
-    "description": "Ragnarok Origin Classicのロースター、評価、ロッカーコード、試合形式、ゲームモードガイドを網羅した完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
+    "title": "Ragnarok Origin Classic Wiki",
+    "description": "Ragnarok Origin Classic の初心者向けルート、クラス選択、ビルド、ギルド プレイ、コード、ペットの完全なリソース ハブ。",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "Facebook",
     "reddit": "Reddit",
     "youtube": "YouTube",
-    "instagram": "Official Site",
+    "instagram": "公式サイト",
     "about": "概要",
-    "privacy": "プライバシーポリシー",
+    "privacy": "プライバシー ポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Ragnarok Origin Classic Wiki. 2K Sports、Visual Concepts、またはWWEとは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Ragnarok Origin Classic Wiki。 Gravity や公式ゲーム パートナーとは提携していません。",
+    "disclaimer": "非公式のファンメイド リソース Web サイト。"
   }
 }
